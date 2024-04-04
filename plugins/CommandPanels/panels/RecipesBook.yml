@@ -1630,7 +1630,741 @@ panels:
 
 #-----------------------------------------------------------------------------------------#
 
-  copyation:
+  SPAWN_PIGLIN:
+    perm: default
+    rows: "6"
+    title: "Crafting Recipes Spawn Piglin"
+    empty: AIR
+    item:
+      "0":
+        material: STAINED_GLASS_PANE
+        ID: 15
+        name: "&f"
+        duplicate: "1-9,17-18,26-27,35-44"
+      
+      "14":
+        material: STAINED_GLASS_PANE
+        ID: 11
+        duplicate: 14-16,23,25,32-34
+ 
+      "13":
+        material: WEB
+        ID: 0
+        name: "&f&lType shaped recipe"
+        #name: "&f&lType shapeless recipe"
+        enchanted:
+          - true
+
+      "31":
+        material: STAINED_GLASS_PANE
+        ID: 15
+
+      "22":
+        material: WORKBENCH
+        ID: 0
+        lore:
+          - "&8&oweareinspace only"
+
+      #1
+      "10":
+        material: GOLD_NUGGET
+        ID: 0
+        #commands: [open= ]
+      #2
+      "11":
+        material: GOLD_NUGGET
+        ID: 0
+        #commands: [open= ]
+      #3
+      "12":
+        material: GOLD_NUGGET
+        ID: 0
+        #commands: [open= ]
+
+      #4
+      "19":
+        material: GOLD_NUGGET
+        ID: 0
+        #commands: [open= ]
+      #5
+      "20":
+        material: EGG
+        ID: 0
+        #commands: [open= ]
+      #6
+      "21":
+        material: GOLD_NUGGET
+        ID: 0
+        #commands: [open= ]
+      
+      #7
+      "28":
+        material: GOLD_NUGGET
+        ID: 0
+        #commands: [open= ]
+      #8
+      "29":
+        material: GOLD_NUGGET
+        ID: 0
+        #commands: [open= ]
+      #9
+      "30":
+        material: GOLD_NUGGET
+        ID: 0
+        #commands: [open= ]
+
+      #FIn
+      "24":
+        material: MONSTER_EGG
+        ID: 96
+        name: "Spawn Piglin"
+        #commands: [open= ]
+
+#-----------------------------------------------------------------------------------------#
+
+  BONE:
+    perm: default
+    rows: "6"
+    title: "Crafting Recipes "
+    empty: AIR
+    item:
+      "0":
+        material: STAINED_GLASS_PANE
+        ID: 15
+        name: "&f"
+        duplicate: "1-9,17-18,26-27,35-44"
+      
+      "14":
+        material: STAINED_GLASS_PANE
+        ID: 11
+        duplicate: 14-16,23,25,32-34
+ 
+      "13":
+        material: WEB
+        ID: 0
+        name: "&f&lType shaped recipe"
+        #name: "&f&lType shapeless recipe"
+        enchanted:
+          - true
+
+      "31":
+        material: STAINED_GLASS_PANE
+        ID: 15
+
+      "22":
+        material: WORKBENCH
+        ID: 0
+        lore:
+          - "&8&oweareinspace only"
+
+      #1
+      "10":
+        material: AIR
+        ID: 0
+        #commands: [open= ]
+      #2
+      "11":
+        material: INK_SACK
+        ID: 15
+        #commands: [open= ]
+      #3
+      "12":
+        material: AIR
+        ID: 0
+        #commands: [open= ]
+
+      #4
+      "19":
+        material: AIR
+        ID: 0
+        #commands: [open= ]
+      #5
+      "20":
+        material: INK_SACK
+        ID: 15
+        #commands: [open= ]
+      #6
+      "21":
+        material: AIR
+        ID: 0
+        #commands: [open= ]
+      
+      #7
+      "28":
+        material: AIR
+        ID: 0
+        #commands: [open= ]
+      #8
+      "29":
+        material: INK_SACK
+        ID: 15
+        #commands: [open= ]
+      #9
+      "30":
+        material: AIR
+        ID: 0
+        #commands: [open= ]
+
+      #FIn
+      "24":
+        material: BONE
+        ID: 0
+        #commands: [open= ]
+
+#-----------------------------------------------------------------------------------------#
+
+  SPAWN_SKELETON_HORSE:
+    perm: default
+    rows: "6"
+    title: "Crafting Recipes Skeleton Horse"
+    empty: AIR
+    item:
+      "0":
+        material: STAINED_GLASS_PANE
+        ID: 15
+        name: "&f"
+        duplicate: "1-9,17-18,26-27,35-44"
+      
+      "14":
+        material: STAINED_GLASS_PANE
+        ID: 11
+        duplicate: 14-16,23,25,32-34
+ 
+      "13":
+        material: WEB
+        ID: 0
+        name: "&f&lType shaped recipe"
+        #name: "&f&lType shapeless recipe"
+        enchanted:
+          - true
+
+      "31":
+        material: STAINED_GLASS_PANE
+        ID: 15
+
+      "22":
+        material: WORKBENCH
+        ID: 0
+        lore:
+          - "&8&oweareinspace only"
+
+      #1
+      "10":
+        material: LEATHER
+        ID: 0
+        #commands: [open= ]
+      #2
+      "11":
+        material: BONE
+        ID: 0
+        #commands: [open= ]
+      #3
+      "12":
+        material: LEATHER
+        ID: 0
+        #commands: [open= ]
+
+      #4
+      "19":
+        material: BONE
+        ID: 0
+        #commands: [open= ]
+      #5
+      "20":
+        material: EGG
+        ID: 0
+        #commands: [open= ]
+      #6
+      "21":
+        material: BONE
+        ID: 0
+        #commands: [open= ]
+      
+      #7
+      "28":
+        material: LEATHER
+        ID: 0
+        #commands: [open= ]
+      #8
+      "29":
+        material: BONE
+        ID: 0
+        #commands: [open= ]
+      #9
+      "30":
+        material: LEATHER
+        ID: 0
+        #commands: [open= ]
+
+      #FIn
+      "24":
+        material: MONSTER_EGG
+        ID: 96
+        name: "Skeleton Horse"
+        #commands: [open= ]
+
+#-----------------------------------------------------------------------------------------#
+
+  SADDLE:
+    perm: default
+    rows: "6"
+    title: "Crafting Recipes Saddle"
+    empty: AIR
+    item:
+      "0":
+        material: STAINED_GLASS_PANE
+        ID: 15
+        name: "&f"
+        duplicate: "1-9,17-18,26-27,35-44"
+      
+      "14":
+        material: STAINED_GLASS_PANE
+        ID: 11
+        duplicate: 14-16,23,25,32-34
+ 
+      "13":
+        material: WEB
+        ID: 0
+        name: "&f&lType shaped recipe"
+        #name: "&f&lType shapeless recipe"
+        enchanted:
+          - true
+
+      "31":
+        material: STAINED_GLASS_PANE
+        ID: 15
+
+      "22":
+        material: WORKBENCH
+        ID: 0
+        lore:
+          - "&8&oweareinspace only"
+
+      #1
+      "10":
+        material: LEATHER
+        ID: 0
+        #commands: [open= ]
+      #2
+      "11":
+        material: LEATHER
+        ID: 0
+        #commands: [open= ]
+      #3
+      "12":
+        material: LEATHER
+        ID: 0
+        #commands: [open= ]
+
+      #4
+      "19":
+        material: STRING
+        ID: 0
+        #commands: [open= ]
+      #5
+      "20":
+        material: AIR
+        ID: 0
+        #commands: [open= ]
+      #6
+      "21":
+        material: STRING
+        ID: 0
+        #commands: [open= ]
+      
+      #7
+      "28":
+        material: IRON_INGOT
+        ID: 0
+        #commands: [open= ]
+      #8
+      "29":
+        material: AIR
+        ID: 0
+        #commands: [open= ]
+      #9
+      "30":
+        material: IRON_INGOT
+        ID: 0
+        #commands: [open= ]
+
+      #FIn
+      "24":
+        material: SADDLE
+        ID: 0
+        #commands: [open= ]
+
+#-----------------------------------------------------------------------------------------#
+
+  SPAWN_ZOMBIE_VILLAGER:
+    perm: default
+    rows: "6"
+    title: "Crafting Recipes Spawn Zombie Villager"
+    empty: AIR
+    item:
+      "0":
+        material: STAINED_GLASS_PANE
+        ID: 15
+        name: "&f"
+        duplicate: "1-9,17-18,26-27,35-44"
+      
+      "14":
+        material: STAINED_GLASS_PANE
+        ID: 11
+        duplicate: 14-16,23,25,32-34
+ 
+      "13":
+        material: WEB
+        ID: 0
+        #name: "&f&lType shaped recipe"
+        name: "&f&lType shapeless recipe"
+        enchanted:
+          - true
+
+      "31":
+        material: STAINED_GLASS_PANE
+        ID: 15
+
+      "22":
+        material: WORKBENCH
+        ID: 0
+        lore:
+          - "&8&oweareinspace only"
+
+      #1
+      "10":
+        material: AIR
+        ID: 0
+        #commands: [open= ]
+      #2
+      "11":
+        material: MONSTER_EGG
+        ID: 96
+        name: "Spawn Villager"
+        #commands: [open= ]
+      #3
+      "12":
+        material: AIR
+        ID: 0
+        #commands: [open= ]
+
+      #4
+      "19":
+        material: AIR
+        ID: 0
+        #commands: [open= ]
+      #5
+      "20":
+        material: MONSTER_EGG
+        ID: 96
+        name: "Spawn Zombie"
+      #6
+      "21":
+        material: AIR
+        ID: 0
+        #commands: [open= ]
+      
+      #7
+      "28":
+        material: AIR
+        ID: 0
+        #commands: [open= ]
+      #8
+      "29":
+        material: AIR
+        ID: 0
+        #commands: [open= ]
+      #9
+      "30":
+        material: AIR
+        ID: 0
+        #commands: [open= ]
+
+      #FIn
+      "24":
+        material: MONSTER_EGG
+        ID: 96
+        name: "Spawn Zombie Villager"
+        #commands: [open= ]
+
+#-----------------------------------------------------------------------------------------#
+
+  SPAWN_ZOMBIE:
+    perm: default
+    rows: "6"
+    title: "Crafting Recipes Spawn Zombie"
+    empty: AIR
+    item:
+      "0":
+        material: STAINED_GLASS_PANE
+        ID: 15
+        name: "&f"
+        duplicate: "1-9,17-18,26-27,35-44"
+      
+      "14":
+        material: STAINED_GLASS_PANE
+        ID: 11
+        duplicate: 14-16,23,25,32-34
+ 
+      "13":
+        material: WEB
+        ID: 0
+        name: "&f&lType shaped recipe"
+        #name: "&f&lType shapeless recipe"
+        enchanted:
+          - true
+
+      "31":
+        material: STAINED_GLASS_PANE
+        ID: 15
+
+      "22":
+        material: WORKBENCH
+        ID: 0
+        lore:
+          - "&8&oweareinspace only"
+
+      #1
+      "10":
+        material: ROTTEN_FLESH
+        ID: 0
+        #commands: [open= ]
+      #2
+      "11":
+        material: ROTTEN_FLESH
+        ID: 0
+        #commands: [open= ]
+      #3
+      "12":
+        material: ROTTEN_FLESH
+        ID: 0
+        #commands: [open= ]
+
+      #4
+      "19":
+        material: ROTTEN_FLESH
+        ID: 0
+        #commands: [open= ]
+      #5
+      "20":
+        material: EGG
+        ID: 0
+        #commands: [open= ]
+      #6
+      "21":
+        material: ROTTEN_FLESH
+        ID: 0
+        #commands: [open= ]
+      
+      #7
+      "28":
+        material: ROTTEN_FLESH
+        ID: 0
+        #commands: [open= ]
+      #8
+      "29":
+        material: ROTTEN_FLESH
+        ID: 0
+        #commands: [open= ]
+      #9
+      "30":
+        material: ROTTEN_FLESH
+        ID: 0
+        #commands: [open= ]
+
+      #FIn
+      "24":
+        material: MONSTER_EGG
+        ID: 96
+        name: "Spawn Zombie"
+
+#-----------------------------------------------------------------------------------------#
+
+  SPAWN_OCELOT:
+    perm: default
+    rows: "6"
+    title: "Crafting Recipes Spawn Ocelot"
+    empty: AIR
+    item:
+      "0":
+        material: STAINED_GLASS_PANE
+        ID: 15
+        name: "&f"
+        duplicate: "1-9,17-18,26-27,35-44"
+      
+      "14":
+        material: STAINED_GLASS_PANE
+        ID: 11
+        duplicate: 14-16,23,25,32-34
+ 
+      "13":
+        material: WEB
+        ID: 0
+        name: "&f&lType shaped recipe"
+        #name: "&f&lType shapeless recipe"
+        enchanted:
+          - true
+
+      "31":
+        material: STAINED_GLASS_PANE
+        ID: 15
+
+      "22":
+        material: WORKBENCH
+        ID: 0
+        lore:
+          - "&8&oweareinspace only"
+
+      #1
+      "10":
+        material: LONG_GRASS
+        ID: 2
+        #commands: [open= ]
+      #2
+      "11":
+        material: LONG_GRASS
+        ID: 2
+        #commands: [open= ]
+      #3
+      "12":
+        material: LONG_GRASS
+        ID: 2
+        #commands: [open= ]
+
+      #4
+      "19":
+        material: LONG_GRASS
+        ID: 2
+        #commands: [open= ]
+      #5
+      "20":
+        material: EGG
+        ID: 0
+        #commands: [open= ]
+      #6
+      "21":
+        material: LONG_GRASS
+        ID: 2
+        #commands: [open= ]
+      
+      #7
+      "28":
+        material: LONG_GRASS
+        ID: 2
+        #commands: [open= ]
+      #8
+      "29":
+        material: LONG_GRASS
+        ID: 2
+        #commands: [open= ]
+      #9
+      "30":
+        material: LONG_GRASS
+        ID: 2
+        #commands: [open= ]
+
+      #FIn
+      "24":
+        material: MONSTER_EGG
+        ID: 96
+        name: "Spawn Ocelot"
+        #commands: [open= ]
+
+#-----------------------------------------------------------------------------------------#
+
+  SPAWN_SKELETON:
+    perm: default
+    rows: "6"
+    title: "Crafting Recipes Spawn Skeleton"
+    empty: AIR
+    item:
+      "0":
+        material: STAINED_GLASS_PANE
+        ID: 15
+        name: "&f"
+        duplicate: "1-9,17-18,26-27,35-44"
+      
+      "14":
+        material: STAINED_GLASS_PANE
+        ID: 11
+        duplicate: 14-16,23,25,32-34
+ 
+      "13":
+        material: WEB
+        ID: 0
+        name: "&f&lType shaped recipe"
+        #name: "&f&lType shapeless recipe"
+        enchanted:
+          - true
+
+      "31":
+        material: STAINED_GLASS_PANE
+        ID: 15
+
+      "22":
+        material: WORKBENCH
+        ID: 0
+        lore:
+          - "&8&oweareinspace only"
+
+      #1
+      "10":
+        material: INK_SACK
+        ID: 15
+        #commands: [open= ]
+      #2
+      "11":
+        material: BONE
+        ID: 0
+        #commands: [open= ]
+      #3
+      "12":
+        material: INK_SACK
+        ID: 15
+        #commands: [open= ]
+
+      #4
+      "19":
+        material: BONE
+        ID: 0
+        #commands: [open= ]
+      #5
+      "20":
+        material: EGG
+        ID: 0
+        #commands: [open= ]
+      #6
+      "21":
+        material: BONE
+        ID: 0
+        #commands: [open= ]
+      
+      #7
+      "28":
+        material: INK_SACK
+        ID: 15
+        #commands: [open= ]
+      #8
+      "29":
+        material: BONE
+        ID: 0
+        #commands: [open= ]
+      #9
+      "30":
+        material: INK_SACK
+        ID: 15
+        #commands: [open= ]
+
+      #FIn
+      "24":
+        material: MONSTER_EGG
+        ID: 96
+        name: "Spawn Skeleton"
+        #commands: [open= ]
+
+#-----------------------------------------------------------------------------------------#
+
+  SPAWN_HORSE:
     perm: default
     rows: "6"
     title: "Crafting Recipes "
@@ -1651,7 +2385,7 @@ panels:
         material: WEB
         ID: 0
         #name: "&f&lType shaped recipe"
-        #name: "&f&lType shapeless recipe"
+        name: "&f&lType shapeless recipe"
         enchanted:
           - true
 
@@ -1717,6 +2451,2592 @@ panels:
       "24":
         material: MONSTER_EGG
         ID: 96
+        #commands: [open= ]
+
+#-----------------------------------------------------------------------------------------#
+
+  SPAWN_SPIDER:
+    perm: default
+    rows: "6"
+    title: "Crafting Recipes Spawn Spider"
+    empty: AIR
+    item:
+      "0":
+        material: STAINED_GLASS_PANE
+        ID: 15
+        name: "&f"
+        duplicate: "1-9,17-18,26-27,35-44"
+      
+      "14":
+        material: STAINED_GLASS_PANE
+        ID: 11
+        duplicate: 14-16,23,25,32-34
+ 
+      "13":
+        material: WEB
+        ID: 0
+        name: "&f&lType shaped recipe"
+        #name: "&f&lType shapeless recipe"
+        enchanted:
+          - true
+
+      "31":
+        material: STAINED_GLASS_PANE
+        ID: 15
+
+      "22":
+        material: WORKBENCH
+        ID: 0
+        lore:
+          - "&8&oweareinspace only"
+
+      #1
+      "10":
+        material: REDSTONE
+        ID: 0
+        #commands: [open= ]
+      #2
+      "11":
+        material: REDSTONE
+        ID: 0
+        #commands: [open= ]
+      #3
+      "12":
+        material: REDSTONE
+        ID: 0
+        #commands: [open= ]
+
+      #4
+      "19":
+        material: REDSTONE
+        ID: 0
+        #commands: [open= ]
+      #5
+      "20":
+        material: EGG
+        ID: 0
+        #commands: [open= ]
+      #6
+      "21":
+        material: REDSTONE
+        ID: 0
+        #commands: [open= ]
+      
+      #7
+      "28":
+        material: REDSTONE
+        ID: 0
+        #commands: [open= ]
+      #8
+      "29":
+        material: REDSTONE
+        ID: 0
+        #commands: [open= ]
+      #9
+      "30":
+        material: REDSTONE
+        ID: 0
+        #commands: [open= ]
+
+      #FIn
+      "24":
+        material: MONSTER_EGG
+        ID: 96
+        name: "Spawn Spidera"
+        #commands: [open= ]
+
+#-----------------------------------------------------------------------------------------#
+
+  SPAWN_CAVE_SPIDER:
+    perm: default
+    rows: "6"
+    title: "Crafting Recipes Spawn Cave Spider"
+    empty: AIR
+    item:
+      "0":
+        material: STAINED_GLASS_PANE
+        ID: 15
+        name: "&f"
+        duplicate: "1-9,17-18,26-27,35-44"
+      
+      "14":
+        material: STAINED_GLASS_PANE
+        ID: 11
+        duplicate: 14-16,23,25,32-34
+ 
+      "13":
+        material: WEB
+        ID: 0
+        name: "&f&lType shaped recipe"
+        #name: "&f&lType shapeless recipe"
+        enchanted:
+          - true
+
+      "31":
+        material: STAINED_GLASS_PANE
+        ID: 15
+
+      "22":
+        material: WORKBENCH
+        ID: 0
+        lore:
+          - "&8&oweareinspace only"
+
+      #1
+      "10":
+        material: REDSTONE
+        ID: 0
+        #commands: [open= ]
+      #2
+      "11":
+        material: COBBLESTONE
+        ID: 0
+        #commands: [open= ]
+      #3
+      "12":
+        material: REDSTONE
+        ID: 0
+        #commands: [open= ]
+
+      #4
+      "19":
+        material: COBBLESTONE
+        ID: 0
+        #commands: [open= ]
+      #5
+      "20":
+        material: EGG
+        ID: 0
+        #commands: [open= ]
+      #6
+      "21":
+        material: COBBLESTONE
+        ID: 0
+        #commands: [open= ]
+      
+      #7
+      "28":
+        material: REDSTONE
+        ID: 0
+        #commands: [open= ]
+      #8
+      "29":
+        material: COBBLESTONE
+        ID: 0
+        #commands: [open= ]
+      #9
+      "30":
+        material: REDSTONE
+        ID: 0
+        #commands: [open= ]
+
+      #FIn
+      "24":
+        material: MONSTER_EGG
+        ID: 96
+        name: "Spawn Cave Spider"
+        #commands: [open= ]
+
+#-----------------------------------------------------------------------------------------#
+
+  SPAWN_BAT:
+    perm: default
+    rows: "6"
+    title: "Crafting Recipes Spawn Bat"
+    empty: AIR
+    item:
+      "0":
+        material: STAINED_GLASS_PANE
+        ID: 15
+        name: "&f"
+        duplicate: "1-9,17-18,26-27,35-44"
+      
+      "14":
+        material: STAINED_GLASS_PANE
+        ID: 11
+        duplicate: 14-16,23,25,32-34
+ 
+      "13":
+        material: WEB
+        ID: 0
+        name: "&f&lType shaped recipe"
+        #name: "&f&lType shapeless recipe"
+        enchanted:
+          - true
+
+      "31":
+        material: STAINED_GLASS_PANE
+        ID: 15
+
+      "22":
+        material: WORKBENCH
+        ID: 0
+        lore:
+          - "&8&oweareinspace only"
+
+      #1
+      "10":
+        material: STRING
+        ID: 0
+        #commands: [open= ]
+      #2
+      "11":
+        material: STRING
+        ID: 0
+        #commands: [open= ]
+      #3
+      "12":
+        material: STRING
+        ID: 0
+        #commands: [open= ]
+
+      #4
+      "19":
+        material: LEATHER
+        ID: 0
+        #commands: [open= ]
+      #5
+      "20":
+        material: EGG
+        ID: 0
+        #commands: [open= ]
+      #6
+      "21":
+        material: STRING
+        ID: 0
+        #commands: [open= ]
+      
+      #7
+      "28":
+        material: STRING
+        ID: 0
+        #commands: [open= ]
+      #8
+      "29":
+        material: STRING
+        ID: 0
+        #commands: [open= ]
+      #9
+      "30":
+        material: STRING
+        ID: 0
+        #commands: [open= ]
+
+      #FIn
+      "24":
+        material: MONSTER_EGG
+        ID: 96
+        name: "Spawn Bat"
+        #commands: [open= ]
+
+#-----------------------------------------------------------------------------------------#
+
+  SPAWN_DONKEY:
+    perm: default
+    rows: "6"
+    title: "Crafting Recipes Spawn Donkey"
+    empty: AIR
+    item:
+      "0":
+        material: STAINED_GLASS_PANE
+        ID: 15
+        name: "&f"
+        duplicate: "1-9,17-18,26-27,35-44"
+      
+      "14":
+        material: STAINED_GLASS_PANE
+        ID: 11
+        duplicate: 14-16,23,25,32-34
+ 
+      "13":
+        material: WEB
+        ID: 0
+        #name: "&f&lType shaped recipe"
+        #name: "&f&lType shapeless recipe"
+        enchanted:
+          - true
+
+      "31":
+        material: STAINED_GLASS_PANE
+        ID: 15
+
+      "22":
+        material: WORKBENCH
+        ID: 0
+        lore:
+          - "&8&oweareinspace only"
+
+      #1
+      "10":
+        material: LEATHER
+        ID: 0
+        #commands: [open= ]
+      #2
+      "11":
+        material: LEATHER
+        ID: 0
+        #commands: [open= ]
+      #3
+      "12":
+        material: LEATHER
+        ID: 0
+        #commands: [open= ]
+
+      #4
+      "19":
+        material: SADDLE
+        ID: 0
+        #commands: [open= ]
+      #5
+      "20":
+        material: EGG
+        ID: 0
+        #commands: [open= ]
+      #6
+      "21":
+        material: SADDLE
+        ID: 0
+        #commands: [open= ]
+      
+      #7
+      "28":
+        material: LEATHER
+        ID: 0
+        #commands: [open= ]
+      #8
+      "29":
+        material: LEATHER
+        ID: 0
+        #commands: [open= ]
+      #9
+      "30":
+        material: LEATHER
+        ID: 0
+        #commands: [open= ]
+
+      #FIn
+      "24":
+        material: MONSTER_EGG
+        ID: 96
+        name: "Spawn Donkey"
+        #commands: [open= ]
+
+#-----------------------------------------------------------------------------------------#
+
+  SPAWN_WITCH:
+    perm: default
+    rows: "6"
+    title: "Crafting Recipes Spawn Witch"
+    empty: AIR
+    item:
+      "0":
+        material: STAINED_GLASS_PANE
+        ID: 15
+        name: "&f"
+        duplicate: "1-9,17-18,26-27,35-44"
+      
+      "14":
+        material: STAINED_GLASS_PANE
+        ID: 11
+        duplicate: 14-16,23,25,32-34
+ 
+      "13":
+        material: WEB
+        ID: 0
+        name: "&f&lType shaped recipe"
+        #name: "&f&lType shapeless recipe"
+        enchanted:
+          - true
+
+      "31":
+        material: STAINED_GLASS_PANE
+        ID: 15
+
+      "22":
+        material: WORKBENCH
+        ID: 0
+        lore:
+          - "&8&oweareinspace only"
+
+      #1
+      "10":
+        material: GLASS_BOTTLE
+        ID: 0
+        #commands: [open= ]
+      #2
+      "11":
+        material: GLASS_BOTTLE
+        ID: 0
+        #commands: [open= ]
+      #3
+      "12":
+        material: GLASS_BOTTLE
+        ID: 0
+        #commands: [open= ]
+
+      #4
+      "19":
+        material: GLASS_BOTTLE
+        ID: 0
+        #commands: [open= ]
+      #5
+      "20":
+        material: EGG
+        ID: 0
+        #commands: [open= ]
+      #6
+      "21":
+        material: GLASS_BOTTLE
+        ID: 0
+        #commands: [open= ]
+      
+      #7
+      "28":
+        material: GLASS_BOTTLE
+        ID: 0
+        #commands: [open= ]
+      #8
+      "29":
+        material: GLASS_BOTTLE
+        ID: 0
+        #commands: [open= ]
+      #9
+      "30":
+        material: GLASS_BOTTLE
+        ID: 0
+        #commands: [open= ]
+
+      #FIn
+      "24":
+        material: MONSTER_EGG
+        ID: 96
+        name: "Spawn Witch"
+        #commands: [open= ]
+
+#-----------------------------------------------------------------------------------------#
+
+  SPAWN_LLAMA:
+    perm: default
+    rows: "6"
+    title: "Crafting Recipes Spawn Llama"
+    empty: AIR
+    item:
+      "0":
+        material: STAINED_GLASS_PANE
+        ID: 15
+        name: "&f"
+        duplicate: "1-9,17-18,26-27,35-44"
+      
+      "14":
+        material: STAINED_GLASS_PANE
+        ID: 11
+        duplicate: 14-16,23,25,32-34
+ 
+      "13":
+        material: WEB
+        ID: 0
+        name: "&f&lType shaped recipe"
+        #name: "&f&lType shapeless recipe"
+        enchanted:
+          - true
+
+      "31":
+        material: STAINED_GLASS_PANE
+        ID: 15
+
+      "22":
+        material: WORKBENCH
+        ID: 0
+        lore:
+          - "&8&oweareinspace only"
+
+      #1
+      "10":
+        material: LEATHER
+        ID: 0
+        #commands: [open= ]
+      #2
+      "11":
+        material: LEATHER
+        ID: 0
+        #commands: [open= ]
+      #3
+      "12":
+        material: LEATHER
+        ID: 0
+        #commands: [open= ]
+
+      #4
+      "19":
+        material: RED_ROSE
+        ID: 1
+        #commands: [open= ]
+      #5
+      "20":
+        material: AIR
+        ID: 0
+        #commands: [open= ]
+      #6
+      "21":
+        material: RED_ROSE
+        ID: 1
+        #commands: [open= ]
+      
+      #7
+      "28":
+        material: LEATHER
+        ID: 0
+        #commands: [open= ]
+      #8
+      "29":
+        material: LEATHER
+        ID: 0
+        #commands: [open= ]
+      #9
+      "30":
+        material: LEATHER
+        ID: 0
+        #commands: [open= ]
+
+      #FIn
+      "24":
+        material: MONSTER_EGG
+        ID: 96
+        name: "Spawn Llama"
+        #commands: [open= ]
+
+#-----------------------------------------------------------------------------------------#
+
+  SPAWN_PARROT:
+    perm: default
+    rows: "6"
+    title: "Crafting Recipes Spawn Parrot"
+    empty: AIR
+    item:
+      "0":
+        material: STAINED_GLASS_PANE
+        ID: 15
+        name: "&f"
+        duplicate: "1-9,17-18,26-27,35-44"
+      
+      "14":
+        material: STAINED_GLASS_PANE
+        ID: 11
+        duplicate: 14-16,23,25,32-34
+ 
+      "13":
+        material: WEB
+        ID: 0
+        name: "&f&lType shaped recipe"
+        #name: "&f&lType shapeless recipe"
+        enchanted:
+          - true
+
+      "31":
+        material: STAINED_GLASS_PANE
+        ID: 15
+
+      "22":
+        material: WORKBENCH
+        ID: 0
+        lore:
+          - "&8&oweareinspace only"
+
+      #1
+      "10":
+        material: STRING
+        ID: 0
+        #commands: [open= ]
+      #2
+      "11":
+        material: LEATHER
+        ID: 0
+        #commands: [open= ]
+      #3
+      "12":
+        material: STRING
+        ID: 0
+        #commands: [open= ]
+
+      #4
+      "19":
+        material: INK_SACK
+        ID: 15
+        #commands: [open= ]
+      #5
+      "20":
+        material: EGG
+        ID: 0
+        #commands: [open= ]
+      #6
+      "21":
+        material: INK_SACK
+        ID: 15
+        #commands: [open= ]
+      
+      #7
+      "28":
+        material: STRING
+        ID: 0
+        #commands: [open= ]
+      #8
+      "29":
+        material: LEATHER
+        ID: 0
+        #commands: [open= ]
+      #9
+      "30":
+        material: STRING
+        ID: 0
+        #commands: [open= ]
+
+      #FIn
+      "24":
+        material: MONSTER_EGG
+        ID: 96
+        name: "Spawn Parrot"
+        #commands: [open= ]
+
+#-----------------------------------------------------------------------------------------#
+
+  SPAWN_ZOMBIE_HORSE:
+    perm: default
+    rows: "6"
+    title: "Crafting Recipes Spawn Zombie Horse"
+    empty: AIR
+    item:
+      "0":
+        material: STAINED_GLASS_PANE
+        ID: 15
+        name: "&f"
+        duplicate: "1-9,17-18,26-27,35-44"
+      
+      "14":
+        material: STAINED_GLASS_PANE
+        ID: 11
+        duplicate: 14-16,23,25,32-34
+ 
+      "13":
+        material: WEB
+        ID: 0
+        name: "&f&lType shaped recipe"
+        #name: "&f&lType shapeless recipe"
+        enchanted:
+          - true
+
+      "31":
+        material: STAINED_GLASS_PANE
+        ID: 15
+
+      "22":
+        material: WORKBENCH
+        ID: 0
+        lore:
+          - "&8&oweareinspace only"
+
+      #1
+      "10":
+        material: AIR
+        ID: 0
+        #commands: [open= ]
+      #2
+      "11":
+        material: 
+        ID: 0
+        #commands: [open= ]
+      #3
+      "12":
+        material: AIR
+        ID: 0
+        #commands: [open= ]
+
+      #4
+      "19":
+        material: MONSTER_EGG
+        ID: 96
+        name: "Spawn Zombie"
+        #commands: [open= ]
+      #5
+      "20":
+        material: AIR
+        ID: 0
+        #commands: [open= ]
+      #6
+      "21":
+        material: MONSTER_EGG
+        ID: 96
+        name: "Spawn Horse"
+        #commands: [open= ]
+      
+      #7
+      "28":
+        material: AIR
+        ID: 0
+        #commands: [open= ]
+      #8
+      "29":
+        material: AIR
+        ID: 0
+        #commands: [open= ]
+      #9
+      "30":
+        material: AIR
+        ID: 0
+        #commands: [open= ]
+
+      #FIn
+      "24":
+        material: MONSTER_EGG
+        ID: 96
+        name: "Spawn Zombie Horse"
+        #commands: [open= ]
+
+#-----------------------------------------------------------------------------------------#
+
+  NETHERRACK:
+    perm: default
+    rows: "6"
+    title: "Crafting Recipes Netherrack"
+    empty: AIR
+    item:
+      "0":
+        material: STAINED_GLASS_PANE
+        ID: 15
+        name: "&f"
+        duplicate: "1-9,17-18,26-27,35-44"
+      
+      "14":
+        material: STAINED_GLASS_PANE
+        ID: 11
+        duplicate: 14-16,23,25,32-34
+ 
+      "13":
+        material: WEB
+        ID: 0
+        name: "&f&lType shaped recipe"
+        #name: "&f&lType shapeless recipe"
+        enchanted:
+          - true
+
+      "31":
+        material: STAINED_GLASS_PANE
+        ID: 15
+
+      "22":
+        material: WORKBENCH
+        ID: 0
+        lore:
+          - "&8&oweareinspace only"
+
+      #1
+      "10":
+        material: AIR
+        ID: 0
+        #commands: [open= ]
+      #2
+      "11":
+        material: REDSTONE
+        ID: 0
+        #commands: [open= ]
+      #3
+      "12":
+        material: AIR
+        ID: 0
+        #commands: [open= ]
+
+      #4
+      "19":
+        material: REDSTONE
+        ID: 0
+        #commands: [open= ]
+      #5
+      "20":
+        material: COBBLESTONE
+        ID: 0
+        #commands: [open= ]
+      #6
+      "21":
+        material: REDSTONE
+        ID: 0
+        #commands: [open= ]
+      
+      #7
+      "28":
+        material: AIR
+        ID: 0
+        #commands: [open= ]
+      #8
+      "29":
+        material: REDSTONE
+        ID: 0
+        #commands: [open= ]
+      #9
+      "30":
+        material: AIR
+        ID: 0
+        #commands: [open= ]
+
+      #FIn
+      "24":
+        material: NETHERRACK
+        ID: 0
+        #commands: [open= ]
+
+#-----------------------------------------------------------------------------------------#
+
+  SPAWN_MAGMA_CUBE:
+    perm: default
+    rows: "6"
+    title: "Crafting Recipes Spawn Magma Cube"
+    empty: AIR
+    item:
+      "0":
+        material: STAINED_GLASS_PANE
+        ID: 15
+        name: "&f"
+        duplicate: "1-9,17-18,26-27,35-44"
+      
+      "14":
+        material: STAINED_GLASS_PANE
+        ID: 11
+        duplicate: 14-16,23,25,32-34
+ 
+      "13":
+        material: WEB
+        ID: 0
+        #name: "&f&lType shaped recipe"
+        #name: "&f&lType shapeless recipe"
+        enchanted:
+          - true
+
+      "31":
+        material: STAINED_GLASS_PANE
+        ID: 15
+
+      "22":
+        material: WORKBENCH
+        ID: 0
+        lore:
+          - "&8&oweareinspace only"
+
+      #1
+      "10":
+        material: NETHERRACK
+        ID: 0
+        #commands: [open= ]
+      #2
+      "11":
+        material: NETHERRACK
+        ID: 0
+        #commands: [open= ]
+      #3
+      "12":
+        material: NETHERRACK
+        ID: 0
+        #commands: [open= ]
+
+      #4
+      "19":
+        material: NETHERRACK
+        ID: 0
+        #commands: [open= ]
+      #5
+      "20":
+        material: EGG
+        ID: 0
+        #commands: [open= ]
+      #6
+      "21":
+        material: NETHERRACK
+        ID: 0
+        #commands: [open= ]
+      
+      #7
+      "28":
+        material: NETHERRACK
+        ID: 0
+        #commands: [open= ]
+      #8
+      "29":
+        material: NETHERRACK
+        ID: 0
+        #commands: [open= ]
+      #9
+      "30":
+        material: NETHERRACK
+        ID: 0
+        #commands: [open= ]
+
+      #FIn
+      "24":
+        material: MONSTER_EGG
+        ID: 96
+        name: "Spawn Magma Cube"
+        #commands: [open= ]
+
+#-----------------------------------------------------------------------------------------#
+
+  SPAWN_MULE:
+    perm: default
+    rows: "6"
+    title: "Crafting Recipes Spawn Mule"
+    empty: AIR
+    item:
+      "0":
+        material: STAINED_GLASS_PANE
+        ID: 15
+        name: "&f"
+        duplicate: "1-9,17-18,26-27,35-44"
+      
+      "14":
+        material: STAINED_GLASS_PANE
+        ID: 11
+        duplicate: 14-16,23,25,32-34
+ 
+      "13":
+        material: WEB
+        ID: 0
+        #name: "&f&lType shaped recipe"
+        #name: "&f&lType shapeless recipe"
+        enchanted:
+          - true
+
+      "31":
+        material: STAINED_GLASS_PANE
+        ID: 15
+
+      "22":
+        material: WORKBENCH
+        ID: 0
+        lore:
+          - "&8&oweareinspace only"
+
+      #1
+      "10":
+        material: AIR
+        ID: 0
+        #commands: [open= ]
+      #2
+      "11":
+        material: AIR
+        ID: 0
+        #commands: [open= ]
+      #3
+      "12":
+        material: AIR
+        ID: 0
+        #commands: [open= ]
+
+      #4
+      "19":
+        material: MONSTER_EGG
+        ID: 96
+        name: "Spawn Horse"
+        #commands: [open= ]
+      #5
+      "20":
+        material: AIR
+        ID: 0
+        #commands: [open= ]
+      #6
+      "21":
+        material: MONSTER_EGG
+        ID: 96
+        name: "Spawn Donkey"
+        #commands: [open= ]
+      
+      #7
+      "28":
+        material: AIR
+        ID: 0
+        #commands: [open= ]
+      #8
+      "29":
+        material: AIR
+        ID: 0
+        #commands: [open= ]
+      #9
+      "30":
+        material: AIR
+        ID: 0
+        #commands: [open= ]
+
+      #FIn
+      "24":
+        material: MONSTER_EGG
+        ID: 96
+        name: "Spawn Mule"
+        #commands: [open= ]
+
+#-----------------------------------------------------------------------------------------#
+
+  ENCHANTED_BONE::WAIS:
+    perm: default
+    rows: "6"
+    title: "Crafting Recipes &bEnchanted Bone"
+    empty: AIR
+    item:
+      "0":
+        material: STAINED_GLASS_PANE
+        ID: 15
+        name: "&f"
+        duplicate: "1-9,17-18,26-27,35-44"
+      
+      "14":
+        material: STAINED_GLASS_PANE
+        ID: 11
+        duplicate: 14-16,23,25,32-34
+ 
+      "13":
+        material: WEB
+        ID: 0
+        #name: "&f&lType shaped recipe"
+        name: "&f&lType shapeless recipe"
+        enchanted:
+          - true
+
+      "31":
+        material: STAINED_GLASS_PANE
+        ID: 15
+
+      "22":
+        material: WORKBENCH
+        ID: 0
+        lore:
+          - "&8&oweareinspace only"
+
+      #1
+      "10":
+        material: AIR
+        ID: 0
+        #commands: [open= ]
+      #2
+      "11":
+        material: AIR
+        ID: 0
+        #commands: [open= ]
+      #3
+      "12":
+        material: AIR
+        ID: 0
+        #commands: [open= ]
+
+      #4
+      "19":
+        material: BONE
+        ID: 0
+        #commands: [open= ]
+      #5
+      "20":
+        material: AIR
+        ID: 0
+        #commands: [open= ]
+      #6
+      "21":
+        material: FLINT
+        ID: 0
+        #commands: [open= ]
+      
+      #7
+      "28":
+        material: AIR
+        ID: 0
+        #commands: [open= ]
+      #8
+      "29":
+        material: AIR
+        ID: 0
+        #commands: [open= ]
+      #9
+      "30":
+        material: AIR
+        ID: 0
+        #commands: [open= ]
+
+      #FIn
+      "24":
+        material: BONE
+        ID: 0
+        name: "&bEnchanted Bone"
+        #commands: [open= ]
+
+#-----------------------------------------------------------------------------------------#
+
+  SPAWN_WITHER_SKELETON:
+    perm: default
+    rows: "6"
+    title: "Crafting Recipes Spawn Wither Skeleton"
+    empty: AIR
+    item:
+      "0":
+        material: STAINED_GLASS_PANE
+        ID: 15
+        name: "&f"
+        duplicate: "1-9,17-18,26-27,35-44"
+      
+      "14":
+        material: STAINED_GLASS_PANE
+        ID: 11
+        duplicate: 14-16,23,25,32-34
+ 
+      "13":
+        material: WEB
+        ID: 0
+        #name: "&f&lType shaped recipe"
+        #name: "&f&lType shapeless recipe"
+        enchanted:
+          - true
+
+      "31":
+        material: STAINED_GLASS_PANE
+        ID: 15
+
+      "22":
+        material: WORKBENCH
+        ID: 0
+        lore:
+          - "&8&oweareinspace only"
+
+      #1
+      "10":
+        material: BONE
+        ID: 0
+        name: "&bEnchanted Bone"
+        #commands: [open= ]
+      #2
+      "11":
+        material: BONE
+        ID: 0
+        name: "&bEnchanted Bone"
+        #commands: [open= ]
+      #3
+      "12":
+        material: BONE
+        ID: 0
+        name: "&bEnchanted Bone"
+        #commands: [open= ]
+
+      #4
+      "19":
+        material: BONE
+        ID: 0
+        name: "&bEnchanted Bone"
+        #commands: [open= ]
+      #5
+      "20":
+        material: EGG
+        ID: 0
+        #commands: [open= ]
+      #6
+      "21":
+        material: BONE
+        ID: 0
+        name: "&bEnchanted Bone"
+        #commands: [open= ]
+      
+      #7
+      "28":
+        material: BONE
+        ID: 0
+        name: "&bEnchanted Bone"
+        #commands: [open= ]
+      #8
+      "29":
+        material: BONE
+        ID: 0
+        name: "&bEnchanted Bone"
+        #commands: [open= ]
+      #9
+      "30":
+        material: BONE
+        ID: 0
+        name: "&bEnchanted Bone"
+        #commands: [open= ]
+
+      #FIn
+      "24":
+        material: MONSTER_EGG
+        ID: 96
+        name: "Spawn Wither Skeleton"
+        #commands: [open= ]
+
+#-----------------------------------------------------------------------------------------#
+
+  SPONGE:
+    perm: default
+    rows: "6"
+    title: "Crafting Recipes Sponge"
+    empty: AIR
+    item:
+      "0":
+        material: STAINED_GLASS_PANE
+        ID: 15
+        name: "&f"
+        duplicate: "1-9,17-18,26-27,35-44"
+      
+      "14":
+        material: STAINED_GLASS_PANE
+        ID: 11
+        duplicate: 14-16,23,25,32-34
+ 
+      "13":
+        material: WEB
+        ID: 0
+        name: "&f&lType shaped recipe"
+        #name: "&f&lType shapeless recipe"
+        enchanted:
+          - true
+
+      "31":
+        material: STAINED_GLASS_PANE
+        ID: 15
+
+      "22":
+        material: WORKBENCH
+        ID: 0
+        lore:
+          - "&8&oweareinspace only"
+
+      #1
+      "10":
+        material: STRING
+        ID: 0
+        #commands: [open= ]
+      #2
+      "11":
+        material: STRING
+        ID: 0
+        #commands: [open= ]
+      #3
+      "12":
+        material: STRING
+        ID: 0
+        #commands: [open= ]
+
+      #4
+      "19":
+        material: STRING
+        ID: 0
+        #commands: [open= ]
+      #5
+      "20":
+        material: STRING
+        ID: 0
+        #commands: [open= ]
+      #6
+      "21":
+        material: STRING
+        ID: 0
+        #commands: [open= ]
+      
+      #7
+      "28":
+        material: STRING
+        ID: 0
+        #commands: [open= ]
+      #8
+      "29":
+        material: STRING
+        ID: 0
+        #commands: [open= ]
+      #9
+      "30":
+        material: STRING
+        ID: 0
+        #commands: [open= ]
+
+      #FIn
+      "24":
+        material: SPONGE
+        ID: 0
+        #commands: [open= ]
+
+#-----------------------------------------------------------------------------------------#
+
+  SPAWN_GHAST:
+    perm: default
+    rows: "6"
+    title: "Crafting Recipes Spawn Ghast"
+    empty: AIR
+    item:
+      "0":
+        material: STAINED_GLASS_PANE
+        ID: 15
+        name: "&f"
+        duplicate: "1-9,17-18,26-27,35-44"
+      
+      "14":
+        material: STAINED_GLASS_PANE
+        ID: 11
+        duplicate: 14-16,23,25,32-34
+ 
+      "13":
+        material: WEB
+        ID: 0
+        #name: "&f&lType shaped recipe"
+        #name: "&f&lType shapeless recipe"
+        enchanted:
+          - true
+
+      "31":
+        material: STAINED_GLASS_PANE
+        ID: 15
+
+      "22":
+        material: WORKBENCH
+        ID: 0
+        lore:
+          - "&8&oweareinspace only"
+
+      #1
+      "10":
+        material: BLAZE_POWDER
+        ID: 0
+        #commands: [open= ]
+      #2
+      "11":
+        material: BLAZE_POWDER
+        ID: 0
+        #commands: [open= ]
+      #3
+      "12":
+        material: BLAZE_POWDER
+        ID: 0
+        #commands: [open= ]
+
+      #4
+      "19":
+        material: BLAZE_POWDER
+        ID: 0
+        #commands: [open= ]
+      #5
+      "20":
+        material: EGG
+        ID: 0
+        #commands: [open= ]
+      #6
+      "21":
+        material: BLAZE_POWDER
+        ID: 0
+        #commands: [open= ]
+      
+      #7
+      "28":
+        material: BLAZE_POWDER
+        ID: 0
+        #commands: [open= ]
+      #8
+      "29":
+        material: BLAZE_POWDER
+        ID: 0
+        #commands: [open= ]
+      #9
+      "30":
+        material: BLAZE_POWDER
+        ID: 0
+        #commands: [open= ]
+
+      #FIn
+      "24":
+        material: MONSTER_EGG
+        ID: 96
+        name: "Spawn Ghast"
+        #commands: [open= ]
+
+#-----------------------------------------------------------------------------------------#
+
+  SPAWN_GUARDIAN:
+    perm: default
+    rows: "6"
+    title: "Crafting Recipes Spawn Guardian"
+    empty: AIR
+    item:
+      "0":
+        material: STAINED_GLASS_PANE
+        ID: 15
+        name: "&f"
+        duplicate: "1-9,17-18,26-27,35-44"
+      
+      "14":
+        material: STAINED_GLASS_PANE
+        ID: 11
+        duplicate: 14-16,23,25,32-34
+ 
+      "13":
+        material: WEB
+        ID: 0
+        name: "&f&lType shaped recipe"
+        #name: "&f&lType shapeless recipe"
+        enchanted:
+          - true
+
+      "31":
+        material: STAINED_GLASS_PANE
+        ID: 15
+
+      "22":
+        material: WORKBENCH
+        ID: 0
+        lore:
+          - "&8&oweareinspace only"
+
+      #1
+      "10":
+        material: SPONGE
+        ID: 0
+        #commands: [open= ]
+      #2
+      "11":
+        material: SPONGE
+        ID: 0
+        #commands: [open= ]
+      #3
+      "12":
+        material: SPONGE
+        ID: 0
+        #commands: [open= ]
+
+      #4
+      "19":
+        material: IRON_NUGGET
+        ID: 0
+        #commands: [open= ]
+      #5
+      "20":
+        material: EGG
+        ID: 0
+        #commands: [open= ]
+      #6
+      "21":
+        material: IRON_NUGGET
+        ID: 0
+        #commands: [open= ]
+      
+      #7
+      "28":
+        material: SPONGE
+        ID: 0
+        #commands: [open= ]
+      #8
+      "29":
+        material: SPONGE
+        ID: 0
+        #commands: [open= ]
+      #9
+      "30":
+        material: SPONGE
+        ID: 0
+        #commands: [open= ]
+
+      #FIn
+      "24":
+        material: MONSTER_EGG
+        ID: 96
+        name: "Spawn Guardian"
+        #commands: [open= ]
+
+#-----------------------------------------------------------------------------------------#
+
+  SPAWN_ELDER_GUARDIAN:
+    perm: default
+    rows: "6"
+    title: "Crafting Recipes Spawn Elder Guardian"
+    empty: AIR
+    item:
+      "0":
+        material: STAINED_GLASS_PANE
+        ID: 15
+        name: "&f"
+        duplicate: "1-9,17-18,26-27,35-44"
+      
+      "14":
+        material: STAINED_GLASS_PANE
+        ID: 11
+        duplicate: 14-16,23,25,32-34
+ 
+      "13":
+        material: WEB
+        ID: 0
+        #name: "&f&lType shaped recipe"
+        #name: "&f&lType shapeless recipe"
+        enchanted:
+          - true
+
+      "31":
+        material: STAINED_GLASS_PANE
+        ID: 15
+
+      "22":
+        material: WORKBENCH
+        ID: 0
+        lore:
+          - "&8&oweareinspace only"
+
+      #1
+      "10":
+        material: SPONGE
+        ID: 0
+        #commands: [open= ]
+      #2
+      "11":
+        material: SPONGE
+        ID: 0
+        #commands: [open= ]
+      #3
+      "12":
+        material: SPONGE
+        ID: 0
+        #commands: [open= ]
+
+      #4
+      "19":
+        material: GOLD_NUGGET
+        ID: 0
+        #commands: [open= ]
+      #5
+      "20":
+        material: EGG
+        ID: 0
+        #commands: [open= ]
+      #6
+      "21":
+        material: GOLD_NUGGET
+        ID: 0
+        #commands: [open= ]
+      
+      #7
+      "28":
+        material: SPONGE
+        ID: 0
+        #commands: [open= ]
+      #8
+      "29":
+        material: SPONGE
+        ID: 0
+        #commands: [open= ]
+      #9
+      "30":
+        material: SPONGE
+        ID: 0
+        #commands: [open= ]
+
+      #FIn
+      "24":
+        material: MONSTER_EGG
+        ID: 96
+        name: "Spawn Guardian"
+        #commands: [open= ]
+
+#-----------------------------------------------------------------------------------------#
+
+  SPAWN_EVOKER:
+    perm: default
+    rows: "6"
+    title: "Crafting Recipes Spawn Evoker"
+    empty: AIR
+    item:
+      "0":
+        material: STAINED_GLASS_PANE
+        ID: 15
+        name: "&f"
+        duplicate: "1-9,17-18,26-27,35-44"
+      
+      "14":
+        material: STAINED_GLASS_PANE
+        ID: 11
+        duplicate: 14-16,23,25,32-34
+ 
+      "13":
+        material: WEB
+        ID: 0
+        name: "&f&lType shaped recipe"
+        #name: "&f&lType shapeless recipe"
+        enchanted:
+          - true
+
+      "31":
+        material: STAINED_GLASS_PANE
+        ID: 15
+
+      "22":
+        material: WORKBENCH
+        ID: 0
+        lore:
+          - "&8&oweareinspace only"
+
+      #1
+      "10":
+        material: GOLD_BLOCK
+        ID: 0
+        #commands: [open= ]
+      #2
+      "11":
+        material: GOLD_BLOCK
+        ID: 0
+        #commands: [open= ]
+      #3
+      "12":
+        material: GOLD_BLOCK
+        ID: 0
+        #commands: [open= ]
+
+      #4
+      "19":
+        material: GOLD_BLOCK
+        ID: 0
+        #commands: [open= ]
+      #5
+      "20":
+        material: EGG
+        ID: 0
+        #commands: [open= ]
+      #6
+      "21":
+        material: GOLD_BLOCK
+        ID: 0
+        #commands: [open= ]
+      
+      #7
+      "28":
+        material: GOLD_BLOCK
+        ID: 0
+        #commands: [open= ]
+      #8
+      "29":
+        material: GOLD_BLOCK
+        ID: 0
+        #commands: [open= ]
+      #9
+      "30":
+        material: GOLD_BLOCK
+        ID: 0
+        #commands: [open= ]
+
+      #FIn
+      "24":
+        material: MONSTER_EGG
+        ID: 96
+        name: "Spawn Evoker"
+        #commands: [open= ]
+
+#-----------------------------------------------------------------------------------------#
+
+  SPAWN_VINDICATOR:
+    perm: default
+    rows: "6"
+    title: "Crafting Recipes Spawn Vindicator"
+    empty: AIR
+    item:
+      "0":
+        material: STAINED_GLASS_PANE
+        ID: 15
+        name: "&f"
+        duplicate: "1-9,17-18,26-27,35-44"
+      
+      "14":
+        material: STAINED_GLASS_PANE
+        ID: 11
+        duplicate: 14-16,23,25,32-34
+ 
+      "13":
+        material: WEB
+        ID: 0
+        #name: "&f&lType shaped recipe"
+        name: "&f&lType shapeless recipe"
+        enchanted:
+          - true
+
+      "31":
+        material: STAINED_GLASS_PANE
+        ID: 15
+
+      "22":
+        material: WORKBENCH
+        ID: 0
+        lore:
+          - "&8&oweareinspace only"
+
+      #1
+      "10":
+        material: AIR
+        ID: 0
+        #commands: [open= ]
+      #2
+      "11":
+        material: AIR
+        ID: 0
+        #commands: [open= ]
+      #3
+      "12":
+        material: AIR
+        ID: 0
+        #commands: [open= ]
+
+      #4
+      "19":
+        material: EGG
+        ID: 0
+        #commands: [open= ]
+      #5
+      "20":
+        material: AIR
+        ID: 0
+        #commands: [open= ]
+      #6
+      "21":
+        material: STONE_AXE
+        ID: 0
+        #commands: [open= ]
+      
+      #7
+      "28":
+        material: AIR
+        ID: 0
+        #commands: [open= ]
+      #8
+      "29":
+        material: AIR
+        ID: 0
+        #commands: [open= ]
+      #9
+      "30":
+        material: AIR
+        ID: 0
+        #commands: [open= ]
+
+      #FIn
+      "24":
+        material: MONSTER_EGG
+        ID: 96
+        name: "Spawn Vindicator"
+        #commands: [open= ]
+
+#-----------------------------------------------------------------------------------------#
+
+  SPAWN_STRAY:
+    perm: default
+    rows: "6"
+    title: "Crafting Recipes Spawn Stray"
+    empty: AIR
+    item:
+      "0":
+        material: STAINED_GLASS_PANE
+        ID: 15
+        name: "&f"
+        duplicate: "1-9,17-18,26-27,35-44"
+      
+      "14":
+        material: STAINED_GLASS_PANE
+        ID: 11
+        duplicate: 14-16,23,25,32-34
+ 
+      "13":
+        material: WEB
+        ID: 0
+        #name: "&f&lType shaped recipe"
+        #name: "&f&lType shapeless recipe"
+        enchanted:
+          - true
+
+      "31":
+        material: STAINED_GLASS_PANE
+        ID: 15
+
+      "22":
+        material: WORKBENCH
+        ID: 0
+        lore:
+          - "&8&oweareinspace only"
+
+      #1
+      "10":
+        material: BONE
+        ID: 0
+        #commands: [open= ]
+      #2
+      "11":
+        material: SNOW_BALL
+        ID: 0
+        #commands: [open= ]
+      #3
+      "12":
+        material: BONE
+        ID: 0
+        #commands: [open= ]
+
+      #4
+      "19":
+        material: SNOW_BALL
+        ID: 0
+        #commands: [open= ]
+      #5
+      "20":
+        material: EGG
+        ID: 0
+        #commands: [open= ]
+      #6
+      "21":
+        material: SNOW_BALL
+        ID: 0
+        #commands: [open= ]
+      
+      #7
+      "28":
+        material: BONE
+        ID: 0
+        #commands: [open= ]
+      #8
+      "29":
+        material: SNOW_BALL
+        ID: 0
+        #commands: [open= ]
+      #9
+      "30":
+        material: BONE
+        ID: 0
+        #commands: [open= ]
+
+      #FIn
+      "24":
+        material: MONSTER_EGG
+        ID: 96
+        name: "Spawn Stray"
+        #commands: [open= ]
+
+#-----------------------------------------------------------------------------------------#
+
+  SPAWN_HUSK:
+    perm: default
+    rows: "6"
+    title: "Crafting Recipes Spawn Husk"
+    empty: AIR
+    item:
+      "0":
+        material: STAINED_GLASS_PANE
+        ID: 15
+        name: "&f"
+        duplicate: "1-9,17-18,26-27,35-44"
+      
+      "14":
+        material: STAINED_GLASS_PANE
+        ID: 11
+        duplicate: 14-16,23,25,32-34
+ 
+      "13":
+        material: WEB
+        ID: 0
+        #name: "&f&lType shaped recipe"
+        #name: "&f&lType shapeless recipe"
+        enchanted:
+          - true
+
+      "31":
+        material: STAINED_GLASS_PANE
+        ID: 15
+
+      "22":
+        material: WORKBENCH
+        ID: 0
+        lore:
+          - "&8&oweareinspace only"
+
+      #1
+      "10":
+        material: SAND
+        ID: 0
+        #commands: [open= ]
+      #2
+      "11":
+        material: SAND
+        ID: 0
+        #commands: [open= ]
+      #3
+      "12":
+        material: SAND
+        ID: 0
+        #commands: [open= ]
+
+      #4
+      "19":
+        material: ROTTEN_FLESH
+        ID: 0
+        #commands: [open= ]
+      #5
+      "20":
+        material: EGG
+        ID: 0
+        #commands: [open= ]
+      #6
+      "21":
+        material: ROTTEN_FLESH
+        ID: 0
+        #commands: [open= ]
+      
+      #7
+      "28":
+        material: SAND
+        ID: 0
+        #commands: [open= ]
+      #8
+      "29":
+        material: SAND
+        ID: 0
+        #commands: [open= ]
+      #9
+      "30":
+        material: SAND
+        ID: 0
+        #commands: [open= ]
+
+      #FIn
+      "24":
+        material: MONSTER_EGG
+        ID: 96
+        name: "Spawn Husk"
+        #commands: [open= ]
+
+#-----------------------------------------------------------------------------------------#
+
+  SPAWN_CREEPER:
+    perm: default
+    rows: "6"
+    title: "Crafting Recipes Spawn Creeper"
+    empty: AIR
+    item:
+      "0":
+        material: STAINED_GLASS_PANE
+        ID: 15
+        name: "&f"
+        duplicate: "1-9,17-18,26-27,35-44"
+      
+      "14":
+        material: STAINED_GLASS_PANE
+        ID: 11
+        duplicate: 14-16,23,25,32-34
+ 
+      "13":
+        material: WEB
+        ID: 0
+        name: "&f&lType shaped recipe"
+        #name: "&f&lType shapeless recipe"
+        enchanted:
+          - true
+
+      "31":
+        material: STAINED_GLASS_PANE
+        ID: 15
+
+      "22":
+        material: WORKBENCH
+        ID: 0
+        lore:
+          - "&8&oweareinspace only"
+
+      #1
+      "10":
+        material: FLINT
+        ID: 0
+        #commands: [open= ]
+      #2
+      "11":
+        material: FLINT
+        ID: 0
+        #commands: [open= ]
+      #3
+      "12":
+        material: FLINT
+        ID: 0
+        #commands: [open= ]
+
+      #4
+      "19":
+        material: FLINT
+        ID: 0
+        #commands: [open= ]
+      #5
+      "20":
+        material: EGG
+        ID: 0
+        #commands: [open= ]
+      #6
+      "21":
+        material: FLINT
+        ID: 0
+        #commands: [open= ]
+      
+      #7
+      "28":
+        material: FLINT
+        ID: 0
+        #commands: [open= ]
+      #8
+      "29":
+        material: FLINT
+        ID: 0
+        #commands: [open= ]
+      #9
+      "30":
+        material: FLINT
+        ID: 0
+        #commands: [open= ]
+
+      #FIn
+      "24":
+        material: MONSTER_EGG
+        ID: 96
+        name: "Spawn Creeper"
+        #commands: [open= ]
+
+#-----------------------------------------------------------------------------------------#
+
+  SPAWN_VEX:
+    perm: default
+    rows: "6"
+    title: "Crafting Recipes Spawn Vex"
+    empty: AIR
+    item:
+      "0":
+        material: STAINED_GLASS_PANE
+        ID: 15
+        name: "&f"
+        duplicate: "1-9,17-18,26-27,35-44"
+      
+      "14":
+        material: STAINED_GLASS_PANE
+        ID: 11
+        duplicate: 14-16,23,25,32-34
+ 
+      "13":
+        material: WEB
+        ID: 0
+        name: "&f&lType shaped recipe"
+        #name: "&f&lType shapeless recipe"
+        enchanted:
+          - true
+
+      "31":
+        material: STAINED_GLASS_PANE
+        ID: 15
+
+      "22":
+        material: WORKBENCH
+        ID: 0
+        lore:
+          - "&8&oweareinspace only"
+
+      #1
+      "10":
+        material: ARROW
+        ID: 0
+        #commands: [open= ]
+      #2
+      "11":
+        material: ARROW
+        ID: 0
+        #commands: [open= ]
+      #3
+      "12":
+        material: ARROW
+        ID: 0
+        #commands: [open= ]
+
+      #4
+      "19":
+        material: ARROW
+        ID: 0
+        #commands: [open= ]
+      #5
+      "20":
+        material: EGG
+        ID: 0
+        #commands: [open= ]
+      #6
+      "21":
+        material: ARROW
+        ID: 0
+        #commands: [open= ]
+      
+      #7
+      "28":
+        material: ARROW
+        ID: 0
+        #commands: [open= ]
+      #8
+      "29":
+        material: ARROW
+        ID: 0
+        #commands: [open= ]
+      #9
+      "30":
+        material: ARROW
+        ID: 0
+        #commands: [open= ]
+
+      #FIn
+      "24":
+        material: MONSTER_EGG
+        ID: 96
+        name: "Spawn Vex"
+        #commands: [open= ]
+
+#-----------------------------------------------------------------------------------------#
+
+  SPAWN_SILVERFISH:
+    perm: default
+    rows: "6"
+    title: "Crafting Recipes Spawn Silverfish"
+    empty: AIR
+    item:
+      "0":
+        material: STAINED_GLASS_PANE
+        ID: 15
+        name: "&f"
+        duplicate: "1-9,17-18,26-27,35-44"
+      
+      "14":
+        material: STAINED_GLASS_PANE
+        ID: 11
+        duplicate: 14-16,23,25,32-34
+ 
+      "13":
+        material: WEB
+        ID: 0
+        #name: "&f&lType shaped recipe"
+        #name: "&f&lType shapeless recipe"
+        enchanted:
+          - true
+
+      "31":
+        material: STAINED_GLASS_PANE
+        ID: 15
+
+      "22":
+        material: WORKBENCH
+        ID: 0
+        lore:
+          - "&8&oweareinspace only"
+
+      #1
+      "10":
+        material: GRAVEL
+        ID: 0
+        #commands: [open= ]
+      #2
+      "11":
+        material: GRAVEL
+        ID: 0
+        #commands: [open= ]
+      #3
+      "12":
+        material: GRAVEL
+        ID: 0
+        #commands: [open= ]
+
+      #4
+      "19":
+        material: GRAVEL
+        ID: 0
+        #commands: [open= ]
+      #5
+      "20":
+        material: EGG
+        ID: 0
+        #commands: [open= ]
+      #6
+      "21":
+        material: GRAVEL
+        ID: 0
+        #commands: [open= ]
+      
+      #7
+      "28":
+        material: GRAVEL
+        ID: 0
+        #commands: [open= ]
+      #8
+      "29":
+        material: GRAVEL
+        ID: 0
+        #commands: [open= ]
+      #9
+      "30":
+        material: GRAVEL
+        ID: 0
+        #commands: [open= ]
+
+      #FIn
+      "24":
+        material: MONSTER_EGG
+        ID: 96
+        name: "Spawn Silverfish"
+        #commands: [open= ]
+
+#-----------------------------------------------------------------------------------------#
+
+  SPAWN_ENDERMITE:
+    perm: default
+    rows: "6"
+    title: "Crafting Recipes Spawn Endermite"
+    empty: AIR
+    item:
+      "0":
+        material: STAINED_GLASS_PANE
+        ID: 15
+        name: "&f"
+        duplicate: "1-9,17-18,26-27,35-44"
+      
+      "14":
+        material: STAINED_GLASS_PANE
+        ID: 11
+        duplicate: 14-16,23,25,32-34
+ 
+      "13":
+        material: WEB
+        ID: 0
+        #name: "&f&lType shaped recipe"
+        #name: "&f&lType shapeless recipe"
+        enchanted:
+          - true
+
+      "31":
+        material: STAINED_GLASS_PANE
+        ID: 15
+
+      "22":
+        material: WORKBENCH
+        ID: 0
+        lore:
+          - "&8&oweareinspace only"
+
+      #1
+      "10":
+        material: ENDER_PEARL
+        ID: 0
+        #commands: [open= ]
+      #2
+      "11":
+        material: STRING
+        ID: 0
+        #commands: [open= ]
+      #3
+      "12":
+        material: ENDER_PEARL
+        ID: 0
+        #commands: [open= ]
+
+      #4
+      "19":
+        material: AIR
+        ID: 0
+        #commands: [open= ]
+      #5
+      "20":
+        material: EGG
+        ID: 0
+        #commands: [open= ]
+      #6
+      "21":
+        material: AIR
+        ID: 0
+        #commands: [open= ]
+      
+      #7
+      "28":
+        material: ENDER_PEARL
+        ID: 0
+        #commands: [open= ]
+      #8
+      "29":
+        material: EGG
+        ID: 0
+        #commands: [open= ]
+      #9
+      "30":
+        material: ENDER_PEARL
+        ID: 0
+        #commands: [open= ]
+
+      #FIn
+      "24":
+        material: MONSTER_EGG
+        ID: 96
+        name: "Spawn Endermite"
+        #commands: [open= ]
+
+#-----------------------------------------------------------------------------------------#
+
+  SPAWN_SQUID:
+    perm: default
+    rows: "6"
+    title: "Crafting Recipes Spawn Squid"
+    empty: AIR
+    item:
+      "0":
+        material: STAINED_GLASS_PANE
+        ID: 15
+        name: "&f"
+        duplicate: "1-9,17-18,26-27,35-44"
+      
+      "14":
+        material: STAINED_GLASS_PANE
+        ID: 11
+        duplicate: 14-16,23,25,32-34
+ 
+      "13":
+        material: WEB
+        ID: 0
+        #name: "&f&lType shaped recipe"
+        #name: "&f&lType shapeless recipe"
+        enchanted:
+          - true
+
+      "31":
+        material: STAINED_GLASS_PANE
+        ID: 15
+
+      "22":
+        material: WORKBENCH
+        ID: 0
+        lore:
+          - "&8&oweareinspace only"
+
+      #1
+      "10":
+        material: LEATHER
+        ID: 0
+        #commands: [open= ]
+      #2
+      "11":
+        material: SAND
+        ID: 0
+        #commands: [open= ]
+      #3
+      "12":
+        material: LEATHER
+        ID: 0
+        #commands: [open= ]
+
+      #4
+      "19":
+        material: SAND
+        ID: 0
+        #commands: [open= ]
+      #5
+      "20":
+        material: EGG
+        ID: 0
+        #commands: [open= ]
+      #6
+      "21":
+        material: SAND
+        ID: 0
+        #commands: [open= ]
+      
+      #7
+      "28":
+        material: INK_SACK
+        ID: 15
+        #commands: [open= ]
+      #8
+      "29":
+        material: SAND
+        ID: 0
+        #commands: [open= ]
+      #9
+      "30":
+        material: INK_SACK
+        ID: 15
+        #commands: [open= ]
+
+      #FIn
+      "24":
+        material: MONSTER_EGG
+        ID: 96
+        name: "Spawn Squid"
+        #commands: [open= ]
+
+#-----------------------------------------------------------------------------------------#
+
+  SPAWN_WOLF:
+    perm: default
+    rows: "6"
+    title: "Crafting Recipes Spawn Wolf"
+    empty: AIR
+    item:
+      "0":
+        material: STAINED_GLASS_PANE
+        ID: 15
+        name: "&f"
+        duplicate: "1-9,17-18,26-27,35-44"
+      
+      "14":
+        material: STAINED_GLASS_PANE
+        ID: 11
+        duplicate: 14-16,23,25,32-34
+ 
+      "13":
+        material: WEB
+        ID: 0
+        #name: "&f&lType shaped recipe"
+        #name: "&f&lType shapeless recipe"
+        enchanted:
+          - true
+
+      "31":
+        material: STAINED_GLASS_PANE
+        ID: 15
+
+      "22":
+        material: WORKBENCH
+        ID: 0
+        lore:
+          - "&8&oweareinspace only"
+
+      #1
+      "10":
+        material: STRING
+        ID: 0
+        #commands: [open= ]
+      #2
+      "11":
+        material: BONE
+        ID: 0
+        #commands: [open= ]
+      #3
+      "12":
+        material: STRING
+        ID: 0
+        #commands: [open= ]
+
+      #4
+      "19":
+        material: LEATHER
+        ID: 0
+        #commands: [open= ]
+      #5
+      "20":
+        material: EGG
+        ID: 0
+        #commands: [open= ]
+      #6
+      "21":
+        material: LEATHER
+        ID: 0
+        #commands: [open= ]
+      
+      #7
+      "28":
+        material: STRING
+        ID: 0
+        #commands: [open= ]
+      #8
+      "29":
+        material: BONE
+        ID: 0
+        #commands: [open= ]
+      #9
+      "30":
+        material: STRING
+        ID: 0
+        #commands: [open= ]
+
+      #FIn
+      "24":
+        material: MONSTER_EGG
+        ID: 96
+        name: "Spawn Wolf"
+        #commands: [open= ]
+
+#-----------------------------------------------------------------------------------------#
+
+  SPAWN_POLAR:
+    perm: default
+    rows: "6"
+    title: "Crafting Recipes Spawn Polar"
+    empty: AIR
+    item:
+      "0":
+        material: STAINED_GLASS_PANE
+        ID: 15
+        name: "&f"
+        duplicate: "1-9,17-18,26-27,35-44"
+      
+      "14":
+        material: STAINED_GLASS_PANE
+        ID: 11
+        duplicate: 14-16,23,25,32-34
+ 
+      "13":
+        material: WEB
+        ID: 0
+        #name: "&f&lType shaped recipe"
+        #name: "&f&lType shapeless recipe"
+        enchanted:
+          - true
+
+      "31":
+        material: STAINED_GLASS_PANE
+        ID: 15
+
+      "22":
+        material: WORKBENCH
+        ID: 0
+        lore:
+          - "&8&oweareinspace only"
+
+      #1
+      "10":
+        material: LEATHER
+        ID: 0
+        #commands: [open= ]
+      #2
+      "11":
+        material: SNOW_BALL
+        ID: 0
+        #commands: [open= ]
+      #3
+      "12":
+        material: LEATHER
+        ID: 0
+        #commands: [open= ]
+
+      #4
+      "19":
+        material: LEATHER
+        ID: 0
+        #commands: [open= ]
+      #5
+      "20":
+        material: EGG
+        ID: 0
+        #commands: [open= ]
+      #6
+      "21":
+        material: LEATHER
+        ID: 0
+        #commands: [open= ]
+      
+      #7
+      "28":
+        material: SNOW_BALL
+        ID: 0
+        #commands: [open= ]
+      #8
+      "29":
+        material: SNOW_BALL
+        ID: 0
+        #commands: [open= ]
+      #9
+      "30":
+        material: SNOW_BALL
+        ID: 0
+        #commands: [open= ]
+
+      #FIn
+      "24":
+        material: MONSTER_EGG
+        ID: 96
+        name: "Spawn Polar"
         #commands: [open= ]
 
 #-----------------------------------------------------------------------------------------#
@@ -1811,3641 +5131,3 @@ panels:
         #commands: [open= ]
 
 #-----------------------------------------------------------------------------------------#
-
-  copyation:
-    perm: default
-    rows: "6"
-    title: "Crafting Recipes "
-    empty: AIR
-    item:
-      "0":
-        material: STAINED_GLASS_PANE
-        ID: 15
-        name: "&f"
-        duplicate: "1-9,17-18,26-27,35-44"
-      
-      "14":
-        material: STAINED_GLASS_PANE
-        ID: 11
-        duplicate: 14-16,23,25,32-34
- 
-      "13":
-        material: WEB
-        ID: 0
-        #name: "&f&lType shaped recipe"
-        #name: "&f&lType shapeless recipe"
-        enchanted:
-          - true
-
-      "31":
-        material: STAINED_GLASS_PANE
-        ID: 15
-
-      "22":
-        material: WORKBENCH
-        ID: 0
-        lore:
-          - "&8&oweareinspace only"
-
-      #1
-      "10":
-        material: AIR
-        ID: 0
-        #commands: [open= ]
-      #2
-      "11":
-        material: AIR
-        ID: 0
-        #commands: [open= ]
-      #3
-      "12":
-        material: AIR
-        ID: 0
-        #commands: [open= ]
-
-      #4
-      "19":
-        material: AIR
-        ID: 0
-        #commands: [open= ]
-      #5
-      "20":
-        material: AIR
-        ID: 0
-        #commands: [open= ]
-      #6
-      "21":
-        material: AIR
-        ID: 0
-        #commands: [open= ]
-      
-      #7
-      "28":
-        material: AIR
-        ID: 0
-        #commands: [open= ]
-      #8
-      "29":
-        material: AIR
-        ID: 0
-        #commands: [open= ]
-      #9
-      "30":
-        material: AIR
-        ID: 0
-        #commands: [open= ]
-
-      #FIn
-      "24":
-        material: MONSTER_EGG
-        ID: 96
-        #commands: [open= ]
-
-#-----------------------------------------------------------------------------------------#
-
-  copyation:
-    perm: default
-    rows: "6"
-    title: "Crafting Recipes "
-    empty: AIR
-    item:
-      "0":
-        material: STAINED_GLASS_PANE
-        ID: 15
-        name: "&f"
-        duplicate: "1-9,17-18,26-27,35-44"
-      
-      "14":
-        material: STAINED_GLASS_PANE
-        ID: 11
-        duplicate: 14-16,23,25,32-34
- 
-      "13":
-        material: WEB
-        ID: 0
-        #name: "&f&lType shaped recipe"
-        #name: "&f&lType shapeless recipe"
-        enchanted:
-          - true
-
-      "31":
-        material: STAINED_GLASS_PANE
-        ID: 15
-
-      "22":
-        material: WORKBENCH
-        ID: 0
-        lore:
-          - "&8&oweareinspace only"
-
-      #1
-      "10":
-        material: AIR
-        ID: 0
-        #commands: [open= ]
-      #2
-      "11":
-        material: AIR
-        ID: 0
-        #commands: [open= ]
-      #3
-      "12":
-        material: AIR
-        ID: 0
-        #commands: [open= ]
-
-      #4
-      "19":
-        material: AIR
-        ID: 0
-        #commands: [open= ]
-      #5
-      "20":
-        material: AIR
-        ID: 0
-        #commands: [open= ]
-      #6
-      "21":
-        material: AIR
-        ID: 0
-        #commands: [open= ]
-      
-      #7
-      "28":
-        material: AIR
-        ID: 0
-        #commands: [open= ]
-      #8
-      "29":
-        material: AIR
-        ID: 0
-        #commands: [open= ]
-      #9
-      "30":
-        material: AIR
-        ID: 0
-        #commands: [open= ]
-
-      #FIn
-      "24":
-        material: MONSTER_EGG
-        ID: 96
-        #commands: [open= ]
-
-#-----------------------------------------------------------------------------------------#
-
-  copyation:
-    perm: default
-    rows: "6"
-    title: "Crafting Recipes "
-    empty: AIR
-    item:
-      "0":
-        material: STAINED_GLASS_PANE
-        ID: 15
-        name: "&f"
-        duplicate: "1-9,17-18,26-27,35-44"
-      
-      "14":
-        material: STAINED_GLASS_PANE
-        ID: 11
-        duplicate: 14-16,23,25,32-34
- 
-      "13":
-        material: WEB
-        ID: 0
-        #name: "&f&lType shaped recipe"
-        #name: "&f&lType shapeless recipe"
-        enchanted:
-          - true
-
-      "31":
-        material: STAINED_GLASS_PANE
-        ID: 15
-
-      "22":
-        material: WORKBENCH
-        ID: 0
-        lore:
-          - "&8&oweareinspace only"
-
-      #1
-      "10":
-        material: AIR
-        ID: 0
-        #commands: [open= ]
-      #2
-      "11":
-        material: AIR
-        ID: 0
-        #commands: [open= ]
-      #3
-      "12":
-        material: AIR
-        ID: 0
-        #commands: [open= ]
-
-      #4
-      "19":
-        material: AIR
-        ID: 0
-        #commands: [open= ]
-      #5
-      "20":
-        material: AIR
-        ID: 0
-        #commands: [open= ]
-      #6
-      "21":
-        material: AIR
-        ID: 0
-        #commands: [open= ]
-      
-      #7
-      "28":
-        material: AIR
-        ID: 0
-        #commands: [open= ]
-      #8
-      "29":
-        material: AIR
-        ID: 0
-        #commands: [open= ]
-      #9
-      "30":
-        material: AIR
-        ID: 0
-        #commands: [open= ]
-
-      #FIn
-      "24":
-        material: MONSTER_EGG
-        ID: 96
-        #commands: [open= ]
-
-#-----------------------------------------------------------------------------------------#
-
-  copyation:
-    perm: default
-    rows: "6"
-    title: "Crafting Recipes "
-    empty: AIR
-    item:
-      "0":
-        material: STAINED_GLASS_PANE
-        ID: 15
-        name: "&f"
-        duplicate: "1-9,17-18,26-27,35-44"
-      
-      "14":
-        material: STAINED_GLASS_PANE
-        ID: 11
-        duplicate: 14-16,23,25,32-34
- 
-      "13":
-        material: WEB
-        ID: 0
-        #name: "&f&lType shaped recipe"
-        #name: "&f&lType shapeless recipe"
-        enchanted:
-          - true
-
-      "31":
-        material: STAINED_GLASS_PANE
-        ID: 15
-
-      "22":
-        material: WORKBENCH
-        ID: 0
-        lore:
-          - "&8&oweareinspace only"
-
-      #1
-      "10":
-        material: AIR
-        ID: 0
-        #commands: [open= ]
-      #2
-      "11":
-        material: AIR
-        ID: 0
-        #commands: [open= ]
-      #3
-      "12":
-        material: AIR
-        ID: 0
-        #commands: [open= ]
-
-      #4
-      "19":
-        material: AIR
-        ID: 0
-        #commands: [open= ]
-      #5
-      "20":
-        material: AIR
-        ID: 0
-        #commands: [open= ]
-      #6
-      "21":
-        material: AIR
-        ID: 0
-        #commands: [open= ]
-      
-      #7
-      "28":
-        material: AIR
-        ID: 0
-        #commands: [open= ]
-      #8
-      "29":
-        material: AIR
-        ID: 0
-        #commands: [open= ]
-      #9
-      "30":
-        material: AIR
-        ID: 0
-        #commands: [open= ]
-
-      #FIn
-      "24":
-        material: MONSTER_EGG
-        ID: 96
-        #commands: [open= ]
-
-#-----------------------------------------------------------------------------------------#
-
-  copyation:
-    perm: default
-    rows: "6"
-    title: "Crafting Recipes "
-    empty: AIR
-    item:
-      "0":
-        material: STAINED_GLASS_PANE
-        ID: 15
-        name: "&f"
-        duplicate: "1-9,17-18,26-27,35-44"
-      
-      "14":
-        material: STAINED_GLASS_PANE
-        ID: 11
-        duplicate: 14-16,23,25,32-34
- 
-      "13":
-        material: WEB
-        ID: 0
-        #name: "&f&lType shaped recipe"
-        #name: "&f&lType shapeless recipe"
-        enchanted:
-          - true
-
-      "31":
-        material: STAINED_GLASS_PANE
-        ID: 15
-
-      "22":
-        material: WORKBENCH
-        ID: 0
-        lore:
-          - "&8&oweareinspace only"
-
-      #1
-      "10":
-        material: AIR
-        ID: 0
-        #commands: [open= ]
-      #2
-      "11":
-        material: AIR
-        ID: 0
-        #commands: [open= ]
-      #3
-      "12":
-        material: AIR
-        ID: 0
-        #commands: [open= ]
-
-      #4
-      "19":
-        material: AIR
-        ID: 0
-        #commands: [open= ]
-      #5
-      "20":
-        material: AIR
-        ID: 0
-        #commands: [open= ]
-      #6
-      "21":
-        material: AIR
-        ID: 0
-        #commands: [open= ]
-      
-      #7
-      "28":
-        material: AIR
-        ID: 0
-        #commands: [open= ]
-      #8
-      "29":
-        material: AIR
-        ID: 0
-        #commands: [open= ]
-      #9
-      "30":
-        material: AIR
-        ID: 0
-        #commands: [open= ]
-
-      #FIn
-      "24":
-        material: MONSTER_EGG
-        ID: 96
-        #commands: [open= ]
-
-#-----------------------------------------------------------------------------------------#
-
-  copyation:
-    perm: default
-    rows: "6"
-    title: "Crafting Recipes "
-    empty: AIR
-    item:
-      "0":
-        material: STAINED_GLASS_PANE
-        ID: 15
-        name: "&f"
-        duplicate: "1-9,17-18,26-27,35-44"
-      
-      "14":
-        material: STAINED_GLASS_PANE
-        ID: 11
-        duplicate: 14-16,23,25,32-34
- 
-      "13":
-        material: WEB
-        ID: 0
-        #name: "&f&lType shaped recipe"
-        #name: "&f&lType shapeless recipe"
-        enchanted:
-          - true
-
-      "31":
-        material: STAINED_GLASS_PANE
-        ID: 15
-
-      "22":
-        material: WORKBENCH
-        ID: 0
-        lore:
-          - "&8&oweareinspace only"
-
-      #1
-      "10":
-        material: AIR
-        ID: 0
-        #commands: [open= ]
-      #2
-      "11":
-        material: AIR
-        ID: 0
-        #commands: [open= ]
-      #3
-      "12":
-        material: AIR
-        ID: 0
-        #commands: [open= ]
-
-      #4
-      "19":
-        material: AIR
-        ID: 0
-        #commands: [open= ]
-      #5
-      "20":
-        material: AIR
-        ID: 0
-        #commands: [open= ]
-      #6
-      "21":
-        material: AIR
-        ID: 0
-        #commands: [open= ]
-      
-      #7
-      "28":
-        material: AIR
-        ID: 0
-        #commands: [open= ]
-      #8
-      "29":
-        material: AIR
-        ID: 0
-        #commands: [open= ]
-      #9
-      "30":
-        material: AIR
-        ID: 0
-        #commands: [open= ]
-
-      #FIn
-      "24":
-        material: MONSTER_EGG
-        ID: 96
-        #commands: [open= ]
-
-#-----------------------------------------------------------------------------------------#
-
-  copyation:
-    perm: default
-    rows: "6"
-    title: "Crafting Recipes "
-    empty: AIR
-    item:
-      "0":
-        material: STAINED_GLASS_PANE
-        ID: 15
-        name: "&f"
-        duplicate: "1-9,17-18,26-27,35-44"
-      
-      "14":
-        material: STAINED_GLASS_PANE
-        ID: 11
-        duplicate: 14-16,23,25,32-34
- 
-      "13":
-        material: WEB
-        ID: 0
-        #name: "&f&lType shaped recipe"
-        #name: "&f&lType shapeless recipe"
-        enchanted:
-          - true
-
-      "31":
-        material: STAINED_GLASS_PANE
-        ID: 15
-
-      "22":
-        material: WORKBENCH
-        ID: 0
-        lore:
-          - "&8&oweareinspace only"
-
-      #1
-      "10":
-        material: AIR
-        ID: 0
-        #commands: [open= ]
-      #2
-      "11":
-        material: AIR
-        ID: 0
-        #commands: [open= ]
-      #3
-      "12":
-        material: AIR
-        ID: 0
-        #commands: [open= ]
-
-      #4
-      "19":
-        material: AIR
-        ID: 0
-        #commands: [open= ]
-      #5
-      "20":
-        material: AIR
-        ID: 0
-        #commands: [open= ]
-      #6
-      "21":
-        material: AIR
-        ID: 0
-        #commands: [open= ]
-      
-      #7
-      "28":
-        material: AIR
-        ID: 0
-        #commands: [open= ]
-      #8
-      "29":
-        material: AIR
-        ID: 0
-        #commands: [open= ]
-      #9
-      "30":
-        material: AIR
-        ID: 0
-        #commands: [open= ]
-
-      #FIn
-      "24":
-        material: MONSTER_EGG
-        ID: 96
-        #commands: [open= ]
-
-#-----------------------------------------------------------------------------------------#
-
-  copyation:
-    perm: default
-    rows: "6"
-    title: "Crafting Recipes "
-    empty: AIR
-    item:
-      "0":
-        material: STAINED_GLASS_PANE
-        ID: 15
-        name: "&f"
-        duplicate: "1-9,17-18,26-27,35-44"
-      
-      "14":
-        material: STAINED_GLASS_PANE
-        ID: 11
-        duplicate: 14-16,23,25,32-34
- 
-      "13":
-        material: WEB
-        ID: 0
-        #name: "&f&lType shaped recipe"
-        #name: "&f&lType shapeless recipe"
-        enchanted:
-          - true
-
-      "31":
-        material: STAINED_GLASS_PANE
-        ID: 15
-
-      "22":
-        material: WORKBENCH
-        ID: 0
-        lore:
-          - "&8&oweareinspace only"
-
-      #1
-      "10":
-        material: AIR
-        ID: 0
-        #commands: [open= ]
-      #2
-      "11":
-        material: AIR
-        ID: 0
-        #commands: [open= ]
-      #3
-      "12":
-        material: AIR
-        ID: 0
-        #commands: [open= ]
-
-      #4
-      "19":
-        material: AIR
-        ID: 0
-        #commands: [open= ]
-      #5
-      "20":
-        material: AIR
-        ID: 0
-        #commands: [open= ]
-      #6
-      "21":
-        material: AIR
-        ID: 0
-        #commands: [open= ]
-      
-      #7
-      "28":
-        material: AIR
-        ID: 0
-        #commands: [open= ]
-      #8
-      "29":
-        material: AIR
-        ID: 0
-        #commands: [open= ]
-      #9
-      "30":
-        material: AIR
-        ID: 0
-        #commands: [open= ]
-
-      #FIn
-      "24":
-        material: MONSTER_EGG
-        ID: 96
-        #commands: [open= ]
-
-#-----------------------------------------------------------------------------------------#
-
-  copyation:
-    perm: default
-    rows: "6"
-    title: "Crafting Recipes "
-    empty: AIR
-    item:
-      "0":
-        material: STAINED_GLASS_PANE
-        ID: 15
-        name: "&f"
-        duplicate: "1-9,17-18,26-27,35-44"
-      
-      "14":
-        material: STAINED_GLASS_PANE
-        ID: 11
-        duplicate: 14-16,23,25,32-34
- 
-      "13":
-        material: WEB
-        ID: 0
-        #name: "&f&lType shaped recipe"
-        #name: "&f&lType shapeless recipe"
-        enchanted:
-          - true
-
-      "31":
-        material: STAINED_GLASS_PANE
-        ID: 15
-
-      "22":
-        material: WORKBENCH
-        ID: 0
-        lore:
-          - "&8&oweareinspace only"
-
-      #1
-      "10":
-        material: AIR
-        ID: 0
-        #commands: [open= ]
-      #2
-      "11":
-        material: AIR
-        ID: 0
-        #commands: [open= ]
-      #3
-      "12":
-        material: AIR
-        ID: 0
-        #commands: [open= ]
-
-      #4
-      "19":
-        material: AIR
-        ID: 0
-        #commands: [open= ]
-      #5
-      "20":
-        material: AIR
-        ID: 0
-        #commands: [open= ]
-      #6
-      "21":
-        material: AIR
-        ID: 0
-        #commands: [open= ]
-      
-      #7
-      "28":
-        material: AIR
-        ID: 0
-        #commands: [open= ]
-      #8
-      "29":
-        material: AIR
-        ID: 0
-        #commands: [open= ]
-      #9
-      "30":
-        material: AIR
-        ID: 0
-        #commands: [open= ]
-
-      #FIn
-      "24":
-        material: MONSTER_EGG
-        ID: 96
-        #commands: [open= ]
-
-#-----------------------------------------------------------------------------------------#
-
-  copyation:
-    perm: default
-    rows: "6"
-    title: "Crafting Recipes "
-    empty: AIR
-    item:
-      "0":
-        material: STAINED_GLASS_PANE
-        ID: 15
-        name: "&f"
-        duplicate: "1-9,17-18,26-27,35-44"
-      
-      "14":
-        material: STAINED_GLASS_PANE
-        ID: 11
-        duplicate: 14-16,23,25,32-34
- 
-      "13":
-        material: WEB
-        ID: 0
-        #name: "&f&lType shaped recipe"
-        #name: "&f&lType shapeless recipe"
-        enchanted:
-          - true
-
-      "31":
-        material: STAINED_GLASS_PANE
-        ID: 15
-
-      "22":
-        material: WORKBENCH
-        ID: 0
-        lore:
-          - "&8&oweareinspace only"
-
-      #1
-      "10":
-        material: AIR
-        ID: 0
-        #commands: [open= ]
-      #2
-      "11":
-        material: AIR
-        ID: 0
-        #commands: [open= ]
-      #3
-      "12":
-        material: AIR
-        ID: 0
-        #commands: [open= ]
-
-      #4
-      "19":
-        material: AIR
-        ID: 0
-        #commands: [open= ]
-      #5
-      "20":
-        material: AIR
-        ID: 0
-        #commands: [open= ]
-      #6
-      "21":
-        material: AIR
-        ID: 0
-        #commands: [open= ]
-      
-      #7
-      "28":
-        material: AIR
-        ID: 0
-        #commands: [open= ]
-      #8
-      "29":
-        material: AIR
-        ID: 0
-        #commands: [open= ]
-      #9
-      "30":
-        material: AIR
-        ID: 0
-        #commands: [open= ]
-
-      #FIn
-      "24":
-        material: MONSTER_EGG
-        ID: 96
-        #commands: [open= ]
-
-#-----------------------------------------------------------------------------------------#
-
-  copyation:
-    perm: default
-    rows: "6"
-    title: "Crafting Recipes "
-    empty: AIR
-    item:
-      "0":
-        material: STAINED_GLASS_PANE
-        ID: 15
-        name: "&f"
-        duplicate: "1-9,17-18,26-27,35-44"
-      
-      "14":
-        material: STAINED_GLASS_PANE
-        ID: 11
-        duplicate: 14-16,23,25,32-34
- 
-      "13":
-        material: WEB
-        ID: 0
-        #name: "&f&lType shaped recipe"
-        #name: "&f&lType shapeless recipe"
-        enchanted:
-          - true
-
-      "31":
-        material: STAINED_GLASS_PANE
-        ID: 15
-
-      "22":
-        material: WORKBENCH
-        ID: 0
-        lore:
-          - "&8&oweareinspace only"
-
-      #1
-      "10":
-        material: AIR
-        ID: 0
-        #commands: [open= ]
-      #2
-      "11":
-        material: AIR
-        ID: 0
-        #commands: [open= ]
-      #3
-      "12":
-        material: AIR
-        ID: 0
-        #commands: [open= ]
-
-      #4
-      "19":
-        material: AIR
-        ID: 0
-        #commands: [open= ]
-      #5
-      "20":
-        material: AIR
-        ID: 0
-        #commands: [open= ]
-      #6
-      "21":
-        material: AIR
-        ID: 0
-        #commands: [open= ]
-      
-      #7
-      "28":
-        material: AIR
-        ID: 0
-        #commands: [open= ]
-      #8
-      "29":
-        material: AIR
-        ID: 0
-        #commands: [open= ]
-      #9
-      "30":
-        material: AIR
-        ID: 0
-        #commands: [open= ]
-
-      #FIn
-      "24":
-        material: MONSTER_EGG
-        ID: 96
-        #commands: [open= ]
-
-#-----------------------------------------------------------------------------------------#
-
-  copyation:
-    perm: default
-    rows: "6"
-    title: "Crafting Recipes "
-    empty: AIR
-    item:
-      "0":
-        material: STAINED_GLASS_PANE
-        ID: 15
-        name: "&f"
-        duplicate: "1-9,17-18,26-27,35-44"
-      
-      "14":
-        material: STAINED_GLASS_PANE
-        ID: 11
-        duplicate: 14-16,23,25,32-34
- 
-      "13":
-        material: WEB
-        ID: 0
-        #name: "&f&lType shaped recipe"
-        #name: "&f&lType shapeless recipe"
-        enchanted:
-          - true
-
-      "31":
-        material: STAINED_GLASS_PANE
-        ID: 15
-
-      "22":
-        material: WORKBENCH
-        ID: 0
-        lore:
-          - "&8&oweareinspace only"
-
-      #1
-      "10":
-        material: AIR
-        ID: 0
-        #commands: [open= ]
-      #2
-      "11":
-        material: AIR
-        ID: 0
-        #commands: [open= ]
-      #3
-      "12":
-        material: AIR
-        ID: 0
-        #commands: [open= ]
-
-      #4
-      "19":
-        material: AIR
-        ID: 0
-        #commands: [open= ]
-      #5
-      "20":
-        material: AIR
-        ID: 0
-        #commands: [open= ]
-      #6
-      "21":
-        material: AIR
-        ID: 0
-        #commands: [open= ]
-      
-      #7
-      "28":
-        material: AIR
-        ID: 0
-        #commands: [open= ]
-      #8
-      "29":
-        material: AIR
-        ID: 0
-        #commands: [open= ]
-      #9
-      "30":
-        material: AIR
-        ID: 0
-        #commands: [open= ]
-
-      #FIn
-      "24":
-        material: MONSTER_EGG
-        ID: 96
-        #commands: [open= ]
-
-#-----------------------------------------------------------------------------------------#
-
-  copyation:
-    perm: default
-    rows: "6"
-    title: "Crafting Recipes "
-    empty: AIR
-    item:
-      "0":
-        material: STAINED_GLASS_PANE
-        ID: 15
-        name: "&f"
-        duplicate: "1-9,17-18,26-27,35-44"
-      
-      "14":
-        material: STAINED_GLASS_PANE
-        ID: 11
-        duplicate: 14-16,23,25,32-34
- 
-      "13":
-        material: WEB
-        ID: 0
-        #name: "&f&lType shaped recipe"
-        #name: "&f&lType shapeless recipe"
-        enchanted:
-          - true
-
-      "31":
-        material: STAINED_GLASS_PANE
-        ID: 15
-
-      "22":
-        material: WORKBENCH
-        ID: 0
-        lore:
-          - "&8&oweareinspace only"
-
-      #1
-      "10":
-        material: AIR
-        ID: 0
-        #commands: [open= ]
-      #2
-      "11":
-        material: AIR
-        ID: 0
-        #commands: [open= ]
-      #3
-      "12":
-        material: AIR
-        ID: 0
-        #commands: [open= ]
-
-      #4
-      "19":
-        material: AIR
-        ID: 0
-        #commands: [open= ]
-      #5
-      "20":
-        material: AIR
-        ID: 0
-        #commands: [open= ]
-      #6
-      "21":
-        material: AIR
-        ID: 0
-        #commands: [open= ]
-      
-      #7
-      "28":
-        material: AIR
-        ID: 0
-        #commands: [open= ]
-      #8
-      "29":
-        material: AIR
-        ID: 0
-        #commands: [open= ]
-      #9
-      "30":
-        material: AIR
-        ID: 0
-        #commands: [open= ]
-
-      #FIn
-      "24":
-        material: MONSTER_EGG
-        ID: 96
-        #commands: [open= ]
-
-#-----------------------------------------------------------------------------------------#
-
-  copyation:
-    perm: default
-    rows: "6"
-    title: "Crafting Recipes "
-    empty: AIR
-    item:
-      "0":
-        material: STAINED_GLASS_PANE
-        ID: 15
-        name: "&f"
-        duplicate: "1-9,17-18,26-27,35-44"
-      
-      "14":
-        material: STAINED_GLASS_PANE
-        ID: 11
-        duplicate: 14-16,23,25,32-34
- 
-      "13":
-        material: WEB
-        ID: 0
-        #name: "&f&lType shaped recipe"
-        #name: "&f&lType shapeless recipe"
-        enchanted:
-          - true
-
-      "31":
-        material: STAINED_GLASS_PANE
-        ID: 15
-
-      "22":
-        material: WORKBENCH
-        ID: 0
-        lore:
-          - "&8&oweareinspace only"
-
-      #1
-      "10":
-        material: AIR
-        ID: 0
-        #commands: [open= ]
-      #2
-      "11":
-        material: AIR
-        ID: 0
-        #commands: [open= ]
-      #3
-      "12":
-        material: AIR
-        ID: 0
-        #commands: [open= ]
-
-      #4
-      "19":
-        material: AIR
-        ID: 0
-        #commands: [open= ]
-      #5
-      "20":
-        material: AIR
-        ID: 0
-        #commands: [open= ]
-      #6
-      "21":
-        material: AIR
-        ID: 0
-        #commands: [open= ]
-      
-      #7
-      "28":
-        material: AIR
-        ID: 0
-        #commands: [open= ]
-      #8
-      "29":
-        material: AIR
-        ID: 0
-        #commands: [open= ]
-      #9
-      "30":
-        material: AIR
-        ID: 0
-        #commands: [open= ]
-
-      #FIn
-      "24":
-        material: MONSTER_EGG
-        ID: 96
-        #commands: [open= ]
-
-#-----------------------------------------------------------------------------------------#
-
-  copyation:
-    perm: default
-    rows: "6"
-    title: "Crafting Recipes "
-    empty: AIR
-    item:
-      "0":
-        material: STAINED_GLASS_PANE
-        ID: 15
-        name: "&f"
-        duplicate: "1-9,17-18,26-27,35-44"
-      
-      "14":
-        material: STAINED_GLASS_PANE
-        ID: 11
-        duplicate: 14-16,23,25,32-34
- 
-      "13":
-        material: WEB
-        ID: 0
-        #name: "&f&lType shaped recipe"
-        #name: "&f&lType shapeless recipe"
-        enchanted:
-          - true
-
-      "31":
-        material: STAINED_GLASS_PANE
-        ID: 15
-
-      "22":
-        material: WORKBENCH
-        ID: 0
-        lore:
-          - "&8&oweareinspace only"
-
-      #1
-      "10":
-        material: AIR
-        ID: 0
-        #commands: [open= ]
-      #2
-      "11":
-        material: AIR
-        ID: 0
-        #commands: [open= ]
-      #3
-      "12":
-        material: AIR
-        ID: 0
-        #commands: [open= ]
-
-      #4
-      "19":
-        material: AIR
-        ID: 0
-        #commands: [open= ]
-      #5
-      "20":
-        material: AIR
-        ID: 0
-        #commands: [open= ]
-      #6
-      "21":
-        material: AIR
-        ID: 0
-        #commands: [open= ]
-      
-      #7
-      "28":
-        material: AIR
-        ID: 0
-        #commands: [open= ]
-      #8
-      "29":
-        material: AIR
-        ID: 0
-        #commands: [open= ]
-      #9
-      "30":
-        material: AIR
-        ID: 0
-        #commands: [open= ]
-
-      #FIn
-      "24":
-        material: MONSTER_EGG
-        ID: 96
-        #commands: [open= ]
-
-#-----------------------------------------------------------------------------------------#
-
-  copyation:
-    perm: default
-    rows: "6"
-    title: "Crafting Recipes "
-    empty: AIR
-    item:
-      "0":
-        material: STAINED_GLASS_PANE
-        ID: 15
-        name: "&f"
-        duplicate: "1-9,17-18,26-27,35-44"
-      
-      "14":
-        material: STAINED_GLASS_PANE
-        ID: 11
-        duplicate: 14-16,23,25,32-34
- 
-      "13":
-        material: WEB
-        ID: 0
-        #name: "&f&lType shaped recipe"
-        #name: "&f&lType shapeless recipe"
-        enchanted:
-          - true
-
-      "31":
-        material: STAINED_GLASS_PANE
-        ID: 15
-
-      "22":
-        material: WORKBENCH
-        ID: 0
-        lore:
-          - "&8&oweareinspace only"
-
-      #1
-      "10":
-        material: AIR
-        ID: 0
-        #commands: [open= ]
-      #2
-      "11":
-        material: AIR
-        ID: 0
-        #commands: [open= ]
-      #3
-      "12":
-        material: AIR
-        ID: 0
-        #commands: [open= ]
-
-      #4
-      "19":
-        material: AIR
-        ID: 0
-        #commands: [open= ]
-      #5
-      "20":
-        material: AIR
-        ID: 0
-        #commands: [open= ]
-      #6
-      "21":
-        material: AIR
-        ID: 0
-        #commands: [open= ]
-      
-      #7
-      "28":
-        material: AIR
-        ID: 0
-        #commands: [open= ]
-      #8
-      "29":
-        material: AIR
-        ID: 0
-        #commands: [open= ]
-      #9
-      "30":
-        material: AIR
-        ID: 0
-        #commands: [open= ]
-
-      #FIn
-      "24":
-        material: MONSTER_EGG
-        ID: 96
-        #commands: [open= ]
-
-#-----------------------------------------------------------------------------------------#
-
-  copyation:
-    perm: default
-    rows: "6"
-    title: "Crafting Recipes "
-    empty: AIR
-    item:
-      "0":
-        material: STAINED_GLASS_PANE
-        ID: 15
-        name: "&f"
-        duplicate: "1-9,17-18,26-27,35-44"
-      
-      "14":
-        material: STAINED_GLASS_PANE
-        ID: 11
-        duplicate: 14-16,23,25,32-34
- 
-      "13":
-        material: WEB
-        ID: 0
-        #name: "&f&lType shaped recipe"
-        #name: "&f&lType shapeless recipe"
-        enchanted:
-          - true
-
-      "31":
-        material: STAINED_GLASS_PANE
-        ID: 15
-
-      "22":
-        material: WORKBENCH
-        ID: 0
-        lore:
-          - "&8&oweareinspace only"
-
-      #1
-      "10":
-        material: AIR
-        ID: 0
-        #commands: [open= ]
-      #2
-      "11":
-        material: AIR
-        ID: 0
-        #commands: [open= ]
-      #3
-      "12":
-        material: AIR
-        ID: 0
-        #commands: [open= ]
-
-      #4
-      "19":
-        material: AIR
-        ID: 0
-        #commands: [open= ]
-      #5
-      "20":
-        material: AIR
-        ID: 0
-        #commands: [open= ]
-      #6
-      "21":
-        material: AIR
-        ID: 0
-        #commands: [open= ]
-      
-      #7
-      "28":
-        material: AIR
-        ID: 0
-        #commands: [open= ]
-      #8
-      "29":
-        material: AIR
-        ID: 0
-        #commands: [open= ]
-      #9
-      "30":
-        material: AIR
-        ID: 0
-        #commands: [open= ]
-
-      #FIn
-      "24":
-        material: MONSTER_EGG
-        ID: 96
-        #commands: [open= ]
-
-#-----------------------------------------------------------------------------------------#
-
-  copyation:
-    perm: default
-    rows: "6"
-    title: "Crafting Recipes "
-    empty: AIR
-    item:
-      "0":
-        material: STAINED_GLASS_PANE
-        ID: 15
-        name: "&f"
-        duplicate: "1-9,17-18,26-27,35-44"
-      
-      "14":
-        material: STAINED_GLASS_PANE
-        ID: 11
-        duplicate: 14-16,23,25,32-34
- 
-      "13":
-        material: WEB
-        ID: 0
-        #name: "&f&lType shaped recipe"
-        #name: "&f&lType shapeless recipe"
-        enchanted:
-          - true
-
-      "31":
-        material: STAINED_GLASS_PANE
-        ID: 15
-
-      "22":
-        material: WORKBENCH
-        ID: 0
-        lore:
-          - "&8&oweareinspace only"
-
-      #1
-      "10":
-        material: AIR
-        ID: 0
-        #commands: [open= ]
-      #2
-      "11":
-        material: AIR
-        ID: 0
-        #commands: [open= ]
-      #3
-      "12":
-        material: AIR
-        ID: 0
-        #commands: [open= ]
-
-      #4
-      "19":
-        material: AIR
-        ID: 0
-        #commands: [open= ]
-      #5
-      "20":
-        material: AIR
-        ID: 0
-        #commands: [open= ]
-      #6
-      "21":
-        material: AIR
-        ID: 0
-        #commands: [open= ]
-      
-      #7
-      "28":
-        material: AIR
-        ID: 0
-        #commands: [open= ]
-      #8
-      "29":
-        material: AIR
-        ID: 0
-        #commands: [open= ]
-      #9
-      "30":
-        material: AIR
-        ID: 0
-        #commands: [open= ]
-
-      #FIn
-      "24":
-        material: MONSTER_EGG
-        ID: 96
-        #commands: [open= ]
-
-#-----------------------------------------------------------------------------------------#
-
-  copyation:
-    perm: default
-    rows: "6"
-    title: "Crafting Recipes "
-    empty: AIR
-    item:
-      "0":
-        material: STAINED_GLASS_PANE
-        ID: 15
-        name: "&f"
-        duplicate: "1-9,17-18,26-27,35-44"
-      
-      "14":
-        material: STAINED_GLASS_PANE
-        ID: 11
-        duplicate: 14-16,23,25,32-34
- 
-      "13":
-        material: WEB
-        ID: 0
-        #name: "&f&lType shaped recipe"
-        #name: "&f&lType shapeless recipe"
-        enchanted:
-          - true
-
-      "31":
-        material: STAINED_GLASS_PANE
-        ID: 15
-
-      "22":
-        material: WORKBENCH
-        ID: 0
-        lore:
-          - "&8&oweareinspace only"
-
-      #1
-      "10":
-        material: AIR
-        ID: 0
-        #commands: [open= ]
-      #2
-      "11":
-        material: AIR
-        ID: 0
-        #commands: [open= ]
-      #3
-      "12":
-        material: AIR
-        ID: 0
-        #commands: [open= ]
-
-      #4
-      "19":
-        material: AIR
-        ID: 0
-        #commands: [open= ]
-      #5
-      "20":
-        material: AIR
-        ID: 0
-        #commands: [open= ]
-      #6
-      "21":
-        material: AIR
-        ID: 0
-        #commands: [open= ]
-      
-      #7
-      "28":
-        material: AIR
-        ID: 0
-        #commands: [open= ]
-      #8
-      "29":
-        material: AIR
-        ID: 0
-        #commands: [open= ]
-      #9
-      "30":
-        material: AIR
-        ID: 0
-        #commands: [open= ]
-
-      #FIn
-      "24":
-        material: MONSTER_EGG
-        ID: 96
-        #commands: [open= ]
-
-#-----------------------------------------------------------------------------------------#
-
-  copyation:
-    perm: default
-    rows: "6"
-    title: "Crafting Recipes "
-    empty: AIR
-    item:
-      "0":
-        material: STAINED_GLASS_PANE
-        ID: 15
-        name: "&f"
-        duplicate: "1-9,17-18,26-27,35-44"
-      
-      "14":
-        material: STAINED_GLASS_PANE
-        ID: 11
-        duplicate: 14-16,23,25,32-34
- 
-      "13":
-        material: WEB
-        ID: 0
-        #name: "&f&lType shaped recipe"
-        #name: "&f&lType shapeless recipe"
-        enchanted:
-          - true
-
-      "31":
-        material: STAINED_GLASS_PANE
-        ID: 15
-
-      "22":
-        material: WORKBENCH
-        ID: 0
-        lore:
-          - "&8&oweareinspace only"
-
-      #1
-      "10":
-        material: AIR
-        ID: 0
-        #commands: [open= ]
-      #2
-      "11":
-        material: AIR
-        ID: 0
-        #commands: [open= ]
-      #3
-      "12":
-        material: AIR
-        ID: 0
-        #commands: [open= ]
-
-      #4
-      "19":
-        material: AIR
-        ID: 0
-        #commands: [open= ]
-      #5
-      "20":
-        material: AIR
-        ID: 0
-        #commands: [open= ]
-      #6
-      "21":
-        material: AIR
-        ID: 0
-        #commands: [open= ]
-      
-      #7
-      "28":
-        material: AIR
-        ID: 0
-        #commands: [open= ]
-      #8
-      "29":
-        material: AIR
-        ID: 0
-        #commands: [open= ]
-      #9
-      "30":
-        material: AIR
-        ID: 0
-        #commands: [open= ]
-
-      #FIn
-      "24":
-        material: MONSTER_EGG
-        ID: 96
-        #commands: [open= ]
-
-#-----------------------------------------------------------------------------------------#
-
-  copyation:
-    perm: default
-    rows: "6"
-    title: "Crafting Recipes "
-    empty: AIR
-    item:
-      "0":
-        material: STAINED_GLASS_PANE
-        ID: 15
-        name: "&f"
-        duplicate: "1-9,17-18,26-27,35-44"
-      
-      "14":
-        material: STAINED_GLASS_PANE
-        ID: 11
-        duplicate: 14-16,23,25,32-34
- 
-      "13":
-        material: WEB
-        ID: 0
-        #name: "&f&lType shaped recipe"
-        #name: "&f&lType shapeless recipe"
-        enchanted:
-          - true
-
-      "31":
-        material: STAINED_GLASS_PANE
-        ID: 15
-
-      "22":
-        material: WORKBENCH
-        ID: 0
-        lore:
-          - "&8&oweareinspace only"
-
-      #1
-      "10":
-        material: AIR
-        ID: 0
-        #commands: [open= ]
-      #2
-      "11":
-        material: AIR
-        ID: 0
-        #commands: [open= ]
-      #3
-      "12":
-        material: AIR
-        ID: 0
-        #commands: [open= ]
-
-      #4
-      "19":
-        material: AIR
-        ID: 0
-        #commands: [open= ]
-      #5
-      "20":
-        material: AIR
-        ID: 0
-        #commands: [open= ]
-      #6
-      "21":
-        material: AIR
-        ID: 0
-        #commands: [open= ]
-      
-      #7
-      "28":
-        material: AIR
-        ID: 0
-        #commands: [open= ]
-      #8
-      "29":
-        material: AIR
-        ID: 0
-        #commands: [open= ]
-      #9
-      "30":
-        material: AIR
-        ID: 0
-        #commands: [open= ]
-
-      #FIn
-      "24":
-        material: MONSTER_EGG
-        ID: 96
-        #commands: [open= ]
-
-#-----------------------------------------------------------------------------------------#
-
-  copyation:
-    perm: default
-    rows: "6"
-    title: "Crafting Recipes "
-    empty: AIR
-    item:
-      "0":
-        material: STAINED_GLASS_PANE
-        ID: 15
-        name: "&f"
-        duplicate: "1-9,17-18,26-27,35-44"
-      
-      "14":
-        material: STAINED_GLASS_PANE
-        ID: 11
-        duplicate: 14-16,23,25,32-34
- 
-      "13":
-        material: WEB
-        ID: 0
-        #name: "&f&lType shaped recipe"
-        #name: "&f&lType shapeless recipe"
-        enchanted:
-          - true
-
-      "31":
-        material: STAINED_GLASS_PANE
-        ID: 15
-
-      "22":
-        material: WORKBENCH
-        ID: 0
-        lore:
-          - "&8&oweareinspace only"
-
-      #1
-      "10":
-        material: AIR
-        ID: 0
-        #commands: [open= ]
-      #2
-      "11":
-        material: AIR
-        ID: 0
-        #commands: [open= ]
-      #3
-      "12":
-        material: AIR
-        ID: 0
-        #commands: [open= ]
-
-      #4
-      "19":
-        material: AIR
-        ID: 0
-        #commands: [open= ]
-      #5
-      "20":
-        material: AIR
-        ID: 0
-        #commands: [open= ]
-      #6
-      "21":
-        material: AIR
-        ID: 0
-        #commands: [open= ]
-      
-      #7
-      "28":
-        material: AIR
-        ID: 0
-        #commands: [open= ]
-      #8
-      "29":
-        material: AIR
-        ID: 0
-        #commands: [open= ]
-      #9
-      "30":
-        material: AIR
-        ID: 0
-        #commands: [open= ]
-
-      #FIn
-      "24":
-        material: MONSTER_EGG
-        ID: 96
-        #commands: [open= ]
-
-#-----------------------------------------------------------------------------------------#
-
-  copyation:
-    perm: default
-    rows: "6"
-    title: "Crafting Recipes "
-    empty: AIR
-    item:
-      "0":
-        material: STAINED_GLASS_PANE
-        ID: 15
-        name: "&f"
-        duplicate: "1-9,17-18,26-27,35-44"
-      
-      "14":
-        material: STAINED_GLASS_PANE
-        ID: 11
-        duplicate: 14-16,23,25,32-34
- 
-      "13":
-        material: WEB
-        ID: 0
-        #name: "&f&lType shaped recipe"
-        #name: "&f&lType shapeless recipe"
-        enchanted:
-          - true
-
-      "31":
-        material: STAINED_GLASS_PANE
-        ID: 15
-
-      "22":
-        material: WORKBENCH
-        ID: 0
-        lore:
-          - "&8&oweareinspace only"
-
-      #1
-      "10":
-        material: AIR
-        ID: 0
-        #commands: [open= ]
-      #2
-      "11":
-        material: AIR
-        ID: 0
-        #commands: [open= ]
-      #3
-      "12":
-        material: AIR
-        ID: 0
-        #commands: [open= ]
-
-      #4
-      "19":
-        material: AIR
-        ID: 0
-        #commands: [open= ]
-      #5
-      "20":
-        material: AIR
-        ID: 0
-        #commands: [open= ]
-      #6
-      "21":
-        material: AIR
-        ID: 0
-        #commands: [open= ]
-      
-      #7
-      "28":
-        material: AIR
-        ID: 0
-        #commands: [open= ]
-      #8
-      "29":
-        material: AIR
-        ID: 0
-        #commands: [open= ]
-      #9
-      "30":
-        material: AIR
-        ID: 0
-        #commands: [open= ]
-
-      #FIn
-      "24":
-        material: MONSTER_EGG
-        ID: 96
-        #commands: [open= ]
-
-#-----------------------------------------------------------------------------------------#
-
-  copyation:
-    perm: default
-    rows: "6"
-    title: "Crafting Recipes "
-    empty: AIR
-    item:
-      "0":
-        material: STAINED_GLASS_PANE
-        ID: 15
-        name: "&f"
-        duplicate: "1-9,17-18,26-27,35-44"
-      
-      "14":
-        material: STAINED_GLASS_PANE
-        ID: 11
-        duplicate: 14-16,23,25,32-34
- 
-      "13":
-        material: WEB
-        ID: 0
-        #name: "&f&lType shaped recipe"
-        #name: "&f&lType shapeless recipe"
-        enchanted:
-          - true
-
-      "31":
-        material: STAINED_GLASS_PANE
-        ID: 15
-
-      "22":
-        material: WORKBENCH
-        ID: 0
-        lore:
-          - "&8&oweareinspace only"
-
-      #1
-      "10":
-        material: AIR
-        ID: 0
-        #commands: [open= ]
-      #2
-      "11":
-        material: AIR
-        ID: 0
-        #commands: [open= ]
-      #3
-      "12":
-        material: AIR
-        ID: 0
-        #commands: [open= ]
-
-      #4
-      "19":
-        material: AIR
-        ID: 0
-        #commands: [open= ]
-      #5
-      "20":
-        material: AIR
-        ID: 0
-        #commands: [open= ]
-      #6
-      "21":
-        material: AIR
-        ID: 0
-        #commands: [open= ]
-      
-      #7
-      "28":
-        material: AIR
-        ID: 0
-        #commands: [open= ]
-      #8
-      "29":
-        material: AIR
-        ID: 0
-        #commands: [open= ]
-      #9
-      "30":
-        material: AIR
-        ID: 0
-        #commands: [open= ]
-
-      #FIn
-      "24":
-        material: MONSTER_EGG
-        ID: 96
-        #commands: [open= ]
-
-#-----------------------------------------------------------------------------------------#
-
-  copyation:
-    perm: default
-    rows: "6"
-    title: "Crafting Recipes "
-    empty: AIR
-    item:
-      "0":
-        material: STAINED_GLASS_PANE
-        ID: 15
-        name: "&f"
-        duplicate: "1-9,17-18,26-27,35-44"
-      
-      "14":
-        material: STAINED_GLASS_PANE
-        ID: 11
-        duplicate: 14-16,23,25,32-34
- 
-      "13":
-        material: WEB
-        ID: 0
-        #name: "&f&lType shaped recipe"
-        #name: "&f&lType shapeless recipe"
-        enchanted:
-          - true
-
-      "31":
-        material: STAINED_GLASS_PANE
-        ID: 15
-
-      "22":
-        material: WORKBENCH
-        ID: 0
-        lore:
-          - "&8&oweareinspace only"
-
-      #1
-      "10":
-        material: AIR
-        ID: 0
-        #commands: [open= ]
-      #2
-      "11":
-        material: AIR
-        ID: 0
-        #commands: [open= ]
-      #3
-      "12":
-        material: AIR
-        ID: 0
-        #commands: [open= ]
-
-      #4
-      "19":
-        material: AIR
-        ID: 0
-        #commands: [open= ]
-      #5
-      "20":
-        material: AIR
-        ID: 0
-        #commands: [open= ]
-      #6
-      "21":
-        material: AIR
-        ID: 0
-        #commands: [open= ]
-      
-      #7
-      "28":
-        material: AIR
-        ID: 0
-        #commands: [open= ]
-      #8
-      "29":
-        material: AIR
-        ID: 0
-        #commands: [open= ]
-      #9
-      "30":
-        material: AIR
-        ID: 0
-        #commands: [open= ]
-
-      #FIn
-      "24":
-        material: MONSTER_EGG
-        ID: 96
-        #commands: [open= ]
-
-#-----------------------------------------------------------------------------------------#
-
-  copyation:
-    perm: default
-    rows: "6"
-    title: "Crafting Recipes "
-    empty: AIR
-    item:
-      "0":
-        material: STAINED_GLASS_PANE
-        ID: 15
-        name: "&f"
-        duplicate: "1-9,17-18,26-27,35-44"
-      
-      "14":
-        material: STAINED_GLASS_PANE
-        ID: 11
-        duplicate: 14-16,23,25,32-34
- 
-      "13":
-        material: WEB
-        ID: 0
-        #name: "&f&lType shaped recipe"
-        #name: "&f&lType shapeless recipe"
-        enchanted:
-          - true
-
-      "31":
-        material: STAINED_GLASS_PANE
-        ID: 15
-
-      "22":
-        material: WORKBENCH
-        ID: 0
-        lore:
-          - "&8&oweareinspace only"
-
-      #1
-      "10":
-        material: AIR
-        ID: 0
-        #commands: [open= ]
-      #2
-      "11":
-        material: AIR
-        ID: 0
-        #commands: [open= ]
-      #3
-      "12":
-        material: AIR
-        ID: 0
-        #commands: [open= ]
-
-      #4
-      "19":
-        material: AIR
-        ID: 0
-        #commands: [open= ]
-      #5
-      "20":
-        material: AIR
-        ID: 0
-        #commands: [open= ]
-      #6
-      "21":
-        material: AIR
-        ID: 0
-        #commands: [open= ]
-      
-      #7
-      "28":
-        material: AIR
-        ID: 0
-        #commands: [open= ]
-      #8
-      "29":
-        material: AIR
-        ID: 0
-        #commands: [open= ]
-      #9
-      "30":
-        material: AIR
-        ID: 0
-        #commands: [open= ]
-
-      #FIn
-      "24":
-        material: MONSTER_EGG
-        ID: 96
-        #commands: [open= ]
-
-#-----------------------------------------------------------------------------------------#
-
-  copyation:
-    perm: default
-    rows: "6"
-    title: "Crafting Recipes "
-    empty: AIR
-    item:
-      "0":
-        material: STAINED_GLASS_PANE
-        ID: 15
-        name: "&f"
-        duplicate: "1-9,17-18,26-27,35-44"
-      
-      "14":
-        material: STAINED_GLASS_PANE
-        ID: 11
-        duplicate: 14-16,23,25,32-34
- 
-      "13":
-        material: WEB
-        ID: 0
-        #name: "&f&lType shaped recipe"
-        #name: "&f&lType shapeless recipe"
-        enchanted:
-          - true
-
-      "31":
-        material: STAINED_GLASS_PANE
-        ID: 15
-
-      "22":
-        material: WORKBENCH
-        ID: 0
-        lore:
-          - "&8&oweareinspace only"
-
-      #1
-      "10":
-        material: AIR
-        ID: 0
-        #commands: [open= ]
-      #2
-      "11":
-        material: AIR
-        ID: 0
-        #commands: [open= ]
-      #3
-      "12":
-        material: AIR
-        ID: 0
-        #commands: [open= ]
-
-      #4
-      "19":
-        material: AIR
-        ID: 0
-        #commands: [open= ]
-      #5
-      "20":
-        material: AIR
-        ID: 0
-        #commands: [open= ]
-      #6
-      "21":
-        material: AIR
-        ID: 0
-        #commands: [open= ]
-      
-      #7
-      "28":
-        material: AIR
-        ID: 0
-        #commands: [open= ]
-      #8
-      "29":
-        material: AIR
-        ID: 0
-        #commands: [open= ]
-      #9
-      "30":
-        material: AIR
-        ID: 0
-        #commands: [open= ]
-
-      #FIn
-      "24":
-        material: MONSTER_EGG
-        ID: 96
-        #commands: [open= ]
-
-#-----------------------------------------------------------------------------------------#
-
-  copyation:
-    perm: default
-    rows: "6"
-    title: "Crafting Recipes "
-    empty: AIR
-    item:
-      "0":
-        material: STAINED_GLASS_PANE
-        ID: 15
-        name: "&f"
-        duplicate: "1-9,17-18,26-27,35-44"
-      
-      "14":
-        material: STAINED_GLASS_PANE
-        ID: 11
-        duplicate: 14-16,23,25,32-34
- 
-      "13":
-        material: WEB
-        ID: 0
-        #name: "&f&lType shaped recipe"
-        #name: "&f&lType shapeless recipe"
-        enchanted:
-          - true
-
-      "31":
-        material: STAINED_GLASS_PANE
-        ID: 15
-
-      "22":
-        material: WORKBENCH
-        ID: 0
-        lore:
-          - "&8&oweareinspace only"
-
-      #1
-      "10":
-        material: AIR
-        ID: 0
-        #commands: [open= ]
-      #2
-      "11":
-        material: AIR
-        ID: 0
-        #commands: [open= ]
-      #3
-      "12":
-        material: AIR
-        ID: 0
-        #commands: [open= ]
-
-      #4
-      "19":
-        material: AIR
-        ID: 0
-        #commands: [open= ]
-      #5
-      "20":
-        material: AIR
-        ID: 0
-        #commands: [open= ]
-      #6
-      "21":
-        material: AIR
-        ID: 0
-        #commands: [open= ]
-      
-      #7
-      "28":
-        material: AIR
-        ID: 0
-        #commands: [open= ]
-      #8
-      "29":
-        material: AIR
-        ID: 0
-        #commands: [open= ]
-      #9
-      "30":
-        material: AIR
-        ID: 0
-        #commands: [open= ]
-
-      #FIn
-      "24":
-        material: MONSTER_EGG
-        ID: 96
-        #commands: [open= ]
-
-#-----------------------------------------------------------------------------------------#
-
-  copyation:
-    perm: default
-    rows: "6"
-    title: "Crafting Recipes "
-    empty: AIR
-    item:
-      "0":
-        material: STAINED_GLASS_PANE
-        ID: 15
-        name: "&f"
-        duplicate: "1-9,17-18,26-27,35-44"
-      
-      "14":
-        material: STAINED_GLASS_PANE
-        ID: 11
-        duplicate: 14-16,23,25,32-34
- 
-      "13":
-        material: WEB
-        ID: 0
-        #name: "&f&lType shaped recipe"
-        #name: "&f&lType shapeless recipe"
-        enchanted:
-          - true
-
-      "31":
-        material: STAINED_GLASS_PANE
-        ID: 15
-
-      "22":
-        material: WORKBENCH
-        ID: 0
-        lore:
-          - "&8&oweareinspace only"
-
-      #1
-      "10":
-        material: AIR
-        ID: 0
-        #commands: [open= ]
-      #2
-      "11":
-        material: AIR
-        ID: 0
-        #commands: [open= ]
-      #3
-      "12":
-        material: AIR
-        ID: 0
-        #commands: [open= ]
-
-      #4
-      "19":
-        material: AIR
-        ID: 0
-        #commands: [open= ]
-      #5
-      "20":
-        material: AIR
-        ID: 0
-        #commands: [open= ]
-      #6
-      "21":
-        material: AIR
-        ID: 0
-        #commands: [open= ]
-      
-      #7
-      "28":
-        material: AIR
-        ID: 0
-        #commands: [open= ]
-      #8
-      "29":
-        material: AIR
-        ID: 0
-        #commands: [open= ]
-      #9
-      "30":
-        material: AIR
-        ID: 0
-        #commands: [open= ]
-
-      #FIn
-      "24":
-        material: MONSTER_EGG
-        ID: 96
-        #commands: [open= ]
-
-#-----------------------------------------------------------------------------------------#
-
-  copyation:
-    perm: default
-    rows: "6"
-    title: "Crafting Recipes "
-    empty: AIR
-    item:
-      "0":
-        material: STAINED_GLASS_PANE
-        ID: 15
-        name: "&f"
-        duplicate: "1-9,17-18,26-27,35-44"
-      
-      "14":
-        material: STAINED_GLASS_PANE
-        ID: 11
-        duplicate: 14-16,23,25,32-34
- 
-      "13":
-        material: WEB
-        ID: 0
-        #name: "&f&lType shaped recipe"
-        #name: "&f&lType shapeless recipe"
-        enchanted:
-          - true
-
-      "31":
-        material: STAINED_GLASS_PANE
-        ID: 15
-
-      "22":
-        material: WORKBENCH
-        ID: 0
-        lore:
-          - "&8&oweareinspace only"
-
-      #1
-      "10":
-        material: AIR
-        ID: 0
-        #commands: [open= ]
-      #2
-      "11":
-        material: AIR
-        ID: 0
-        #commands: [open= ]
-      #3
-      "12":
-        material: AIR
-        ID: 0
-        #commands: [open= ]
-
-      #4
-      "19":
-        material: AIR
-        ID: 0
-        #commands: [open= ]
-      #5
-      "20":
-        material: AIR
-        ID: 0
-        #commands: [open= ]
-      #6
-      "21":
-        material: AIR
-        ID: 0
-        #commands: [open= ]
-      
-      #7
-      "28":
-        material: AIR
-        ID: 0
-        #commands: [open= ]
-      #8
-      "29":
-        material: AIR
-        ID: 0
-        #commands: [open= ]
-      #9
-      "30":
-        material: AIR
-        ID: 0
-        #commands: [open= ]
-
-      #FIn
-      "24":
-        material: MONSTER_EGG
-        ID: 96
-        #commands: [open= ]
-
-#-----------------------------------------------------------------------------------------#
-
-  copyation:
-    perm: default
-    rows: "6"
-    title: "Crafting Recipes "
-    empty: AIR
-    item:
-      "0":
-        material: STAINED_GLASS_PANE
-        ID: 15
-        name: "&f"
-        duplicate: "1-9,17-18,26-27,35-44"
-      
-      "14":
-        material: STAINED_GLASS_PANE
-        ID: 11
-        duplicate: 14-16,23,25,32-34
- 
-      "13":
-        material: WEB
-        ID: 0
-        #name: "&f&lType shaped recipe"
-        #name: "&f&lType shapeless recipe"
-        enchanted:
-          - true
-
-      "31":
-        material: STAINED_GLASS_PANE
-        ID: 15
-
-      "22":
-        material: WORKBENCH
-        ID: 0
-        lore:
-          - "&8&oweareinspace only"
-
-      #1
-      "10":
-        material: AIR
-        ID: 0
-        #commands: [open= ]
-      #2
-      "11":
-        material: AIR
-        ID: 0
-        #commands: [open= ]
-      #3
-      "12":
-        material: AIR
-        ID: 0
-        #commands: [open= ]
-
-      #4
-      "19":
-        material: AIR
-        ID: 0
-        #commands: [open= ]
-      #5
-      "20":
-        material: AIR
-        ID: 0
-        #commands: [open= ]
-      #6
-      "21":
-        material: AIR
-        ID: 0
-        #commands: [open= ]
-      
-      #7
-      "28":
-        material: AIR
-        ID: 0
-        #commands: [open= ]
-      #8
-      "29":
-        material: AIR
-        ID: 0
-        #commands: [open= ]
-      #9
-      "30":
-        material: AIR
-        ID: 0
-        #commands: [open= ]
-
-      #FIn
-      "24":
-        material: MONSTER_EGG
-        ID: 96
-        #commands: [open= ]
-
-#-----------------------------------------------------------------------------------------#
-
-  copyation:
-    perm: default
-    rows: "6"
-    title: "Crafting Recipes "
-    empty: AIR
-    item:
-      "0":
-        material: STAINED_GLASS_PANE
-        ID: 15
-        name: "&f"
-        duplicate: "1-9,17-18,26-27,35-44"
-      
-      "14":
-        material: STAINED_GLASS_PANE
-        ID: 11
-        duplicate: 14-16,23,25,32-34
- 
-      "13":
-        material: WEB
-        ID: 0
-        #name: "&f&lType shaped recipe"
-        #name: "&f&lType shapeless recipe"
-        enchanted:
-          - true
-
-      "31":
-        material: STAINED_GLASS_PANE
-        ID: 15
-
-      "22":
-        material: WORKBENCH
-        ID: 0
-        lore:
-          - "&8&oweareinspace only"
-
-      #1
-      "10":
-        material: AIR
-        ID: 0
-        #commands: [open= ]
-      #2
-      "11":
-        material: AIR
-        ID: 0
-        #commands: [open= ]
-      #3
-      "12":
-        material: AIR
-        ID: 0
-        #commands: [open= ]
-
-      #4
-      "19":
-        material: AIR
-        ID: 0
-        #commands: [open= ]
-      #5
-      "20":
-        material: AIR
-        ID: 0
-        #commands: [open= ]
-      #6
-      "21":
-        material: AIR
-        ID: 0
-        #commands: [open= ]
-      
-      #7
-      "28":
-        material: AIR
-        ID: 0
-        #commands: [open= ]
-      #8
-      "29":
-        material: AIR
-        ID: 0
-        #commands: [open= ]
-      #9
-      "30":
-        material: AIR
-        ID: 0
-        #commands: [open= ]
-
-      #FIn
-      "24":
-        material: MONSTER_EGG
-        ID: 96
-        #commands: [open= ]
-
-#-----------------------------------------------------------------------------------------#
-
-  copyation:
-    perm: default
-    rows: "6"
-    title: "Crafting Recipes "
-    empty: AIR
-    item:
-      "0":
-        material: STAINED_GLASS_PANE
-        ID: 15
-        name: "&f"
-        duplicate: "1-9,17-18,26-27,35-44"
-      
-      "14":
-        material: STAINED_GLASS_PANE
-        ID: 11
-        duplicate: 14-16,23,25,32-34
- 
-      "13":
-        material: WEB
-        ID: 0
-        #name: "&f&lType shaped recipe"
-        #name: "&f&lType shapeless recipe"
-        enchanted:
-          - true
-
-      "31":
-        material: STAINED_GLASS_PANE
-        ID: 15
-
-      "22":
-        material: WORKBENCH
-        ID: 0
-        lore:
-          - "&8&oweareinspace only"
-
-      #1
-      "10":
-        material: AIR
-        ID: 0
-        #commands: [open= ]
-      #2
-      "11":
-        material: AIR
-        ID: 0
-        #commands: [open= ]
-      #3
-      "12":
-        material: AIR
-        ID: 0
-        #commands: [open= ]
-
-      #4
-      "19":
-        material: AIR
-        ID: 0
-        #commands: [open= ]
-      #5
-      "20":
-        material: AIR
-        ID: 0
-        #commands: [open= ]
-      #6
-      "21":
-        material: AIR
-        ID: 0
-        #commands: [open= ]
-      
-      #7
-      "28":
-        material: AIR
-        ID: 0
-        #commands: [open= ]
-      #8
-      "29":
-        material: AIR
-        ID: 0
-        #commands: [open= ]
-      #9
-      "30":
-        material: AIR
-        ID: 0
-        #commands: [open= ]
-
-      #FIn
-      "24":
-        material: MONSTER_EGG
-        ID: 96
-        #commands: [open= ]
-
-#-----------------------------------------------------------------------------------------#
-
-  copyation:
-    perm: default
-    rows: "6"
-    title: "Crafting Recipes "
-    empty: AIR
-    item:
-      "0":
-        material: STAINED_GLASS_PANE
-        ID: 15
-        name: "&f"
-        duplicate: "1-9,17-18,26-27,35-44"
-      
-      "14":
-        material: STAINED_GLASS_PANE
-        ID: 11
-        duplicate: 14-16,23,25,32-34
- 
-      "13":
-        material: WEB
-        ID: 0
-        #name: "&f&lType shaped recipe"
-        #name: "&f&lType shapeless recipe"
-        enchanted:
-          - true
-
-      "31":
-        material: STAINED_GLASS_PANE
-        ID: 15
-
-      "22":
-        material: WORKBENCH
-        ID: 0
-        lore:
-          - "&8&oweareinspace only"
-
-      #1
-      "10":
-        material: AIR
-        ID: 0
-        #commands: [open= ]
-      #2
-      "11":
-        material: AIR
-        ID: 0
-        #commands: [open= ]
-      #3
-      "12":
-        material: AIR
-        ID: 0
-        #commands: [open= ]
-
-      #4
-      "19":
-        material: AIR
-        ID: 0
-        #commands: [open= ]
-      #5
-      "20":
-        material: AIR
-        ID: 0
-        #commands: [open= ]
-      #6
-      "21":
-        material: AIR
-        ID: 0
-        #commands: [open= ]
-      
-      #7
-      "28":
-        material: AIR
-        ID: 0
-        #commands: [open= ]
-      #8
-      "29":
-        material: AIR
-        ID: 0
-        #commands: [open= ]
-      #9
-      "30":
-        material: AIR
-        ID: 0
-        #commands: [open= ]
-
-      #FIn
-      "24":
-        material: MONSTER_EGG
-        ID: 96
-        #commands: [open= ]
-
-#-----------------------------------------------------------------------------------------#
-
-  copyation:
-    perm: default
-    rows: "6"
-    title: "Crafting Recipes "
-    empty: AIR
-    item:
-      "0":
-        material: STAINED_GLASS_PANE
-        ID: 15
-        name: "&f"
-        duplicate: "1-9,17-18,26-27,35-44"
-      
-      "14":
-        material: STAINED_GLASS_PANE
-        ID: 11
-        duplicate: 14-16,23,25,32-34
- 
-      "13":
-        material: WEB
-        ID: 0
-        #name: "&f&lType shaped recipe"
-        #name: "&f&lType shapeless recipe"
-        enchanted:
-          - true
-
-      "31":
-        material: STAINED_GLASS_PANE
-        ID: 15
-
-      "22":
-        material: WORKBENCH
-        ID: 0
-        lore:
-          - "&8&oweareinspace only"
-
-      #1
-      "10":
-        material: AIR
-        ID: 0
-        #commands: [open= ]
-      #2
-      "11":
-        material: AIR
-        ID: 0
-        #commands: [open= ]
-      #3
-      "12":
-        material: AIR
-        ID: 0
-        #commands: [open= ]
-
-      #4
-      "19":
-        material: AIR
-        ID: 0
-        #commands: [open= ]
-      #5
-      "20":
-        material: AIR
-        ID: 0
-        #commands: [open= ]
-      #6
-      "21":
-        material: AIR
-        ID: 0
-        #commands: [open= ]
-      
-      #7
-      "28":
-        material: AIR
-        ID: 0
-        #commands: [open= ]
-      #8
-      "29":
-        material: AIR
-        ID: 0
-        #commands: [open= ]
-      #9
-      "30":
-        material: AIR
-        ID: 0
-        #commands: [open= ]
-
-      #FIn
-      "24":
-        material: MONSTER_EGG
-        ID: 96
-        #commands: [open= ]
-
-#-----------------------------------------------------------------------------------------#
-
-  copyation:
-    perm: default
-    rows: "6"
-    title: "Crafting Recipes "
-    empty: AIR
-    item:
-      "0":
-        material: STAINED_GLASS_PANE
-        ID: 15
-        name: "&f"
-        duplicate: "1-9,17-18,26-27,35-44"
-      
-      "14":
-        material: STAINED_GLASS_PANE
-        ID: 11
-        duplicate: 14-16,23,25,32-34
- 
-      "13":
-        material: WEB
-        ID: 0
-        #name: "&f&lType shaped recipe"
-        #name: "&f&lType shapeless recipe"
-        enchanted:
-          - true
-
-      "31":
-        material: STAINED_GLASS_PANE
-        ID: 15
-
-      "22":
-        material: WORKBENCH
-        ID: 0
-        lore:
-          - "&8&oweareinspace only"
-
-      #1
-      "10":
-        material: AIR
-        ID: 0
-        #commands: [open= ]
-      #2
-      "11":
-        material: AIR
-        ID: 0
-        #commands: [open= ]
-      #3
-      "12":
-        material: AIR
-        ID: 0
-        #commands: [open= ]
-
-      #4
-      "19":
-        material: AIR
-        ID: 0
-        #commands: [open= ]
-      #5
-      "20":
-        material: AIR
-        ID: 0
-        #commands: [open= ]
-      #6
-      "21":
-        material: AIR
-        ID: 0
-        #commands: [open= ]
-      
-      #7
-      "28":
-        material: AIR
-        ID: 0
-        #commands: [open= ]
-      #8
-      "29":
-        material: AIR
-        ID: 0
-        #commands: [open= ]
-      #9
-      "30":
-        material: AIR
-        ID: 0
-        #commands: [open= ]
-
-      #FIn
-      "24":
-        material: MONSTER_EGG
-        ID: 96
-        #commands: [open= ]
-
-#-----------------------------------------------------------------------------------------#
-
-  copyation:
-    perm: default
-    rows: "6"
-    title: "Crafting Recipes "
-    empty: AIR
-    item:
-      "0":
-        material: STAINED_GLASS_PANE
-        ID: 15
-        name: "&f"
-        duplicate: "1-9,17-18,26-27,35-44"
-      
-      "14":
-        material: STAINED_GLASS_PANE
-        ID: 11
-        duplicate: 14-16,23,25,32-34
- 
-      "13":
-        material: WEB
-        ID: 0
-        #name: "&f&lType shaped recipe"
-        #name: "&f&lType shapeless recipe"
-        enchanted:
-          - true
-
-      "31":
-        material: STAINED_GLASS_PANE
-        ID: 15
-
-      "22":
-        material: WORKBENCH
-        ID: 0
-        lore:
-          - "&8&oweareinspace only"
-
-      #1
-      "10":
-        material: AIR
-        ID: 0
-        #commands: [open= ]
-      #2
-      "11":
-        material: AIR
-        ID: 0
-        #commands: [open= ]
-      #3
-      "12":
-        material: AIR
-        ID: 0
-        #commands: [open= ]
-
-      #4
-      "19":
-        material: AIR
-        ID: 0
-        #commands: [open= ]
-      #5
-      "20":
-        material: AIR
-        ID: 0
-        #commands: [open= ]
-      #6
-      "21":
-        material: AIR
-        ID: 0
-        #commands: [open= ]
-      
-      #7
-      "28":
-        material: AIR
-        ID: 0
-        #commands: [open= ]
-      #8
-      "29":
-        material: AIR
-        ID: 0
-        #commands: [open= ]
-      #9
-      "30":
-        material: AIR
-        ID: 0
-        #commands: [open= ]
-
-      #FIn
-      "24":
-        material: MONSTER_EGG
-        ID: 96
-        #commands: [open= ]
-
-#-----------------------------------------------------------------------------------------#
-
-  copyation:
-    perm: default
-    rows: "6"
-    title: "Crafting Recipes "
-    empty: AIR
-    item:
-      "0":
-        material: STAINED_GLASS_PANE
-        ID: 15
-        name: "&f"
-        duplicate: "1-9,17-18,26-27,35-44"
-      
-      "14":
-        material: STAINED_GLASS_PANE
-        ID: 11
-        duplicate: 14-16,23,25,32-34
- 
-      "13":
-        material: WEB
-        ID: 0
-        #name: "&f&lType shaped recipe"
-        #name: "&f&lType shapeless recipe"
-        enchanted:
-          - true
-
-      "31":
-        material: STAINED_GLASS_PANE
-        ID: 15
-
-      "22":
-        material: WORKBENCH
-        ID: 0
-        lore:
-          - "&8&oweareinspace only"
-
-      #1
-      "10":
-        material: AIR
-        ID: 0
-        #commands: [open= ]
-      #2
-      "11":
-        material: AIR
-        ID: 0
-        #commands: [open= ]
-      #3
-      "12":
-        material: AIR
-        ID: 0
-        #commands: [open= ]
-
-      #4
-      "19":
-        material: AIR
-        ID: 0
-        #commands: [open= ]
-      #5
-      "20":
-        material: AIR
-        ID: 0
-        #commands: [open= ]
-      #6
-      "21":
-        material: AIR
-        ID: 0
-        #commands: [open= ]
-      
-      #7
-      "28":
-        material: AIR
-        ID: 0
-        #commands: [open= ]
-      #8
-      "29":
-        material: AIR
-        ID: 0
-        #commands: [open= ]
-      #9
-      "30":
-        material: AIR
-        ID: 0
-        #commands: [open= ]
-
-      #FIn
-      "24":
-        material: MONSTER_EGG
-        ID: 96
-        #commands: [open= ]
-
-#-----------------------------------------------------------------------------------------#
-
-  copyation:
-    perm: default
-    rows: "6"
-    title: "Crafting Recipes "
-    empty: AIR
-    item:
-      "0":
-        material: STAINED_GLASS_PANE
-        ID: 15
-        name: "&f"
-        duplicate: "1-9,17-18,26-27,35-44"
-      
-      "14":
-        material: STAINED_GLASS_PANE
-        ID: 11
-        duplicate: 14-16,23,25,32-34
- 
-      "13":
-        material: WEB
-        ID: 0
-        #name: "&f&lType shaped recipe"
-        #name: "&f&lType shapeless recipe"
-        enchanted:
-          - true
-
-      "31":
-        material: STAINED_GLASS_PANE
-        ID: 15
-
-      "22":
-        material: WORKBENCH
-        ID: 0
-        lore:
-          - "&8&oweareinspace only"
-
-      #1
-      "10":
-        material: AIR
-        ID: 0
-        #commands: [open= ]
-      #2
-      "11":
-        material: AIR
-        ID: 0
-        #commands: [open= ]
-      #3
-      "12":
-        material: AIR
-        ID: 0
-        #commands: [open= ]
-
-      #4
-      "19":
-        material: AIR
-        ID: 0
-        #commands: [open= ]
-      #5
-      "20":
-        material: AIR
-        ID: 0
-        #commands: [open= ]
-      #6
-      "21":
-        material: AIR
-        ID: 0
-        #commands: [open= ]
-      
-      #7
-      "28":
-        material: AIR
-        ID: 0
-        #commands: [open= ]
-      #8
-      "29":
-        material: AIR
-        ID: 0
-        #commands: [open= ]
-      #9
-      "30":
-        material: AIR
-        ID: 0
-        #commands: [open= ]
-
-      #FIn
-      "24":
-        material: MONSTER_EGG
-        ID: 96
-        #commands: [open= ]
-
-#-----------------------------------------------------------------------------------------#
-
-  copyation:
-    perm: default
-    rows: "6"
-    title: "Crafting Recipes "
-    empty: AIR
-    item:
-      "0":
-        material: STAINED_GLASS_PANE
-        ID: 15
-        name: "&f"
-        duplicate: "1-9,17-18,26-27,35-44"
-      
-      "14":
-        material: STAINED_GLASS_PANE
-        ID: 11
-        duplicate: 14-16,23,25,32-34
- 
-      "13":
-        material: WEB
-        ID: 0
-        #name: "&f&lType shaped recipe"
-        #name: "&f&lType shapeless recipe"
-        enchanted:
-          - true
-
-      "31":
-        material: STAINED_GLASS_PANE
-        ID: 15
-
-      "22":
-        material: WORKBENCH
-        ID: 0
-        lore:
-          - "&8&oweareinspace only"
-
-      #1
-      "10":
-        material: AIR
-        ID: 0
-        #commands: [open= ]
-      #2
-      "11":
-        material: AIR
-        ID: 0
-        #commands: [open= ]
-      #3
-      "12":
-        material: AIR
-        ID: 0
-        #commands: [open= ]
-
-      #4
-      "19":
-        material: AIR
-        ID: 0
-        #commands: [open= ]
-      #5
-      "20":
-        material: AIR
-        ID: 0
-        #commands: [open= ]
-      #6
-      "21":
-        material: AIR
-        ID: 0
-        #commands: [open= ]
-      
-      #7
-      "28":
-        material: AIR
-        ID: 0
-        #commands: [open= ]
-      #8
-      "29":
-        material: AIR
-        ID: 0
-        #commands: [open= ]
-      #9
-      "30":
-        material: AIR
-        ID: 0
-        #commands: [open= ]
-
-      #FIn
-      "24":
-        material: MONSTER_EGG
-        ID: 96
-        #commands: [open= ]

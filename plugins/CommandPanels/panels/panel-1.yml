@@ -1,0 +1,11 @@
+panels:
+  panel-1:
+    perm: default
+    rows: 3
+    title: '&8Generated panel-1'
+    empty: STAINED_GLASS_PANE
+    emptyID: '15'
+    item:
+      '0':
+        material: RED_ROSE
+        stack: 1

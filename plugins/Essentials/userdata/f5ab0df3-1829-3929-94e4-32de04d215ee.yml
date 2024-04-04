@@ -16,18 +16,18 @@ timestamps:
   mute: 0
   jail: 0
   onlinejail: 0
-  logout: 1712158096382
-  login: 1712155629995
+  logout: 1712222200951
+  login: 1712221219450
 money: '0'
 last-account-name: Gornny
 logoutlocation:
   world: d89f5d61-e934-4822-bc14-49eeee159e62
   world-name: world
-  x: -58.43857947522851
-  y: 101.0
-  z: -140.68979956774444
-  yaw: 92.26901245117188
-  pitch: 32.70001220703125
+  x: 1.207142988046049
+  y: 104.0
+  z: -123.81087605145758
+  yaw: 169.82118225097656
+  pitch: 8.850001335144043
 lastlocation:
   world: d89f5d61-e934-4822-bc14-49eeee159e62
   world-name: world
