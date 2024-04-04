@@ -1,0 +1,17 @@
+# Config of Conversation, the best tool to create conversations
+# Dev by SuperMax_8 : https://www.spigotmc.org/members/supermax_8.479560/
+
+# The mode send of instructions messages like shiftToEndMessage
+# Can be : CHAT, ACTIONBAR, TITLE
+indicationMessageMode: actionbar
+# You can use color here
+shiftToEndMessage: '&7กดปุ่ม Shift เพื่อจบบทสนทนา'
+movementChoiceTextStepGuideMessage: '&eกดปุ่ม W หรือปุ่ม S เพื่อเลือกบทสนทนา'
+
+hoverMessage: '&7คลิกเพื่อเลือกบทสนทนา'
+
+# DebugMode, show java errors in console, useful if you want to come on the discord for support
+debugMode: false
+
+# Will send a message in the console or to an op player if the plugin can be updated
+updateNotifier: true

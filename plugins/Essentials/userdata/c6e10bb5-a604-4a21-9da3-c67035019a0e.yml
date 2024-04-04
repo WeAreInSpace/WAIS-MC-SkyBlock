@@ -1,0 +1,50 @@
+teleportenabled: true
+teleportauto: false
+godmode: false
+muted: false
+jailed: false
+ip-address: 58.9.110.0
+afk: false
+socialspy: false
+npc: false
+powertoolsenabled: true
+accepting-pay: true
+baltop-exempt: false
+timestamps:
+  lastteleport: 1710135242134
+  lastheal: 0
+  mute: 0
+  jail: 0
+  onlinejail: 0
+  logout: 1710575809016
+  login: 1710575377058
+money: '1476.0'
+last-account-name: Gornny
+logoutlocation:
+  world: d89f5d61-e934-4822-bc14-49eeee159e62
+  world-name: world
+  x: -26.991186722093474
+  y: 102.0
+  z: -135.60037851015835
+  yaw: 186.02261352539062
+  pitch: 32.099952697753906
+lastlocation:
+  world: 13352691-27fb-4330-a4dc-05371cf7d8b1
+  world-name: SuperiorWorld
+  x: 600.4358853848189
+  y: 100.0
+  z: 0.22161586797854785
+  yaw: 91.677490234375
+  pitch: 23.249954223632812
+powertools:
+  compass:
+  - stp
+homes:
+  home:
+    world: d89f5d61-e934-4822-bc14-49eeee159e62
+    world-name: world
+    x: -0.5239097221678966
+    y: 110.0
+    z: -10.496929673571907
+    yaw: 155.5626220703125
+    pitch: 32.999908447265625

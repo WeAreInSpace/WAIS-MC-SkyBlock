@@ -1,0 +1,735 @@
+panels:
+  MalinShop--page(1)_--amount(1):
+    perm: default
+    rows: "6"
+    title: "Malin's &2food shop"
+    empty: AIR
+    item:
+      "0":
+        material: stained_glass_pane
+        ID: 15
+        name: "&f"
+      "1":
+        material: stained_glass_pane
+        ID: 15
+        name: "&f"
+      "2":
+        material: stained_glass_pane
+        ID: 15
+        name: "&f"
+      "4":
+        material: stained_glass_pane
+        ID: 15
+        name: "&f"
+      "6":
+        material: stained_glass_pane
+        ID: 15
+        name: "&f"
+      "7":
+        material: stained_glass_pane
+        ID: 15
+        name: "&f"
+      "9":
+        material: stained_glass_pane
+        ID: 15
+        name: "&f"
+      "17":
+        material: stained_glass_pane
+        ID: 15
+        name: "&f"
+      "18":
+        material: stained_glass_pane
+        ID: 15
+        name: "&f"
+      "26":
+        material: stained_glass_pane
+        ID: 15
+        name: "&f"
+      "27":
+        material: stained_glass_pane
+        ID: 15
+        name: "&f"
+      "35":
+        material: stained_glass_pane
+        ID: 15
+        name: "&f"
+      "36":
+        material: stained_glass_pane
+        ID: 15
+        name: "&f"
+      "44":
+        material: stained_glass_pane
+        ID: 15
+        name: "&f"
+      "45":
+        material: stained_glass_pane
+        ID: 15
+        name: "&f"
+      "46":
+        material: stained_glass_pane
+        ID: 15
+        name: "&f"
+      "47":
+        material: stained_glass_pane
+        ID: 15
+        name: "&f"
+      "48":
+        material: stained_glass_pane
+        ID: 15
+        name: "&f"
+      "49":
+        material: stained_glass_pane
+        ID: 15
+        name: "&f"
+      "50":
+        material: stained_glass_pane
+        ID: 15
+        name: "&f"
+      "51":
+        material: stained_glass_pane
+        ID: 15
+        name: "&f"
+      "52":
+        material: stained_glass_pane
+        ID: 15
+        name: "&f"
+      "53":
+        material: stained_glass_pane
+        ID: 15
+        name: "&f"
+      
+      "19":
+        material: APPLE
+        lore:
+          - "&b&lPrice &a10 &6&lWAIS Coin"
+          - "&dClick to buy"
+          - "&fAmount 1"
+          - "&f&oWe Are In Space"
+        commands:
+          - buy= 10 APPLE 1
+      "20":
+        material: GOLDEN_APPLE
+        lore:
+          - "&b&lPrice &a100 &6&lWAIS Coin"
+          - "&dClick to buy"
+          - "&fAmount 1"
+          - "&f&oWe Are In Space"
+        commands:
+          - buy= 100 GOLDEN_APPLE 1
+      "21":
+        material: GOLDEN_APPLE
+        lore:
+          - "&b&lPrice &a750 &6&lWAIS Coin"
+          - "&dClick to buy"
+          - "&fAmount 1"
+          - "&f&oWe Are In Space"
+        commands:
+          - buy= 750 GOLDEN_APPLE 1 id:1
+        ID: 1
+      "22":
+        material: MELON
+        lore:
+          - "&b&lPrice &a10 &6&lWAIS Coin"
+          - "&dClick to buy"
+          - "&fAmount 1"
+          - "&f&oWe Are In Space"
+        commands:
+          - buy= 10 MELON 1
+      "23":
+        material: CHORUS_FRUIT
+        lore:
+          - "&b&lPrice &a20 &6&lWAIS Coin"
+          - "&dClick to buy"
+          - "&fAmount 1"
+          - "&f&oWe Are In Space"
+        commands:
+          - buy= 20 CHORUS_FRUIT 1
+      "24":
+        material: GOLDEN_CARROT
+        lore:
+          - "&b&lPrice &a80 &6&lWAIS Coin"
+          - "&dClick to buy"
+          - "&fAmount 1"
+          - "&f&oWe Are In Space"
+        commands:
+          - buy= 80 GOLDEN_CARROT 1
+      "100":
+        material: BAKED_POTATO
+        lore:
+          - "&b&lPrice &a30 &6&lWAIS Coin"
+          - "&dClick to buy"
+          - "&fAmount 1"
+          - "&f&oWe Are In Space"
+        commands:
+          - buy= 30 BAKED_POTATO 1
+      "28":
+        material: BREAD
+        lore:
+          - "&b&lPrice &a40 &6&lWAIS Coin"
+          - "&dClick to buy"
+          - "&fAmount 1"
+          - "&f&oWe Are In Space"
+        commands:
+          - buy= 40 BREAD 1
+      "29":
+        material: COOKIE
+        lore:
+          - "&b&lPrice &a5 &6&lWAIS Coin"
+          - "&dClick to buy"
+          - "&fAmount 1"
+          - "&f&oWe Are In Space"
+        commands:
+          - buy= 5 COOKIE 1
+      "30":
+        material: CAKE
+        lore:
+          - "&b&lPrice &a230 &6&lWAIS Coin"
+          - "&dClick to buy"
+          - "&fAmount 1"
+          - "&f&oWe Are In Space"
+        commands:
+          - buy= 230 CAKE 1
+      "31":
+        material: PUMPKIN_PIE
+        lore:
+          - "&b&lPrice &a60 &6&lWAIS Coin"
+          - "&dClick to buy"
+          - "&fAmount 1"
+          - "&f&oWe Are In Space"
+        commands:
+          - buy= 60 PUMPKIN_PIE 1
+      "32":
+        material: RABBIT_STEW
+        lore:
+          - "&b&lPrice &a80 &6&lWAIS Coin"
+          - "&dClick to buy"
+          - "&fAmount 1"
+          - "&f&oWe Are In Space"
+        commands:
+          - buy= 80 RABBIT_STEW 1
+      "33":
+        material: MUSHROOM_SOUP
+        lore:
+          - "&b&lPrice &a85 &6&lWAIS Coin"
+          - "&dClick to buy"
+          - "&fAmount 1"
+          - "&f&oWe Are In Space"
+        commands:
+          - buy= 85 MUSHROOM_SOUP 1
+      "34":
+        material: BEETROOT_SOUP
+        lore:
+          - "&b&lPrice &a70 &6&lWAIS Coin"
+          - "&dClick to buy"
+          - "&fAmount 1"
+          - "&f&oWe Are In Space"
+        commands:
+          - buy= 70 BEETROOT_SOUP 1
+      
+      "3":
+        material: EMERALD
+        name: "&a&lMode: buy"
+      "5":
+        material: STAINED_GLASS_PANE
+        ID: 5
+        name: "&f&lAmount: 1"
+        commands:
+          - "open= MalinShop--page(1)_--amount(32)"
+
+      "8":
+        material: barrier
+        name: "&cClose"
+        commands:
+          - cpc
+
+
+  
+  MalinShop--page(1)_--amount(32):
+    perm: default
+    rows: "6"
+    title: "Malin's &2food shop"
+    empty: AIR
+    item:
+      "0":
+        material: stained_glass_pane
+        ID: 15
+        name: "&f"
+      "1":
+        material: stained_glass_pane
+        ID: 15
+        name: "&f"
+      "2":
+        material: stained_glass_pane
+        ID: 15
+        name: "&f"
+      "4":
+        material: stained_glass_pane
+        ID: 15
+        name: "&f"
+      "6":
+        material: stained_glass_pane
+        ID: 15
+        name: "&f"
+      "7":
+        material: stained_glass_pane
+        ID: 15
+        name: "&f"
+      "9":
+        material: stained_glass_pane
+        ID: 15
+        name: "&f"
+      "17":
+        material: stained_glass_pane
+        ID: 15
+        name: "&f"
+      "18":
+        material: stained_glass_pane
+        ID: 15
+        name: "&f"
+      "26":
+        material: stained_glass_pane
+        ID: 15
+        name: "&f"
+      "27":
+        material: stained_glass_pane
+        ID: 15
+        name: "&f"
+      "35":
+        material: stained_glass_pane
+        ID: 15
+        name: "&f"
+      "36":
+        material: stained_glass_pane
+        ID: 15
+        name: "&f"
+      "44":
+        material: stained_glass_pane
+        ID: 15
+        name: "&f"
+      "45":
+        material: stained_glass_pane
+        ID: 15
+        name: "&f"
+      "46":
+        material: stained_glass_pane
+        ID: 15
+        name: "&f"
+      "47":
+        material: stained_glass_pane
+        ID: 15
+        name: "&f"
+      "48":
+        material: stained_glass_pane
+        ID: 15
+        name: "&f"
+      "49":
+        material: stained_glass_pane
+        ID: 15
+        name: "&f"
+      "50":
+        material: stained_glass_pane
+        ID: 15
+        name: "&f"
+      "51":
+        material: stained_glass_pane
+        ID: 15
+        name: "&f"
+      "52":
+        material: stained_glass_pane
+        ID: 15
+        name: "&f"
+      "53":
+        material: stained_glass_pane
+        ID: 15
+        name: "&f"
+      
+      "19":
+        material: APPLE
+        lore:
+          - "&b&lPrice &a320 &6&lWAIS Coin"
+          - "&dClick to buy"
+          - "&fAmount 32"
+          - "&f&oWe Are In Space"
+        commands:
+          - buy= 320 APPLE 32
+      "20":
+        material: GOLDEN_APPLE
+        lore:
+          - "&b&lPrice &a3200 &6&lWAIS Coin"
+          - "&dClick to buy"
+          - "&fAmount 32"
+          - "&f&oWe Are In Space"
+        commands:
+          - buy= 3200 GOLDEN_APPLE 32
+      "21":
+        material: GOLDEN_APPLE
+        lore:
+          - "&b&lPrice &a24000 &6&lWAIS Coin"
+          - "&dClick to buy"
+          - "&fAmount 32"
+          - "&f&oWe Are In Space"
+        commands:
+          - buy= 24000 GOLDEN_APPLE 32 id:1
+        ID: 1
+      "22":
+        material: MELON
+        lore:
+          - "&b&lPrice &a320 &6&lWAIS Coin"
+          - "&dClick to buy"
+          - "&fAmount 32"
+          - "&f&oWe Are In Space"
+        commands:
+          - buy= 320 MELON 32
+      "23":
+        material: CHORUS_FRUIT
+        lore:
+          - "&b&lPrice &a640 &6&lWAIS Coin"
+          - "&dClick to buy"
+          - "&fAmount 32"
+          - "&f&oWe Are In Space"
+        commands:
+          - buy= 640 CHORUS_FRUIT 32
+      "24":
+        material: GOLDEN_CARROT
+        lore:
+          - "&b&lPrice &a2560 &6&lWAIS Coin"
+          - "&dClick to buy"
+          - "&fAmount 32"
+          - "&f&oWe Are In Space"
+        commands:
+          - buy= 2560 GOLDEN_CARROT 32
+      "100":
+        material: BAKED_POTATO
+        lore:
+          - "&b&lPrice &a960 &6&lWAIS Coin"
+          - "&dClick to buy"
+          - "&fAmount 32"
+          - "&f&oWe Are In Space"
+        commands:
+          - buy= 960 BAKED_POTATO 32
+      "28":
+        material: BREAD
+        lore:
+          - "&b&lPrice &a1280 &6&lWAIS Coin"
+          - "&dClick to buy"
+          - "&fAmount 32"
+          - "&f&oWe Are In Space"
+        commands:
+          - buy= 1280 BREAD 32
+      "29":
+        material: COOKIE
+        lore:
+          - "&b&lPrice &a160 &6&lWAIS Coin"
+          - "&dClick to buy"
+          - "&fAmount 32"
+          - "&f&oWe Are In Space"
+        commands:
+          - buy= 160 COOKIE 32
+      "30":
+        material: CAKE
+        lore:
+          - "&b&lPrice &a7360 &6&lWAIS Coin"
+          - "&dClick to buy"
+          - "&fAmount 32"
+          - "&f&oWe Are In Space"
+        commands:
+          - buy= 7360 CAKE 32
+      "31":
+        material: PUMPKIN_PIE
+        lore:
+          - "&b&lPrice &a1920 &6&lWAIS Coin"
+          - "&dClick to buy"
+          - "&fAmount 32"
+          - "&f&oWe Are In Space"
+        commands:
+          - buy= 1920 PUMPKIN_PIE 32
+      "32":
+        material: RABBIT_STEW
+        lore:
+          - "&b&lPrice &a2560 &6&lWAIS Coin"
+          - "&dClick to buy"
+          - "&fAmount 32"
+          - "&f&oWe Are In Space"
+        commands:
+          - buy= 2560 RABBIT_STEW 32
+      "33":
+        material: MUSHROOM_SOUP
+        lore:
+          - "&b&lPrice &a2720 &6&lWAIS Coin"
+          - "&dClick to buy"
+          - "&fAmount 32"
+          - "&f&oWe Are In Space"
+        commands:
+          - buy= 2720 MUSHROOM_SOUP 32
+      "34":
+        material: BEETROOT_SOUP
+        lore:
+          - "&b&lPrice &a2240 &6&lWAIS Coin"
+          - "&dClick to buy"
+          - "&fAmount 32"
+          - "&f&oWe Are In Space"
+        commands:
+          - buy= 2240 BEETROOT_SOUP 32
+      
+      "3":
+        material: EMERALD
+        name: "&a&lMode: buy"
+      "5":
+        material: STAINED_GLASS_PANE
+        ID: 5
+        stack: 32
+        name: "&f&lAmount: 32"
+        commands:
+          - "open= MalinShop--page(1)_--amount(64)"
+
+      "8":
+        material: barrier
+        name: "&cClose"
+        commands:
+          - cpc
+
+
+
+  MalinShop--page(1)_--amount(64):
+    perm: default
+    rows: "6"
+    title: "Malin's &2food shop"
+    empty: AIR
+    item:
+      "0":
+        material: stained_glass_pane
+        ID: 15
+        name: "&f"
+      "1":
+        material: stained_glass_pane
+        ID: 15
+        name: "&f"
+      "2":
+        material: stained_glass_pane
+        ID: 15
+        name: "&f"
+      "4":
+        material: stained_glass_pane
+        ID: 15
+        name: "&f"
+      "6":
+        material: stained_glass_pane
+        ID: 15
+        name: "&f"
+      "7":
+        material: stained_glass_pane
+        ID: 15
+        name: "&f"
+      "9":
+        material: stained_glass_pane
+        ID: 15
+        name: "&f"
+      "17":
+        material: stained_glass_pane
+        ID: 15
+        name: "&f"
+      "18":
+        material: stained_glass_pane
+        ID: 15
+        name: "&f"
+      "26":
+        material: stained_glass_pane
+        ID: 15
+        name: "&f"
+      "27":
+        material: stained_glass_pane
+        ID: 15
+        name: "&f"
+      "35":
+        material: stained_glass_pane
+        ID: 15
+        name: "&f"
+      "36":
+        material: stained_glass_pane
+        ID: 15
+        name: "&f"
+      "44":
+        material: stained_glass_pane
+        ID: 15
+        name: "&f"
+      "45":
+        material: stained_glass_pane
+        ID: 15
+        name: "&f"
+      "46":
+        material: stained_glass_pane
+        ID: 15
+        name: "&f"
+      "47":
+        material: stained_glass_pane
+        ID: 15
+        name: "&f"
+      "48":
+        material: stained_glass_pane
+        ID: 15
+        name: "&f"
+      "49":
+        material: stained_glass_pane
+        ID: 15
+        name: "&f"
+      "50":
+        material: stained_glass_pane
+        ID: 15
+        name: "&f"
+      "51":
+        material: stained_glass_pane
+        ID: 15
+        name: "&f"
+      "52":
+        material: stained_glass_pane
+        ID: 15
+        name: "&f"
+      "53":
+        material: stained_glass_pane
+        ID: 15
+        name: "&f"
+      
+      "19":
+        material: APPLE
+        lore:
+          - "&b&lPrice &a640 &6&lWAIS Coin"
+          - "&dClick to buy"
+          - "&fAmount 64"
+          - "&f&oWe Are In Space"
+        commands:
+          - buy= 640 APPLE 64
+      "20":
+        material: GOLDEN_APPLE
+        lore:
+          - "&b&lPrice &a6400 &6&lWAIS Coin"
+          - "&dClick to buy"
+          - "&fAmount 64"
+          - "&f&oWe Are In Space"
+        commands:
+          - buy= 6400 GOLDEN_APPLE 64
+      "21":
+        material: GOLDEN_APPLE
+        lore:
+          - "&b&lPrice &a48000 &6&lWAIS Coin"
+          - "&dClick to buy"
+          - "&fAmount 64"
+          - "&f&oWe Are In Space"
+        commands:
+          - buy= 48000 GOLDEN_APPLE 64 id:1
+        ID: 1
+      "22":
+        material: MELON
+        lore:
+          - "&b&lPrice &a640 &6&lWAIS Coin"
+          - "&dClick to buy"
+          - "&fAmount 64"
+          - "&f&oWe Are In Space"
+        commands:
+          - buy= 640 MELON 64
+      "23":
+        material: CHORUS_FRUIT
+        lore:
+          - "&b&lPrice &a1280 &6&lWAIS Coin"
+          - "&dClick to buy"
+          - "&fAmount 64"
+          - "&f&oWe Are In Space"
+        commands:
+          - buy= 1280 CHORUS_FRUIT 64
+      "24":
+        material: GOLDEN_CARROT
+        lore:
+          - "&b&lPrice &a5120 &6&lWAIS Coin"
+          - "&dClick to buy"
+          - "&fAmount 64"
+          - "&f&oWe Are In Space"
+        commands:
+          - buy= 5120 GOLDEN_CARROT 64
+      "100":
+        material: BAKED_POTATO
+        lore:
+          - "&b&lPrice &a1920 &6&lWAIS Coin"
+          - "&dClick to buy"
+          - "&fAmount 64"
+          - "&f&oWe Are In Space"
+        commands:
+          - buy= 1920 BAKED_POTATO 64
+      "28":
+        material: BREAD
+        lore:
+          - "&b&lPrice &a2560 &6&lWAIS Coin"
+          - "&dClick to buy"
+          - "&fAmount 64"
+          - "&f&oWe Are In Space"
+        commands:
+          - buy= 2560 BREAD 64
+      "29":
+        material: COOKIE
+        lore:
+          - "&b&lPrice &a320 &6&lWAIS Coin"
+          - "&dClick to buy"
+          - "&fAmount 64"
+          - "&f&oWe Are In Space"
+        commands:
+          - buy= 320 COOKIE 64
+      "30":
+        material: CAKE
+        lore:
+          - "&b&lPrice &a14720 &6&lWAIS Coin"
+          - "&dClick to buy"
+          - "&fAmount 64"
+          - "&f&oWe Are In Space"
+        commands:
+          - buy= 14720 CAKE 64
+      "31":
+        material: PUMPKIN_PIE
+        lore:
+          - "&b&lPrice &a3840 &6&lWAIS Coin"
+          - "&dClick to buy"
+          - "&fAmount 64"
+          - "&f&oWe Are In Space"
+        commands:
+          - buy= 3840 PUMPKIN_PIE 64
+      "32":
+        material: RABBIT_STEW
+        lore:
+          - "&b&lPrice &a5120 &6&lWAIS Coin"
+          - "&dClick to buy"
+          - "&fAmount 64"
+          - "&f&oWe Are In Space"
+        commands:
+          - buy= 5120 RABBIT_STEW 64
+      "33":
+        material: MUSHROOM_SOUP
+        lore:
+          - "&b&lPrice &a5440 &6&lWAIS Coin"
+          - "&dClick to buy"
+          - "&fAmount 64"
+          - "&f&oWe Are In Space"
+        commands:
+          - buy= 5440 MUSHROOM_SOUP 64
+      "34":
+        material: BEETROOT_SOUP
+        lore:
+          - "&b&lPrice &a4480 &6&lWAIS Coin"
+          - "&dClick to buy"
+          - "&fAmount 64"
+          - "&f&oWe Are In Space"
+        commands:
+          - buy= 4480 BEETROOT_SOUP 64
+      
+      "3":
+        material: EMERALD
+        name: "&a&lMode: buy"
+      "5":
+        material: STAINED_GLASS_PANE
+        ID: 5
+        stack: 64
+        name: "&f&lAmount: 64"
+        commands:
+          - "open= MalinShop--page(1)_--amount(1)"
+
+      "8":
+        material: barrier
+        name: "&cClose"
+        commands:
+          - cpc

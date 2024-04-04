@@ -1,0 +1,24 @@
+display:
+  name: "&fแอ็คหว่ะ (axe)"
+  lore-normal:
+    - ""
+    - "  &dคราฟขวานเหล็ก 1 อัน  "
+  lore-started:
+    - ""
+    - "  &6ความคืบหน้า &f{iron-axe:progress}&7/1  "
+  type: IRON_AXE
+tasks:
+  iron-axe:
+    type: "crafting"
+    item: IRON_AXE
+    amount: 1
+    data: 0
+placeholders:
+  quest: "&6แอ็คหว่ะ (axe)"
+  description: "&aคราฟขวานเหล็ก 1 อัน"
+  progress: " &7 - &f{iron-axe:progress}&7/1"
+options:
+  category: "gettingstarted"
+  sort-order: 9
+rewardstring:
+  - "&eใช่ นี่แหละที่ขวานเหล็ก"

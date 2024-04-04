@@ -1,0 +1,38 @@
+teleportenabled: true
+teleportauto: false
+godmode: false
+muted: false
+jailed: false
+ip-address: 58.9.110.1
+afk: false
+socialspy: false
+npc: false
+powertoolsenabled: true
+accepting-pay: true
+baltop-exempt: false
+timestamps:
+  lastteleport: 1702444755013
+  lastheal: 0
+  mute: 0
+  jail: 0
+  onlinejail: 0
+  logout: 1702528909701
+  login: 1702527401627
+money: '0'
+last-account-name: .Namsing_nahee
+logoutlocation:
+  world: d89f5d61-e934-4822-bc14-49eeee159e62
+  world-name: world
+  x: -132.19151
+  y: 74.75365
+  z: 135.72302
+  yaw: -167.6504669189453
+  pitch: -24.650909423828125
+lastlocation:
+  world: d89f5d61-e934-4822-bc14-49eeee159e62
+  world-name: world
+  x: 123.10341
+  y: 121.22652
+  z: -259.37698
+  yaw: 58.74772644042969
+  pitch: -32.32371520996094

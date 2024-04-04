@@ -1,0 +1,638 @@
+WATER_BUCKET:
+  ==: org.bukkit.inventory.ItemStack
+  type: WATER_BUCKET
+LEAVES:
+  ==: org.bukkit.inventory.ItemStack
+  type: LEAVES
+BUCKET:
+  ==: org.bukkit.inventory.ItemStack
+  type: BUCKET
+SAPLING:
+  ==: org.bukkit.inventory.ItemStack
+  type: SAPLING
+LEAVES1:
+  ==: org.bukkit.inventory.ItemStack
+  type: LEAVES
+  damage: 1
+SAPLING1:
+  ==: org.bukkit.inventory.ItemStack
+  type: SAPLING
+  damage: 1
+LEAVES2:
+  ==: org.bukkit.inventory.ItemStack
+  type: LEAVES
+  damage: 2
+SAPLING2:
+  ==: org.bukkit.inventory.ItemStack
+  type: SAPLING
+  damage: 2
+LEAVES3:
+  ==: org.bukkit.inventory.ItemStack
+  type: LEAVES
+  damage: 3
+SAPLING3:
+  ==: org.bukkit.inventory.ItemStack
+  type: SAPLING
+  damage: 3
+LEAVES_2:
+  ==: org.bukkit.inventory.ItemStack
+  type: LEAVES_2
+SAPLING4:
+  ==: org.bukkit.inventory.ItemStack
+  type: SAPLING
+  damage: 4
+LEAVES_21:
+  ==: org.bukkit.inventory.ItemStack
+  type: LEAVES_2
+  damage: 1
+SAPLING5:
+  ==: org.bukkit.inventory.ItemStack
+  type: SAPLING
+  damage: 5
+§dHeart stone §aPower 10:
+  ==: org.bukkit.inventory.ItemStack
+  type: SKULL_ITEM
+  damage: 3
+  meta:
+    ==: ItemMeta
+    meta-type: SKULL
+    display-name: §dHeart stone §aPower 10
+    lore:
+    - §fคุณสามรถใช้มันคราฟ
+    - §f - หมวกในตำนาน
+    - §f - ชุดเกราะในตำนาน
+    - §f - กางเกงในตำนาน
+    - §f - รองเท้าในตำนาน
+    enchants:
+      ARROW_DAMAGE: 10
+    internal: H4sIAAAAAAAA/02PzU6DQBSFryYmlbjxHdw2GVugYuKisWqZdNBS/mZ2A1xahqE2FAz0uXxA2527c/Kdb3EMAAPuNlWn9VfzXZQaR3Dt5vCApjOz8iIfS2mSsWmll5TiuJgUM7vATDpPpgHGWTpg05Z4vIVRi33bNXg0AOBqBDeR1B3CLw6UiGRH8oTqbHDtcw82RH+66jBz99GQvrq2W5/5cm6vBuff1mplbGk+pTuxX3dpHZHV1Ne49B+zOvxhwXbwVNV7i7nFT/zkBdkgFOt5/F6xgGpvQWsRU80nIeHqbcpOkWIqJN6H0GziV0LxngeMiNjfeYs1YXFUiZI6RUJeLg/gvmyxbuX2+aBlhjLVCPAHXFFKSjEBAAA=
+COBBLESTONE:
+  ==: org.bukkit.inventory.ItemStack
+  type: COBBLESTONE
+DIAMOND:
+  ==: org.bukkit.inventory.ItemStack
+  type: DIAMOND
+§dหมวกในตำนาน:
+  ==: org.bukkit.inventory.ItemStack
+  type: LEATHER_HELMET
+  meta:
+    ==: ItemMeta
+    meta-type: LEATHER_ARMOR
+    display-name: §dหมวกในตำนาน
+    enchants:
+      PROTECTION_ENVIRONMENTAL: 8
+      WATER_WORKER: 4
+      THORNS: 5
+      DURABILITY: 255
+      MENDING: 1
+    Unbreakable: true
+    color:
+      ==: Color
+      RED: 138
+      BLUE: 226
+      GREEN: 43
+DIAMOND_HELMET:
+  ==: org.bukkit.inventory.ItemStack
+  type: DIAMOND_HELMET
+§dชุดเกราะในตำนาน:
+  ==: org.bukkit.inventory.ItemStack
+  type: LEATHER_CHESTPLATE
+  meta:
+    ==: ItemMeta
+    meta-type: LEATHER_ARMOR
+    display-name: §dชุดเกราะในตำนาน
+    enchants:
+      PROTECTION_ENVIRONMENTAL: 8
+      THORNS: 5
+      DURABILITY: 255
+      MENDING: 1
+    Unbreakable: true
+    color:
+      ==: Color
+      RED: 138
+      BLUE: 226
+      GREEN: 43
+DIAMOND_CHESTPLATE:
+  ==: org.bukkit.inventory.ItemStack
+  type: DIAMOND_CHESTPLATE
+§dกางเกงในตำนาน:
+  ==: org.bukkit.inventory.ItemStack
+  type: LEATHER_LEGGINGS
+  meta:
+    ==: ItemMeta
+    meta-type: LEATHER_ARMOR
+    display-name: §dกางเกงในตำนาน
+    enchants:
+      PROTECTION_ENVIRONMENTAL: 8
+      THORNS: 5
+      DURABILITY: 255
+      MENDING: 1
+    Unbreakable: true
+    color:
+      ==: Color
+      RED: 138
+      BLUE: 226
+      GREEN: 43
+DIAMOND_LEGGINGS:
+  ==: org.bukkit.inventory.ItemStack
+  type: DIAMOND_LEGGINGS
+DIAMOND_BOOTS:
+  ==: org.bukkit.inventory.ItemStack
+  type: DIAMOND_BOOTS
+§dรองเท้าในตำนาน:
+  ==: org.bukkit.inventory.ItemStack
+  type: LEATHER_BOOTS
+  meta:
+    ==: ItemMeta
+    meta-type: LEATHER_ARMOR
+    display-name: §dรองเท้าในตำนาน
+    enchants:
+      PROTECTION_ENVIRONMENTAL: 8
+      THORNS: 5
+      DEPTH_STRIDER: 4
+      DURABILITY: 255
+      MENDING: 1
+    Unbreakable: true
+    color:
+      ==: Color
+      RED: 138
+      BLUE: 226
+      GREEN: 43
+RED_MUSHROOM:
+  ==: org.bukkit.inventory.ItemStack
+  type: RED_MUSHROOM
+  amount: 16
+MYCEL:
+  ==: org.bukkit.inventory.ItemStack
+  type: MYCEL
+RED_MUSHROOM1:
+  ==: org.bukkit.inventory.ItemStack
+  type: RED_MUSHROOM
+BROWN_MUSHROOM:
+  ==: org.bukkit.inventory.ItemStack
+  type: BROWN_MUSHROOM
+MONSTER_EGG:
+  ==: org.bukkit.inventory.ItemStack
+  type: MONSTER_EGG
+  meta:
+    ==: ItemMeta
+    meta-type: SPAWN_EGG
+    internal: H4sIAAAAAAAA/+NiYOBi4HTNK8ksqQxJTOdgYMpMYRDOzcxLTS5KTCuxys3PL84oys/PZWAAAOgxdjArAAAA
+    id: mooshroom
+EGG:
+  ==: org.bukkit.inventory.ItemStack
+  type: EGG
+MONSTER_EGG1:
+  ==: org.bukkit.inventory.ItemStack
+  type: MONSTER_EGG
+  meta:
+    ==: ItemMeta
+    meta-type: SPAWN_EGG
+    internal: H4sIAAAAAAAA/+NiYOBi4HTNK8ksqQxJTOdgYMpMYeDPzcxLTS5KTCuxKs5ITS1gYAAAYb2CQScAAAA=
+    id: sheep
+LEATHER:
+  ==: org.bukkit.inventory.ItemStack
+  type: LEATHER
+STRING:
+  ==: org.bukkit.inventory.ItemStack
+  type: STRING
+MONSTER_EGG2:
+  ==: org.bukkit.inventory.ItemStack
+  type: MONSTER_EGG
+  meta:
+    ==: ItemMeta
+    meta-type: SPAWN_EGG
+    internal: H4sIAAAAAAAA/+NiYOBi4HTNK8ksqQxJTOdgYMpMYeDNzcxLTS5KTCuxSs4vZ2AAACcOilwlAAAA
+    id: cow
+ROTTEN_FLESH:
+  ==: org.bukkit.inventory.ItemStack
+  type: ROTTEN_FLESH
+MONSTER_EGG3:
+  ==: org.bukkit.inventory.ItemStack
+  type: MONSTER_EGG
+  meta:
+    ==: ItemMeta
+    meta-type: SPAWN_EGG
+    internal: H4sIAAAAAAAA/+NiYOBi4HTNK8ksqQxJTOdgYMpMYRDKzcxLTS5KTCuxKsvMyUlMTy1iYAAAkZYsxCoAAAA=
+    id: villager
+WOOL:
+  ==: org.bukkit.inventory.ItemStack
+  type: WOOL
+MONSTER_EGG4:
+  ==: org.bukkit.inventory.ItemStack
+  type: MONSTER_EGG
+  meta:
+    ==: ItemMeta
+    meta-type: SPAWN_EGG
+    internal: H4sIAAAAAAAA/+NiYOBi4HTNK8ksqQxJTOdgYMpMYRDMzcxLTS5KTCuxSs7ITM5OzWNgAAB4qmmVKQAAAA==
+    id: chicken
+FEATHER:
+  ==: org.bukkit.inventory.ItemStack
+  type: FEATHER
+MONSTER_EGG5:
+  ==: org.bukkit.inventory.ItemStack
+  type: MONSTER_EGG
+  meta:
+    ==: ItemMeta
+    meta-type: SPAWN_EGG
+    internal: H4sIAAAAAAAA/+NiYOBi4HTNK8ksqQxJTOdgYMpMYeDNzcxLTS5KTCuxKshMZ2AAANkfh0IlAAAA
+    id: pig
+DIRT:
+  ==: org.bukkit.inventory.ItemStack
+  type: DIRT
+MONSTER_EGG6:
+  ==: org.bukkit.inventory.ItemStack
+  type: MONSTER_EGG
+  meta:
+    ==: ItemMeta
+    meta-type: SPAWN_EGG
+    internal: H4sIAAAAAAAA/+NiYOBi4HTNK8ksqQxJTOdgYMpMYRDKzcxLTS5KTCuxSs1LSS3KTcxjYAAAAjoFfyoAAAA=
+    id: enderman
+SAND:
+  ==: org.bukkit.inventory.ItemStack
+  type: SAND
+MONSTER_EGG7:
+  ==: org.bukkit.inventory.ItemStack
+  type: MONSTER_EGG
+  meta:
+    ==: ItemMeta
+    meta-type: SPAWN_EGG
+    internal: H4sIAAAAAAAA/+NiYOBi4HTNK8ksqQxJTOdgYMpMYeDPzcxLTS5KTCuxKs7JzE1lYAAAAlu6wCcAAAA=
+    id: slime
+GRASS:
+  ==: org.bukkit.inventory.ItemStack
+  type: GRASS
+MONSTER_EGG8:
+  ==: org.bukkit.inventory.ItemStack
+  type: MONSTER_EGG
+  meta:
+    ==: ItemMeta
+    meta-type: SPAWN_EGG
+    internal: H4sIAAAAAAAA/+NiYOBi4HTNK8ksqQxJTOdgYMpMYeDPzcxLTS5KTCuxSspJrEplYAAAn+it/CcAAAA=
+    id: blaze
+MONSTER_EGG9:
+  ==: org.bukkit.inventory.ItemStack
+  type: MONSTER_EGG
+  meta:
+    ==: ItemMeta
+    meta-type: SPAWN_EGG
+    internal: H4sIAAAAAAAA/+NiYOBi4HTNK8ksqQxJTOdgYMpMYRDIzcxLTS5KTCuxKkpMSsosYWAAAEbg1TAoAAAA
+    id: rabbit
+POTION:
+  ==: org.bukkit.inventory.ItemStack
+  type: POTION
+  meta:
+    ==: ItemMeta
+    meta-type: POTION
+    potion-type: minecraft:water
+LEATHER_CHESTPLATE:
+  ==: org.bukkit.inventory.ItemStack
+  type: LEATHER_CHESTPLATE
+  damage: 1
+  meta:
+    ==: ItemMeta
+    meta-type: LEATHER_ARMOR
+    enchants:
+      DURABILITY: 255
+    Unbreakable: true
+LONG_GRASS:
+  ==: org.bukkit.inventory.ItemStack
+  type: LONG_GRASS
+  damage: 1
+SEEDS:
+  ==: org.bukkit.inventory.ItemStack
+  type: SEEDS
+DOUBLE_PLANT:
+  ==: org.bukkit.inventory.ItemStack
+  type: DOUBLE_PLANT
+  damage: 2
+MONSTER_EGG10:
+  ==: org.bukkit.inventory.ItemStack
+  type: MONSTER_EGG
+  meta:
+    ==: ItemMeta
+    meta-type: SPAWN_EGG
+    internal: H4sIAAAAAAAA/+NiYOBi4HTNK8ksqQxJTOdgYMpMYRDPzcxLTS5KTCuxqsrPTcpMjS/ITM9NzGNgAACmvRWELwAAAA==
+    id: zombie_pigman
+GOLD_NUGGET:
+  ==: org.bukkit.inventory.ItemStack
+  type: GOLD_NUGGET
+BONE:
+  ==: org.bukkit.inventory.ItemStack
+  type: BONE
+INK_SACK:
+  ==: org.bukkit.inventory.ItemStack
+  type: INK_SACK
+  damage: 15
+MONSTER_EGG11:
+  ==: org.bukkit.inventory.ItemStack
+  type: MONSTER_EGG
+  meta:
+    ==: ItemMeta
+    meta-type: SPAWN_EGG
+    internal: H4sIAAAAAAAA/+NiYOBi4HTNK8ksqQxJTOdgYMpMYZDIzcxLTS5KTCuxKs5OzUktyc+Lz8gvKk5lYAAASLhSNjAAAAA=
+    id: skeleton_horse
+SADDLE:
+  ==: org.bukkit.inventory.ItemStack
+  type: SADDLE
+IRON_INGOT:
+  ==: org.bukkit.inventory.ItemStack
+  type: IRON_INGOT
+MONSTER_EGG12:
+  ==: org.bukkit.inventory.ItemStack
+  type: MONSTER_EGG
+  meta:
+    ==: ItemMeta
+    meta-type: SPAWN_EGG
+    internal: H4sIAAAAAAAA/+NiYOBi4HTNK8ksqQxJTOdgYMpMYZDMzcxLTS5KTCuxqsrPTcpMjS/LzMlJTE8tYmAAAMka2aQxAAAA
+    id: zombie_villager
+MONSTER_EGG13:
+  ==: org.bukkit.inventory.ItemStack
+  type: MONSTER_EGG
+  meta:
+    ==: ItemMeta
+    meta-type: SPAWN_EGG
+    internal: H4sIAAAAAAAA/+NiYOBi4HTNK8ksqQxJTOdgYMpMYRDIzcxLTS5KTCuxqsrPTcpMZWAAADz7vV8oAAAA
+    id: zombie
+MONSTER_EGG14:
+  ==: org.bukkit.inventory.ItemStack
+  type: MONSTER_EGG
+  meta:
+    ==: ItemMeta
+    meta-type: SPAWN_EGG
+    internal: H4sIAAAAAAAA/+NiYOBi4HTNK8ksqQxJTOdgYMpMYRDIzcxLTS5KTCuxyk9OzckvYWAAAJAEqscoAAAA
+    id: ocelot
+LONG_GRASS1:
+  ==: org.bukkit.inventory.ItemStack
+  type: LONG_GRASS
+  damage: 2
+MONSTER_EGG15:
+  ==: org.bukkit.inventory.ItemStack
+  type: MONSTER_EGG
+  meta:
+    ==: ItemMeta
+    meta-type: SPAWN_EGG
+    internal: H4sIAAAAAAAA/+NiYOBi4HTNK8ksqQxJTOdgYMpMYRDKzcxLTS5KTCuxKs5OzUktyc9jYAAATHvs1SoAAAA=
+    id: skeleton
+MONSTER_EGG16:
+  ==: org.bukkit.inventory.ItemStack
+  type: MONSTER_EGG
+  meta:
+    ==: ItemMeta
+    meta-type: SPAWN_EGG
+    internal: H4sIAAAAAAAA/+NiYOBi4HTNK8ksqQxJTOdgYMpMYeDPzcxLTS5KTCuxysgvKk5lYAAAp2cBhCcAAAA=
+    id: horse
+MONSTER_EGG17:
+  ==: org.bukkit.inventory.ItemStack
+  type: MONSTER_EGG
+  meta:
+    ==: ItemMeta
+    meta-type: SPAWN_EGG
+    internal: H4sIAAAAAAAA/+NiYOBi4HTNK8ksqQxJTOdgYMpMYRDIzcxLTS5KTCuxKi7ITEktYmAAAMuxCpYoAAAA
+    id: spider
+REDSTONE:
+  ==: org.bukkit.inventory.ItemStack
+  type: REDSTONE
+MONSTER_EGG18:
+  ==: org.bukkit.inventory.ItemStack
+  type: MONSTER_EGG
+  meta:
+    ==: ItemMeta
+    meta-type: SPAWN_EGG
+    internal: H4sIAAAAAAAA/+NiYOBi4HTNK8ksqQxJTOdgYMpMYRDNzcxLTS5KTCuxSk4sS40vLshMSS1iYAAAiabpTS0AAAA=
+    id: cave_spider
+MONSTER_EGG19:
+  ==: org.bukkit.inventory.ItemStack
+  type: MONSTER_EGG
+  meta:
+    ==: ItemMeta
+    meta-type: SPAWN_EGG
+    internal: H4sIAAAAAAAA/+NiYOBi4HTNK8ksqQxJTOdgYMpMYeDNzcxLTS5KTCuxSkosYWAAAP3uc4MlAAAA
+    id: bat
+MONSTER_EGG20:
+  ==: org.bukkit.inventory.ItemStack
+  type: MONSTER_EGG
+  meta:
+    ==: ItemMeta
+    meta-type: SPAWN_EGG
+    internal: H4sIAAAAAAAA/+NiYOBi4HTNK8ksqQxJTOdgYMpMYRDIzcxLTS5KTCuxSsnPy06tZGAAAFYt4uIoAAAA
+    id: donkey
+MONSTER_EGG21:
+  ==: org.bukkit.inventory.ItemStack
+  type: MONSTER_EGG
+  meta:
+    ==: ItemMeta
+    meta-type: SPAWN_EGG
+    internal: H4sIAAAAAAAA/+NiYOBi4HTNK8ksqQxJTOdgYMpMYeDPzcxLTS5KTCuxKs8sSc5gYAAA8VlPFCcAAAA=
+    id: witch
+GLASS_BOTTLE:
+  ==: org.bukkit.inventory.ItemStack
+  type: GLASS_BOTTLE
+MONSTER_EGG22:
+  ==: org.bukkit.inventory.ItemStack
+  type: MONSTER_EGG
+  meta:
+    ==: ItemMeta
+    meta-type: SPAWN_EGG
+    internal: H4sIAAAAAAAA/+NiYOBi4HTNK8ksqQxJTOdgYMpMYeDPzcxLTS5KTCuxyslJzE1kYAAAOFRVZicAAAA=
+    id: llama
+RED_ROSE:
+  ==: org.bukkit.inventory.ItemStack
+  type: RED_ROSE
+MONSTER_EGG23:
+  ==: org.bukkit.inventory.ItemStack
+  type: MONSTER_EGG
+  meta:
+    ==: ItemMeta
+    meta-type: SPAWN_EGG
+    internal: H4sIAAAAAAAA/+NiYOBi4HTNK8ksqQxJTOdgYMpMYRDIzcxLTS5KTCuxKkgsKsovYWAAAP4trTQoAAAA
+    id: parrot
+MONSTER_EGG24:
+  ==: org.bukkit.inventory.ItemStack
+  type: MONSTER_EGG
+  meta:
+    ==: ItemMeta
+    meta-type: SPAWN_EGG
+    internal: H4sIAAAAAAAA/+NiYOBi4HTNK8ksqQxJTOdgYMpMYRDLzcxLTS5KTCuxqsrPTcpMjc/ILypOZWAAACR/xGcuAAAA
+    id: zombie_horse
+NETHERRACK:
+  ==: org.bukkit.inventory.ItemStack
+  type: NETHERRACK
+MONSTER_EGG25:
+  ==: org.bukkit.inventory.ItemStack
+  type: MONSTER_EGG
+  meta:
+    ==: ItemMeta
+    meta-type: SPAWN_EGG
+    internal: H4sIAAAAAAAA/+NiYOBi4HTNK8ksqQxJTOdgYMpMYRDJzcxLTS5KTCuxyk1Mz02MTy5NSmVgAAD7jDHVLAAAAA==
+    id: magma_cube
+MONSTER_EGG26:
+  ==: org.bukkit.inventory.ItemStack
+  type: MONSTER_EGG
+  meta:
+    ==: ItemMeta
+    meta-type: SPAWN_EGG
+    internal: H4sIAAAAAAAA/+NiYOBi4HTNK8ksqQxJTOdgYMpMYZDOzcxLTS5KTCuxSi3LT04syczPi8/MyUlMTy1iYAAAGTAEMTMAAAA=
+    id: evocation_illager
+STONE_AXE:
+  ==: org.bukkit.inventory.ItemStack
+  type: STONE_AXE
+MONSTER_EGG27:
+  ==: org.bukkit.inventory.ItemStack
+  type: MONSTER_EGG
+  meta:
+    ==: ItemMeta
+    meta-type: SPAWN_EGG
+    internal: H4sIAAAAAAAA/+NiYOBi4HTNK8ksqQxJTOdgYMpMYeDLzcxLTS5KTCuxyi3NSWVgAABqvJD9JgAAAA==
+    id: mule
+§rEnchanted Bone:
+  ==: org.bukkit.inventory.ItemStack
+  type: BONE
+  meta:
+    ==: ItemMeta
+    meta-type: UNSPECIFIC
+    display-name: §rEnchanted Bone
+    lore:
+    - §fคุณสามารถใช้มันคราฟต์
+    - §f - Spawn Wither Skeleton
+    enchants:
+      ARROW_INFINITE: 1
+FLINT:
+  ==: org.bukkit.inventory.ItemStack
+  type: FLINT
+MONSTER_EGG28:
+  ==: org.bukkit.inventory.ItemStack
+  type: MONSTER_EGG
+  meta:
+    ==: ItemMeta
+    meta-type: SPAWN_EGG
+    internal: H4sIAAAAAAAA/+NiYOBi4HTNK8ksqQxJTOdgYMpMYZDMzcxLTS5KTCuxKs8syUgtii/OTs1JLcnPY2AAANHSK/YxAAAA
+    id: wither_skeleton
+SPONGE:
+  ==: org.bukkit.inventory.ItemStack
+  type: SPONGE
+MONSTER_EGG29:
+  ==: org.bukkit.inventory.ItemStack
+  type: MONSTER_EGG
+  meta:
+    ==: ItemMeta
+    meta-type: SPAWN_EGG
+    internal: H4sIAAAAAAAA/+NiYOBi4HTNK8ksqQxJTOdgYMpMYeDPzcxLTS5KTCuxSs9ILC5hYAAA4wPoVScAAAA=
+    id: ghast
+BLAZE_POWDER:
+  ==: org.bukkit.inventory.ItemStack
+  type: BLAZE_POWDER
+MONSTER_EGG30:
+  ==: org.bukkit.inventory.ItemStack
+  type: MONSTER_EGG
+  meta:
+    ==: ItemMeta
+    meta-type: SPAWN_EGG
+    internal: H4sIAAAAAAAA/+NiYOBi4HTNK8ksqQxJTOdgYMpMYRDKzcxLTS5KTCuxSi9NLErJTMxjYAAA8d3znyoAAAA=
+    id: guardian
+IRON_NUGGET:
+  ==: org.bukkit.inventory.ItemStack
+  type: IRON_NUGGET
+MONSTER_EGG31:
+  ==: org.bukkit.inventory.ItemStack
+  type: MONSTER_EGG
+  meta:
+    ==: ItemMeta
+    meta-type: SPAWN_EGG
+    internal: H4sIAAAAAAAA/+NiYOBi4HTNK8ksqQxJTOdgYMpMYZDIzcxLTS5KTCuxSs1JSS2KTy9NLErJTMxjYAAAZD9bOjAAAAA=
+    id: elder_guardian
+GOLD_BLOCK:
+  ==: org.bukkit.inventory.ItemStack
+  type: GOLD_BLOCK
+MONSTER_EGG32:
+  ==: org.bukkit.inventory.ItemStack
+  type: MONSTER_EGG
+  meta:
+    ==: ItemMeta
+    meta-type: SPAWN_EGG
+    internal: H4sIAAAAAAAA/+NiYOBi4HTNK8ksqQxJTOdgYMpMYZDNzcxLTS5KTCuxKsvMS8lMTizJzM+Lz8zJSUxPLWJgAABf18FMNQAAAA==
+    id: vindication_illager
+MONSTER_EGG33:
+  ==: org.bukkit.inventory.ItemStack
+  type: MONSTER_EGG
+  meta:
+    ==: ItemMeta
+    meta-type: SPAWN_EGG
+    internal: H4sIAAAAAAAA/+NiYOBi4HTNK8ksqQxJTOdgYMpMYeDPzcxLTS5KTCuxKi4pSqxkYAAAy5jlZycAAAA=
+    id: stray
+SNOW_BALL:
+  ==: org.bukkit.inventory.ItemStack
+  type: SNOW_BALL
+MONSTER_EGG34:
+  ==: org.bukkit.inventory.ItemStack
+  type: MONSTER_EGG
+  meta:
+    ==: ItemMeta
+    meta-type: SPAWN_EGG
+    internal: H4sIAAAAAAAA/+NiYOBi4HTNK8ksqQxJTOdgYMpMYeDLzcxLTS5KTCuxyigtzmZgAAAaR7mvJgAAAA==
+    id: husk
+MONSTER_EGG35:
+  ==: org.bukkit.inventory.ItemStack
+  type: MONSTER_EGG
+  meta:
+    ==: ItemMeta
+    meta-type: SPAWN_EGG
+    internal: H4sIAAAAAAAA/+NiYOBi4HTNK8ksqQxJTOdgYMpMYRDMzcxLTS5KTCuxSi5KTS1ILWJgAAB18udrKQAAAA==
+    id: creeper
+MONSTER_EGG36:
+  ==: org.bukkit.inventory.ItemStack
+  type: MONSTER_EGG
+  meta:
+    ==: ItemMeta
+    meta-type: SPAWN_EGG
+    internal: H4sIAAAAAAAA/+NiYOBi4HTNK8ksqQxJTOdgYMpMYeDNzcxLTS5KTCuxKkutYGAAAIyxa5AlAAAA
+    id: vex
+ARROW:
+  ==: org.bukkit.inventory.ItemStack
+  type: ARROW
+MONSTER_EGG37:
+  ==: org.bukkit.inventory.ItemStack
+  type: MONSTER_EGG
+  meta:
+    ==: ItemMeta
+    meta-type: SPAWN_EGG
+    internal: H4sIAAAAAAAA/+NiYOBi4HTNK8ksqQxJTOdgYMpMYRDJzcxLTS5KTCuxKs7MKUstSssszmBgAAA4ai5jLAAAAA==
+    id: silverfish
+GRAVEL:
+  ==: org.bukkit.inventory.ItemStack
+  type: GRAVEL
+MONSTER_EGG38:
+  ==: org.bukkit.inventory.ItemStack
+  type: MONSTER_EGG
+  meta:
+    ==: ItemMeta
+    meta-type: SPAWN_EGG
+    internal: H4sIAAAAAAAA/+NiYOBi4HTNK8ksqQxJTOdgYMpMYRDOzcxLTS5KTCuxSs1LSS3KzSxJZWAAAKoak2orAAAA
+    id: endermite
+ENDER_PEARL:
+  ==: org.bukkit.inventory.ItemStack
+  type: ENDER_PEARL
+MONSTER_EGG39:
+  ==: org.bukkit.inventory.ItemStack
+  type: MONSTER_EGG
+  meta:
+    ==: ItemMeta
+    meta-type: SPAWN_EGG
+    internal: H4sIAAAAAAAA/+NiYOBi4HTNK8ksqQxJTOdgYMpMYeDPzcxLTS5KTCuxKi4sBQowAACkzUJUJwAAAA==
+    id: squid
+MONSTER_EGG40:
+  ==: org.bukkit.inventory.ItemStack
+  type: MONSTER_EGG
+  meta:
+    ==: ItemMeta
+    meta-type: SPAWN_EGG
+    internal: H4sIAAAAAAAA/+NiYOBi4HTNK8ksqQxJTOdgYMpMYeDLzcxLTS5KTCuxKs/PSWNgAADtrMt3JgAAAA==
+    id: wolf
+MONSTER_EGG41:
+  ==: org.bukkit.inventory.ItemStack
+  type: MONSTER_EGG
+  meta:
+    ==: ItemMeta
+    meta-type: SPAWN_EGG
+    internal: H4sIAAAAAAAA/+NiYOBi4HTNK8ksqQxJTOdgYMpMYRDJzcxLTS5KTCuxKsjPSSyKT0pNLGJgAAD4K3BZLAAAAA==
+    id: polar_bear

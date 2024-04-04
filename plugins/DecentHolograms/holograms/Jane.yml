@@ -1,0 +1,16 @@
+location: world:-8.527:106.200:-169.511
+enabled: true
+display-range: 48
+update-range: 48
+update-interval: 20
+facing: 0.0
+down-origin: false
+pages:
+- lines:
+  - content: '&dQuest'
+    height: 0.3
+  - content: '&bCMD /quest'
+    height: 0.3
+  - content: '&6&l&nClick'
+    height: 0.3
+  actions: {}

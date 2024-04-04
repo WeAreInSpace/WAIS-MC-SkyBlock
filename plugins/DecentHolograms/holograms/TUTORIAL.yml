@@ -1,0 +1,14 @@
+location: world:-6.497:113.000:10.503
+enabled: true
+display-range: 48
+update-range: 48
+update-interval: 20
+facing: 180.0
+down-origin: false
+pages:
+- lines:
+  - content: '&a&lTutorial'
+    height: 0.3
+  - content: '#ENTITY: PIG'
+    height: 1
+  actions: {}

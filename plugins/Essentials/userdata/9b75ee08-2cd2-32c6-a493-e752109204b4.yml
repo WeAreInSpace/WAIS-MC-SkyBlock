@@ -1,0 +1,30 @@
+teleportenabled: true
+teleportauto: false
+godmode: false
+muted: false
+jailed: false
+ip-address: 127.0.0.1
+afk: false
+socialspy: false
+npc: false
+powertoolsenabled: true
+accepting-pay: true
+baltop-exempt: false
+timestamps:
+  lastteleport: 0
+  lastheal: 0
+  mute: 0
+  jail: 0
+  onlinejail: 0
+  logout: 1702230176101
+  login: 1702230146163
+money: '0'
+logoutlocation:
+  world: d89f5d61-e934-4822-bc14-49eeee159e62
+  world-name: world
+  x: 0.49239007819224995
+  y: 110.0
+  z: 0.5490023614556852
+  yaw: 171.1773681640625
+  pitch: 46.94999313354492
+last-account-name: GornHBig

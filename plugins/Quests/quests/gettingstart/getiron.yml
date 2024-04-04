@@ -1,0 +1,23 @@
+display:
+  name: "&fเผาเหล็ก เรื่องเล็ก ๆ"
+  lore-normal:
+    - ""
+    - "  &dเผาเหล็ก 1 อัน  "
+  lore-started:
+    - ""
+    - "  &6ความคืบหน้า &f{getiron:progress}&7/1  "
+  type: IRON_INGOT
+tasks:
+  getiron:
+    type: "smeltingcertain"
+    amount: 1
+    item: IRON_INGOT
+placeholders:
+  quest: "&6เผาเหล็ก เรื่องเล็ก ๆ"
+  description: "&aเผาเหล็ก 1 อัน"
+  progress: " &7 - &f{getiron:progress}&7/1"
+options:
+  category: "gettingstarted"
+  sort-order: 7
+rewardstring:
+  - "&eเหล็กนี่นา"

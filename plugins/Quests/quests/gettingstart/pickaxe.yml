@@ -1,0 +1,24 @@
+display:
+  name: "&fอยากขุดหินต้องทำยังไง?"
+  lore-normal:
+    - ""
+    - "  &dคราฟ pickaxe ไม้ 1 อัน  "
+  lore-started:
+    - ""
+    - "  &6ความคืบหน้า &f{wooden-pickaxe:progress}&7/1  "
+  type: WOOD_PICKAXE
+tasks:
+  wooden-pickaxe:
+    type: "crafting"
+    item: WOOD_PICKAXE
+    amount: 1
+    data: 0
+placeholders:
+  quest: "&6อยากขุดหินต้องทำยังไง?"
+  description: "&aคราฟ pickaxe ไม้ 1 อัน"
+  progress: " &7 - &f{wooden-pickaxe:progress}&7/1"
+options:
+  category: "gettingstarted"
+  sort-order: 3
+rewardstring:
+  - "&eต้องลองเอาไปขุดหินแล้ว"

@@ -1,0 +1,26 @@
+Groups:
+  Admin:
+    Permission: nte.admin
+    Prefix: '&f[&cADMIN&f] &6'
+    Suffix: '&f'
+    SortPriority: 1
+  Moderator:
+    Permission: nte.moderator
+    Prefix: '&2'
+    Suffix: '&f'
+    SortPriority: 2
+  our-community:
+    Permission: nte.our-community
+    Prefix: '&f[&dOC&f] &d'
+    Suffix: ''
+    SortPriority: -1
+  vip:
+    Permission: nte.vip
+    Prefix: '&f[&6VIP&f] &b'
+    Suffix: ''
+    SortPriority: -1
+  default:
+    Permission: nte.default
+    Prefix: '&f[&6WAIS&f] &f'
+    Suffix: ''
+    SortPriority: -1

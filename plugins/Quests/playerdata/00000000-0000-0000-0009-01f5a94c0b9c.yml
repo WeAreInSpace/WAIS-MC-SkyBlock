@@ -1,0 +1,73 @@
+quest-progress:
+  craftingman:
+    started: false
+    started-date: 1703437658729
+    completed: true
+    completed-before: true
+    completion-date: 1703437658729
+    task-progress:
+      crafting-table:
+        completed: false
+  log:
+    started: false
+    started-date: 1703437619921
+    completed: true
+    completed-before: true
+    completion-date: 1703437619921
+    task-progress:
+      log:
+        completed: false
+  pickaxe:
+    started: false
+    started-date: 1706445897794
+    completed: true
+    completed-before: true
+    completion-date: 1706445897794
+    task-progress:
+      wooden-pickaxe:
+        completed: false
+  getiron:
+    started: false
+    started-date: 1706581630042
+    completed: true
+    completed-before: true
+    completion-date: 1706581630042
+    task-progress:
+      getiron:
+        completed: false
+  cobblestone:
+    started: false
+    started-date: 1706445939793
+    completed: true
+    completed-before: true
+    completion-date: 1706445939793
+    task-progress:
+      cobblestone:
+        completed: false
+  furnace:
+    started: false
+    started-date: 1706446004802
+    completed: true
+    completed-before: true
+    completion-date: 1706446004802
+    task-progress:
+      furnace:
+        completed: false
+  stonepickaxe:
+    started: false
+    started-date: 1706445974444
+    completed: true
+    completed-before: true
+    completion-date: 1706445974444
+    task-progress:
+      stone-pickaxe:
+        completed: false
+  itstimetoupgrade:
+    started: false
+    started-date: 1706581674942
+    completed: true
+    completed-before: true
+    completion-date: 1706581674942
+    task-progress:
+      iron-pickaxe:
+        completed: false

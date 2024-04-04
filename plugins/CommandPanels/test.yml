@@ -1,0 +1,205 @@
+h:
+  FoodShop(1):
+    perm: default
+    rows: "6"
+    title: "Malin's &2food shop"
+    empty: AIR
+    item:
+      "0":
+        material: stained_glass_pane
+        ID: 15
+        name: "&f"
+      "1":
+        material: stained_glass_pane
+        ID: 15
+        name: "&f"
+      "2":
+        material: stained_glass_pane
+        ID: 15
+        name: "&f"
+      "3":
+        material: stained_glass_pane
+        ID: 15
+        name: "&f"
+      "4":
+        material: stained_glass_pane
+        ID: 15
+        name: "&f"
+      "5":
+        material: stained_glass_pane
+        ID: 15
+        name: "&f"
+      "6":
+        material: stained_glass_pane
+        ID: 15
+        name: "&f"
+      "9":
+        material: stained_glass_pane
+        ID: 15
+        name: "&f"
+      "17":
+        material: stained_glass_pane
+        ID: 15
+        name: "&f"
+      "18":
+        material: stained_glass_pane
+        ID: 15
+        name: "&f"
+      "26":
+        material: stained_glass_pane
+        ID: 15
+        name: "&f"
+      "27":
+        material: stained_glass_pane
+        ID: 15
+        name: "&f"
+      "35":
+        material: stained_glass_pane
+        ID: 15
+        name: "&f"
+      "36":
+        material: stained_glass_pane
+        ID: 15
+        name: "&f"
+      "37":
+        material: stained_glass_pane
+        ID: 15
+        name: "&f"
+      "38":
+        material: stained_glass_pane
+        ID: 15
+        name: "&f"
+      "39":
+        material: stained_glass_pane
+        ID: 15
+        name: "&f"
+      "40":
+        material: stained_glass_pane
+        ID: 15
+        name: "&f"
+      "42":
+        material: stained_glass_pane
+        ID: 15
+        name: "&f"
+      "43":
+        material: stained_glass_pane
+        ID: 15
+        name: "&f"
+      "44":
+        material: stained_glass_pane
+        ID: 15
+        name: "&f"
+      
+      "10":
+        material: APPLE
+        lore:
+          - "&b&lPrice &a10 &6&lWAIS Coin"
+          - "&dClick to sell"
+          - "&f&oWe Are In Space"
+        commands:
+          - sell= 10 APPLE 1
+      "11":
+        material: GOLDEN_APPLE
+        lore:
+          - "&b&lPrice &a100 &6&lWAIS Coin"
+          - "&dClick to sell"
+          - "&f&oWe Are In Space"
+        commands:
+          - sell= 100 GOLDEN_APPLE 1
+      "12":
+        material: GOLDEN_APPLE
+        lore:
+          - "&b&lPrice &a750 &6&lWAIS Coin"
+          - "&dClick to sell"
+          - "&f&oWe Are In Space"
+        commands:
+          - sell= 750 GOLDEN_APPLE 1 id:1
+        ID: 1
+      "13":
+        material: MELON
+        lore:
+          - "&b&lPrice &a10 &6&lWAIS Coin"
+          - "&dClick to sell"
+          - "&f&oWe Are In Space"
+        commands:
+          - sell= 10 MELON 1
+      "14":
+        material: CHORUS_FRUIT
+        lore:
+          - "&b&lPrice &a20 &6&lWAIS Coin"
+          - "&dClick to sell"
+          - "&f&oWe Are In Space"
+        commands:
+          - sell= 20 CHORUS_FRUIT 1
+      "15":
+        material: GOLDEN_CARROT
+        lore:
+          - "&b&lPrice &a80 &6&lWAIS Coin"
+          - "&dClick to sell"
+          - "&f&oWe Are In Space"
+        commands:
+          - sell= 80 GOLDEN_CARROT 1
+      "16":
+        material: BAKED_POTATO
+        lore:
+          - "&b&lPrice &a30 &6&lWAIS Coin"
+          - "&dClick to sell"
+          - "&f&oWe Are In Space"
+        commands:
+          - sell= 30 BAKED_POTATO 1
+      "19":
+        material: BREAD
+        lore:
+          - "&b&lPrice &a40 &6&lWAIS Coin"
+          - "&dClick to sell"
+          - "&f&oWe Are In Space"
+        commands:
+          - sell= 40 BREAD 1
+      "20":
+        material: COOKIE
+        lore:
+          - "&b&lPrice &a5 &6&lWAIS Coin"
+          - "&dClick to sell"
+          - "&f&oWe Are In Space"
+        commands:
+          - sell= 5 COOKIE 1
+      "21":
+        material: CAKE
+        lore:
+          - "&b&lPrice &a230 &6&lWAIS Coin"
+          - "&dClick to sell"
+          - "&f&oWe Are In Space"
+        commands:
+          - sell= 230 CAKE 1
+      "22":
+        material: PUMPKIN_PIE
+        lore:
+          - "&b&lPrice &a60 &6&lWAIS Coin"
+          - "&dClick to sell"
+          - "&f&oWe Are In Space"
+        commands:
+          - sell= 60 PUMPKIN_PIE 1
+      "23":
+        material: RABBIT_STEW
+        lore:
+          - "&b&lPrice &a80 &6&lWAIS Coin"
+          - "&dClick to sell"
+          - "&f&oWe Are In Space"
+        commands:
+          - sell= 80 RABBIT_STEW 1
+      "24":
+        material: MUSHROOM_SOUP
+        lore:
+          - "&b&lPrice &a85 &6&lWAIS Coin"
+          - "&dClick to sell"
+          - "&f&oWe Are In Space"
+        commands:
+          - sell= 85 MUSHROOM_SOUP 1
+      "100":
+        material: BEETROOT_SOUP
+        lore:
+          - "&b&lPrice &a70 &6&lWAIS Coin"
+          - "&dClick to sell"
+          - "&f&oWe Are In Space"
+        commands:
+          - sell= 70 BEETROOT_SOUP 1

@@ -1,0 +1,19 @@
+items-Version: 8
+
+# General options that apply to the custom items functionality.
+items-Delay: 1
+items-Overwrite: false
+items-Spamming: true
+items-RestrictCount: false
+
+# This is the section that the custom created items will be stored.
+# All created items should be saved under the 'items' section for each 'custom-item' subsection.
+items:
+  command-palette:
+    id: NETHER_STAR
+    slot: 8
+    itemflags: self-drops, item-store, inventory-modify, auto-remove
+    name: "&fServerMenu"
+    interact:
+      - "player:sm"
+  

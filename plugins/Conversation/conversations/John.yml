@@ -1,0 +1,103 @@
+John:
+  options:
+    - hideChat
+    - moveawaytoend{r=4}
+    - shifttoend
+    - endstep{s=end}
+    - noDamage
+    - positionLock
+  patterns:
+    name: "&f[&a&lNPC&f] &eJohn:&f"
+    player: "&f[&a%player_name%&f]"
+  steps:
+    John1:
+      type: delayed-text
+      delay: 40
+      text:
+        - "{name} สวัสดีย์"
+      next: John2
+    John2:
+      type: delayed-text
+      delay: 40
+      text:
+        - "{player} สวัสดี"
+      next: John3
+    John3:
+      type: delayed-text
+      delay: 40
+      text:
+        - "{name} วันนี้มาทำอะไรเอ่ย"
+      next: check1
+    check1:
+      type: movement-text-choice
+      text:
+        0:
+          - "&7กดเดินหน้าเพื่อเลื่อนดัวชี้ขึ้นไปด้านบน"
+        1:
+          - "&7กดเดินถอยหลังเพื่อเลื่อนดัวชี้ลงไปด้านล่าง"
+        3:
+          - "&7คลิ๊กซ้าย หรือ กดไปที่ใหนบนหน้าจอ เพื่อเลือกบทสนทนา"
+        4:
+          - "&f[&a%player_name%&f]"
+        5:
+          - "  &7- ฉันอยากจะขายเนื่อสัตว์สักหน่อย"
+          - "  &6- ฉันอยากจะขายเนื่อสัตว์สักหน่อย"
+        6:
+          - "  &7- ฉันอยากจะซื้อเนื่อสัตว์สักหน่อย"
+          - "  &6- ฉันอยากจะซื้อเนื่อสัตว์สักหน่อย"
+        7:
+          - "  &7- ไม่เอาดีกว่า"
+          - "  &6- ไม่เอาดีกว่า"
+      choices: sellsay,buysay,nothanksay
+    sellsay:
+      type: delayed-text
+      delay: 40
+      text:
+        - "{player} ฉันอยากจะขายเนื่อสัตว์สักหน่อย"
+      next: sell
+    sell:
+      type: delayed-text
+      delay: 40
+      text:
+        - "{name} ได้เลยครับ"
+      next: sellcmd
+    sellcmd:
+      type: console-command
+      command: "commandpanel JohnSell(1) %player_name%"
+      next: end
+    
+    buysay:
+      type: delayed-text
+      delay: 40
+      text:
+        - "{player} ฉันอยากจะซื้อเนื่อสัตว์สักหน่อย"
+      next: buy
+    buy:
+      type: delayed-text
+      delay: 40
+      text:
+        - "{name} เลือกได้เลยครับ"
+      next: buycmd
+    buycmd:
+      type: console-command
+      command: "commandpanel JohnShop(1) %player_name%"
+      next: end
+
+    nothanksay:
+      type: delayed-text
+      delay: 40
+      text:
+        - "{player} ไม่เอาดีกว่า"
+      next: nothank
+    nothank:
+      type: delayed-text
+      delay: 40
+      text:
+        - "{name} ไม่เป็นไรครับ"
+      next: end
+    
+    end:
+      type: delayed-text
+      delay: 0
+      text:
+        - ""

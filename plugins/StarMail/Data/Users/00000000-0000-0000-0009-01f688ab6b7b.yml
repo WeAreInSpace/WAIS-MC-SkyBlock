@@ -1,0 +1,5 @@
+name: .waisnetwork
+notifications:
+  on join: true
+  on receive: true
+last used: 2023-12-11T10:07:32.182Z

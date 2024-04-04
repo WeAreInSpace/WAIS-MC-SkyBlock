@@ -1,0 +1,38 @@
+teleportenabled: true
+teleportauto: false
+godmode: false
+muted: false
+jailed: false
+ip-address: 127.113.206.21
+afk: false
+socialspy: false
+npc: false
+powertoolsenabled: true
+accepting-pay: true
+baltop-exempt: false
+timestamps:
+  lastteleport: 0
+  lastheal: 0
+  mute: 0
+  jail: 0
+  onlinejail: 0
+  logout: 1702289246492
+  login: 1702287952016
+money: '0'
+last-account-name: .waisnetwork
+lastlocation:
+  world: d89f5d61-e934-4822-bc14-49eeee159e62
+  world-name: world
+  x: -127.700005
+  y: 133.91566
+  z: 94.23656
+  yaw: 58.44850158691406
+  pitch: 34.923492431640625
+logoutlocation:
+  world: d89f5d61-e934-4822-bc14-49eeee159e62
+  world-name: world
+  x: -251.65509
+  y: 108.0
+  z: 175.79366
+  yaw: -54.5946044921875
+  pitch: 89.89999389648438

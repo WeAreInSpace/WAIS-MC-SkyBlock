@@ -1,0 +1,253 @@
+Alin:
+  options:
+    - hideChat
+    - moveawaytoend{r=4}
+    - positionLock
+    - shifttoend
+    - endstep{s=end}
+    - noDamage
+  patterns:
+    name: "&f[&a&lNPC&f] &eAlin:&f"
+    player_name: "&f[&a%player_name%&f]"
+    narrator: "&f[&c&kNarrator&f]"
+  steps:
+    Alin1:
+      type: delayed-text
+      delay: 60
+      text:
+        - "{name} สวัสดี %player_name%"
+      next: "Alin2"
+    Alin2:
+      type: delayed-text
+      delay: 60
+      text:
+        - "{player_name} สวัสดี" 
+      next: "Alin3"
+    Alin3:
+      type: delayed-text
+      delay: 60
+      text:
+        - "{name} ฉันเป็นพ่อค้าไม้นะ"
+      next: "Alin4"
+    Alin4:
+      type: delayed-text
+      delay: 60
+      text:
+        - "{name} ขายต้นอ่อนด้วย"
+      next: "Alin5"
+    Alin5:
+      type: delayed-text
+      delay: 60
+      text:
+        - "{name} แล้ววันนี้มาหาจะซื้ออะไรเอ่ย"
+      next: "Alin6"
+    check1:
+      type: movement-text-choice
+      text:
+        0:
+          - "&7กดเดินหน้าเพื่อเลื่อนดัวชี้ขึ้นไปด้านบน"
+        1:
+          - "&7กดเดินถอยหลังเพื่อเลื่อนดัวชี้ลงไปด้านล่าง"
+        2:
+          - "&7คลิ๊กซ้าย หรือ กดไปที่ใหนบนหน้าจอ เพื่อเลือกบทสนทนา"
+        3:
+          - "{player_name}"
+        4:
+          - "  &7- ฉันอยากซื้อไม้สักหน่อย"
+          - "  &6- ฉันอยากซื้อไม้สักหน่อย"
+        5:
+          - "  &7- ฉันอยากลองเป็นคนขายไม้สักหน่อย"
+          - "  &6- ฉันอยากลองเป็นคนขายไม้สักหน่อย"
+      choices: Alin6wannaBuysay,Alin7wannaSellsay
+    Alin6wannaBuysay:
+      type: delayed-text
+      delay: 60
+      text:
+        - "{player_name} ฉันอยากซื้อไม้สักหน่อย"
+      next: Alin8
+    Alin7wannaSellsay:
+      type: delayed-text
+      delay: 60
+      text:
+        - "{player_name} ฉันอยากลองเป็นคนขายไม้สักหน่อย"
+      next: Alin9
+    
+    Alin8:
+      type: delayed-text
+      delay: 60
+      text:
+        - "{name} ได้เลยครับ"
+      next: BuyCMD
+    BuyCMD:
+      type: console-command
+      command: "commandpanel MalinShop(1) %player_name%"
+
+    Alin9:
+      type: delayed-text
+      delay: 60
+      text:
+        - "{name} ได้เลย"
+      next: Narrator1
+    Narrator1:
+      type: movement-text-choice
+      text:
+        0:
+          - "&7กดเดินหน้าเพื่อเลื่อนดัวชี้ขึ้นไปด้านบน"
+        1:
+          - "&7กดเดินถอยหลังเพื่อเลื่อนดัวชี้ลงไปด้านล่าง"
+        2:
+          - "&7คลิ๊กซ้าย หรือ กดไปที่ใหนบนหน้าจอ เพื่อเลือกบทสนทนา"
+        3:
+          - "{narrator} Server msg:"
+        4:
+          - "  &7- ดูวิธีใช้ Shop gui"
+          - "  &6- ดูวิธีใช้ Shop gui"
+        5:
+          - "  &7- ดำเนินบทสนทนาต่อ..."
+          - "  &6- ดำเนินบทสนทนาต่อ..."
+      choices: Narrator2C1,Narrator3C2
+    Narrator2C1:
+      type: delayed-text
+      delay: 60
+      text:
+        - "{name} &7ดูวิธีใช้ Shop gui"
+      next: Narrator4
+
+    Narrator3C2:
+      type: delayed-text
+      delay: 60
+      text:
+        - "{name} &7ดำเนินบทสนทนาต่อ..."
+      next: Alin10
+    
+    Narrator4:
+      type: delayed-text
+      delay: 60
+      text:
+        - "{narrator}"
+        - "&e&lTips:"
+        - "&7  เมื่อคุณต้องการดูวิธีใช้ Shop gui"
+        - "&7  ให้เข้าไปที่ &b/wais &f&l>> &dSky Block book &f&l>> &dShop gui guide"
+
+    Alin10:
+      type: delayed-text
+      delay: 60
+      text:
+        - "{name} คุณขายสินค้าให้ผม แล้วผมจะให้เงินคุณ"
+      next: Alin11
+    Alin11:
+      type: delayed-text
+      delay: 60
+      text:
+        - "{name} Ok ใหม"
+      next: Alin12
+    Alin12:
+      type: delayed-text
+      delay: 60
+      text:
+        - "{player_name} Ok"
+
+    Main1:
+      type: delayed-text
+      delay: 60
+      text:
+        0:
+          - "{name} สวัสดี %player_name%"
+      next: Main2
+    Main2:
+      type: delayed-text
+      delay: 60
+      text:
+        0:
+          - "{name} ฉันหน่ะ อายุมากแล้ว"
+      next: Main3
+    Main3:
+      type: delayed-text
+      delay: 50
+      text:
+        0:
+          - "{name} ไม่รู้ว่าจะไปตอนใหน"
+      next: Main4
+    Main4:
+      type: delayed-text
+      delay: 50
+      text:
+        0:
+          - "{name} ได้แต่นั่งฟังร่างกายของฉัน บอกจุดจบของมัน"
+      next: Main5
+    Main5:
+      type: delayed-text
+      delay: 60
+      text:
+        0:
+          - "{name} ความตายมันไม่น่ากลัวหรอกนะ %player_name%"
+      next: Main6
+    Main6:
+      type: delayed-text
+      delay: 40
+      text:
+        0:
+          - "{name} คนส่วนมากหน่ะเชื่อกันว่าความตายมันน่ากลัว"
+      next: Main7
+    Main7:
+      type: delayed-text
+      delay: 50
+      text:
+        0:
+          - "{name} แต่จริง ๆ แล้ว.."
+      next: Main8
+    Main8:
+      type: delayed-text
+      delay: 40
+      text:
+        0:
+          - "{name} มันก็แค่การนอนหลับยาว ๆ แค่นั้นแหละ"
+      next: Main9
+    Main9:
+      type: delayed-text
+      delay: 40
+      text:
+        0:
+          - "{name} จะไม่เชื่อฉันก็ได้นะ"
+      next: Main10
+    Main10:
+      type: delayed-text
+      delay: 60
+      text:
+        0:
+          - "{name} แต่.."
+      next: Main11
+    Main11:
+      type: delayed-text
+      delay: 40
+      text:
+        0:
+          - "{name} ฉันไม่รู้หรอกนะ"
+      next: Main12
+    Main12:
+      type: delayed-text
+      delay: 50
+      text:
+        0:
+          - "{name} มีพบก็ต้องมีจาก ตามกาลเวลา"
+      next: Main13
+    Main13:
+      type: delayed-text
+      delay: 40
+      text:
+        0:
+          - "{name} ธรรมชาติของชีวิตมันก็เป็นอย่างนี้แหละ"
+      next: Main14
+    Main14:
+      type: delayed-text
+      delay: 40
+      text:
+        0:
+          - "{name} ธรรมดา"
+      next: end
+    end:
+      type: delayed-text
+      delay: 20
+      text:
+        0:
+          - "{name} ลาก่อนนะ %player_name%"

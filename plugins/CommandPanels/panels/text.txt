@@ -1,0 +1,84 @@
+  :
+    perm: default
+    rows: "6"
+    title: "Crafting Recipes"
+    empty: AIR
+    item:
+      "0":
+        material: STAINED_GLASS_PANE
+        ID: 15
+        name: "&f"
+        duplicate: "1-9,17-18,26-27,35-44"
+      
+      "14":
+        material: STAINED_GLASS_PANE
+        ID: 11
+        duplicate: 14-16,23,25,32-34
+
+      #Shaped recipe
+      #Shapeless recipe
+      #Fixed recipe
+      "13":
+        material: WEB
+        ID: 0
+        #name: "&f&lType Minecraft recipe"
+        #name: "&f&lType Shapeless recipe"
+        #name: "&f&lType Fixed recipe"
+        enchanted:
+          - true
+
+      "31":
+        material: STAINED_GLASS_PANE
+        ID: 15
+
+      "22":
+        material: WORKBENCH
+        ID: 0
+
+      #1
+      "10":
+        material: AIR
+        ID: 0
+      #2
+      "11":
+        material: AIR
+        ID: 0
+      #3
+      "12":
+        material: AIR
+        ID: 0
+
+      #4
+      "19":
+        material: AIR
+        ID: 0
+      #5
+      "20":
+        material: AIR
+        ID: 0
+      #6
+      "21":
+        material: AIR
+        ID: 0
+      
+      #7
+      "28":
+        material: AIR
+        ID: 0
+      #8
+      "29":
+        material: AIR
+        ID: 0
+      #9
+      "30":
+        material: AIR
+        ID: 0
+
+      #FIn
+      "24":
+        material: AIR
+        ID: 0
+        
+        
+        commands:
+          - open=

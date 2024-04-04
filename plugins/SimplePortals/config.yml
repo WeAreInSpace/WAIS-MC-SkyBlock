@@ -1,0 +1,39 @@
+# If this is enabled, the management task loading and prioritizing the file form of the portals will be utilized.
+management-task: true
+keep-teleport-head-axis: false
+maintain-vehicle-velocity: true
+maintain-entity-velocity: true
+bypass-portal-permissions: false
+vehicle-teleportation: true
+block-creative-portal-entrance: false
+force-join: false
+force-join-world: ''
+nether-portal-locations:
+- example_world:world,0,80,0,0,0
+- example_world_the_nether:world,0,80,0,0,0
+end-portal-locations:
+- example_world:world,0,80,0,0,0
+- example_world_the_end:world,0,80,0,0,0
+end-portal-locations-handle-death: true
+creature-spawning-blacklist:
+- PUFFERFISH
+- TROPICAL_FISH
+- DOLPHIN
+titles:
+  fade-in: 0
+  fade-out: 0
+  display-time: 5
+use-portal-cooldown: true
+join-protection: true
+join-protection-cooldown: 5
+portal-cooldown-duration: 5
+throw-velocity: 6
+command-tick-delay: 5
+item-transfer: true
+item-teleport-delay: 2
+teleport-sound: ENTITY_GHAST_SHOOT
+teleport-visual-effect: CLOUD
+selection-visual-effect: REDSTONE
+selection-visual-duration: 10
+region-visual-effect: REDSTONE
+region-visual-duration: 20

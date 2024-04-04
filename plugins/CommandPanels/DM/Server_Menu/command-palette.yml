@@ -1,0 +1,108 @@
+menu_title: 'Command palette'
+open_command: menu
+size: 54
+items:
+  "fccrafting":
+    slot: 10
+    display_name: "&9Crafting Table"
+    material: WORKBENCH
+    lore:
+      - ""
+      - "  &fคลิกเพื่อเปิด Portable crafting table (โต๊ะคราฟพกพา)  "
+      - "  &dคุณสามารถใช้โต๊ะคราฟพกพาคราฟของได้  "
+      - "  &dโดยไม่ต้องใช้โต๊ะคราฟ  "
+      - ""
+      - "  &c&nโน้ต:&r&e GUI นี้ทำงานบนปลั๊กอินส์ Fancycrafting  "
+      - "  &eดังนั้นคุณจึงไม่สามารถใช้ปุ่ม Back ได้  "
+      - ""
+    left_click_commands:
+      - "[close]"
+      - "[console]fc open %player_name%"
+    right_click_commands:
+      - "[close]"
+      - "[console]fc open %player_name%"
+  "server-teleport":
+    slot: 19
+    display_name: "&9Server teleport /stp"
+    material: COMPASS
+    lore:
+      - ""
+      - "  &fคลิกเพื่อเปิด Server teleport (เซิร์ฟเวอร์เทเลพอร์ต)  "
+      - "  &dคุณสามารถใช้เซิร์ฟเวอร์เทเลพอร์ต  "
+      - "  &dเพื่อเทเลพอร์ตไปยังเซิร์ฟเวิร์ต่างๆได้  "
+      - ""
+    left_click_commands:
+      - "[openguimenu] server-teleport(command-palette)"
+    right_click_commands:
+      - "[openguimenu] server-teleport(command-palette)"
+  "sethome":
+    slot: 28
+    display_name: "&9Sethome /sethome"
+    material: BED
+    data: 14
+    lore:
+      - ""
+      - "  &fคลิกเพื่อ Sethome (กำหนดที่อยู่บ้าน)  "
+      - "  &dคุณสามารถกำหนดที่อยู่บ้าน"
+      - "  &dการกำหนดที่อยู่บ้านจะทำให้คุณเทเลพอร์ตกลับบ้านได้  "
+      - "  &dโดยใช้คำสั้ง /home"
+      - "  &dการกำหนดที่อยู่บ้านจะกำหนด ณ ตำแหน่งปัจจุบันของคุณ  "
+      - ""
+    left_click_commands:
+      - "[player] sethome"
+      - "[close]"
+    right_click_commands:
+      - "[player] sethome"
+      - "[close]"
+  "home":
+    slot: 12
+    display_name: "&9Home /home"
+    material: BED
+    lore:
+      - ""
+      - "  &fHome (บ้าน)"
+      - "  &dคลิกเพื่อเทเลพอร์ตไปยังบ้าน  "
+      - "  &dคุณสามารถเทเลพอร์ตไปยังบ้านของคุณ  "
+      - ""
+      - "  &c&nโน้ต:&r&e คุณจำเป็นจะต้องกำหนดที่อยู่บ้านของคุณก่อนที่คุณจะเทเลพอร์ต  "
+      - ""
+      - "  &dคุณสามารถกำหนดที่อยู่บ้านได้"
+      - "  &dโดยใช้คำสั่ง /sethome"
+      - ""
+    left_click_commands:
+      - "[player] home"
+      - "[close]"
+    right_click_commands:
+      - "[player] home"
+      - "[close]"
+
+#navbar
+  "server-menu":
+    material: NETHER_STAR
+    slot: 45
+    left_click_commands:
+      - "[openguimenu] server-menu"
+    right_click_commands:
+      - "[openguimenu] server-menu"
+    display_name: "&fServer menu"
+  "command_palette":
+    slot: 46
+    material: COMMAND
+    display_name: "&6Command palette"
+
+  "back":
+    material: BARRIER
+    slot: 7
+    display_name: "&7Back <<"
+    left_click_commands:
+      - "[openguimenu] server-menu"
+    right_click_commands:
+      - "[openguimenu] server-menu"
+  "close":
+    material: STRUCTURE_VOID
+    slot: 8
+    display_name: "&cClose &7X"
+    left_click_commands:
+      - "[close]"
+    right_click_commands:
+      - "[close]"

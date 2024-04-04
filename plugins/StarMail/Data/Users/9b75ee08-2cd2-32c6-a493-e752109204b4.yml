@@ -1,0 +1,5 @@
+name: GornHBig
+notifications:
+  on join: true
+  on receive: true
+last used: 2023-12-10T17:43:01.945Z

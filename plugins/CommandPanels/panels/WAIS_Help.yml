@@ -1,0 +1,676 @@
+panels:
+  WAIS_Help(1):
+    title: "&9&lWAIS &1Help"
+    rows: "6"
+    empty: AIR
+    perm: default
+    commands:
+      - wais
+      - weareinspace
+    item:
+      "0":
+        material: cps= eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvMjcwNWZkOTRhMGM0MzE5MjdmYjRlNjM5YjBmY2ZiNDk3MTdlNDEyMjg1YTAyYjQzOWUwMTEyZGEyMmIyZTJlYyJ9fX0=
+        ID: 15
+        name: "&f"
+      "1":
+        material: stained_glass_pane
+        ID: 15
+        name: "&f"
+      "2":
+        material: stained_glass_pane
+        ID: 15
+        name: "&f"
+      "3":
+        material: stained_glass_pane
+        ID: 15
+        name: "&f"
+      "4":
+        material: stained_glass_pane
+        ID: 15
+        name: "&f"
+      "5":
+        material: stained_glass_pane
+        ID: 15
+        name: "&f"
+      "6":
+        material: stained_glass_pane
+        ID: 15
+        name: "&f"
+      "7":
+        material: stained_glass_pane
+        ID: 15
+        name: "&f"
+      "9":
+        material: stained_glass_pane
+        ID: 15
+        name: "&f"
+      "17":
+        material: stained_glass_pane
+        ID: 15
+        name: "&f"
+      "18":
+        material: stained_glass_pane
+        ID: 15
+        name: "&f"
+      "26":
+        material: stained_glass_pane
+        ID: 15
+        name: "&f"
+      "27":
+        material: stained_glass_pane
+        ID: 15
+        name: "&f"
+      "35":
+        material: stained_glass_pane
+        ID: 15
+        name: "&f"
+      "36":
+        material: stained_glass_pane
+        ID: 15
+        name: "&f"
+      "37":
+        material: stained_glass_pane
+        ID: 15
+        name: "&f"
+      "38":
+        material: stained_glass_pane
+        ID: 15
+        name: "&f"
+      "39":
+        material: stained_glass_pane
+        ID: 15
+        name: "&f"
+      "40":
+        material: stained_glass_pane
+        ID: 15
+        name: "&f"
+      "41":
+        material: stained_glass_pane
+        ID: 15
+        name: "&f"
+      "42":
+        material: stained_glass_pane
+        ID: 15
+        name: "&f"
+      "43":
+        material: stained_glass_pane
+        ID: 15
+        name: "&f"
+      "44":
+        material: stained_glass_pane
+        ID: 15
+        name: "&f"
+      #-----------------------------------------------------
+      "20":
+        material: BOOKSHELF
+        name: "&fวิธีใช้ tab ใน WAIS Menu"
+        commands:
+          - open= How_to_use_tab(1)
+        enchanted:
+          - true
+      "21":
+        material: BOOK
+        name: "&fSky Block book"
+        enchanted:
+          - true
+        commands:
+          - open= Sky_Block_book(1)
+      #-----------------------------------------------------
+      "45":
+        material: BOOKSHELF
+        enchanted:
+          - true
+        name: "&dWAIS Help"
+      #-----------------------------------------------------
+      "8":
+        material: barrier
+        name: "&cClose"
+        commands:
+          - cpc
+
+  How_to_use_tab(1):
+    title: "&9&lWAIS &1Help tab &21"
+    rows: "6"
+    empty: AIR
+    perm: default
+    item:
+      "0":
+        material: cps= eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvMjcwNWZkOTRhMGM0MzE5MjdmYjRlNjM5YjBmY2ZiNDk3MTdlNDEyMjg1YTAyYjQzOWUwMTEyZGEyMmIyZTJlYyJ9fX0=
+        ID: 15
+        name: "&f"
+      "1":
+        material: stained_glass_pane
+        ID: 15
+        name: "&f"
+      "2":
+        material: stained_glass_pane
+        ID: 15
+        name: "&f"
+      "3":
+        material: stained_glass_pane
+        ID: 15
+        name: "&f"
+      "4":
+        material: stained_glass_pane
+        ID: 15
+        name: "&f"
+      "5":
+        material: stained_glass_pane
+        ID: 15
+        name: "&f"
+      "6":
+        material: stained_glass_pane
+        ID: 15
+        name: "&f"
+      "9":
+        material: stained_glass_pane
+        ID: 15
+        name: "&f"
+      "17":
+        material: stained_glass_pane
+        ID: 15
+        name: "&f"
+      "18":
+        material: stained_glass_pane
+        ID: 15
+        name: "&f"
+      "26":
+        material: stained_glass_pane
+        ID: 15
+        name: "&f"
+      "27":
+        material: stained_glass_pane
+        ID: 15
+        name: "&f"
+      "35":
+        material: stained_glass_pane
+        ID: 15
+        name: "&f"
+
+      #-----------------------------------------------------
+
+      "36":
+        material: cps= eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvNjFlMWU3MzBjNzcyNzljOGUyZTE1ZDhiMjcxYTExN2U1ZTJjYTkzZDI1YzhiZTNhMDBjYzkyYTAwY2MwYmI4NSJ9fX0=
+        ID: 15
+        name: "&fTab จะอยู่บริเวณด้านล่างนี้"
+      "37":
+        material: cps= eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvNjFlMWU3MzBjNzcyNzljOGUyZTE1ZDhiMjcxYTExN2U1ZTJjYTkzZDI1YzhiZTNhMDBjYzkyYTAwY2MwYmI4NSJ9fX0=
+        ID: 15
+        name: "&fTab จะอยู่บริเวณด้านล่างนี้"
+      "38":
+        material: cps= eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvNjFlMWU3MzBjNzcyNzljOGUyZTE1ZDhiMjcxYTExN2U1ZTJjYTkzZDI1YzhiZTNhMDBjYzkyYTAwY2MwYmI4NSJ9fX0=
+        ID: 15
+        name: "&fTab จะอยู่บริเวณด้านล่างนี้"
+      "39":
+        material: cps= eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvNjFlMWU3MzBjNzcyNzljOGUyZTE1ZDhiMjcxYTExN2U1ZTJjYTkzZDI1YzhiZTNhMDBjYzkyYTAwY2MwYmI4NSJ9fX0=
+        ID: 15
+        name: "&fTab จะอยู่บริเวณด้านล่างนี้"
+      "40":
+        material: cps= eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvNjFlMWU3MzBjNzcyNzljOGUyZTE1ZDhiMjcxYTExN2U1ZTJjYTkzZDI1YzhiZTNhMDBjYzkyYTAwY2MwYmI4NSJ9fX0=
+        ID: 15
+        name: "&fTab จะอยู่บริเวณด้านล่างนี้"
+      "41":
+        material: cps= eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvNjFlMWU3MzBjNzcyNzljOGUyZTE1ZDhiMjcxYTExN2U1ZTJjYTkzZDI1YzhiZTNhMDBjYzkyYTAwY2MwYmI4NSJ9fX0=
+        ID: 15
+        name: "&fTab จะอยู่บริเวณด้านล่างนี้"
+      "42":
+        material: cps= eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvNjFlMWU3MzBjNzcyNzljOGUyZTE1ZDhiMjcxYTExN2U1ZTJjYTkzZDI1YzhiZTNhMDBjYzkyYTAwY2MwYmI4NSJ9fX0=
+        ID: 15
+        name: "&fTab จะอยู่บริเวณด้านล่างนี้"
+      "43":
+        material: cps= eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvNjFlMWU3MzBjNzcyNzljOGUyZTE1ZDhiMjcxYTExN2U1ZTJjYTkzZDI1YzhiZTNhMDBjYzkyYTAwY2MwYmI4NSJ9fX0=
+        ID: 15
+        name: "&fTab จะอยู่บริเวณด้านล่างนี้"
+      "44":
+        material: cps= eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvNjFlMWU3MzBjNzcyNzljOGUyZTE1ZDhiMjcxYTExN2U1ZTJjYTkzZDI1YzhiZTNhMDBjYzkyYTAwY2MwYmI4NSJ9fX0=
+        ID: 15
+        name: "&fTab จะอยู่บริเวณด้านล่างนี้"
+
+      #-----------------------------------------------------
+
+      "22":
+        material: EMERALD
+        name: "&a&lNext ->"
+        commands:
+          - open= How_to_use_tab(2)
+        enchanted:
+          - true
+
+      #-----------------------------------------------------
+      "45":
+        material: BOOKSHELF
+        commands:
+          - open= WAIS_Help(1)
+        name: "&fWAIS Help"
+      "46":
+        material: BOOKSHELF
+        enchanted:
+          - true
+        name: "&dWAIS Help tab"
+      #-----------------------------------------------------
+
+      "7":
+        material: redstone_block
+        name: "&7Back"
+        commands:
+          - open= WAIS_Help(1)
+      "8":
+        material: barrier
+        name: "&cClose"
+        commands:
+          - cpc
+
+      #-----------------------------------------------------
+
+  How_to_use_tab(2):
+    title: "&9&lWAIS &1Help tab &22"
+    rows: "6"
+    empty: AIR
+    perm: default
+    item:
+      "0":
+        material: cps= eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvMjcwNWZkOTRhMGM0MzE5MjdmYjRlNjM5YjBmY2ZiNDk3MTdlNDEyMjg1YTAyYjQzOWUwMTEyZGEyMmIyZTJlYyJ9fX0=
+        ID: 15
+        name: "&f"
+      "1":
+        material: stained_glass_pane
+        ID: 15
+        name: "&f"
+      "2":
+        material: stained_glass_pane
+        ID: 15
+        name: "&f"
+      "3":
+        material: stained_glass_pane
+        ID: 15
+        name: "&f"
+      "4":
+        material: stained_glass_pane
+        ID: 15
+        name: "&f"
+      "5":
+        material: stained_glass_pane
+        ID: 15
+        name: "&f"
+      "6":
+        material: stained_glass_pane
+        ID: 15
+        name: "&f"
+      "9":
+        material: stained_glass_pane
+        ID: 15
+        name: "&f"
+      "17":
+        material: stained_glass_pane
+        ID: 15
+        name: "&f"
+      "18":
+        material: stained_glass_pane
+        ID: 15
+        name: "&f"
+      "26":
+        material: stained_glass_pane
+        ID: 15
+        name: "&f"
+      "27":
+        material: stained_glass_pane
+        ID: 15
+        name: "&f"
+      "35":
+        material: stained_glass_pane
+        ID: 15
+        name: "&f"
+      "36":
+        material: stained_glass_pane
+        ID: 15
+        name: "&f"
+      "37":
+        material: stained_glass_pane
+        ID: 15
+        name: "&f"
+      "38":
+        material: stained_glass_pane
+        ID: 15
+        name: "&f"
+      "39":
+        material: stained_glass_pane
+        ID: 15
+        name: "&f"
+      "40":
+        material: stained_glass_pane
+        ID: 15
+        name: "&f"
+      "41":
+        material: stained_glass_pane
+        ID: 15
+        name: "&f"
+      "42":
+        material: stained_glass_pane
+        ID: 15
+        name: "&f"
+      "43":
+        material: stained_glass_pane
+        ID: 15
+        name: "&f"
+      "44":
+        material: stained_glass_pane
+        ID: 15
+        name: "&f"
+      #-----------------------------------------------------
+      "45":
+        material: BOOKSHELF
+        commands:
+          - open= WAIS_Help(1)
+        name: "&fWAIS Help"
+      "46":
+        material: BOOKSHELF
+        enchanted:
+          - true
+        name: "&dWAIS Help tab"
+      #-----------------------------------------------------
+
+      "7":
+        material: redstone_block
+        name: "&7Back"
+        commands:
+          - open= WAIS_Help(1)
+      "8":
+        material: barrier
+        name: "&cClose"
+        commands:
+          - cpc
+
+      #-----------------------------------------------------
+
+  Sky_Block_book(1):
+    title: "&9&lWAIS &2SkyBlock book &21"
+    rows: "6"
+    empty: AIR
+    perm: default
+    item:
+      "0":
+        material: cps= eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvMjcwNWZkOTRhMGM0MzE5MjdmYjRlNjM5YjBmY2ZiNDk3MTdlNDEyMjg1YTAyYjQzOWUwMTEyZGEyMmIyZTJlYyJ9fX0=
+        ID: 15
+        name: "&f"
+      "1":
+        material: stained_glass_pane
+        ID: 15
+        name: "&f"
+      "2":
+        material: stained_glass_pane
+        ID: 15
+        name: "&f"
+      "3":
+        material: stained_glass_pane
+        ID: 15
+        name: "&f"
+      "4":
+        material: stained_glass_pane
+        ID: 15
+        name: "&f"
+      "5":
+        material: stained_glass_pane
+        ID: 15
+        name: "&f"
+      "6":
+        material: stained_glass_pane
+        ID: 15
+        name: "&f"
+      "9":
+        material: stained_glass_pane
+        ID: 15
+        name: "&f"
+      "17":
+        material: stained_glass_pane
+        ID: 15
+        name: "&f"
+      "18":
+        material: stained_glass_pane
+        ID: 15
+        name: "&f"
+      "26":
+        material: stained_glass_pane
+        ID: 15
+        name: "&f"
+      "27":
+        material: stained_glass_pane
+        ID: 15
+        name: "&f"
+      "35":
+        material: stained_glass_pane
+        ID: 15
+        name: "&f"
+      "36":
+        material: stained_glass_pane
+        ID: 15
+        name: "&f"
+      "37":
+        material: stained_glass_pane
+        ID: 15
+        name: "&f"
+      "38":
+        material: stained_glass_pane
+        ID: 15
+        name: "&f"
+      "39":
+        material: stained_glass_pane
+        ID: 15
+        name: "&f"
+      "40":
+        material: stained_glass_pane
+        ID: 15
+        name: "&f"
+      "41":
+        material: stained_glass_pane
+        ID: 15
+        name: "&f"
+      "42":
+        material: stained_glass_pane
+        ID: 15
+        name: "&f"
+      "43":
+        material: stained_glass_pane
+        ID: 15
+        name: "&f"
+      "44":
+        material: stained_glass_pane
+        ID: 15
+        name: "&f"
+
+      #-----------------------------------------------------
+
+      "11":
+        material: KNOWLEDGE_BOOK
+        name: "&aRecipe book"
+        enchanted:
+          - true
+
+      "13":
+        material: COBBLESTONE
+        name: "&fYour COBBLESTONE generator."
+        lore:
+          - ""
+          - "  &fรวมวิธีใช้เครื่องปั๊ม COBBLESTONE  "
+          - ""
+        enchanted:
+          - true
+        commands:
+          - open= Your_COBBLESTONE_generator(1)
+
+      #-----------------------------------------------------
+
+      "45":
+        material: BOOKSHELF
+        commands:
+          - open= WAIS_Help(1)
+        name: "&fWAIS Help"
+      "46":
+        material: BOOK
+        enchanted:
+          - true
+        name: "&dSkyBlock book"
+
+      #-----------------------------------------------------
+
+      "7":
+        material: redstone_block
+        name: "&7Back"
+        commands:
+          - open= WAIS_Help(1)
+      "8":
+        material: barrier
+        name: "&cClose"
+        commands:
+          - cpc
+
+  Your_COBBLESTONE_generator(1):
+    title: "&2SkyBlock book &fYour COBBLESTONE generator &21"
+    rows: "6"
+    empty: AIR
+    perm: default
+    animatevalue: '5'
+    item:
+      "0":
+        material: cps= eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvMjcwNWZkOTRhMGM0MzE5MjdmYjRlNjM5YjBmY2ZiNDk3MTdlNDEyMjg1YTAyYjQzOWUwMTEyZGEyMmIyZTJlYyJ9fX0=
+        ID: 15
+        name: "&fHelp"
+        lore:
+          - ""
+          - "  เมื่อคุณเทนำและลาวา และให้ทั้งสองสิ่งรวมกัน  "
+          - "  คุณจะได้เครื่องปั๊มแร่  "
+          - "  ถ้าหากคุณอยากได้แร่เพิ่มเติม  "
+          - "  คุณสามารถอัพเกรดเครื่อมปั๊มแร่ของคุณได้ โดยใช้คำสั่ง  "
+          - "  /is upgrade หรือ  "
+          - "  /cps แล้วไปที่หน้า 6 แล้วกดที่เมนู Island upgrade  "
+          - ""
+      "1":
+        material: STAINED_GLASS_PANE
+      "2":
+        material: STAINED_GLASS_PANE
+      "5":
+        material: STAINED_GLASS_PANE
+      "6":
+        material: STAINED_GLASS_PANE
+      "10":
+        material: LEAVES
+      "11":
+        material: STAINED_GLASS_PANE
+      "12":
+        material: STAINED_GLASS_PANE
+      "14":
+        material: STAINED_GLASS_PANE
+      "16":
+        material: STAINED_GLASS_PANE
+      "18":
+        material: LEAVES
+      "19":
+        material: LOG
+      "20":
+        material: LEAVES
+      "24":
+        material: LAVA_BUCKET
+      "28":
+        material: LOG
+      
+      "29":
+        material: cps= self
+        name: "&fI'm %player_name%."
+        animate0:
+          material: AIR
+        animate1:
+          material: AIR
+        animate2:
+          material: AIR
+        animate3:
+          material: AIR
+        animate4:
+          material: AIR
+      "30":
+        material: DIAMOND_PICKAXE
+        damage: 1561
+        animate0:
+          material: cps= self
+          name: "&fI'm %player_name%."
+        animate1:
+          material: AIR
+        animate2:
+          material: AIR
+        animate3:
+          material: AIR
+        animate4:
+          material: AIR
+      "31":
+        material: AIR
+        animate0:
+          material: DIAMOND_PICKAXE
+          damage: 1561
+        animate1:
+          material: cps= self
+          name: "&fI'm %player_name%."
+        animate2:
+          material: cps= self
+          name: "&fI'm %player_name%."
+        animate3:
+          material: cps= self
+          name: "&fI'm %player_name%."
+        animate4:
+          material: cps= self
+          name: "&fI'm %player_name%."
+      "32":
+        material: AIR
+        animate0:
+          material: AIR
+        animate1:
+          material: DIAMOND_PICKAXE
+          damage: 1561
+        animate2:
+          material: DIAMOND_PICKAXE
+          damage: 1040
+        animate3:
+          material: DIAMOND_PICKAXE
+          damage: 520
+        animate4:
+          material: DIAMOND_PICKAXE
+          damage: 1
+      "33":
+        material: DIAMOND_ORE
+        animate4:
+          material: DIAMOND
+      "34":
+        material: WATER_BUCKET
+      "36":
+        material: GRASS
+      "37":
+        material: GRASS
+      "38":
+        material: GRASS
+      "39":
+        material: GRASS
+      "40":
+        material: GRASS
+      "41":
+        material: GRASS
+      "42":
+        material: GRASS
+      "43":
+        material: GRASS
+      "44":
+        material: GRASS
+      "45":
+        material: STONE
+      "46":
+        material: DIAMOND_ORE
+      "47":
+        material: STONE
+      "48":
+        material: EMERALD_ORE
+      "49":
+        material: STONE
+      "50":
+        material: COAL_ORE
+      "51":
+        material: STONE
+      "52":
+        material: LAPIS_ORE
+      "53":
+        material: STONE

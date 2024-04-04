@@ -1,0 +1,462 @@
+panels:
+  GornnysgmShop--page(1)_--amount(1):
+    perm: default
+    rows: "6"
+    title: "Agricultural tools shop"
+    empty: AIR
+    item:
+      "0":
+        material: STAINED_GLASS_PANE
+        ID: 15
+        name: "&f"
+        enchanted:
+          - true
+      "1":
+        material: STAINED_GLASS_PANE
+        ID: 15
+        name: "&f"
+        enchanted:
+          - true
+      "2":
+        material: STAINED_GLASS_PANE
+        ID: 15
+        name: "&f"
+        enchanted:
+          - true
+      "4":
+        material: STAINED_GLASS_PANE
+        ID: 15
+        name: "&f"
+        enchanted:
+          - true
+      "6":
+        material: STAINED_GLASS_PANE
+        ID: 15
+        name: "&f"
+        enchanted:
+          - true
+      "7":
+        material: STAINED_GLASS_PANE
+        ID: 15
+        name: "&f"
+        enchanted:
+          - true
+      "8":
+        material: STAINED_GLASS_PANE
+        ID: 15
+        name: "&f"
+        enchanted:
+          - true
+      "9":
+        material: STAINED_GLASS_PANE
+        ID: 15
+        name: "&f"
+        enchanted:
+          - true
+      "17":
+        material: STAINED_GLASS_PANE
+        ID: 15
+        name: "&f"
+        enchanted:
+          - true
+      "18":
+        material: STAINED_GLASS_PANE
+        ID: 15
+        name: "&f"
+        enchanted:
+          - true
+      "26":
+        material: STAINED_GLASS_PANE
+        ID: 15
+        name: "&f"
+        enchanted:
+          - true
+      "27":
+        material: STAINED_GLASS_PANE
+        ID: 15
+        name: "&f"
+        enchanted:
+          - true
+      "35":
+        material: STAINED_GLASS_PANE
+        ID: 15
+        name: "&f"
+        enchanted:
+          - true
+      "36":
+        material: STAINED_GLASS_PANE
+        ID: 15
+        name: "&f"
+        enchanted:
+          - true
+      "44":
+        material: STAINED_GLASS_PANE
+        ID: 15
+        name: "&f"
+        enchanted:
+          - true
+      "45":
+        material: STAINED_GLASS_PANE
+        ID: 15
+        name: "&f"
+        enchanted:
+          - true
+      "46":
+        material: STAINED_GLASS_PANE
+        ID: 15
+        name: "&f"
+        enchanted:
+          - true
+      "47":
+        material: STAINED_GLASS_PANE
+        ID: 15
+        name: "&f"
+        enchanted:
+          - true
+      "49":
+        material: STAINED_GLASS_PANE
+        ID: 15
+        name: "&f"
+        enchanted:
+          - true
+      "51":
+        material: STAINED_GLASS_PANE
+        ID: 15
+        name: "&f"
+        enchanted:
+          - true
+      "52":
+        material: STAINED_GLASS_PANE
+        ID: 15
+        name: "&f"
+        enchanted:
+          - true
+      "53":
+        material: STAINED_GLASS_PANE
+        ID: 15
+        name: "&f"
+        enchanted:
+          - true
+
+      "20":
+        material: WOOD_HOE
+        lore:
+          - "&b&lPrice &a40 &6&lWAIS Coin"
+          - "&dClick to buy"
+          - "&f&oWe Are In Space"
+        commands:
+          - buy= 40 WOOD_HOE 1
+      "21":
+        material: STONE_HOE
+        lore:
+          - "&b&lPrice &a80 &6&lWAIS Coin"
+          - "&dClick to buy"
+          - "&f&oWe Are In Space"
+        commands:
+          - buy= 80 STONE_HOE 1
+      "22":
+        material: IRON_HOE
+        lore:
+          - "&b&lPrice &a150 &6&lWAIS Coin"
+          - "&dClick to buy"
+          - "&f&oWe Are In Space"
+        commands:
+          - buy= 150 IRON_HOE 1
+      "23":
+        material: GOLD_HOE
+        lore:
+          - "&b&lPrice &a190 &6&lWAIS Coin"
+          - "&dClick to buy"
+          - "&f&oWe Are In Space"
+        commands:
+          - buy= 190 GOLD_HOE 1
+      "24":
+        material: DIAMOND_HOE
+        lore:
+          - "&b&lPrice &a260 &6&lWAIS Coin"
+          - "&dClick to buy"
+          - "&f&oWe Are In Space"
+        commands:
+          - buy= 260 DIAMOND_HOE 1
+
+      "29":
+        material: WOOD_SPADE
+        lore:
+          - "&b&lPrice &a50 &6&lWAIS Coin"
+          - "&dClick to buy"
+          - "&f&oWe Are In Space"
+        commands:
+          - buy= 50 WOOD_SPADE 1
+      "30":
+        material: STONE_SPADE
+        lore:
+          - "&b&lPrice &a100 &6&lWAIS Coin"
+          - "&dClick to buy"
+          - "&f&oWe Are In Space"
+        commands:
+          - buy= 100 STONE_SPADE 1
+      "31":
+        material: IRON_SPADE
+        lore:
+          - "&b&lPrice &a160 &6&lWAIS Coin"
+          - "&dClick to buy"
+          - "&f&oWe Are In Space"
+        commands:
+          - buy= 160 IRON_SPADE 1
+      "32":
+        material: GOLD_SPADE
+        lore:
+          - "&b&lPrice &a200 &6&lWAIS Coin"
+          - "&dClick to buy"
+          - "&f&oWe Are In Space"
+        commands:
+          - buy= 200 GOLD_SPADE 1
+      "33":
+        material: DIAMOND_SPADE
+        lore:
+          - "&b&lPrice &a280 &6&lWAIS Coin"
+          - "&dClick to buy"
+          - "&f&oWe Are In Space"
+        commands:
+          - buy= 280 DIAMOND_SPADE 1
+      
+      "3":
+        material: EMERALD
+        name: "&a&lMode: buy"
+        commands:
+          - "open= GornnysgmSell--page(1)_--amount(1)"
+      "5":
+        material: STAINED_GLASS_PANE
+        ID: 5
+        name: "&f&lAmount: 1"
+  
+  GornnysgmSell--page(1)_--amount(1):
+    perm: default
+    rows: "6"
+    title: "Agricultural tools shop"
+    empty: AIR
+    item:
+      "0":
+        material: STAINED_GLASS_PANE
+        ID: 15
+        name: "&f"
+        enchanted:
+          - true
+      "1":
+        material: STAINED_GLASS_PANE
+        ID: 15
+        name: "&f"
+        enchanted:
+          - true
+      "2":
+        material: STAINED_GLASS_PANE
+        ID: 15
+        name: "&f"
+        enchanted:
+          - true
+      "4":
+        material: STAINED_GLASS_PANE
+        ID: 15
+        name: "&f"
+        enchanted:
+          - true
+      "6":
+        material: STAINED_GLASS_PANE
+        ID: 15
+        name: "&f"
+        enchanted:
+          - true
+      "7":
+        material: STAINED_GLASS_PANE
+        ID: 15
+        name: "&f"
+        enchanted:
+          - true
+      "8":
+        material: STAINED_GLASS_PANE
+        ID: 15
+        name: "&f"
+        enchanted:
+          - true
+      "9":
+        material: STAINED_GLASS_PANE
+        ID: 15
+        name: "&f"
+        enchanted:
+          - true
+      "17":
+        material: STAINED_GLASS_PANE
+        ID: 15
+        name: "&f"
+        enchanted:
+          - true
+      "18":
+        material: STAINED_GLASS_PANE
+        ID: 15
+        name: "&f"
+        enchanted:
+          - true
+      "26":
+        material: STAINED_GLASS_PANE
+        ID: 15
+        name: "&f"
+        enchanted:
+          - true
+      "27":
+        material: STAINED_GLASS_PANE
+        ID: 15
+        name: "&f"
+        enchanted:
+          - true
+      "35":
+        material: STAINED_GLASS_PANE
+        ID: 15
+        name: "&f"
+        enchanted:
+          - true
+      "36":
+        material: STAINED_GLASS_PANE
+        ID: 15
+        name: "&f"
+        enchanted:
+          - true
+      "44":
+        material: STAINED_GLASS_PANE
+        ID: 15
+        name: "&f"
+        enchanted:
+          - true
+      "45":
+        material: STAINED_GLASS_PANE
+        ID: 15
+        name: "&f"
+        enchanted:
+          - true
+      "46":
+        material: STAINED_GLASS_PANE
+        ID: 15
+        name: "&f"
+        enchanted:
+          - true
+      "47":
+        material: STAINED_GLASS_PANE
+        ID: 15
+        name: "&f"
+        enchanted:
+          - true
+      "49":
+        material: STAINED_GLASS_PANE
+        ID: 15
+        name: "&f"
+        enchanted:
+          - true
+      "51":
+        material: STAINED_GLASS_PANE
+        ID: 15
+        name: "&f"
+        enchanted:
+          - true
+      "52":
+        material: STAINED_GLASS_PANE
+        ID: 15
+        name: "&f"
+        enchanted:
+          - true
+      "53":
+        material: STAINED_GLASS_PANE
+        ID: 15
+        name: "&f"
+        enchanted:
+          - true
+
+      "20":
+        material: WOOD_HOE
+        lore:
+          - "&b&lPrice &a35 &6&lWAIS Coin"
+          - "&dClick to sell"
+          - "&f&oWe Are In Space"
+        commands:
+          - sell= 35 WOOD_HOE 1
+      "21":
+        material: STONE_HOE
+        lore:
+          - "&b&lPrice &a70 &6&lWAIS Coin"
+          - "&dClick to sell"
+          - "&f&oWe Are In Space"
+        commands:
+          - sell= 70 STONE_HOE 1
+      "22":
+        material: IRON_HOE
+        lore:
+          - "&b&lPrice &a130 &6&lWAIS Coin"
+          - "&dClick to sell"
+          - "&f&oWe Are In Space"
+        commands:
+          - sell= 130 IRON_HOE 1
+      "23":
+        material: GOLD_HOE
+        lore:
+          - "&b&lPrice &a170 &6&lWAIS Coin"
+          - "&dClick to sell"
+          - "&f&oWe Are In Space"
+        commands:
+          - sell= 170 GOLD_HOE 1
+      "24":
+        material: DIAMOND_HOE
+        lore:
+          - "&b&lPrice &a240 &6&lWAIS Coin"
+          - "&dClick to sell"
+          - "&f&oWe Are In Space"
+        commands:
+          - sell= 240 DIAMOND_HOE 1
+
+      "29":
+        material: WOOD_SPADE
+        lore:
+          - "&b&lPrice &a40 &6&lWAIS Coin"
+          - "&dClick to sell"
+          - "&f&oWe Are In Space"
+        commands:
+          - sell= 40 WOOD_SPADE 1
+      "30":
+        material: STONE_SPADE
+        lore:
+          - "&b&lPrice &a75 &6&lWAIS Coin"
+          - "&dClick to sell"
+          - "&f&oWe Are In Space"
+        commands:
+          - sell= 75 STONE_SPADE 1
+      "31":
+        material: IRON_SPADE
+        lore:
+          - "&b&lPrice &a135 &6&lWAIS Coin"
+          - "&dClick to sell"
+          - "&f&oWe Are In Space"
+        commands:
+          - sell= 135 IRON_SPADE 1
+      "32":
+        material: GOLD_SPADE
+        lore:
+          - "&b&lPrice &a175 &6&lWAIS Coin"
+          - "&dClick to sell"
+          - "&f&oWe Are In Space"
+        commands:
+          - sell= 175 GOLD_SPADE 1
+      "33":
+        material: DIAMOND_SPADE
+        lore:
+          - "&b&lPrice &a1000 &6&lWAIS Coin"
+          - "&dClick to sell"
+          - "&f&oWe Are In Space"
+        commands:
+          - sell= 1000 DIAMOND_SPADE 1
+
+      "3":
+        material: REDSTONE
+        name: "&a&lMode: sell"
+        commands:
+          - "open= GornnysgmShop--page(1)_--amount(1)"
+      "5":
+        material: STAINED_GLASS_PANE
+        ID: 14
+        name: "&f&lAmount: 1"

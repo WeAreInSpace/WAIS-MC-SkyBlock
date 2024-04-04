@@ -1,0 +1,27 @@
+display:
+  name: "&fของแพงก็งี้อ่ะ"
+  lore-normal:
+    - ""
+    - "  &dคราฟ pickaxe ทอง 1 อัน  "
+    - "  &eรางวัล gold_block x1"
+  lore-started:
+    - ""
+    - "  &6ความคืบหน้า &f{golden-pickaxe:progress}&7/1  "
+  type: GOLD_PICKAXE
+tasks:
+  golden-pickaxe:
+    type: "crafting"
+    item: GOLD_PICKAXE
+    amount: 1
+    data: 0
+placeholders:
+  quest: "&6ของแพงก็งี้อ่ะ"
+  description: "&aคราฟ pickaxe ทอง 1 อัน"
+  progress: " &7 - &f{golden-pickaxe:progress}&7/1"
+options:
+  category: "gettingstarted"
+  sort-order: 12
+rewardstring:
+  - "&eดูแพงเวอร์"
+rewards:
+  - "give {player} gold_block 1"

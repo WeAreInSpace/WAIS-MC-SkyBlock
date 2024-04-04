@@ -1,0 +1,256 @@
+Welcome:
+  options:
+    - cancelCommand
+    - positionLock
+    - hideChat
+    - shifttoend
+    - endstep{s=end}
+    - noDamage
+  patterns:
+    player_name: "&f[&a%player_name%&f]"
+    narrator: "&f[&c&kNarrator&f]"
+    gornny: "&f[&dGornny&f]"
+    WAIS: "&9We Are In Space&f"
+  steps:
+    Welcome1:
+      type: delayed-text
+      delay: 40
+      text:
+        - "{gornny} เฮ้ คุณคือใคร"
+      next: Welcome2
+    Welcome2:
+      type: delayed-text
+      delay: 40
+      text:
+        - "{player_name} ใครอ่ะ"
+      next: Welcome3
+    Welcome3:
+      type: delayed-text
+      delay: 50
+      text:
+        - "{gornny} เราคือแอดมินนะ"
+      next: Welcome4
+    Welcome4:
+      type: delayed-text
+      delay: 30
+      text:
+        - "{player_name} เอ่อ..."
+      next: Welcome5
+    Welcome5:
+      type: delayed-text
+      delay: 40
+      text:
+        - "{player_name} เราอยู่ที่ใหน"
+      next: Welcome6
+    Welcome6:
+      type: delayed-text
+      delay: 40
+      text:
+        - "{narrator} สวัสดี"
+      next: Welcome7
+    Welcome7:
+      type: delayed-text
+      delay: 50
+      text:
+        - "{narrator} &kServer name is We Are In Space"
+      next: Welcome8
+    Welcome8:
+      type: delayed-text
+      delay: 30
+      text:
+        - "{player_name} ห่ะ ! ??"
+      next: Welcome9
+    Welcome9:
+      type: delayed-text
+      delay: 40
+      text:
+        - "{player_name} คุณคือใคร"
+      next: Welcome10
+    Welcome10:
+      type: delayed-text
+      delay: 50
+      text:
+        - "{narrator} เราคือ &kMastermind"
+      next: Welcome11
+    Welcome11:
+      type: delayed-text
+      delay: 40
+      text:
+        - "{player_name} แอดมิน... คุณชื่อ Gornny ใช่ไหม"
+      next: Welcome12
+    Welcome12:
+      type: delayed-text
+      delay: 40
+      text:
+        - "{gornny} ช่ายย"
+      next: Welcome13
+    Welcome13:
+      type: delayed-text
+      delay: 40
+      text:
+        - "{gornny} เอิ่ม... แล้วคุณไปรู้จัก {WAIS} ได้ยังไง"
+      next: Welcome14
+    Welcome14:
+      type: movement-text-choice
+      text:
+        0:
+          - "&7กดเดินหน้าเพื่อเลื่อนดัวชี้ขึ้นไปด้านบน"
+        1:
+          - "&7กดเดินถอยหลังเพื่อเลื่อนดัวชี้ลงไปด้านล่าง"
+        2:
+          - "&7คลิ๊กซ้าย หรือ กดไปที่ใหนบนหน้าจอ เพื่อเลือกบทสนทนา"
+        3:
+          - "{player_name}"
+        4:
+          - "  &7- เพื่อนแนะนำมา"
+          - "  &6- เพื่อนแนะนำมา"
+        5:
+          - "  &7- รู้จัก {WAIS} จากกลุ่มในโซเชียลมีเดียต่าง ๆ"
+          - "  &6- รู้จัก {WAIS} จากกลุ่มในโซเชียลมีเดียต่าง ๆ"
+        6:
+          - "  &7- รู้จัก {WAIS} จากเว็บไซต์โปรโมตเซิพมายคราฟ"
+          - "  &6- รู้จัก {WAIS} จากเว็บไซต์โปรโมตเซิพมายคราฟ"
+      choices: Welcome14-1,Welcome14-2,Welcome14-3
+
+    Welcome14-1:
+      type: delayed-text
+      delay: 50
+      text:
+        - "{player_name} เพื่อนแนะนำมา หน่ะ Gornny"
+      next: Welcome15
+    Welcome14-2:
+      type: delayed-text
+      delay: 50
+      text:
+        - "{player_name} รู้จัก {WAIS} จากกลุ่มในโซเชียลมีเดียต่าง ๆ หน่ะ Gornny"
+      next: Welcome15
+    Welcome14-3:
+      type: delayed-text
+      delay: 50
+      text:
+        - "{player_name} รู้จัก {WAIS} จากเว็บไซต์โปรโมตเซิร์ฟเวอร์มายคราฟ หน่ะ Gornny"
+      next: Welcome15
+
+    Welcome15:
+      type: delayed-text
+      delay: 50
+      text:
+        - "{gornny} อ๋อ OK"
+      next: Welcome16
+    Welcome16:
+      type: delayed-text
+      delay: 50
+      text:
+        - "{gornny} สวัสดี %player_name%"
+      next: Welcome17
+    Welcome17:
+      type: delayed-text
+      delay: 40
+      text:
+        - "{player_name} คุณรู้ชื่อเราได้ยังไง"
+      next: Welcome18
+    Welcome18:
+      type: delayed-text
+      delay: 40
+      text:
+        - "{gornny} ไม่บอกจ้า"
+      next: Welcome19
+    Welcome19:
+      type: delayed-text
+      delay: 50
+      text:
+        - "{narrator} ไปเลือกเกมที่อยากเล่นได้เลยนะ"
+      next: Welcome20
+    Welcome20:
+      type: delayed-text
+      delay: 40
+      text:
+        - "{narrator} แล้วอย่าลืมทำตามกฎด้วยนะ"
+      next: Welcome21
+    Welcome21:
+      type: delayed-text
+      delay: 50
+      text:
+        - "{player_name} ว่าแต่คุณเป็นใครอ่ะ"
+      next: Welcome22
+    Welcome22:
+      type: delayed-text
+      delay: 40
+      text:
+        - "{narrator} &kMastermind"
+      next: Welcome23
+    Welcome23:
+      type: delayed-text
+      delay: 40
+      text:
+        - "{player_name} ช่างมันละกัน"
+      next: Welcome24
+    Welcome24:
+      type: delayed-text
+      delay: 50
+      text:
+        - "{narrator} แล้วอย่าลืมทำตามกฎด้วยนะ"
+      next: Welcome100
+    Welcome100:
+      type: delayed-text
+      delay: 50
+      text:
+        - "{player_name} กฎอะไรอ่ะ"
+      next: Welcome26
+    Welcome26:
+      type: delayed-text
+      delay: 60
+      text:
+        - "{narrator} กฏของเซิร์ฟเวอร์หน่ะ"
+      next: Welcome27
+    Welcome27:
+      type: delayed-text
+      delay: 80
+      text:
+        - "{narrator} กฏจะอยู่ที่เกาะหลักนะ"
+      next: Welcome28
+    Welcome28:
+      type: delayed-text
+      delay: 50
+      text:
+        - "{player_name} อ๋อ OK"
+      next: Welcome29
+    Welcome29:
+      type: delayed-text
+      delay: 60
+      text:
+        - "{narrator} ฝากดูแล Gornny ด้วยนะ"
+      next: Welcome30
+    Welcome30:
+      type: delayed-text
+      delay: 50
+      text:
+        - "{narrator} อย่าให้นางไปทำเรื่องแย่ๆ นะ"
+      next: Welcome31
+    Welcome31:
+      type: delayed-text
+      delay: 40
+      text:
+        - "{player_name} OK"
+      next: Welcome32
+    Welcome32:
+      type: delayed-text
+      delay: 60
+      text:
+        - '{player_name} "เห้อ ทำไมกูต้องมาดูแลแอดมินวะเนี่ย"'
+      next: Welcome33
+    Welcome33:
+      type: delayed-text
+      delay: 50
+      text:
+        - "{gornny} แล้วก็ ยินดีต้อนรับนะ"
+      next: Welcome34
+    Welcome34:
+      delay: 50
+      type: delayed-text
+      text:
+        - "{gornny} เล่นให้สนุก"
+    end:
+      type: delayed-text
+      text: 
+        - ""

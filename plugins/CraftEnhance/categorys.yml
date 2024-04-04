@@ -1,0 +1,41 @@
+Categorys:
+  default:
+    category:
+      category_item:
+        ==: org.bukkit.inventory.ItemStack
+        type: WORKBENCH
+        meta:
+          ==: ItemMeta
+          meta-type: UNSPECIFIC
+          display-name: §aCategory:§3 [display_name]
+          lore:
+          - §fLeftclick to open
+          - §fRightclick to edit Category
+      name: default
+  furnace:
+    category:
+      category_item:
+        ==: org.bukkit.inventory.ItemStack
+        type: FURNACE
+        meta:
+          ==: ItemMeta
+          meta-type: TILE_ENTITY
+          display-name: §aCategory:§3 [display_name]
+          lore:
+          - §fLeftclick to open
+          - §fRightclick to edit Category
+          blockMaterial: FURNACE
+      name: furnace
+  '''WAIS''':
+    category:
+      category_item:
+        ==: org.bukkit.inventory.ItemStack
+        type: STONE
+        meta:
+          ==: ItemMeta
+          meta-type: UNSPECIFIC
+          display-name: §aCategory:§3 [display_name]
+          lore:
+          - §fLeftclick to open
+          - §fRightclick to edit Category
+      name: '''WAIS'''

@@ -1,0 +1,24 @@
+display:
+  name: "&fใช่ที่ขุดเหล็กใหม?"
+  lore-normal:
+    - ""
+    - "  &dคราฟ pickaxe เหล็ก 1 อัน  "
+  lore-started:
+    - ""
+    - "  &6ความคืบหน้า &f{iron-pickaxe:progress}&7/1  "
+  type: IRON_PICKAXE
+tasks:
+  iron-pickaxe:
+    type: "crafting"
+    item: IRON_PICKAXE
+    amount: 1
+    data: 0
+placeholders:
+  quest: "&6ใช่ที่ขุดเหล็กใหม?"
+  description: "&aคราฟ pickaxe เหล็ก 1 อัน"
+  progress: " &7 - &f{iron-pickaxe:progress}&7/1"
+options:
+  category: "gettingstarted"
+  sort-order: 8
+rewardstring:
+  - "&eใช่ นี่แหละที่ขุดเหล็ก"

@@ -1,0 +1,16 @@
+location: world:12.434:109.000:-117.498
+enabled: true
+display-range: 48
+update-range: 48
+update-interval: 20
+facing: 0.0
+down-origin: false
+pages:
+- lines:
+  - content: โรงปลูกพืช
+    height: 0.3
+  - content: สามารถเก็บเกี่ยวพืช และ จะปลูกคืนให้อัตโนมัติ
+    height: 0.3
+  - content: ทุกการเก็บเกี่ยว จะได้รับ พืช เงิน และ ค่าประสบการณ์
+    height: 0.3
+  actions: {}

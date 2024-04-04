@@ -1,0 +1,38 @@
+teleportenabled: true
+teleportauto: false
+godmode: false
+muted: false
+jailed: false
+ip-address: 127.0.0.1
+afk: false
+socialspy: false
+npc: false
+powertoolsenabled: true
+accepting-pay: true
+baltop-exempt: false
+timestamps:
+  lastteleport: 1711949350474
+  lastheal: 0
+  mute: 0
+  jail: 0
+  onlinejail: 0
+  logout: 1712158096382
+  login: 1712155629995
+money: '0'
+last-account-name: Gornny
+logoutlocation:
+  world: d89f5d61-e934-4822-bc14-49eeee159e62
+  world-name: world
+  x: -58.43857947522851
+  y: 101.0
+  z: -140.68979956774444
+  yaw: 92.26901245117188
+  pitch: 32.70001220703125
+lastlocation:
+  world: d89f5d61-e934-4822-bc14-49eeee159e62
+  world-name: world
+  x: 169.8422362384019
+  y: 152.26886881748916
+  z: -302.2872009882378
+  yaw: 36.6002197265625
+  pitch: 42.600006103515625

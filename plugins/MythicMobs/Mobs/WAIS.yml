@@ -1,0 +1,8 @@
+WAISPig:
+  Type: PIG
+
+WAISCow:
+  Type: COW
+
+WAISSheep:
+  Type: SHEEP

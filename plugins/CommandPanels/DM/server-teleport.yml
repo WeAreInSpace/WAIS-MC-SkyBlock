@@ -1,0 +1,41 @@
+menu_title: "&fServer teleport"
+open_command:
+- stp
+- servertp
+- serverteleport
+size: 54
+register_command: true
+items:
+  "spawn":
+    material: BED
+    data: 14
+    display_name: "&fSpawn"
+    update: true
+    lore:
+      - "&fOnline player %bungee_spawn%"
+      - "&fคลิกเพื่อเทเลพอร์ตไปยัง Spawn"
+    slot: 22
+    left_click_commands:
+      - "[connect] spawn"
+    right_click_commands:
+      - "[connect] spawn"
+  "Survival-lobby":
+    material: BEACON
+    display_name: "&fSurvival Lobby"
+    update: true
+    lore:
+      - "&fOnline player %bungee_skyblock%"
+      - "&fตอนนี้คุณอยู่ใน Survival Lobby"
+    slot: 31
+    hide_enchantments: true
+    enchantments:
+      - MENDING;1
+    
+  "close":
+    material: STRUCTURE_VOID
+    slot: 8
+    display_name: "&cClose &7X"
+    left_click_commands:
+      - "[close]"
+    right_click_commands:
+      - "[close]"

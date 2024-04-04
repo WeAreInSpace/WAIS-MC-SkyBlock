@@ -1,0 +1,5 @@
+name: GornKBig
+notifications:
+  on join: true
+  on receive: true
+last used: 2023-12-10T12:14:58.354Z

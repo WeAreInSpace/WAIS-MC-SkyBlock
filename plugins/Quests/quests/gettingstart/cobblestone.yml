@@ -1,0 +1,25 @@
+display:
+  name: "&fมีที่ขุดแล้ว ลองขุดหินสิ"
+  lore-normal:
+    - ""
+    - "  &dขุด stone 3 ก้อน  "
+  lore-started:
+    - ""
+    - "  ความคืบหน้า &f{cobblestone:progress}&7/3  "
+  type: "STONE"
+tasks:
+  cobblestone:
+    type: "blockbreak"
+    item: 
+      - "STONE"
+    amount: 3
+    data: 0
+placeholders:
+  quest: "&6มีที่ขุดแล้ว ลองขุดหินสิ"
+  description: "&aขุด Cobblestone 3 ก้อน"
+  progress: " &7 - &f{cobblestone:progress}&7/3"
+options:
+  category: "gettingstarted"
+  sort-order: 4
+rewardstring:
+  - "หิน และ หิน และ หิน และ หิน"

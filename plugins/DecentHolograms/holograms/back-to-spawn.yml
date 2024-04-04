@@ -1,0 +1,12 @@
+﻿location: world:0.411:114.000:15.505
+enabled: true
+display-range: 48
+update-range: 48
+update-interval: 20
+facing: 0.0
+down-origin: false
+pages:
+- lines:
+  - content: '&fBack to island &f&lor &fCreate island'
+    height: 0.3
+  actions: {}

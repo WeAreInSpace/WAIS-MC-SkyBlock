@@ -1,0 +1,27 @@
+display:
+  name: "&fได้เวลาอัปเกรดแล้ว"
+  lore-normal:
+    - ""
+    - "  &dคราฟ Pickaxe หิน 1 อัน  "
+    - "  &eรางวัล cobblestone x16"
+  lore-started:
+    - ""
+    - "  &6ความคืบหน้า &f{stone-pickaxe:progress}&7/1  "
+  type: STONE_PICKAXE
+tasks:
+  stone-pickaxe:
+    type: "crafting"
+    item: STONE_PICKAXE
+    amount: 1
+    data: 0
+placeholders:
+  quest: "&6ได้เวลาอัปเกรดแล้ว"
+  description: "&aคราฟ Pickaxe หิน 1 อัน"
+  progress: " &7 - &f{stone-pickaxe:progress}&7/1"
+options:
+  category: "gettingstarted"
+  sort-order: 5
+rewardstring:
+  - "&eเป็นไงหล่ะ ขุดเร็วกว่าเดิมใช่มะ"
+rewards:
+  - "give {player} cobblestone 16"

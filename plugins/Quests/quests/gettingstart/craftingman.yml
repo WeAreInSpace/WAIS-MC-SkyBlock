@@ -1,0 +1,25 @@
+display:
+  name: "&fจุดเริ่มต้นของการเป็นนักประดิษฐ์"
+  lore-normal:
+    - ""
+    - "  &dคราฟโตะคราฟ 1 โต็ะ  "
+  lore-started:
+    - ""
+    - "  &6ความคืบหน้า &f{crafting-table:progress}&7/1  "
+  type: WORKBENCH
+tasks:
+  crafting-table:
+    type: "crafting"
+    item: WORKBENCH
+    amount: 1
+    data: 0
+placeholders:
+  quest: "&6จุดเริ่มต้นของการเป็นนักประดิษฐ์"
+  description: "&aคราฟโตะคราฟ 1 โต็ะ"
+  progress: " &7 - &f{crafting-table:progress}&7/1"
+options:
+  category: "gettingstarted"
+  sort-order: 2
+rewardstring:
+  - "&eได้โต็ะคราฟแล้วจร้า"
+  - "&eนี่สินะคือจุดเริ่มต้นของการเป็นนักประดิษฐ์"

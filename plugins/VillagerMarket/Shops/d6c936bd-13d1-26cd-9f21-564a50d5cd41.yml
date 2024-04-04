@@ -1,0 +1,824 @@
+storageSize: 1
+shopfrontSize: 0
+type: ADMIN
+duration: infinite
+cost: 0
+expire: 0
+times_rented: 1
+collected_money: !!float '0'
+require_permission: false
+stats:
+  items_sold: 37
+  items_bought: 0
+  money_earned: 4631.0
+  money_spent: 0.0
+entity:
+  name: Bob
+  location:
+    x: -21.5
+    y: 103.0
+    z: -158.5
+    world: world
+items_for_sale:
+  '0':
+    item:
+      ==: org.bukkit.inventory.ItemStack
+      type: MONSTER_EGG
+      meta:
+        ==: ItemMeta
+        meta-type: SPAWN_EGG
+        internal: H4sIAAAAAAAA/+NiYOBi4HTNK8ksqQxJTOdgYMpMYZDIzcxLTS5KTCuxSs1JSS2KTy9NLErJTMxjYAAAZD9bOjAAAAA=
+        id: elder_guardian
+    amount: 1
+    trade_amount: 0
+    price: 199.0
+    buy_price: 199.0
+    mode: SELL
+    buy_limit: 0
+    command: []
+    server_trades: 1
+    limit_mode: PLAYER
+    cooldown: never
+    discount:
+      amount: 0
+      end: 0
+    next_reset: 0
+    limits:
+      c6e10bb5-a604-4a21-9da3-c67035019a0e: 1
+  '1':
+    item:
+      ==: org.bukkit.inventory.ItemStack
+      type: MONSTER_EGG
+      meta:
+        ==: ItemMeta
+        meta-type: SPAWN_EGG
+        internal: H4sIAAAAAAAA/+NiYOBi4HTNK8ksqQxJTOdgYMpMYZDNzcxLTS5KTCuxKsvMS8lMTizJzM+Lz8zJSUxPLWJgAABf18FMNQAAAA==
+        id: vindication_illager
+    amount: 1
+    trade_amount: 0
+    price: 139.0
+    buy_price: 139.0
+    mode: SELL
+    buy_limit: 0
+    command: []
+    server_trades: 0
+    limit_mode: PLAYER
+    cooldown: never
+    discount:
+      amount: 0
+      end: 0
+    next_reset: 0
+  '2':
+    item:
+      ==: org.bukkit.inventory.ItemStack
+      type: MONSTER_EGG
+      meta:
+        ==: ItemMeta
+        meta-type: SPAWN_EGG
+        internal: H4sIAAAAAAAA/+NiYOBi4HTNK8ksqQxJTOdgYMpMYRDMzcxLTS5KTCuxSi5KTS1ILWJgAAB18udrKQAAAA==
+        id: creeper
+    amount: 1
+    trade_amount: 0
+    price: 89.0
+    buy_price: 89.0
+    mode: SELL
+    buy_limit: 0
+    command: []
+    server_trades: 2
+    limit_mode: PLAYER
+    cooldown: never
+    discount:
+      amount: 0
+      end: 0
+    next_reset: 0
+    limits:
+      c6e10bb5-a604-4a21-9da3-c67035019a0e: 2
+  '3':
+    item:
+      ==: org.bukkit.inventory.ItemStack
+      type: MONSTER_EGG
+      meta:
+        ==: ItemMeta
+        meta-type: SPAWN_EGG
+        internal: H4sIAAAAAAAA/+NiYOBi4HTNK8ksqQxJTOdgYMpMYRDKzcxLTS5KTCuxKs5OzUktyc9jYAAATHvs1SoAAAA=
+        id: skeleton
+    amount: 1
+    trade_amount: 0
+    price: 85.0
+    buy_price: 85.0
+    mode: SELL
+    buy_limit: 0
+    command: []
+    server_trades: 1
+    limit_mode: PLAYER
+    cooldown: never
+    discount:
+      amount: 0
+      end: 0
+    next_reset: 0
+    limits:
+      c6e10bb5-a604-4a21-9da3-c67035019a0e: 1
+  '4':
+    item:
+      ==: org.bukkit.inventory.ItemStack
+      type: MONSTER_EGG
+      meta:
+        ==: ItemMeta
+        meta-type: SPAWN_EGG
+        internal: H4sIAAAAAAAA/+NiYOBi4HTNK8ksqQxJTOdgYMpMYZDIzcxLTS5KTCuxKs5OzUktyc+Lz8gvKk5lYAAASLhSNjAAAAA=
+        id: skeleton_horse
+    amount: 1
+    trade_amount: 0
+    price: 85.0
+    buy_price: 85.0
+    mode: SELL
+    buy_limit: 0
+    command: []
+    server_trades: 1
+    limit_mode: PLAYER
+    cooldown: never
+    discount:
+      amount: 0
+      end: 0
+    next_reset: 0
+    limits:
+      c6e10bb5-a604-4a21-9da3-c67035019a0e: 1
+  '5':
+    item:
+      ==: org.bukkit.inventory.ItemStack
+      type: MONSTER_EGG
+      meta:
+        ==: ItemMeta
+        meta-type: SPAWN_EGG
+        internal: H4sIAAAAAAAA/+NiYOBi4HTNK8ksqQxJTOdgYMpMYRDLzcxLTS5KTCuxqsrPTcpMjc/ILypOZWAAACR/xGcuAAAA
+        id: zombie_horse
+    amount: 1
+    trade_amount: 0
+    price: 100.0
+    buy_price: 100.0
+    mode: SELL
+    buy_limit: 0
+    command: []
+    server_trades: 1
+    limit_mode: PLAYER
+    cooldown: never
+    discount:
+      amount: 0
+      end: 0
+    next_reset: 0
+    limits:
+      c6e10bb5-a604-4a21-9da3-c67035019a0e: 1
+  '6':
+    item:
+      ==: org.bukkit.inventory.ItemStack
+      type: MONSTER_EGG
+      meta:
+        ==: ItemMeta
+        meta-type: SPAWN_EGG
+        internal: H4sIAAAAAAAA/+NiYOBi4HTNK8ksqQxJTOdgYMpMYZDMzcxLTS5KTCuxKs8syUgtii/OTs1JLcnPY2AAANHSK/YxAAAA
+        id: wither_skeleton
+    amount: 1
+    trade_amount: 0
+    price: 100.0
+    buy_price: 100.0
+    mode: SELL
+    buy_limit: 0
+    command: []
+    server_trades: 0
+    limit_mode: PLAYER
+    cooldown: never
+    discount:
+      amount: 0
+      end: 0
+    next_reset: 0
+  '7':
+    item:
+      ==: org.bukkit.inventory.ItemStack
+      type: MONSTER_EGG
+      meta:
+        ==: ItemMeta
+        meta-type: SPAWN_EGG
+        internal: H4sIAAAAAAAA/+NiYOBi4HTNK8ksqQxJTOdgYMpMYeDPzcxLTS5KTCuxKi4pSqxkYAAAy5jlZycAAAA=
+        id: stray
+    amount: 1
+    trade_amount: 0
+    price: 129.0
+    buy_price: 129.0
+    mode: SELL
+    buy_limit: 0
+    command: []
+    server_trades: 0
+    limit_mode: PLAYER
+    cooldown: never
+    discount:
+      amount: 0
+      end: 0
+    next_reset: 0
+  '8':
+    item:
+      ==: org.bukkit.inventory.ItemStack
+      type: MONSTER_EGG
+      meta:
+        ==: ItemMeta
+        meta-type: SPAWN_EGG
+        internal: H4sIAAAAAAAA/+NiYOBi4HTNK8ksqQxJTGdkYHXOz8kv4mJgAACO/+m6GgAAAA==
+    amount: 1
+    trade_amount: 0
+    price: 129.0
+    buy_price: 129.0
+    mode: SELL
+    buy_limit: 0
+    command: []
+    server_trades: 1
+    limit_mode: PLAYER
+    cooldown: never
+    discount:
+      amount: 0
+      end: 0
+    next_reset: 0
+    limits:
+      c6e10bb5-a604-4a21-9da3-c67035019a0e: 1
+  '9':
+    item:
+      ==: org.bukkit.inventory.ItemStack
+      type: MONSTER_EGG
+      meta:
+        ==: ItemMeta
+        meta-type: SPAWN_EGG
+        internal: H4sIAAAAAAAA/+NiYOBi4HTNK8ksqQxJTOdgYMpMYZDMzcxLTS5KTCuxqsrPTcpMjS/LzMlJTE8tYmAAAMka2aQxAAAA
+        id: zombie_villager
+    amount: 1
+    trade_amount: 0
+    price: 75.0
+    buy_price: 75.0
+    mode: SELL
+    buy_limit: 0
+    command: []
+    server_trades: 0
+    limit_mode: PLAYER
+    cooldown: never
+    discount:
+      amount: 0
+      end: 0
+    next_reset: 0
+  '10':
+    item:
+      ==: org.bukkit.inventory.ItemStack
+      type: MONSTER_EGG
+      meta:
+        ==: ItemMeta
+        meta-type: SPAWN_EGG
+        internal: H4sIAAAAAAAA/+NiYOBi4HTNK8ksqQxJTOdgYMpMYeDPzcxLTS5KTCuxKi4sBQowAACkzUJUJwAAAA==
+        id: squid
+    amount: 1
+    trade_amount: 0
+    price: 59.0
+    buy_price: 59.0
+    mode: SELL
+    buy_limit: 0
+    command: []
+    server_trades: 0
+    limit_mode: PLAYER
+    cooldown: never
+    discount:
+      amount: 0
+      end: 0
+    next_reset: 0
+  '11':
+    item:
+      ==: org.bukkit.inventory.ItemStack
+      type: MONSTER_EGG
+      meta:
+        ==: ItemMeta
+        meta-type: SPAWN_EGG
+        internal: H4sIAAAAAAAA/+NiYOBi4HTNK8ksqQxJTOdgYMpMYeDLzcxLTS5KTCuxyi3NSWVgAABqvJD9JgAAAA==
+        id: mule
+    amount: 1
+    trade_amount: 0
+    price: 259.0
+    buy_price: 259.0
+    mode: SELL
+    buy_limit: 0
+    command: []
+    server_trades: 3
+    limit_mode: PLAYER
+    cooldown: never
+    discount:
+      amount: 0
+      end: 0
+    next_reset: 0
+    limits:
+      c6e10bb5-a604-4a21-9da3-c67035019a0e: 3
+  '12':
+    item:
+      ==: org.bukkit.inventory.ItemStack
+      type: MONSTER_EGG
+      meta:
+        ==: ItemMeta
+        meta-type: SPAWN_EGG
+        internal: H4sIAAAAAAAA/+NiYOBi4HTNK8ksqQxJTOdgYMpMYRDIzcxLTS5KTCuxyk9OzckvYWAAAJAEqscoAAAA
+        id: ocelot
+    amount: 1
+    trade_amount: 0
+    price: 350.0
+    buy_price: 350.0
+    mode: SELL
+    buy_limit: 0
+    command: []
+    server_trades: 1
+    limit_mode: PLAYER
+    cooldown: never
+    discount:
+      amount: 0
+      end: 0
+    next_reset: 0
+    limits:
+      c6e10bb5-a604-4a21-9da3-c67035019a0e: 1
+  '13':
+    item:
+      ==: org.bukkit.inventory.ItemStack
+      type: MONSTER_EGG
+      meta:
+        ==: ItemMeta
+        meta-type: SPAWN_EGG
+        internal: H4sIAAAAAAAA/+NiYOBi4HTNK8ksqQxJTOdgYMpMYRDIzcxLTS5KTCuxKkgsKsovYWAAAP4trTQoAAAA
+        id: parrot
+    amount: 1
+    trade_amount: 0
+    price: 120.0
+    buy_price: 120.0
+    mode: SELL
+    buy_limit: 0
+    command: []
+    server_trades: 1
+    limit_mode: PLAYER
+    cooldown: never
+    discount:
+      amount: 0
+      end: 0
+    next_reset: 0
+    limits:
+      c6e10bb5-a604-4a21-9da3-c67035019a0e: 1
+  '14':
+    item:
+      ==: org.bukkit.inventory.ItemStack
+      type: MONSTER_EGG
+      meta:
+        ==: ItemMeta
+        meta-type: SPAWN_EGG
+        internal: H4sIAAAAAAAA/+NiYOBi4HTNK8ksqQxJTOdgYMpMYRDIzcxLTS5KTCuxqsrPTcpMZWAAADz7vV8oAAAA
+        id: zombie
+    amount: 1
+    trade_amount: 0
+    price: 75.0
+    buy_price: 75.0
+    mode: SELL
+    buy_limit: 0
+    command: []
+    server_trades: 1
+    limit_mode: PLAYER
+    cooldown: never
+    discount:
+      amount: 0
+      end: 0
+    next_reset: 0
+    limits:
+      c6e10bb5-a604-4a21-9da3-c67035019a0e: 1
+  '15':
+    item:
+      ==: org.bukkit.inventory.ItemStack
+      type: MONSTER_EGG
+      meta:
+        ==: ItemMeta
+        meta-type: SPAWN_EGG
+        internal: H4sIAAAAAAAA/+NiYOBi4HTNK8ksqQxJTOdgYMpMYRDJzcxLTS5KTCuxKsjPSSyKT0pNLGJgAAD4K3BZLAAAAA==
+        id: polar_bear
+    amount: 1
+    trade_amount: 0
+    price: 560.0
+    buy_price: 560.0
+    mode: SELL
+    buy_limit: 0
+    command: []
+    server_trades: 0
+    limit_mode: PLAYER
+    cooldown: never
+    discount:
+      amount: 0
+      end: 0
+    next_reset: 0
+  '16':
+    item:
+      ==: org.bukkit.inventory.ItemStack
+      type: MONSTER_EGG
+      meta:
+        ==: ItemMeta
+        meta-type: SPAWN_EGG
+        internal: H4sIAAAAAAAA/+NiYOBi4HTNK8ksqQxJTOdgYMpMYeDPzcxLTS5KTCuxKs8sSc5gYAAA8VlPFCcAAAA=
+        id: witch
+    amount: 1
+    trade_amount: 0
+    price: 10.0
+    buy_price: 10.0
+    mode: SELL
+    buy_limit: 0
+    command: []
+    server_trades: 4
+    limit_mode: PLAYER
+    cooldown: never
+    discount:
+      amount: 0
+      end: 0
+    next_reset: 0
+    limits:
+      c6e10bb5-a604-4a21-9da3-c67035019a0e: 4
+  '17':
+    item:
+      ==: org.bukkit.inventory.ItemStack
+      type: MONSTER_EGG
+      meta:
+        ==: ItemMeta
+        meta-type: SPAWN_EGG
+        internal: H4sIAAAAAAAA/+NiYOBi4HTNK8ksqQxJTOdgYMpMYeDLzcxLTS5KTCuxKs/PSWNgAADtrMt3JgAAAA==
+        id: wolf
+    amount: 1
+    trade_amount: 0
+    price: 139.0
+    buy_price: 139.0
+    mode: SELL
+    buy_limit: 0
+    command: []
+    server_trades: 0
+    limit_mode: PLAYER
+    cooldown: never
+    discount:
+      amount: 0
+      end: 0
+    next_reset: 0
+  '18':
+    item:
+      ==: org.bukkit.inventory.ItemStack
+      type: MONSTER_EGG
+      meta:
+        ==: ItemMeta
+        meta-type: SPAWN_EGG
+        internal: H4sIAAAAAAAA/+NiYOBi4HTNK8ksqQxJTOdgYMpMYRDKzcxLTS5KTCuxSi9NLErJTMxjYAAA8d3znyoAAAA=
+        id: guardian
+    amount: 1
+    trade_amount: 0
+    price: 156.0
+    buy_price: 156.0
+    mode: SELL
+    buy_limit: 0
+    command: []
+    server_trades: 1
+    limit_mode: PLAYER
+    cooldown: never
+    discount:
+      amount: 0
+      end: 0
+    next_reset: 0
+    limits:
+      c6e10bb5-a604-4a21-9da3-c67035019a0e: 1
+  '19':
+    item:
+      ==: org.bukkit.inventory.ItemStack
+      type: MONSTER_EGG
+      meta:
+        ==: ItemMeta
+        meta-type: SPAWN_EGG
+        internal: H4sIAAAAAAAA/+NiYOBi4HTNK8ksqQxJTOdgYMpMYRDOzcxLTS5KTCuxSs1LSS3KzSxJZWAAAKoak2orAAAA
+        id: endermite
+    amount: 1
+    trade_amount: 0
+    price: 119.0
+    buy_price: 119.0
+    mode: SELL
+    buy_limit: 0
+    command: []
+    server_trades: 1
+    limit_mode: PLAYER
+    cooldown: never
+    discount:
+      amount: 0
+      end: 0
+    next_reset: 0
+    limits:
+      c6e10bb5-a604-4a21-9da3-c67035019a0e: 1
+  '20':
+    item:
+      ==: org.bukkit.inventory.ItemStack
+      type: MONSTER_EGG
+      meta:
+        ==: ItemMeta
+        meta-type: SPAWN_EGG
+        internal: H4sIAAAAAAAA/+NiYOBi4HTNK8ksqQxJTOdgYMpMYZDOzcxLTS5KTCuxSi3LT04syczPi8/MyUlMTy1iYAAAGTAEMTMAAAA=
+        id: evocation_illager
+    amount: 1
+    trade_amount: 0
+    price: 89.0
+    buy_price: 89.0
+    mode: SELL
+    buy_limit: 0
+    command: []
+    server_trades: 0
+    limit_mode: PLAYER
+    cooldown: never
+    discount:
+      amount: 0
+      end: 0
+    next_reset: 0
+  '21':
+    item:
+      ==: org.bukkit.inventory.ItemStack
+      type: MONSTER_EGG
+      meta:
+        ==: ItemMeta
+        meta-type: SPAWN_EGG
+        internal: H4sIAAAAAAAA/+NiYOBi4HTNK8ksqQxJTOdgYMpMYeDPzcxLTS5KTCuxSs9ILC5hYAAA4wPoVScAAAA=
+        id: ghast
+    amount: 1
+    trade_amount: 0
+    price: 189.0
+    buy_price: 189.0
+    mode: SELL
+    buy_limit: 0
+    command: []
+    server_trades: 0
+    limit_mode: PLAYER
+    cooldown: never
+    discount:
+      amount: 0
+      end: 0
+    next_reset: 0
+  '22':
+    item:
+      ==: org.bukkit.inventory.ItemStack
+      type: MONSTER_EGG
+      meta:
+        ==: ItemMeta
+        meta-type: SPAWN_EGG
+        internal: H4sIAAAAAAAA/+NiYOBi4HTNK8ksqQxJTOdgYMpMYeDNzcxLTS5KTCuxKkutYGAAAIyxa5AlAAAA
+        id: vex
+    amount: 1
+    trade_amount: 0
+    price: 59.0
+    buy_price: 59.0
+    mode: SELL
+    buy_limit: 0
+    command: []
+    server_trades: 7
+    limit_mode: PLAYER
+    cooldown: never
+    discount:
+      amount: 0
+      end: 0
+    next_reset: 0
+    limits:
+      c6e10bb5-a604-4a21-9da3-c67035019a0e: 7
+  '23':
+    item:
+      ==: org.bukkit.inventory.ItemStack
+      type: MONSTER_EGG
+      meta:
+        ==: ItemMeta
+        meta-type: SPAWN_EGG
+        internal: H4sIAAAAAAAA/+NiYOBi4HTNK8ksqQxJTOdgYMpMYRDJzcxLTS5KTCuxyk1Mz02MTy5NSmVgAAD7jDHVLAAAAA==
+        id: magma_cube
+    amount: 1
+    trade_amount: 0
+    price: 95.0
+    buy_price: 95.0
+    mode: SELL
+    buy_limit: 0
+    command: []
+    server_trades: 0
+    limit_mode: PLAYER
+    cooldown: never
+    discount:
+      amount: 0
+      end: 0
+    next_reset: 0
+  '24':
+    item:
+      ==: org.bukkit.inventory.ItemStack
+      type: MONSTER_EGG
+      meta:
+        ==: ItemMeta
+        meta-type: SPAWN_EGG
+        internal: H4sIAAAAAAAA/+NiYOBi4HTNK8ksqQxJTOdgYMpMYeDPzcxLTS5KTCuxyslJzE1kYAAAOFRVZicAAAA=
+        id: llama
+    amount: 1
+    trade_amount: 0
+    price: 260.0
+    buy_price: 260.0
+    mode: SELL
+    buy_limit: 0
+    command: []
+    server_trades: 1
+    limit_mode: PLAYER
+    cooldown: never
+    discount:
+      amount: 0
+      end: 0
+    next_reset: 0
+    limits:
+      c6e10bb5-a604-4a21-9da3-c67035019a0e: 1
+  '25':
+    item:
+      ==: org.bukkit.inventory.ItemStack
+      type: MONSTER_EGG
+      meta:
+        ==: ItemMeta
+        meta-type: SPAWN_EGG
+        internal: H4sIAAAAAAAA/+NiYOBi4HTNK8ksqQxJTOdgYMpMYeDLzcxLTS5KTCuxyigtzmZgAAAaR7mvJgAAAA==
+        id: husk
+    amount: 1
+    trade_amount: 0
+    price: 240.0
+    buy_price: 240.0
+    mode: SELL
+    buy_limit: 0
+    command: []
+    server_trades: 1
+    limit_mode: PLAYER
+    cooldown: never
+    discount:
+      amount: 0
+      end: 0
+    next_reset: 0
+    limits:
+      c6e10bb5-a604-4a21-9da3-c67035019a0e: 1
+  '26':
+    item:
+      ==: org.bukkit.inventory.ItemStack
+      type: MONSTER_EGG
+      meta:
+        ==: ItemMeta
+        meta-type: SPAWN_EGG
+        internal: H4sIAAAAAAAA/+NiYOBi4HTNK8ksqQxJTOdgYMpMYeDPzcxLTS5KTCuxysgvKk5lYAAAp2cBhCcAAAA=
+        id: horse
+    amount: 1
+    trade_amount: 0
+    price: 90.0
+    buy_price: 90.0
+    mode: SELL
+    buy_limit: 0
+    command: []
+    server_trades: 3
+    limit_mode: PLAYER
+    cooldown: never
+    discount:
+      amount: 0
+      end: 0
+    next_reset: 0
+    limits:
+      c6e10bb5-a604-4a21-9da3-c67035019a0e: 3
+  '27':
+    item:
+      ==: org.bukkit.inventory.ItemStack
+      type: MONSTER_EGG
+      meta:
+        ==: ItemMeta
+        meta-type: SPAWN_EGG
+        internal: H4sIAAAAAAAA/+NiYOBi4HTNK8ksqQxJTOdgYMpMYeDNzcxLTS5KTCuxSkosYWAAAP3uc4MlAAAA
+        id: bat
+    amount: 1
+    trade_amount: 0
+    price: 65.0
+    buy_price: 65.0
+    mode: SELL
+    buy_limit: 0
+    command: []
+    server_trades: 1
+    limit_mode: PLAYER
+    cooldown: never
+    discount:
+      amount: 0
+      end: 0
+    next_reset: 0
+    limits:
+      c6e10bb5-a604-4a21-9da3-c67035019a0e: 1
+  '28':
+    item:
+      ==: org.bukkit.inventory.ItemStack
+      type: MONSTER_EGG
+      meta:
+        ==: ItemMeta
+        meta-type: SPAWN_EGG
+        internal: H4sIAAAAAAAA/+NiYOBi4HTNK8ksqQxJTOdgYMpMYRDNzcxLTS5KTCuxSk4sS40vLshMSS1iYAAAiabpTS0AAAA=
+        id: cave_spider
+    amount: 1
+    trade_amount: 0
+    price: 80.0
+    buy_price: 80.0
+    mode: SELL
+    buy_limit: 0
+    command: []
+    server_trades: 1
+    limit_mode: PLAYER
+    cooldown: never
+    discount:
+      amount: 0
+      end: 0
+    next_reset: 0
+    limits:
+      c6e10bb5-a604-4a21-9da3-c67035019a0e: 1
+  '29':
+    item:
+      ==: org.bukkit.inventory.ItemStack
+      type: MONSTER_EGG
+      meta:
+        ==: ItemMeta
+        meta-type: SPAWN_EGG
+        internal: H4sIAAAAAAAA/+NiYOBi4HTNK8ksqQxJTOdgYMpMYRDIzcxLTS5KTCuxSsnPy06tZGAAAFYt4uIoAAAA
+        id: donkey
+    amount: 1
+    trade_amount: 0
+    price: 350.0
+    buy_price: 350.0
+    mode: SELL
+    buy_limit: 0
+    command: []
+    server_trades: 2
+    limit_mode: PLAYER
+    cooldown: never
+    discount:
+      amount: 0
+      end: 0
+    next_reset: 0
+    limits:
+      c6e10bb5-a604-4a21-9da3-c67035019a0e: 2
+  '30':
+    item:
+      ==: org.bukkit.inventory.ItemStack
+      type: MONSTER_EGG
+      meta:
+        ==: ItemMeta
+        meta-type: SPAWN_EGG
+        internal: H4sIAAAAAAAA/+NiYOBi4HTNK8ksqQxJTOdgYMpMYRDIzcxLTS5KTCuxKi7ITEktYmAAAMuxCpYoAAAA
+        id: spider
+    amount: 1
+    trade_amount: 0
+    price: 60.0
+    buy_price: 60.0
+    mode: SELL
+    buy_limit: 0
+    command: []
+    server_trades: 0
+    limit_mode: PLAYER
+    cooldown: never
+    discount:
+      amount: 0
+      end: 0
+    next_reset: 0
+  '31':
+    item:
+      ==: org.bukkit.inventory.ItemStack
+      type: MONSTER_EGG
+      meta:
+        ==: ItemMeta
+        meta-type: SPAWN_EGG
+        internal: H4sIAAAAAAAA/+NiYOBi4HTNK8ksqQxJTOdgYMpMYRDPzcxLTS5KTCuxqsrPTcpMjS/ITM9NzGNgAACmvRWELwAAAA==
+        id: zombie_pigman
+    amount: 1
+    trade_amount: 0
+    price: 90.0
+    buy_price: 90.0
+    mode: SELL
+    buy_limit: 0
+    command: []
+    server_trades: 1
+    limit_mode: PLAYER
+    cooldown: never
+    discount:
+      amount: 0
+      end: 0
+    next_reset: 0
+    limits:
+      c6e10bb5-a604-4a21-9da3-c67035019a0e: 1
+  '32':
+    item:
+      ==: org.bukkit.inventory.ItemStack
+      type: MONSTER_EGG
+      meta:
+        ==: ItemMeta
+        meta-type: SPAWN_EGG
+        internal: H4sIAAAAAAAA/+NiYOBi4HTNK8ksqQxJTOdgYMpMYRDJzcxLTS5KTCuxKs7MKUstSssszmBgAAA4ai5jLAAAAA==
+        id: silverfish
+    amount: 1
+    trade_amount: 0
+    price: 100.0
+    buy_price: 100.0
+    mode: SELL
+    buy_limit: 0
+    command: []
+    server_trades: 1
+    limit_mode: PLAYER
+    cooldown: never
+    discount:
+      amount: 0
+      end: 0
+    next_reset: 0
+    limits:
+      c6e10bb5-a604-4a21-9da3-c67035019a0e: 1

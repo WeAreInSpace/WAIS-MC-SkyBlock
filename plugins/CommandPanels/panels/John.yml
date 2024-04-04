@@ -1,0 +1,1226 @@
+panels:
+  JohnSell--page(1)_--amount(1):
+    perm: default
+    rows: "6"
+    title: "John's &2shop"
+    empty: AIR
+    item:
+      "0":
+        material: stained_glass_pane
+        ID: 15
+        name: "&f"
+      "1":
+        material: stained_glass_pane
+        ID: 15
+        name: "&f"
+      "2":
+        material: stained_glass_pane
+        ID: 15
+        name: "&f"
+      "4":
+        material: stained_glass_pane
+        ID: 15
+        name: "&f"
+      "6":
+        material: stained_glass_pane
+        ID: 15
+        name: "&f"
+      "7":
+        material: stained_glass_pane
+        ID: 15
+        name: "&f"
+      "9":
+        material: stained_glass_pane
+        ID: 15
+        name: "&f"
+      "17":
+        material: stained_glass_pane
+        ID: 15
+        name: "&f"
+      "18":
+        material: stained_glass_pane
+        ID: 15
+        name: "&f"
+      "26":
+        material: stained_glass_pane
+        ID: 15
+        name: "&f"
+      "27":
+        material: stained_glass_pane
+        ID: 15
+        name: "&f"
+      "35":
+        material: stained_glass_pane
+        ID: 15
+        name: "&f"
+      "36":
+        material: stained_glass_pane
+        ID: 15
+        name: "&f"
+      "44":
+        material: stained_glass_pane
+        ID: 15
+        name: "&f"
+      "45":
+        material: stained_glass_pane
+        ID: 15
+        name: "&f"
+      "46":
+        material: stained_glass_pane
+        ID: 15
+        name: "&f"
+      "47":
+        material: stained_glass_pane
+        ID: 15
+        name: "&f"
+      "48":
+        material: stained_glass_pane
+        ID: 15
+        name: "&f"
+      "49":
+        material: stained_glass_pane
+        ID: 15
+        name: "&f"
+      "50":
+        material: stained_glass_pane
+        ID: 15
+        name: "&f"
+      "51":
+        material: stained_glass_pane
+        ID: 15
+        name: "&f"
+      "52":
+        material: stained_glass_pane
+        ID: 15
+        name: "&f"
+      "53":
+        material: stained_glass_pane
+        ID: 15
+        name: "&f"
+
+      "20":
+        material: RAW_BEEF
+        lore:
+          - "&b&lPrice &a60 &6&lWAIS Coin"
+          - "&dClick to sell"
+          - "&fAmount 1"
+          - "&f&oWe Are In Space"
+        commands:
+          - sell= 60 RAW_BEEF 1
+      "21":
+        material: PORK
+        lore:
+          - "&b&lPrice &a55 &6&lWAIS Coin"
+          - "&dClick to sell"
+          - "&fAmount 1"
+          - "&f&oWe Are In Space"
+        commands:
+          - sell= 55 PORK 1
+      "22":
+        material: MUTTON
+        lore:
+          - "&b&lPrice &a45 &6&lWAIS Coin"
+          - "&dClick to sell"
+          - "&fAmount 1"
+          - "&f&oWe Are In Space"
+        commands:
+          - sell= 45 MUTTON 1
+      "23":
+        material: RAW_CHICKEN
+        lore:
+          - "&b&lPrice &a40 &6&lWAIS Coin"
+          - "&dClick to sell"
+          - "&fAmount 1"
+          - "&f&oWe Are In Space"
+        commands:
+          - sell= 40 RAW_CHICKEN 1
+      "24":
+        material: RABBIT
+        lore:
+          - "&b&lPrice &a55 &6&lWAIS Coin"
+          - "&dClick to sell"
+          - "&fAmount 1"
+          - "&f&oWe Are In Space"
+        commands:
+          - sell= 55 RABBIT 1
+      "29":
+        material: RAW_FISH
+        ID: 1
+        lore:
+          - "&b&lPrice &a50 &6&lWAIS Coin"
+          - "&dClick to sell"
+          - "&fAmount 1"
+          - "&f&oWe Are In Space"
+        commands:
+          - sell= 50 RAW_FISH 1 id:1
+      "30":
+        material: RAW_FISH
+        lore:
+          - "&b&lPrice &a30 &6&lWAIS Coin"
+          - "&dClick to sell"
+          - "&fAmount 1"
+          - "&f&oWe Are In Space"
+        commands:
+          - sell= 30 RAW_FISH 1
+      "31":
+        material: RAW_FISH
+        ID: 2
+        lore:
+          - "&b&lPrice &a60 &6&lWAIS Coin"
+          - "&dClick to sell"
+          - "&fAmount 1"
+          - "&f&oWe Are In Space"
+        commands:
+          - sell= 60 RAW_FISH 1 id:2
+      "32":
+        material: RAW_FISH
+        ID: 3
+        lore:
+          - "&b&lPrice &a35 &6&lWAIS Coin"
+          - "&dClick to sell"
+          - "&fAmount 1"
+          - "&f&oWe Are In Space"
+        commands:
+          - sell= 35 RAW_FISH 1 id:3
+
+      "3":
+        material: REDSTONE
+        name: "&c&lMode: sell"
+        commands:
+          - "open= JohnShop--page(1)_--amount(1)"
+      "5":
+        material: STAINED_GLASS_PANE
+        ID: 14
+        name: "&f&lAmount: 1"
+        commands:
+          - "open= JohnSell--page(1)_--amount(32)"
+
+      "8":
+        material: barrier
+        name: "&cClose"
+        commands:
+          - cpc
+
+
+
+  JohnSell--page(1)_--amount(32):
+    perm: default
+    rows: "6"
+    title: "John's &2shop"
+    empty: AIR
+    item:
+      "0":
+        material: stained_glass_pane
+        ID: 15
+        name: "&f"
+      "1":
+        material: stained_glass_pane
+        ID: 15
+        name: "&f"
+      "2":
+        material: stained_glass_pane
+        ID: 15
+        name: "&f"
+      "4":
+        material: stained_glass_pane
+        ID: 15
+        name: "&f"
+      "6":
+        material: stained_glass_pane
+        ID: 15
+        name: "&f"
+      "7":
+        material: stained_glass_pane
+        ID: 15
+        name: "&f"
+      "9":
+        material: stained_glass_pane
+        ID: 15
+        name: "&f"
+      "17":
+        material: stained_glass_pane
+        ID: 15
+        name: "&f"
+      "18":
+        material: stained_glass_pane
+        ID: 15
+        name: "&f"
+      "26":
+        material: stained_glass_pane
+        ID: 15
+        name: "&f"
+      "27":
+        material: stained_glass_pane
+        ID: 15
+        name: "&f"
+      "35":
+        material: stained_glass_pane
+        ID: 15
+        name: "&f"
+      "36":
+        material: stained_glass_pane
+        ID: 15
+        name: "&f"
+      "44":
+        material: stained_glass_pane
+        ID: 15
+        name: "&f"
+      "45":
+        material: stained_glass_pane
+        ID: 15
+        name: "&f"
+      "46":
+        material: stained_glass_pane
+        ID: 15
+        name: "&f"
+      "47":
+        material: stained_glass_pane
+        ID: 15
+        name: "&f"
+      "48":
+        material: stained_glass_pane
+        ID: 15
+        name: "&f"
+      "49":
+        material: stained_glass_pane
+        ID: 15
+        name: "&f"
+      "50":
+        material: stained_glass_pane
+        ID: 15
+        name: "&f"
+      "51":
+        material: stained_glass_pane
+        ID: 15
+        name: "&f"
+      "52":
+        material: stained_glass_pane
+        ID: 15
+        name: "&f"
+      "53":
+        material: stained_glass_pane
+        ID: 15
+        name: "&f"
+
+      "20":
+        material: RAW_BEEF
+        lore:
+          - "&b&lPrice &a1920 &6&lWAIS Coin"
+          - "&dClick to sell"
+          - "&fAmount 32"
+          - "&f&oWe Are In Space"
+        commands:
+          - sell= 1920 RAW_BEEF 32
+      "21":
+        material: PORK
+        lore:
+          - "&b&lPrice &a1760 &6&lWAIS Coin"
+          - "&dClick to sell"
+          - "&fAmount 32"
+          - "&f&oWe Are In Space"
+        commands:
+          - sell= 1760 PORK 32
+      "22":
+        material: MUTTON
+        lore:
+          - "&b&lPrice &a1440 &6&lWAIS Coin"
+          - "&dClick to sell"
+          - "&fAmount 32"
+          - "&f&oWe Are In Space"
+        commands:
+          - sell= 1440 MUTTON 32
+      "23":
+        material: RAW_CHICKEN
+        lore:
+          - "&b&lPrice &a1280 &6&lWAIS Coin"
+          - "&dClick to sell"
+          - "&fAmount 32"
+          - "&f&oWe Are In Space"
+        commands:
+          - sell= 1280 RAW_CHICKEN 32
+      "24":
+        material: RABBIT
+        lore:
+          - "&b&lPrice &a1760 &6&lWAIS Coin"
+          - "&dClick to sell"
+          - "&fAmount 32"
+          - "&f&oWe Are In Space"
+        commands:
+          - sell= 1760 RABBIT 32
+      "29":
+        material: RAW_FISH
+        ID: 1
+        lore:
+          - "&b&lPrice &a1600 &6&lWAIS Coin"
+          - "&dClick to sell"
+          - "&fAmount 32"
+          - "&f&oWe Are In Space"
+        commands:
+          - sell= 1600 RAW_FISH 32 id:1
+      "30":
+        material: RAW_FISH
+        lore:
+          - "&b&lPrice &a960 &6&lWAIS Coin"
+          - "&dClick to sell"
+          - "&fAmount 32"
+          - "&f&oWe Are In Space"
+        commands:
+          - sell= 960 RAW_FISH 32
+      "31":
+        material: RAW_FISH
+        ID: 2
+        lore:
+          - "&b&lPrice &a1920 &6&lWAIS Coin"
+          - "&dClick to sell"
+          - "&fAmount 32"
+          - "&f&oWe Are In Space"
+        commands:
+          - sell= 1920 RAW_FISH 32 id:2
+      "32":
+        material: RAW_FISH
+        ID: 3
+        lore:
+          - "&b&lPrice &a1120 &6&lWAIS Coin"
+          - "&dClick to sell"
+          - "&fAmount 32"
+          - "&f&oWe Are In Space"
+        commands:
+          - sell= 1120 RAW_FISH 32 id:3
+
+      "3":
+        material: REDSTONE
+        name: "&c&lMode: sell"
+        commands:
+          - "open= JohnShop--page(1)_--amount(32)"
+      "5":
+        material: STAINED_GLASS_PANE
+        ID: 14
+        stack: 32
+        name: "&f&lAmount: 32"
+        commands:
+          - "open= JohnSell--page(1)_--amount(64)"
+
+      "8":
+        material: barrier
+        name: "&cClose"
+        commands:
+          - cpc
+
+
+
+  JohnSell--page(1)_--amount(64):
+    perm: default
+    rows: "6"
+    title: "John's &2shop"
+    empty: AIR
+    item:
+      "0":
+        material: stained_glass_pane
+        ID: 15
+        name: "&f"
+      "1":
+        material: stained_glass_pane
+        ID: 15
+        name: "&f"
+      "2":
+        material: stained_glass_pane
+        ID: 15
+        name: "&f"
+      "4":
+        material: stained_glass_pane
+        ID: 15
+        name: "&f"
+      "6":
+        material: stained_glass_pane
+        ID: 15
+        name: "&f"
+      "7":
+        material: stained_glass_pane
+        ID: 15
+        name: "&f"
+      "9":
+        material: stained_glass_pane
+        ID: 15
+        name: "&f"
+      "17":
+        material: stained_glass_pane
+        ID: 15
+        name: "&f"
+      "18":
+        material: stained_glass_pane
+        ID: 15
+        name: "&f"
+      "26":
+        material: stained_glass_pane
+        ID: 15
+        name: "&f"
+      "27":
+        material: stained_glass_pane
+        ID: 15
+        name: "&f"
+      "35":
+        material: stained_glass_pane
+        ID: 15
+        name: "&f"
+      "36":
+        material: stained_glass_pane
+        ID: 15
+        name: "&f"
+      "44":
+        material: stained_glass_pane
+        ID: 15
+        name: "&f"
+      "45":
+        material: stained_glass_pane
+        ID: 15
+        name: "&f"
+      "46":
+        material: stained_glass_pane
+        ID: 15
+        name: "&f"
+      "47":
+        material: stained_glass_pane
+        ID: 15
+        name: "&f"
+      "48":
+        material: stained_glass_pane
+        ID: 15
+        name: "&f"
+      "49":
+        material: stained_glass_pane
+        ID: 15
+        name: "&f"
+      "50":
+        material: stained_glass_pane
+        ID: 15
+        name: "&f"
+      "51":
+        material: stained_glass_pane
+        ID: 15
+        name: "&f"
+      "52":
+        material: stained_glass_pane
+        ID: 15
+        name: "&f"
+      "53":
+        material: stained_glass_pane
+        ID: 15
+        name: "&f"
+
+      "20":
+        material: RAW_BEEF
+        lore:
+          - "&b&lPrice &a3840 &6&lWAIS Coin"
+          - "&dClick to sell"
+          - "&fAmount 64"
+          - "&f&oWe Are In Space"
+        commands:
+          - sell= 3840 RAW_BEEF 64
+      "21":
+        material: PORK
+        lore:
+          - "&b&lPrice &a3520 &6&lWAIS Coin"
+          - "&dClick to sell"
+          - "&fAmount 64"
+          - "&f&oWe Are In Space"
+        commands:
+          - sell= 3520 PORK 64
+      "22":
+        material: MUTTON
+        lore:
+          - "&b&lPrice &a2880 &6&lWAIS Coin"
+          - "&dClick to sell"
+          - "&fAmount 64"
+          - "&f&oWe Are In Space"
+        commands:
+          - sell= 2880 MUTTON 64
+      "23":
+        material: RAW_CHICKEN
+        lore:
+          - "&b&lPrice &a2560 &6&lWAIS Coin"
+          - "&dClick to sell"
+          - "&fAmount 64"
+          - "&f&oWe Are In Space"
+        commands:
+          - sell= 2560 RAW_CHICKEN 64
+      "24":
+        material: RABBIT
+        lore:
+          - "&b&lPrice &a3520 &6&lWAIS Coin"
+          - "&dClick to sell"
+          - "&fAmount 64"
+          - "&f&oWe Are In Space"
+        commands:
+          - sell= 3520 RABBIT 64
+      "29":
+        material: RAW_FISH
+        ID: 1
+        lore:
+          - "&b&lPrice &a3200 &6&lWAIS Coin"
+          - "&dClick to sell"
+          - "&fAmount 64"
+          - "&f&oWe Are In Space"
+        commands:
+          - sell= 3200 RAW_FISH 64 id:1
+      "30":
+        material: RAW_FISH
+        lore:
+          - "&b&lPrice &a1920 &6&lWAIS Coin"
+          - "&dClick to sell"
+          - "&fAmount 64"
+          - "&f&oWe Are In Space"
+        commands:
+          - sell= 1920 RAW_FISH 64
+      "31":
+        material: RAW_FISH
+        ID: 2
+        lore:
+          - "&b&lPrice &a3840 &6&lWAIS Coin"
+          - "&dClick to sell"
+          - "&fAmount 64"
+          - "&f&oWe Are In Space"
+        commands:
+          - sell= 3840 RAW_FISH 64 id:2
+      "32":
+        material: RAW_FISH
+        ID: 3
+        lore:
+          - "&b&lPrice &a2240 &6&lWAIS Coin"
+          - "&dClick to sell"
+          - "&fAmount 64"
+          - "&f&oWe Are In Space"
+        commands:
+          - sell= 2240 RAW_FISH 64 id:3
+
+      "3":
+        material: REDSTONE
+        name: "&c&lMode: sell"
+        commands:
+          - "open= JohnShop--page(1)_--amount(64)"
+      "5":
+        material: STAINED_GLASS_PANE
+        ID: 14
+        stack: 64
+        name: "&f&lAmount: 64"
+        commands:
+          - "open= JohnSell--page(1)_--amount(1)"
+
+      "8":
+        material: barrier
+        name: "&cClose"
+        commands:
+          - cpc
+
+
+
+  JohnShop--page(1)_--amount(1):
+    perm: default
+    rows: "6"
+    title: "John's &2shop"
+    empty: AIR
+    item:
+      "0":
+        material: stained_glass_pane
+        ID: 15
+        name: "&f"
+      "1":
+        material: stained_glass_pane
+        ID: 15
+        name: "&f"
+      "2":
+        material: stained_glass_pane
+        ID: 15
+        name: "&f"
+      "4":
+        material: stained_glass_pane
+        ID: 15
+        name: "&f"
+      "6":
+        material: stained_glass_pane
+        ID: 15
+        name: "&f"
+      "7":
+        material: stained_glass_pane
+        ID: 15
+        name: "&f"
+      "9":
+        material: stained_glass_pane
+        ID: 15
+        name: "&f"
+      "17":
+        material: stained_glass_pane
+        ID: 15
+        name: "&f"
+      "18":
+        material: stained_glass_pane
+        ID: 15
+        name: "&f"
+      "26":
+        material: stained_glass_pane
+        ID: 15
+        name: "&f"
+      "27":
+        material: stained_glass_pane
+        ID: 15
+        name: "&f"
+      "35":
+        material: stained_glass_pane
+        ID: 15
+        name: "&f"
+      "36":
+        material: stained_glass_pane
+        ID: 15
+        name: "&f"
+      "44":
+        material: stained_glass_pane
+        ID: 15
+        name: "&f"
+      "45":
+        material: stained_glass_pane
+        ID: 15
+        name: "&f"
+      "46":
+        material: stained_glass_pane
+        ID: 15
+        name: "&f"
+      "47":
+        material: stained_glass_pane
+        ID: 15
+        name: "&f"
+      "48":
+        material: stained_glass_pane
+        ID: 15
+        name: "&f"
+      "49":
+        material: stained_glass_pane
+        ID: 15
+        name: "&f"
+      "50":
+        material: stained_glass_pane
+        ID: 15
+        name: "&f"
+      "51":
+        material: stained_glass_pane
+        ID: 15
+        name: "&f"
+      "52":
+        material: stained_glass_pane
+        ID: 15
+        name: "&f"
+      "53":
+        material: stained_glass_pane
+        ID: 15
+        name: "&f"
+
+      "20":
+        material: RAW_BEEF
+        lore:
+          - "&b&lPrice &a60 &6&lWAIS Coin"
+          - "&dClick to buy"
+          - "&fAmount 1"
+          - "&f&oWe Are In Space"
+        commands:
+          - buy= 60 RAW_BEEF 1
+      "21":
+        material: PORK
+        lore:
+          - "&b&lPrice &a55 &6&lWAIS Coin"
+          - "&dClick to buy"
+          - "&fAmount 1"
+          - "&f&oWe Are In Space"
+        commands:
+          - buy= 55 PORK 1
+      "22":
+        material: MUTTON
+        lore:
+          - "&b&lPrice &a45 &6&lWAIS Coin"
+          - "&dClick to buy"
+          - "&fAmount 1"
+          - "&f&oWe Are In Space"
+        commands:
+          - buy= 45 MUTTON 1
+      "23":
+        material: RAW_CHICKEN
+        lore:
+          - "&b&lPrice &a40 &6&lWAIS Coin"
+          - "&dClick to buy"
+          - "&fAmount 1"
+          - "&f&oWe Are In Space"
+        commands:
+          - buy= 40 RAW_CHICKEN 1
+      "24":
+        material: RABBIT
+        lore:
+          - "&b&lPrice &a55 &6&lWAIS Coin"
+          - "&dClick to buy"
+          - "&fAmount 1"
+          - "&f&oWe Are In Space"
+        commands:
+          - buy= 55 RABBIT 1
+      "29":
+        material: RAW_FISH
+        ID: 1
+        lore:
+          - "&b&lPrice &a50 &6&lWAIS Coin"
+          - "&dClick to buy"
+          - "&fAmount 1"
+          - "&f&oWe Are In Space"
+        commands:
+          - buy= 50 RAW_FISH 1 id:1
+      "30":
+        material: RAW_FISH
+        lore:
+          - "&b&lPrice &a30 &6&lWAIS Coin"
+          - "&dClick to buy"
+          - "&fAmount 1"
+          - "&f&oWe Are In Space"
+        commands:
+          - buy= 30 RAW_FISH 1
+      "31":
+        material: RAW_FISH
+        ID: 2
+        lore:
+          - "&b&lPrice &a60 &6&lWAIS Coin"
+          - "&dClick to buy"
+          - "&fAmount 1"
+          - "&f&oWe Are In Space"
+        commands:
+          - buy= 60 RAW_FISH 1 id:2
+      "32":
+        material: RAW_FISH
+        ID: 3
+        lore:
+          - "&b&lPrice &a35 &6&lWAIS Coin"
+          - "&dClick to buy"
+          - "&fAmount 1"
+          - "&f&oWe Are In Space"
+        commands:
+          - buy= 35 RAW_FISH 1 id:3
+
+      "3":
+        material: EMERALD
+        name: "&a&lMode: buy"
+        commands:
+          - "open= JohnSell--page(1)_--amount(1)"
+      "5":
+        material: STAINED_GLASS_PANE
+        ID: 5
+        name: "&f&lAmount: 1"
+        commands:
+          - "open= JohnShop--page(1)_--amount(32)"
+
+      "8":
+        material: barrier
+        name: "&cClose"
+        commands:
+          - cpc
+
+
+
+  JohnShop--page(1)_--amount(32):
+    perm: default
+    rows: "6"
+    title: "John's &2shop"
+    empty: AIR
+    item:
+      "0":
+        material: stained_glass_pane
+        ID: 15
+        name: "&f"
+      "1":
+        material: stained_glass_pane
+        ID: 15
+        name: "&f"
+      "2":
+        material: stained_glass_pane
+        ID: 15
+        name: "&f"
+      "4":
+        material: stained_glass_pane
+        ID: 15
+        name: "&f"
+      "6":
+        material: stained_glass_pane
+        ID: 15
+        name: "&f"
+      "7":
+        material: stained_glass_pane
+        ID: 15
+        name: "&f"
+      "9":
+        material: stained_glass_pane
+        ID: 15
+        name: "&f"
+      "17":
+        material: stained_glass_pane
+        ID: 15
+        name: "&f"
+      "18":
+        material: stained_glass_pane
+        ID: 15
+        name: "&f"
+      "26":
+        material: stained_glass_pane
+        ID: 15
+        name: "&f"
+      "27":
+        material: stained_glass_pane
+        ID: 15
+        name: "&f"
+      "35":
+        material: stained_glass_pane
+        ID: 15
+        name: "&f"
+      "36":
+        material: stained_glass_pane
+        ID: 15
+        name: "&f"
+      "44":
+        material: stained_glass_pane
+        ID: 15
+        name: "&f"
+      "45":
+        material: stained_glass_pane
+        ID: 15
+        name: "&f"
+      "46":
+        material: stained_glass_pane
+        ID: 15
+        name: "&f"
+      "47":
+        material: stained_glass_pane
+        ID: 15
+        name: "&f"
+      "48":
+        material: stained_glass_pane
+        ID: 15
+        name: "&f"
+      "49":
+        material: stained_glass_pane
+        ID: 15
+        name: "&f"
+      "50":
+        material: stained_glass_pane
+        ID: 15
+        name: "&f"
+      "51":
+        material: stained_glass_pane
+        ID: 15
+        name: "&f"
+      "52":
+        material: stained_glass_pane
+        ID: 15
+        name: "&f"
+      "53":
+        material: stained_glass_pane
+        ID: 15
+        name: "&f"
+
+      "20":
+        material: RAW_BEEF
+        lore:
+          - "&b&lPrice &a1920 &6&lWAIS Coin"
+          - "&dClick to buy"
+          - "&fAmount 32"
+          - "&f&oWe Are In Space"
+        commands:
+          - buy= 1920 RAW_BEEF 32
+      "21":
+        material: PORK
+        lore:
+          - "&b&lPrice &a1760 &6&lWAIS Coin"
+          - "&dClick to buy"
+          - "&fAmount 32"
+          - "&f&oWe Are In Space"
+        commands:
+          - buy= 1760 PORK 32
+      "22":
+        material: MUTTON
+        lore:
+          - "&b&lPrice &a1440 &6&lWAIS Coin"
+          - "&dClick to buy"
+          - "&fAmount 32"
+          - "&f&oWe Are In Space"
+        commands:
+          - buy= 1440 MUTTON 32
+      "23":
+        material: RAW_CHICKEN
+        lore:
+          - "&b&lPrice &a1280 &6&lWAIS Coin"
+          - "&dClick to buy"
+          - "&fAmount 32"
+          - "&f&oWe Are In Space"
+        commands:
+          - buy= 1280 RAW_CHICKEN 32
+      "24":
+        material: RABBIT
+        lore:
+          - "&b&lPrice &a1760 &6&lWAIS Coin"
+          - "&dClick to buy"
+          - "&fAmount 32"
+          - "&f&oWe Are In Space"
+        commands:
+          - buy= 1760 RABBIT 32
+      "29":
+        material: RAW_FISH
+        ID: 1
+        lore:
+          - "&b&lPrice &a1600 &6&lWAIS Coin"
+          - "&dClick to buy"
+          - "&fAmount 32"
+          - "&f&oWe Are In Space"
+        commands:
+          - buy= 1600 RAW_FISH 32 id:1
+      "30":
+        material: RAW_FISH
+        lore:
+          - "&b&lPrice &a960 &6&lWAIS Coin"
+          - "&dClick to buy"
+          - "&fAmount 32"
+          - "&f&oWe Are In Space"
+        commands:
+          - buy= 960 RAW_FISH 32
+      "31":
+        material: RAW_FISH
+        ID: 2
+        lore:
+          - "&b&lPrice &a1920 &6&lWAIS Coin"
+          - "&dClick to buy"
+          - "&fAmount 32"
+          - "&f&oWe Are In Space"
+        commands:
+          - buy= 1920 RAW_FISH 32 id:2
+      "32":
+        material: RAW_FISH
+        ID: 3
+        lore:
+          - "&b&lPrice &a1120 &6&lWAIS Coin"
+          - "&dClick to buy"
+          - "&fAmount 32"
+          - "&f&oWe Are In Space"
+        commands:
+          - buy= 1120 RAW_FISH 32 id:3
+
+      "3":
+        material: EMERALD
+        name: "&a&lMode: buy"
+        commands:
+          - "open= JohnSell--page(1)_--amount(32)"
+      "5":
+        material: STAINED_GLASS_PANE
+        ID: 5
+        stack: 32
+        name: "&f&lAmount: 32"
+        commands:
+          - "open= JohnShop--page(1)_--amount(64)"
+
+      "8":
+        material: barrier
+        name: "&cClose"
+        commands:
+          - cpc
+
+
+
+  JohnShop--page(1)_--amount(64):
+    perm: default
+    rows: "6"
+    title: "John's &2shop"
+    empty: AIR
+    item:
+      "0":
+        material: stained_glass_pane
+        ID: 15
+        name: "&f"
+      "1":
+        material: stained_glass_pane
+        ID: 15
+        name: "&f"
+      "2":
+        material: stained_glass_pane
+        ID: 15
+        name: "&f"
+      "4":
+        material: stained_glass_pane
+        ID: 15
+        name: "&f"
+      "6":
+        material: stained_glass_pane
+        ID: 15
+        name: "&f"
+      "7":
+        material: stained_glass_pane
+        ID: 15
+        name: "&f"
+      "9":
+        material: stained_glass_pane
+        ID: 15
+        name: "&f"
+      "17":
+        material: stained_glass_pane
+        ID: 15
+        name: "&f"
+      "18":
+        material: stained_glass_pane
+        ID: 15
+        name: "&f"
+      "26":
+        material: stained_glass_pane
+        ID: 15
+        name: "&f"
+      "27":
+        material: stained_glass_pane
+        ID: 15
+        name: "&f"
+      "35":
+        material: stained_glass_pane
+        ID: 15
+        name: "&f"
+      "36":
+        material: stained_glass_pane
+        ID: 15
+        name: "&f"
+      "44":
+        material: stained_glass_pane
+        ID: 15
+        name: "&f"
+      "45":
+        material: stained_glass_pane
+        ID: 15
+        name: "&f"
+      "46":
+        material: stained_glass_pane
+        ID: 15
+        name: "&f"
+      "47":
+        material: stained_glass_pane
+        ID: 15
+        name: "&f"
+      "48":
+        material: stained_glass_pane
+        ID: 15
+        name: "&f"
+      "49":
+        material: stained_glass_pane
+        ID: 15
+        name: "&f"
+      "50":
+        material: stained_glass_pane
+        ID: 15
+        name: "&f"
+      "51":
+        material: stained_glass_pane
+        ID: 15
+        name: "&f"
+      "52":
+        material: stained_glass_pane
+        ID: 15
+        name: "&f"
+      "53":
+        material: stained_glass_pane
+        ID: 15
+        name: "&f"
+
+      "20":
+        material: RAW_BEEF
+        lore:
+          - "&b&lPrice &a3840 &6&lWAIS Coin"
+          - "&dClick to buy"
+          - "&fAmount 64"
+          - "&f&oWe Are In Space"
+        commands:
+          - buy= 3840 RAW_BEEF 64
+      "21":
+        material: PORK
+        lore:
+          - "&b&lPrice &a3520 &6&lWAIS Coin"
+          - "&dClick to buy"
+          - "&fAmount 64"
+          - "&f&oWe Are In Space"
+        commands:
+          - buy= 3520 PORK 64
+      "22":
+        material: MUTTON
+        lore:
+          - "&b&lPrice &a2880 &6&lWAIS Coin"
+          - "&dClick to buy"
+          - "&fAmount 64"
+          - "&f&oWe Are In Space"
+        commands:
+          - buy= 2880 MUTTON 64
+      "23":
+        material: RAW_CHICKEN
+        lore:
+          - "&b&lPrice &a2560 &6&lWAIS Coin"
+          - "&dClick to buy"
+          - "&fAmount 64"
+          - "&f&oWe Are In Space"
+        commands:
+          - buy= 2560 RAW_CHICKEN 64
+      "24":
+        material: RABBIT
+        lore:
+          - "&b&lPrice &a3520 &6&lWAIS Coin"
+          - "&dClick to buy"
+          - "&fAmount 64"
+          - "&f&oWe Are In Space"
+        commands:
+          - buy= 3520 RABBIT 64
+      "29":
+        material: RAW_FISH
+        ID: 1
+        lore:
+          - "&b&lPrice &a3200 &6&lWAIS Coin"
+          - "&dClick to buy"
+          - "&fAmount 64"
+          - "&f&oWe Are In Space"
+        commands:
+          - buy= 3200 RAW_FISH 64 id:1
+      "30":
+        material: RAW_FISH
+        lore:
+          - "&b&lPrice &a1920 &6&lWAIS Coin"
+          - "&dClick to buy"
+          - "&fAmount 64"
+          - "&f&oWe Are In Space"
+        commands:
+          - buy= 1920 RAW_FISH 64
+      "31":
+        material: RAW_FISH
+        ID: 2
+        lore:
+          - "&b&lPrice &a3840 &6&lWAIS Coin"
+          - "&dClick to buy"
+          - "&fAmount 64"
+          - "&f&oWe Are In Space"
+        commands:
+          - buy= 3840 RAW_FISH 64 id:2
+      "32":
+        material: RAW_FISH
+        ID: 3
+        lore:
+          - "&b&lPrice &a2240 &6&lWAIS Coin"
+          - "&dClick to buy"
+          - "&fAmount 64"
+          - "&f&oWe Are In Space"
+        commands:
+          - buy= 2240 RAW_FISH 64 id:3
+
+      "3":
+        material: EMERALD
+        name: "&a&lMode: buy"
+        commands:
+          - "open= JohnSell--page(1)_--amount(64)"
+      "5":
+        material: STAINED_GLASS_PANE
+        stack: 64
+        ID: 5
+        name: "&f&lAmount: 64"
+        commands:
+          - "open= JohnShop--page(1)_--amount(1)"
+
+      "8":
+        material: barrier
+        name: "&cClose"
+        commands:
+          - cpc

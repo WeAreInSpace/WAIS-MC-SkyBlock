@@ -1,0 +1,5 @@
+name: GornnyHee
+notifications:
+  on join: true
+  on receive: true
+last used: 2024-01-29T13:30:47.513Z

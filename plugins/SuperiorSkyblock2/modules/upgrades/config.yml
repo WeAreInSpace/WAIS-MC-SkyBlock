@@ -1,0 +1,252 @@
+######################################################
+##                                                  ##
+##                SuperiorSkyblock 2                ##
+##                Developed by Ome_R                ##
+##                                                  ##
+######################################################
+
+# Whether crop-growth should be enabled.
+# When disabled, the plugin will not alter crop growth.
+crop-growth: true
+
+# Whether mob drops should be enabled.
+# When disabled, the plugin will not alter mob drops.
+mob-drops: true
+
+# Whether island-effects should be enabled.
+# When disabled, the plugin will not give any effects to any players.
+island-effects: true
+
+# Whether spawner-rates should be enabled.
+# When disabled, the plugin will not alter spawner rates.
+spawner-rates: true
+
+# Whether block-limits should be enabled.
+# When disabled, the plugin will not limit placement of blocks.
+block-limits: true
+
+# Whether entity-limits should be enabled.
+# When disabled, the plugin will not limit spawning of entities.
+entity-limits: true
+
+# All the upgrades of the plugin
+# https://wiki.bg-software.com/superiorskyblock/upgrades
+upgrades:
+  crop-growth:
+    "1":
+      price: 999
+      price-type: "Money"
+      crop-growth: 10
+      commands:
+        - "island admin setupgrade %player% crop-growth 2"
+        - "island admin msgall %player% &f[&9&lWAIS &e&lSkyblock&f] &7Your crop-growth multiplier was increased to x2!"
+    "2":
+      price: 1999
+      price-type: "Money"
+      crop-growth: 15
+      commands:
+        - "island admin setupgrade %player% crop-growth 3"
+        - "island admin msgall %player% &f[&9&lWAIS &e&lSkyblock&f] &7Your crop-growth multiplier was increased to x3!"
+    "3":
+      price: 2999
+      price-type: "Money"
+      crop-growth: 20
+      commands:
+        - "island admin setupgrade %player% crop-growth 4"
+        - "island admin msgall %player% &f[&9&lWAIS &e&lSkyblock&f] &7Your crop-growth multiplier was increased to x4!"
+    "4":
+      price: 0.0
+      price-type: "Money"
+      crop-growth:
+      commands:
+        - "island admin msg %player% &f[&9&lWAIS &e&lSkyblock&f] &7You have reached the maximum upgrade for crop growth."
+  mob-drops:
+    "1":
+      price: 1699
+      price-type: "Money"
+      mob-drops: 1
+      commands:
+        - "island admin setupgrade %player% mob-drops 2"
+        - "island admin msgall %player% &f[&9&lWAIS &e&lSkyblock&f] &7Your mob-drops multiplier was increased to x2!"
+    "2":
+      price: 1919
+      price-type: "Money"
+      mob-drops: 2
+      commands:
+        - "island admin setupgrade %player% mob-drops 3"
+        - "island admin msgall %player% &f[&9&lWAIS &e&lSkyblock&f] &7Your mob-drops multiplier was increased to x3!"
+    "3":
+      price: 2200
+      price-type: "Money"
+      mob-drops: 3
+      commands:
+        - "island admin setupgrade %player% mob-drops 4"
+        - "island admin msgall %player% &f[&9&lWAIS &e&lSkyblock&f] &7Your mob-drops multiplier was increased to x4!"
+    "4":
+      price: 0.0
+      mob-drops: 4
+      commands:
+        - "island admin msg %player% &f[&9&lWAIS &e&lSkyblock&f] &7You have reached the maximum upgrade for mob-drops."
+  members-limit:
+    "1":
+      price: 1000
+      price-type: "Money"
+      team-limit: 4
+      commands:
+        - "island admin setupgrade %player% members-limit 2"
+        - "island admin msgall %player% &f[&9&lWAIS &e&lSkyblock&f] &7Your members limit was increased to 8!"
+    "2":
+      price: 1500
+      price-type: "Money"
+      team-limit: 8
+      commands:
+        - "island admin setupgrade %player% members-limit 3"
+        - "island admin msgall %player% &f[&9&lWAIS &e&lSkyblock&f] &7Your members limit was increased to 16!"
+    "3":
+      price: 2000
+      price-type: "Money"
+      team-limit: 16
+      commands:
+        - "island admin setupgrade %player% members-limit 4"
+        - "island admin msgall %player% &f[&9&lWAIS &e&lSkyblock&f] &7Your members limit was increased to 32!"
+    "4":
+      price: 0.0
+      price-type: "Money"
+      team-limit:
+      commands:
+        - "island admin msg %player% &f[&9&lWAIS &e&lSkyblock&f] &7You have reached the maximum upgrade for members limit."
+  border-size:
+    "1":
+      price: 10000
+      price-type: "Money"
+      border-size: 30
+      commands:
+        - "island admin setupgrade %player% border-size 2"
+        - "island admin msgall %player% &f[&9&lWAIS &e&lSkyblock&f] &7Your border size was increased to 30x30 blocks!"
+    "2":
+      price: 2800
+      price-type: "Money"
+      border-size: 40
+      commands:
+        - "island admin setupgrade %player% border-size 3"
+        - "island admin msgall %player% &f[&9&lWAIS &e&lSkyblock&f] &7Your border size was increased to 40x40 blocks!"
+    "3":
+      price: 3000
+      price-type: "Money"
+      border-size: 60
+      commands:
+        - "island admin setupgrade %player% border-size 4"
+        - "island admin msgall %player% &f[&9&lWAIS &e&lSkyblock&f] &7Your border size was increased to 60x60 blocks!"
+    "4":
+      price: 0.0
+      price-type: "Money"
+      border-size:
+      commands:
+        - "island admin msg %player% &f[&9&lWAIS &e&lSkyblock&f] &7You have reached the maximum upgrade for border size."
+  generator-rates:
+    "1":
+      price: 4500.0
+      price-type: "Money"
+      generator-rates:
+        normal:
+          COBBLESTONE: 58
+          STONE: 5
+          COAL_ORE: 8
+          IRON_ORE: 14
+          REDSTONE_ORE: 5
+          DIAMOND_ORE: 2
+          EMERALD_ORE: 1
+          GRASS: 5
+          WEB: 2
+      commands:
+        - "island admin setupgrade %player% generator-rates 2"
+        - "island admin msgall %player% &f[&9&lWAIS &e&lSkyblock&f] &7Your generator was upgraded to level 2!"
+    "2":
+      price: 5500.0
+      price-type: "Money"
+      generator-rates:
+        normal:
+          COBBLESTONE: 49
+          STONE: 5
+          COAL_ORE: 6
+          IRON_ORE: 16
+          REDSTONE_ORE: 5
+          DIAMOND_ORE: 3
+          EMERALD_ORE: 2
+          QUARTZ_ORE: 4
+          LAPIS_ORE: 3
+          GRASS: 5
+          WEB: 2
+      commands:
+        - "island admin setupgrade %player% generator-rates 3"
+        - "island admin msgall %player% &f[&9&lWAIS &e&lSkyblock&f] &7Your generator was upgraded to level 3!"
+    "3":
+      price: 7500.0
+      price-type: "Money"
+      generator-rates:
+        normal:
+          COBBLESTONE: 50
+          STONE: 3
+          COAL_ORE: 8
+          IRON_ORE: 8
+          REDSTONE_ORE: 5
+          DIAMOND_ORE: 3
+          EMERALD_ORE: 2
+          QUARTZ_ORE: 5
+          NETHERRACK: 5
+          LAPIS_ORE: 4
+          OBSIDIAN: 2
+          GRASS: 3
+          WEB: 2
+      commands:
+        - "island admin setupgrade %player% generator-rates 4"
+        - "island admin msgall %player% &f[&9&lWAIS &e&lSkyblock&f] &7Your generator was upgraded to level 4!"
+    "4":
+      price: 8000.0
+      price-type: "Money"
+      generator-rates:
+        normal:
+          COBBLESTONE: 44
+          STONE: 1
+          COAL_ORE: 9
+          IRON_ORE: 10
+          REDSTONE_ORE: 5
+          DIAMOND_ORE: 4
+          EMERALD_ORE: 1
+          QUARTZ_ORE: 4
+          NETHERRACK: 5
+          LAPIS_ORE: 4
+          OBSIDIAN: 5
+          GRASS: 3
+          WEB: 2
+          ENDER_STONE: 3
+      commands:
+        - "island admin setupgrade %player% generator-rates 5"
+        - "island admin msgall %player% &f[&9&lWAIS &e&lSkyblock&f] &7Your generator was upgraded to level 5!"
+    "5":
+      price: 9000.0
+      price-type: "Money"
+      generator-rates:
+        normal:
+          COBBLESTONE: 35
+          COAL_ORE: 10
+          IRON_ORE: 10
+          REDSTONE_ORE: 5
+          DIAMOND_ORE: 6
+          EMERALD_ORE: 2
+          QUARTZ_ORE: 5
+          NETHERRACK: 5
+          LAPIS_ORE: 4
+          OBSIDIAN: 5
+          GRASS: 4
+          WEB: 2
+          ENDER_STONE: 5
+          STONE: 2
+      commands:
+        - "island admin msgall %player% &f[&9&lWAIS &e&lSkyblock&f] &7Your generator was upgraded to level 6!"
+    "6":
+      price: 0.0
+      price-type: "Money"
+      generator-rates:
+      commands:
+        - "island admin msg %player% &f[&9&lWAIS &e&lSkyblock&f] &7You have reached the maximum upgrade for generator."

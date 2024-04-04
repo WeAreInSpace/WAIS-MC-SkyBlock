@@ -1,0 +1,76 @@
+menu_title: '&fServer menu'
+open_command: 
+- sm
+- servermenu
+size: 54
+register_command: true
+
+items:
+  "server-profile":
+    lore:
+      - "&d&l+----------------------------------+"
+      - "&fYour server profile"
+      - "&f   name: %player_name%"
+      - "&f   point: %vault_eco_balance% &6&lWAIS Coin"
+      - "&f   ticket: %playerpoints_points%"
+      - "&f   rank: %luckperms_prefix%"
+      - "&d&l+----------------------------------+"
+    material: "head-%player_name%"
+    slot: 0
+    display_name: "&fServer profile"
+  "server-teleport":
+    slot: 13
+    display_name: "&fServer teleport"
+    material: COMPASS
+    left_click_commands:
+      - "[openguimenu] server-teleport(server-menu)"
+    right_click_commands:
+      - "[openguimenu] server-teleport(server-menu)"
+  "fccrafting":
+    slot: 21
+    display_name: "&aCrafting Table"
+    material: WORKBENCH
+    lore:
+      - "&fคลิกเพื่อเปิด Crafting table"
+      - "&c&nโน้ต:&r&e GUI นี้ทำงานบนปลั๊กอินส์ Fancycrafting"
+      - "&eดังนั้นคุณจึงไม่สามารถใช้ปุ่ม Back ได้"
+    left_click_commands:
+      - "[close]"
+      - "[console]fc open %player_name%"
+    right_click_commands:
+      - "[close]"
+      - "[console]fc open %player_name%"
+  "command_palette":
+    slot: 22
+    material: COMMAND
+    display_name: "&6Command palette"
+    left_click_commands:
+      - "[openguimenu]command-palette(server-menu)"
+    right_click_commands:
+      - "[openguimenu]command-palette(server-menu)"
+  "allrecipe":
+    slot: 23
+    material: KNOWLEDGE_BOOK
+    name: "Crafting Recipe"
+    lore:
+      - "สูตรคราฟต์พิเศษ ที่มีเฉพาะเซิร์ฟเวอร์ We are in space เท่านั้น"
+    left_click_commands:
+      - "[openguimenu]Recipe(Recipe1)"
+    right_click_commands:
+      - "[openguimenu]Recipe(Recipe1)"
+
+
+#navbar
+  "server-menu":
+    material: NETHER_STAR
+    slot: 45
+    display_name: "&fServer menu"
+
+  "close":
+    material: STRUCTURE_VOID
+    slot: 8
+    display_name: "&cClose &7X"
+    left_click_commands:
+      - "[close]"
+    right_click_commands:
+      - "[close]"

@@ -1,0 +1,13 @@
+cache
+crash-reports
+logs
+world_the_end
+world_nether
+
+permissions.yml
+usercache.json
+version_history.json
+whitelist.json
+ops.json
+banned-players.json
+banned-ips.json

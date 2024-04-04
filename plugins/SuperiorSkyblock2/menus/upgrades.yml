@@ -1,0 +1,932 @@
+######################################################
+##                                                  ##
+##                SuperiorSkyblock 2                ##
+##                Developed by Ome_R                ##
+##                                                  ##
+######################################################
+
+title: "&lIsland Upgrades"
+previous-menu: true
+
+pattern:
+  - "$ $ $ $ $ $ $ $ $"
+  - "% % % % # % % % %"
+  - "% % % ! % + % % %"
+  - "% % * % % % ~ % %"
+  - "$ $ $ $ $ $ $ $ $"
+
+items:
+  "$":
+    type: STAINED_GLASS_PANE
+    data: 15
+    name: "&f"
+  "%":
+    type: STAINED_GLASS_PANE
+    data: 11
+    name: "&f"
+
+sounds:
+  "@":
+    type: ENTITY_EXPERIENCE_ORB_PICKUP
+    volume: 0.2
+    pitch: 0.2
+
+upgrades:
+  crop-growth:
+    item: "#"
+    "1":
+      has-next-level:
+        sound:
+          type: ENTITY_EXPERIENCE_ORB_PICKUP
+          volume: 0.2
+          pitch: 0.2
+        type: DIAMOND_HOE
+        name: "&eCrop Growth &a&lAvailable"
+        lore:
+          - "&7"
+          - "&eNext Level: 2"
+          - "&7"
+          - "&7เมื่อคุณอัพเกรดความเร็วการเจริญเติบโตของพืช"
+          - "&7พืชในเกาะของคุณจะโตเร็วขึ้น"
+          - "&7"
+          - "&eGrowth speed: &fx2 "
+          - "&3ราคา: &f999 &6&lWAIS Coin"
+          - "&7"
+          - "&cLeft click to upgrade"
+      no-next-level:
+        sound:
+          type: BLOCK_ANVIL_PLACE
+          volume: 0.2
+          pitch: 0.2
+        type: DIAMOND_HOE
+        name: "&eCrop Growth &c&lUnavailable"
+        lore:
+          - "&7"
+          - "&eNext Level: 2"
+          - "&7"
+          - "&7เมื่อคุณอัพเกรดความเร็วการเจริญเติบโตของพืช"
+          - "&7พืชในเกาะของคุณจะโตเร็วขึ้น"
+          - "&7"
+          - "&eGrowth speed: &fx2 "
+          - "&3ราคา: &f999 &6&lWAIS Coin"
+          - "&7"
+          - "&cLeft click to upgrade"
+    "2":
+      has-next-level:
+        sound:
+          type: ENTITY_EXPERIENCE_ORB_PICKUP
+          volume: 0.2
+          pitch: 0.2
+        type: DIAMOND_HOE
+        name: "&eCrop Growth &a&lAvailable"
+        lore:
+          - "&7"
+          - "&eNext Level: 3"
+          - "&7"
+          - "&7เมื่อคุณอัพเกรดความเร็วการเจริญเติบโตของพืช"
+          - "&7พืชในเกาะของคุณจะโตเร็วขึ้น"
+          - "&7"
+          - "&eGrowth speed: &fx3 "
+          - "&3ราคา: &f1999 &6&lWAIS Coin"
+          - "&7"
+          - "&cLeft click to upgrade"
+      no-next-level:
+        sound:
+          type: BLOCK_ANVIL_PLACE
+          volume: 0.2
+          pitch: 0.2
+        type: DIAMOND_HOE
+        name: "&eCrop Growth &c&lUnavailable"
+        lore:
+          - "&7"
+          - "&eNext Level: 3"
+          - "&7"
+          - "&7เมื่อคุณอัพเกรดความเร็วการเจริญเติบโตของพืช"
+          - "&7พืชในเกาะของคุณจะโตเร็วขึ้น"
+          - "&7"
+          - "&eGrowth speed: &fx3 "
+          - "&3ราคา: &f1999 &6&lWAIS Coin"
+          - "&7"
+          - "&cLeft click to upgrade"
+    "3":
+      has-next-level:
+        sound:
+          type: ENTITY_EXPERIENCE_ORB_PICKUP
+          volume: 0.2
+          pitch: 0.2
+        type: DIAMOND_HOE
+        name: "&eCrop Growth &a&lAvailable"
+        lore:
+          - "&7"
+          - "&eNext Level: 4"
+          - "&7"
+          - "&7เมื่อคุณอัพเกรดความเร็วการเจริญเติบโตของพืช"
+          - "&7พืชในเกาะของคุณจะโตเร็วขึ้น"
+          - "&7"
+          - "&eGrowth speed: &fx4 "
+          - "&3ราคา: &f2999 &6&lWAIS Coin"
+          - "&7"
+          - "&cLeft click to upgrade"
+      no-next-level:
+        sound:
+          type: BLOCK_ANVIL_PLACE
+          volume: 0.2
+          pitch: 0.2
+        type: DIAMOND_HOE
+        name: "&eCrop Growth &c&lUnavailable"
+        lore:
+          - "&7"
+          - "&eNext Level: 4"
+          - "&7"
+          - "&7เมื่อคุณอัพเกรดความเร็วการเจริญเติบโตของพืช"
+          - "&7พืชในเกาะของคุณจะโตเร็วขึ้น"
+          - "&7"
+          - "&eGrowth speed: &fx4 "
+          - "&3ราคา: &f2999 &6&lWAIS Coin"
+          - "&7"
+          - "&cLeft click to upgrade"
+    "4":
+      has-next-level:
+        sound:
+          type: BLOCK_ANVIL_PLACE
+          volume: 0.2
+          pitch: 0.2
+        type: DIAMOND_HOE
+        name: "&eCrop Growth &c&lMax Level"
+        lore:
+          - "&7"
+      no-next-level:
+        sound:
+          type: BLOCK_ANVIL_PLACE
+          volume: 0.2
+          pitch: 0.2
+        type: DIAMOND_HOE
+        name: "&eCrop Growth &c&lMax Level"
+        lore:
+          - "&7"
+
+  #*********************************************************************************
+  #*********************************************************************************
+  #*********************************************************************************
+
+  mob-drops:
+    item: "*"
+    "1":
+      has-next-level:
+        sound:
+          type: ENTITY_EXPERIENCE_ORB_PICKUP
+          volume: 0.2
+          pitch: 0.2
+        type: ROTTEN_FLESH
+        name: "&4Premium Drops &a&lAvailable"
+        lore:
+          - "&7"
+          - "&4Next Level: &e2"
+          - "&7"
+          - "&7เมื่อคุณอัพเกรดการดรอปของม็อบ"
+          - "&7คุณจะได้ไอเทมจากการดรอปของมากขึ้น"
+          - "&7"
+          - "&4Drops: &fx2"
+          - "&3ราคา: &f1699 &6&lWAIS Coin"
+          - "&7"
+          - "&cLeft click to upgrade"
+      no-next-level:
+        sound:
+          type: BLOCK_ANVIL_PLACE
+          volume: 0.2
+          pitch: 0.2
+        type: ROTTEN_FLESH
+        name: "&4Premium Drops &c&lUnavailable"
+        lore:
+          - "&7"
+          - "&4Next Level: &e2"
+          - "&7"
+          - "&7เมื่อคุณอัพเกรดการดรอปของม็อบ"
+          - "&7คุณจะได้ไอเทมจากการดรอปของมากขึ้น"
+          - "&7"
+          - "&4Drops: &fx2"
+          - "&3ราคา: &f1699 &6&lWAIS Coin"
+          - "&7"
+          - "&cLeft click to upgrade"
+    "2":
+      has-next-level:
+        sound:
+          type: ENTITY_EXPERIENCE_ORB_PICKUP
+          volume: 0.2
+          pitch: 0.2
+        type: ROTTEN_FLESH
+        name: "&4Premium Drops &a&lAvailable"
+        lore:
+          - "&7"
+          - "&4Next Level: &e3"
+          - "&7"
+          - "&7เมื่อคุณอัพเกรดการดรอปของม็อบ"
+          - "&7คุณจะได้ไอเทมจากการดรอปของมากขึ้น"
+          - "&7"
+          - "&4Drops: &fx2"
+          - "&3ราคา: &f1919 &6&lWAIS Coin"
+          - "&7"
+          - "&cLeft click to upgrade"
+      no-next-level:
+        sound:
+          type: BLOCK_ANVIL_PLACE
+          volume: 0.2
+          pitch: 0.2
+        type: ROTTEN_FLESH
+        name: "&4Premium Drops &c&lUnavailable"
+        lore:
+          - "&7"
+          - "&4Next Level: &e3"
+          - "&7"
+          - "&7เมื่อคุณอัพเกรดการดรอปของม็อบ"
+          - "&7คุณจะได้ไอเทมจากการดรอปของมากขึ้น"
+          - "&7"
+          - "&4Drops: &fx2"
+          - "&3ราคา: &f1919 &6&lWAIS Coin"
+          - "&7"
+          - "&cLeft click to upgrade"
+    "3":
+      has-next-level:
+        sound:
+          type: ENTITY_EXPERIENCE_ORB_PICKUP
+          volume: 0.2
+          pitch: 0.2
+        type: ROTTEN_FLESH
+        name: "&4Premium Drops &a&lAvailable"
+        lore:
+          - "&7"
+          - "&4Next Level: &e4"
+          - "&7"
+          - "&7เมื่อคุณอัพเกรดการดรอปของม็อบ"
+          - "&7คุณจะได้ไอเทมจากการดรอปของมากขึ้น"
+          - "&7"
+          - "&4Drops: &fx2"
+          - "&3ราคา: &f2200 &6&lWAIS Coin"
+          - "&7"
+          - "&cLeft click to upgrade"
+      no-next-level:
+        sound:
+          type: BLOCK_ANVIL_PLACE
+          volume: 0.2
+          pitch: 0.2
+        type: ROTTEN_FLESH
+        name: "&4Premium Drops &c&lUnavailable"
+        lore:
+          - "&7"
+          - "&4Next Level: &e4"
+          - "&7"
+          - "&7เมื่อคุณอัพเกรดการดรอปของม็อบ"
+          - "&7คุณจะได้ไอเทมจากการดรอปของมากขึ้น"
+          - "&7"
+          - "&4Drops: &fx2"
+          - "&3ราคา: &f22020 &6&lWAIS Coin"
+          - "&7"
+          - "&cLeft click to upgrade"
+    "4":
+      has-next-level:
+        sound:
+          type: BLOCK_ANVIL_PLACE
+          volume: 0.2
+          pitch: 0.2
+        type: ROTTEN_FLESH
+        name: "&4&lPremium Drops &c&lMax Level"
+        lore:
+          - "&7"
+      no-next-level:
+        sound:
+          type: BLOCK_ANVIL_PLACE
+          volume: 0.2
+          pitch: 0.2
+        type: ROTTEN_FLESH
+        name: "&4&lPremium Drops &c&lMax Level"
+        lore:
+          - "&7"
+
+  #*********************************************************************************
+  #*********************************************************************************
+  #*********************************************************************************
+
+  members-limit:
+    item: "~"
+    "1":
+      has-next-level:
+        sound:
+          type: ENTITY_EXPERIENCE_ORB_PICKUP
+          volume: 0.2
+          pitch: 0.2
+        type: SKULL_ITEM
+        data: 3
+        name: "&2Members Size &c&lAvailable"
+        lore:
+          - "&7"
+          - "&2Next Level: &e2"
+          - "&7"
+          - "&7เมื่อคุณอัพเกรดขีดจำกัดของผู้เล่นในทีมของคุณ"
+          - "&7จะทำให้คุณสามารถเชิญผู้เล่นเข้าทีมคุณได้มากขึ้น"
+          - "&7"
+          - "&2Player limit: &f8 Members"
+          - "&3ราคา: &f1000 &6&lWAIS Coin"
+          - "&7"
+          - "&cLeft click to upgrade"
+      no-next-level:
+        sound:
+          type: BLOCK_ANVIL_PLACE
+          volume: 0.2
+          pitch: 0.2
+        type: SKULL_ITEM
+        data: 3
+        name: "&2Members Size &c&lUnavailable"
+        lore:
+          - "&7"
+          - "&2Next Level: &e2"
+          - "&7"
+          - "&7เมื่อคุณอัพเกรดขีดจำกัดของผู้เล่นในทีมของคุณ"
+          - "&7จะทำให้คุณสามารถเชิญผู้เล่นเข้าทีมคุณได้มากขึ้น"
+          - "&7"
+          - "&2Player limit: &f8 Members"
+          - "&3ราคา: &f1000 &6&lWAIS Coin"
+          - "&7"
+          - "&cLeft click to upgrade"
+    "2":
+      has-next-level:
+        sound:
+          type: ENTITY_EXPERIENCE_ORB_PICKUP
+          volume: 0.2
+          pitch: 0.2
+        type: SKULL_ITEM
+        data: 3
+        name: "&2Members Size &c&lAvailable"
+        lore:
+          - "&7"
+          - "&2Next Level: &e3"
+          - "&7"
+          - "&7เมื่อคุณอัพเกรดขีดจำกัดของผู้เล่นในทีมของคุณ"
+          - "&7จะทำให้คุณสามารถเชิญผู้เล่นเข้าทีมคุณได้มากขึ้น"
+          - "&7"
+          - "&2Player limit: &f16 Members"
+          - "&3ราคา: &f1500 &6&lWAIS Coin"
+          - "&7"
+          - "&cLeft click to upgrade"
+      no-next-level:
+        sound:
+          type: BLOCK_ANVIL_PLACE
+          volume: 0.2
+          pitch: 0.2
+        type: SKULL_ITEM
+        data: 3
+        name: "&2Members Size &c&lUnavailable"
+        lore:
+          - "&7"
+          - "&2Next Level: &e3"
+          - "&7"
+          - "&7เมื่อคุณอัพเกรดขีดจำกัดของผู้เล่นในทีมของคุณ"
+          - "&7จะทำให้คุณสามารถเชิญผู้เล่นเข้าทีมคุณได้มากขึ้น"
+          - "&7"
+          - "&2Player limit: &f16 Members"
+          - "&3ราคา: &f1500 &6&lWAIS Coin"
+          - "&7"
+          - "&cLeft click to upgrade"
+    "3":
+      has-next-level:
+        sound:
+          type: ENTITY_EXPERIENCE_ORB_PICKUP
+          volume: 0.2
+          pitch: 0.2
+        type: SKULL_ITEM
+        data: 3
+        name: "&2Members Size &c&lAvailable"
+        lore:
+          - "&7"
+          - "&2Next Level: &e4"
+          - "&7"
+          - "&7เมื่อคุณอัพเกรดขีดจำกัดของผู้เล่นในทีมของคุณ"
+          - "&7จะทำให้คุณสามารถเชิญผู้เล่นเข้าทีมคุณได้มากขึ้น"
+          - "&7"
+          - "&2Player limit: &f32 Members"
+          - "&3ราคา: &f2000 &6&lWAIS Coin"
+          - "&7"
+          - "&cLeft click to upgrade"
+      no-next-level:
+        sound:
+          type: BLOCK_ANVIL_PLACE
+          volume: 0.2
+          pitch: 0.2
+        type: SKULL_ITEM
+        data: 3
+        name: "&2Members Size &c&lUnavailable"
+        lore:
+          - "&7"
+          - "&2Next Level: &e4"
+          - "&7"
+          - "&7เมื่อคุณอัพเกรดขีดจำกัดของผู้เล่นในทีมของคุณ"
+          - "&7จะทำให้คุณสามารถเชิญผู้เล่นเข้าทีมคุณได้มากขึ้น"
+          - "&7"
+          - "&2Player limit: &f32 Members"
+          - "&3ราคา: &f2000 &6&lWAIS Coin"
+          - "&7"
+          - "&cLeft click to upgrade"
+    "4":
+      has-next-level:
+        sound:
+          type: BLOCK_ANVIL_PLACE
+          volume: 0.2
+          pitch: 0.2
+        type: SKULL_ITEM
+        data: 3
+        name: "&2Members Size &c&lMax Level"
+        lore:
+          - "&7"
+      no-next-level:
+        sound:
+          type: BLOCK_ANVIL_PLACE
+          volume: 0.2
+          pitch: 0.2
+        type: SKULL_ITEM
+        data: 3
+        name: "&2Members Size &c&lMax Level"
+        lore:
+          - "&7"
+
+  #*********************************************************************************
+  #*********************************************************************************
+  #*********************************************************************************
+
+  border-size:
+    item: "!"
+    "1":
+      has-next-level:
+        sound:
+          type: ENTITY_EXPERIENCE_ORB_PICKUP
+          volume: 0.2
+          pitch: 0.2
+        type: BARRIER
+        name: "&9Border Size &a&lAvailable"
+        lore:
+          - "&7"
+          - "&9Next Level: &e2"
+          - "&7"
+          - "&7เมื่อคุณอัพเกรดระยะของเกาะ จะทำให้"
+          - "&7เกาะของคุณมีระยะความกว้างมากขึ้น"
+          - "&7"
+          - "&9Radius: &f30 Blocks"
+          - "&3ราคา: &f10000 &6&lWAIS Coin"
+          - "&7"
+          - "&cLeft click to upgrade"
+      no-next-level:
+        sound:
+          type: BLOCK_ANVIL_PLACE
+          volume: 0.2
+          pitch: 0.2
+        type: BARRIER
+        name: "&9Border Size &c&lUvailable"
+        lore:
+          - "&7"
+          - "&9Next Level: &e2"
+          - "&7"
+          - "&7เมื่อคุณอัพเกรดระยะของเกาะ จะทำให้"
+          - "&7เกาะของคุณมีระยะความกว้างมากขึ้น"
+          - "&7"
+          - "&9Radius: &f30 Blocks"
+          - "&3ราคา: &f10000 &6&lWAIS Coin"
+          - "&7"
+          - "&cLeft click to upgrade"
+    "2":
+      has-next-level:
+        sound:
+          type: ENTITY_EXPERIENCE_ORB_PICKUP
+          volume: 0.2
+          pitch: 0.2
+        type: BARRIER
+        name: "&9Border Size &a&lAvailable"
+        lore:
+          - "&7"
+          - "&9Next Level: &e3"
+          - "&7"
+          - "&7เมื่อคุณอัพเกรดระยะของเกาะ จะทำให้"
+          - "&7เกาะของคุณมีระยะความกว้างมากขึ้น"
+          - "&7"
+          - "&9Radius: &f40 Blocks"
+          - "&3ราคา: &f2800 &6&lWAIS Coin"
+          - "&7"
+          - "&cLeft click to upgrade"
+      no-next-level:
+        sound:
+          type: BLOCK_ANVIL_PLACE
+          volume: 0.2
+          pitch: 0.2
+        type: BARRIER
+        name: "&9Border Size &c&lUvailable"
+        lore:
+          - "&7"
+          - "&9Next Level: &e3"
+          - "&7"
+          - "&7เมื่อคุณอัพเกรดระยะของเกาะ จะทำให้"
+          - "&7เกาะของคุณมีระยะความกว้างมากขึ้น"
+          - "&7"
+          - "&9Radius: &f40 Blocks"
+          - "&3ราคา: &f2800 &6&lWAIS Coin"
+          - "&7"
+          - "&cLeft click to upgrade"
+    "3":
+      has-next-level:
+        sound:
+          type: ENTITY_EXPERIENCE_ORB_PICKUP
+          volume: 0.2
+          pitch: 0.2
+        type: BARRIER
+        name: "&9Border Size &a&lAvailable"
+        lore:
+          - "&7"
+          - "&9Next Level: &e4"
+          - "&7"
+          - "&7เมื่อคุณอัพเกรดระยะของเกาะ จะทำให้"
+          - "&7เกาะของคุณมีระยะความกว้างมากขึ้น"
+          - "&7"
+          - "&9Radius: &f60 Blocks"
+          - "&3ราคา: &f3000 &6&lWAIS Coin"
+          - "&7"
+          - "&cLeft click to upgrade"
+      no-next-level:
+        sound:
+          type: BLOCK_ANVIL_PLACE
+          volume: 0.2
+          pitch: 0.2
+        type: BARRIER
+        name: "&9Border Size &c&lUvailable"
+        lore:
+          - "&7"
+          - "&9Next Level: &e4"
+          - "&7"
+          - "&7เมื่อคุณอัพเกรดระยะของเกาะ จะทำให้"
+          - "&7เกาะของคุณมีระยะความกว้างมากขึ้น"
+          - "&7"
+          - "&9Radius: &f60 Blocks"
+          - "&3ราคา: &f3000 &6&lWAIS Coin"
+          - "&7"
+          - "&cLeft click to upgrade"
+    "4":
+      has-next-level:
+        sound:
+          type: BLOCK_ANVIL_PLACE
+          volume: 0.2
+          pitch: 0.2
+        type: BARRIER
+        name: "&9Border Size &c&lMax Level"
+        lore:
+          - "&7"
+      no-next-level:
+        sound:
+          type: BLOCK_ANVIL_PLACE
+          volume: 0.2
+          pitch: 0.2
+        type: BARRIER
+        name: "&9Border Size &c&lMax Level"
+        lore:
+          - "&7"
+
+  #*********************************************************************************
+  #*********************************************************************************
+  #*********************************************************************************
+
+  generator-rates:
+    item: "+"
+    "1":
+      has-next-level:
+        sound:
+          type: ENTITY_EXPERIENCE_ORB_PICKUP
+          volume: 0.2
+          pitch: 0.2
+        type: COBBLESTONE
+        name: "&3Generator Boost &a&lAvailable"
+        lore:
+          - "&7"
+          - "&6Next Level: &e2"
+          - "&7"
+          - "&7เมื่อคุณอัพเกรดเครื่องปั๊ม COBBLESTONE จะทำให้"
+          - "&7คุณได้แร่ต่าง ๆ จากเครื่องปั๊ม COBBLESTONE มากขึ้น"
+          - "&7"
+          - "&3Block:"
+          - " &7- COBBLESTONE: 58"
+          - " &7- STONE: 5"
+          - " &7- COAL_ORE: 8"
+          - " &7- IRON_ORE: 14"
+          - " &7- REDSTONE_ORE: 5"
+          - " &7- DIAMOND_ORE: 2"
+          - " &7- EMERALD_ORE: 1"
+          - " &7- GRASS: 5"
+          - " &7- WEB: 2"
+          - "&7"
+          - "&3ราคา: &f4500 &6&lWAIS Coin"
+          - "&7"
+          - "&cLeft click to upgrade"
+      no-next-level:
+        sound:
+          type: BLOCK_ANVIL_PLACE
+          volume: 0.2
+          pitch: 0.2
+        type: COBBLESTONE
+        name: "&3Generator Boost &c&lUnvailable"
+        lore:
+          - "&7"
+          - "&3Next Level: &e2"
+          - "&7"
+          - "&7เมื่อคุณอัพเกรดเครื่องปั๊ม COBBLESTONE จะทำให้"
+          - "&7คุณได้แร่ต่าง ๆ จากเครื่องปั๊ม COBBLESTONE มากขึ้น"
+          - "&7"
+          - "&3Rates:"
+          - " &7- COBBLESTONE: 58"
+          - " &7- STONE: 5"
+          - " &7- COAL_ORE: 8"
+          - " &7- IRON_ORE: 14"
+          - " &7- REDSTONE_ORE: 5"
+          - " &7- DIAMOND_ORE: 2"
+          - " &7- EMERALD_ORE: 1"
+          - " &7- GRASS: 5"
+          - " &7- WEB: 2"
+          - "&7"
+          - "&3ราคา: &f4500 &6&lWAIS Coin"
+          - "&7"
+          - "&cLeft click to upgrade"
+    "2":
+      has-next-level:
+        sound:
+          type: ENTITY_EXPERIENCE_ORB_PICKUP
+          volume: 0.2
+          pitch: 0.2
+        type: COBBLESTONE
+        name: "&3Generator Boost &a&lAvailable"
+        lore:
+          - "&7"
+          - "&3Next Level: &e3"
+          - "&7"
+          - "&7เมื่อคุณอัพเกรดเครื่องปั๊ม COBBLESTONE จะทำให้"
+          - "&7คุณได้แร่ต่าง ๆ จากเครื่องปั๊ม COBBLESTONE มากขึ้น"
+          - "&7"
+          - "&3Rates:"
+          - " &7- COBBLESTONE: 49"
+          - " &7- STONE: 5"
+          - " &7- COAL_ORE: 6"
+          - " &7- IRON_ORE: 16"
+          - " &7- REDSTONE_ORE: 5"
+          - " &7- DIAMOND_ORE: 3"
+          - " &7- EMERALD_ORE: 2"
+          - " &7- QUARTZ_ORE: 4"
+          - " &7- LAPIS_ORE: 3"
+          - " &7- GRASS: 5"
+          - " &7- WEB: 2"
+          - "&7"
+          - "&3ราคา: &f5500 &6&lWAIS Coin"
+          - "&7"
+          - "&cLeft click to upgrade"
+      no-next-level:
+        sound:
+          type: BLOCK_ANVIL_PLACE
+          volume: 0.2
+          pitch: 0.2
+        type: COBBLESTONE
+        name: "&3Generator Boost &c&lUnvailable"
+        lore:
+          - "&7"
+          - "&3Next Level: &e3"
+          - "&7"
+          - "&7เมื่อคุณอัพเกรดเครื่องปั๊ม COBBLESTONE จะทำให้"
+          - "&7คุณได้แร่ต่าง ๆ จากเครื่องปั๊ม COBBLESTONE มากขึ้น"
+          - "&7"
+          - "&3Rates:"
+          - " &7- COBBLESTONE: 49"
+          - " &7- STONE: 5"
+          - " &7- COAL_ORE: 6"
+          - " &7- IRON_ORE: 16"
+          - " &7- REDSTONE_ORE: 5"
+          - " &7- DIAMOND_ORE: 3"
+          - " &7- EMERALD_ORE: 2"
+          - " &7- QUARTZ_ORE: 4"
+          - " &7- LAPIS_ORE: 3"
+          - " &7- GRASS: 5"
+          - " &7- WEB: 2"
+          - "&7"
+          - "&3ราคา: &f5500 &6&lWAIS Coin"
+          - "&7"
+          - "&cLeft click to upgrade"
+    "3":
+      has-next-level:
+        sound:
+          type: ENTITY_EXPERIENCE_ORB_PICKUP
+          volume: 0.2
+          pitch: 0.2
+        type: COBBLESTONE
+        name: "&3Generator Boost &a&lAvailable"
+        lore:
+          - "&7"
+          - "&3Next Level: &e4"
+          - "&7"
+          - "&7เมื่อคุณอัพเกรดเครื่องปั๊ม COBBLESTONE จะทำให้"
+          - "&7คุณได้แร่ต่าง ๆ จากเครื่องปั๊ม COBBLESTONE มากขึ้น"
+          - "&7"
+          - "&3Rates:"
+          - " &7- COBBLESTONE: 50"
+          - " &7- STONE: 3"
+          - " &7- COAL_ORE: 8"
+          - " &7- IRON_ORE: 8"
+          - " &7- REDSTONE_ORE: 5"
+          - " &7- DIAMOND_ORE: 3"
+          - " &7- EMERALD_ORE: 2"
+          - " &7- QUARTZ_ORE: 5"
+          - " &7- NETHERRACK: 5"
+          - " &7- LAPIS_ORE: 4"
+          - " &7- OBSIDIAN: 2"
+          - " &7- GRASS: 3"
+          - " &7- WEB: 2"
+          - "&7"
+          - "&3ราคา: &f7500 &6&lWAIS Coin"
+          - "&7"
+          - "&cLeft click to upgrade"
+      no-next-level:
+        sound:
+          type: BLOCK_ANVIL_PLACE
+          volume: 0.2
+          pitch: 0.2
+        type: COBBLESTONE
+        name: "&3Generator Boost &c&lUnvailable"
+        lore:
+          - "&7"
+          - "&3Next Level: &e4"
+          - "&7"
+          - "&7เมื่อคุณอัพเกรดเครื่องปั๊ม COBBLESTONE จะทำให้"
+          - "&7คุณได้แร่ต่าง ๆ จากเครื่องปั๊ม COBBLESTONE มากขึ้น"
+          - "&7"
+          - "&3Rates:"
+          - " &7- COBBLESTONE: 50"
+          - " &7- STONE: 3"
+          - " &7- COAL_ORE: 8"
+          - " &7- IRON_ORE: 8"
+          - " &7- REDSTONE_ORE: 5"
+          - " &7- DIAMOND_ORE: 3"
+          - " &7- EMERALD_ORE: 2"
+          - " &7- QUARTZ_ORE: 5"
+          - " &7- NETHERRACK: 5"
+          - " &7- LAPIS_ORE: 4"
+          - " &7- OBSIDIAN: 2"
+          - " &7- GRASS: 3"
+          - " &7- WEB: 2"
+          - "&7"
+          - "&3ราคา: &f7500 &6&lWAIS Coin"
+          - "&7"
+          - "&cLeft click to upgrade"
+    "4":
+      has-next-level:
+        sound:
+          type: ENTITY_EXPERIENCE_ORB_PICKUP
+          volume: 0.2
+          pitch: 0.2
+        type: COBBLESTONE
+        name: "&3Generator Boost &a&lAvailable"
+        lore:
+          - "&7"
+          - "&3Next Level: &e5"
+          - "&7"
+          - "&7เมื่อคุณอัพเกรดเครื่องปั๊ม COBBLESTONE จะทำให้"
+          - "&7คุณได้แร่ต่าง ๆ จากเครื่องปั๊ม COBBLESTONE มากขึ้น"
+          - "&7"
+          - "&3Rates:"
+          - " &7- COBBLESTONE: 44"
+          - " &7- STONE: 1"
+          - " &7- COAL_ORE: 9"
+          - " &7- IRON_ORE: 10"
+          - " &7- REDSTONE_ORE: 5"
+          - " &7- DIAMOND_ORE: 4"
+          - " &7- EMERALD_ORE: 1"
+          - " &7- QUARTZ_ORE: 4"
+          - " &7- NETHERRACK: 5"
+          - " &7- LAPIS_ORE: 4"
+          - " &7- OBSIDIAN: 5"
+          - " &7- GRASS: 3"
+          - " &7- WEB: 2"
+          - " &7- ENDER_STONE: 3"
+          - "&7"
+          - "&3ราคา: &f8000 &6&lWAIS Coin"
+          - "&7"
+          - "&cLeft click to upgrade"
+      no-next-level:
+        sound:
+          type: BLOCK_ANVIL_PLACE
+          volume: 0.2
+          pitch: 0.2
+        type: COBBLESTONE
+        name: "&3Generator Boost &c&lUnvailable"
+        lore:
+          - "&7"
+          - "&3Next Level: &e5"
+          - "&7"
+          - "&7เมื่อคุณอัพเกรดเครื่องปั๊ม COBBLESTONE จะทำให้"
+          - "&7คุณได้แร่ต่าง ๆ จากเครื่องปั๊ม COBBLESTONE มากขึ้น"
+          - "&7"
+          - "&3Rates:"
+          - " &7- COBBLESTONE: 44"
+          - " &7- STONE: 1"
+          - " &7- COAL_ORE: 9"
+          - " &7- IRON_ORE: 10"
+          - " &7- REDSTONE_ORE: 5"
+          - " &7- DIAMOND_ORE: 4"
+          - " &7- EMERALD_ORE: 1"
+          - " &7- QUARTZ_ORE: 4"
+          - " &7- NETHERRACK: 5"
+          - " &7- LAPIS_ORE: 4"
+          - " &7- OBSIDIAN: 5"
+          - " &7- GRASS: 3"
+          - " &7- WEB: 2"
+          - " &7- ENDER_STONE: 3"
+          - "&7"
+          - "&3ราคา: &f8000 &6&lWAIS Coin"
+          - "&7"
+          - "&cLeft click to upgrade"
+    "5":
+      has-next-level:
+        sound:
+          type: ENTITY_EXPERIENCE_ORB_PICKUP
+          volume: 0.2
+          pitch: 0.2
+        type: COBBLESTONE
+        name: "&3Generator Boost &a&lAvailable"
+        lore:
+          - "&7"
+          - "&3Next Level: &e6"
+          - "&7"
+          - "&7เมื่อคุณอัพเกรดเครื่องปั๊ม COBBLESTONE จะทำให้"
+          - "&7คุณได้แร่ต่าง ๆ จากเครื่องปั๊ม COBBLESTONE มากขึ้น"
+          - "&7"
+          - "&3Rates:"
+          - " &7- COBBLESTONE: 35"
+          - " &7- COAL_ORE: 10"
+          - " &7- IRON_ORE: 10"
+          - " &7- REDSTONE_ORE: 5"
+          - " &7- DIAMOND_ORE: 6"
+          - " &7- EMERALD_ORE: 2"
+          - " &7- QUARTZ_ORE: 5"
+          - " &7- NETHERRACK: 5"
+          - " &7- LAPIS_ORE: 4"
+          - " &7- OBSIDIAN: 5"
+          - " &7- GRASS: 4"
+          - " &7- WEB: 2"
+          - " &7- ENDER_STONE: 5"
+          - " &7- STONE: 2"
+          - "&7"
+          - "&3ราคา: &f9000 &6&lWAIS Coin"
+          - "&7"
+          - "&cLeft click to upgrade"
+      no-next-level:
+        sound:
+          type: BLOCK_ANVIL_PLACE
+          volume: 0.2
+          pitch: 0.2
+        type: COBBLESTONE
+        name: "&3Generator Boost &c&lUnvailable"
+        lore:
+          - "&7"
+          - "&3Next Level: &e6"
+          - "&7"
+          - "&7เมื่อคุณอัพเกรดเครื่องปั๊ม COBBLESTONE จะทำให้"
+          - "&7คุณได้แร่ต่าง ๆ จากเครื่องปั๊ม COBBLESTONE มากขึ้น"
+          - "&7"
+          - "&3Rates:"
+          - " &7- COBBLESTONE: 35"
+          - " &7- COAL_ORE: 10"
+          - " &7- IRON_ORE: 10"
+          - " &7- REDSTONE_ORE: 5"
+          - " &7- DIAMOND_ORE: 6"
+          - " &7- EMERALD_ORE: 2"
+          - " &7- QUARTZ_ORE: 5"
+          - " &7- NETHERRACK: 5"
+          - " &7- LAPIS_ORE: 4"
+          - " &7- OBSIDIAN: 5"
+          - " &7- GRASS: 4"
+          - " &7- WEB: 2"
+          - " &7- ENDER_STONE: 5"
+          - " &7- STONE: 2"
+          - "&7"
+          - "&3ราคา: &f9000 &6&lWAIS Coin"
+          - "&7"
+          - "&cLeft click to upgrade"
+          - "&oWe Are In Space Skyblock"
+          - "SuperiorSkyblock2"
+    "6":
+      has-next-level:
+        sound:
+          type: ENTITY_EXPERIENCE_ORB_PICKUP
+          volume: 0.2
+          pitch: 0.2
+        type: COBBLESTONE
+        name: "&3Generator Boost &c&lMax Level"
+        lore:
+          - "&7"
+      no-next-level:
+        sound:
+          type: BLOCK_ANVIL_PLACE
+          volume: 0.2
+          pitch: 0.2
+        type: COBBLESTONE
+        name: "&3Generator Boost &c&lMax Level"
+        lore:
+          - "&f"
+
+  #*********************************************************************************

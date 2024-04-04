@@ -1,0 +1,38 @@
+teleportenabled: true
+teleportauto: false
+godmode: false
+muted: false
+jailed: false
+ip-address: 192.168.1.58
+afk: false
+socialspy: false
+npc: false
+powertoolsenabled: true
+accepting-pay: true
+baltop-exempt: false
+timestamps:
+  lastteleport: 1703993861012
+  lastheal: 0
+  mute: 0
+  jail: 0
+  onlinejail: 0
+  logout: 1708957036501
+  login: 1708954618877
+money: '0'
+last-account-name: .Aileen283884
+logoutlocation:
+  world: 13352691-27fb-4330-a4dc-05371cf7d8b1
+  world-name: SuperiorWorld
+  x: 603.34644
+  y: 100.0
+  z: 607.2717
+  yaw: -26.821151733398438
+  pitch: 10.20611572265625
+lastlocation:
+  world: 069fb039-5530-4b68-a19a-9de3bb2fa609
+  world-name: SuperiorWorld
+  x: 2.765431
+  y: 100.0
+  z: -602.21136
+  yaw: -35.759429931640625
+  pitch: 4.255401611328125

@@ -1,0 +1,25 @@
+# ItemEdit by Emanon
+# Wiki https://github.com/emanondev/ItemTag/wiki
+# Discord https://discord.gg/w5HVCDPtRp
+# Donations https://www.paypal.me/FlavioLiponi/
+# Spigot https://www.spigotmc.org/resources/89634/
+#
+# Do not change config-version
+config-version: 5
+language:
+  #Default locale
+  #If you want to add more languages copy language/en.yml, rename it and apply your changes,
+  # plugin will automatically use it after a plugin reload or server restart
+  default: 'en'
+  #Allowed on ServerVersion 1.12+
+  #When true the plugin will use the client language if a language file exist for that client
+  use_multilanguage: true
+actions:
+  unsafe_mode: false
+  player_command:
+    #Should use playercommandpreprocessevent ?
+    #true - if you need other plugins to listen to cancel or handle commands fired by items, like CombatLog MyCommands etc...
+    fires_playercommandpreprocessevent: true
+equipment_change:
+  max_checked_players_per_tick: 3
+  frequency_ticks: 5

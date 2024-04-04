@@ -1,0 +1,46 @@
+quest-progress:
+  theend:
+    started: false
+    started-date: 1702738826500
+    completed: false
+    completed-before: false
+    completion-date: 0
+    task-progress:
+      nether:
+        completed: false
+  nether:
+    started: false
+    started-date: 1702738686481
+    completed: false
+    completed-before: false
+    completion-date: 0
+    task-progress:
+      nether:
+        completed: false
+  gold:
+    started: false
+    started-date: 1703951343992
+    completed: false
+    completed-before: false
+    completion-date: 0
+    task-progress:
+      getiron:
+        completed: false
+  log:
+    started: false
+    started-date: 1705989368441
+    completed: true
+    completed-before: true
+    completion-date: 1705989368441
+    task-progress:
+      log:
+        completed: false
+  pickaxe:
+    started: false
+    started-date: 1706277174817
+    completed: true
+    completed-before: true
+    completion-date: 1706277174817
+    task-progress:
+      wooden-pickaxe:
+        completed: false

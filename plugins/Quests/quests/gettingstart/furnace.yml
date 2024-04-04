@@ -1,0 +1,24 @@
+display:
+  name: "&fเตาเผาเท่านั้นที่ Knock everything"
+  lore-normal:
+    - ""
+    - "  &dคราฟเตาเผา 1 เตา  "
+  lore-started:
+    - ""
+    - "  &6ความคืบหน้า &f{furnace:progress}&7/1  "
+  type: FURNACE
+tasks:
+  furnace:
+    type: "crafting"
+    item: FURNACE
+    amount: 1
+    data: 0
+placeholders:
+  quest: "&6เตาเผาเท่านั้นที่ Knock everything"
+  description: "&aคราฟเตาเผา 1 เตา"
+  progress: " &7 - &f{furnace:progress}&7/1"
+options:
+  category: "gettingstarted"
+  sort-order: 6
+rewardstring:
+  - "&eเตาเผา เผาอะไรได้บ้าง?"

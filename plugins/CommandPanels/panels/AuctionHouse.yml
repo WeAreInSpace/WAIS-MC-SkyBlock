@@ -1,0 +1,254 @@
+panels:
+  AuctionHouse(BedrockUtility)_(1):
+    perm: default
+    rows: "6"
+    title: "AuctionHouse Bedrock PC"
+    empty: AIR
+    item:
+      "8":
+        material: barrier
+        name: "&cClose"
+        commands:
+          - cpc
+      "9":
+        material: STAINED_GLASS_PANE
+        ID: 15
+        name: "&f"
+      "17":
+        material: STAINED_GLASS_PANE
+        ID: 15
+        name: "&f"
+      "18":
+        material: STAINED_GLASS_PANE
+        ID: 15
+        name: "&f"
+      "26":
+        material: STAINED_GLASS_PANE
+        ID: 15
+        name: "&f"
+      "27":
+        material: STAINED_GLASS_PANE
+        ID: 15
+        name: "&f"
+      "35":
+        material: STAINED_GLASS_PANE
+        ID: 15
+        name: "&f"
+      "36":
+        material: STAINED_GLASS_PANE
+        ID: 15
+        name: "&f"
+      "44":
+        material: STAINED_GLASS_PANE
+        ID: 15
+        name: "&f"
+      "45":
+        material: STAINED_GLASS_PANE
+        ID: 15
+        name: "&f"
+      "46":
+        material: STAINED_GLASS_PANE
+        ID: 15
+        name: "&f"
+      "47":
+        material: STAINED_GLASS_PANE
+        ID: 15
+        name: "&f"
+      "48":
+        material: STAINED_GLASS_PANE
+        ID: 15
+        name: "&f"
+      "49":
+        material: STAINED_GLASS_PANE
+        ID: 15
+        name: "&f"
+      "50":
+        material: STAINED_GLASS_PANE
+        ID: 15
+        name: "&f"
+      "51":
+        material: STAINED_GLASS_PANE
+        ID: 15
+        name: "&f"
+      "52":
+        material: STAINED_GLASS_PANE
+        ID: 15
+        name: "&f"
+      "53":
+        material: STAINED_GLASS_PANE
+        ID: 15
+        name: "&f"
+
+      "11":
+        material: EMERALD
+        name: "&a&lopen ah menu"
+        lore:
+          - ""
+          - "  &fเมื่อคุณเลือกเมนูนี้  "
+          - "  &fเซิร์ฟเวอร์จะเปิดเมนู ah ให้คุณ  "
+          - ""
+        commands:
+          - cpc
+          - ah
+      "13":
+        material: REDSTONE
+        name: "&c&lsell item"
+        lore:
+          - ""
+          - "  &fเมื่อคุณเลือกเมนูนี้  "
+          - "  &fเซิร์ฟเวอร์จะถามราคาขายกับคุณ  "
+          - "  &fถือของที่ต้องการขาย และใส่ราคาขายในช่องแชท  "
+          - ""
+        commands:
+          - cpc
+          - msg= กรุณาป้อนราคาสินค้า เว้นวรรค และใส่จำนวนที่ต้องการขาย
+          - msg= คุณสามารถไม่ใส่จำนวนที่ต้องการขายได้
+        player-input:
+          - ah sell %cp-player-input%
+          - open= AuctionHouse(BedrockUtility)_(1)
+      "15":
+        material: BOW
+        name: "&6&lsearch item in ah"
+        lore: 
+          - ""
+          - "  &fคลิกเพื่อค้นหาไอเทมในตลาดโลก  "
+          - ""
+        commands:
+          - cpc
+          - msg= กรุณาพิมพ์ชื่อไอเทมที่ต้องการค้นหาลงในช่องแชท
+        player-input:
+          - ah search %cp-player-input%
+      "20":
+        material: EMERALD_BLOCK
+        enchanted:
+          - true
+        name: '&a&l"Your items are selling"'
+        lore:
+          - ""
+          - "  &fคลิกเพื่อดูไอเทมที่คุณกำลังขายอยู่  "
+          - ""
+        commands:
+          - ah selling
+      "22":
+        material: DOUBLE_PLANT
+        enchanted:
+          - true
+        name: '&a&lView the items you have sold recently'
+        lore:
+          - ""
+          - "  &fคลิกเพื่อดูไอเทมที่คุณขายแล้ว  "
+          - ""
+        commands:
+          - ah sold
+
+  AuctionHouse(JavaUtility)_(1):
+    perm: default
+    rows: "6"
+    title: "AuctionHouse Bedrock PC"
+    empty: AIR
+    item:
+      "0":
+        material: STAINED_GLASS_PANE
+        ID: 15
+        name: "&f"
+      "1":
+        material: STAINED_GLASS_PANE
+        ID: 15
+        name: "&f"
+      "2":
+        material: STAINED_GLASS_PANE
+        ID: 15
+        name: "&f"
+      "3":
+        material: STAINED_GLASS_PANE
+        ID: 15
+        name: "&f"
+      "4":
+        material: STAINED_GLASS_PANE
+        ID: 15
+        name: "&f"
+      "5":
+        material: STAINED_GLASS_PANE
+        ID: 15
+        name: "&f"
+      "6":
+        material: STAINED_GLASS_PANE
+        ID: 15
+        name: "&f"
+      "7":
+        material: STAINED_GLASS_PANE
+        ID: 15
+        name: "&f"
+      "8":
+        material: barrier
+        name: "&cClose"
+        commands:
+          - cpc
+      "9":
+        material: STAINED_GLASS_PANE
+        ID: 15
+        name: "&f"
+      "17":
+        material: STAINED_GLASS_PANE
+        ID: 15
+        name: "&f"
+      "18":
+        material: STAINED_GLASS_PANE
+        ID: 15
+        name: "&f"
+      "26":
+        material: STAINED_GLASS_PANE
+        ID: 15
+        name: "&f"
+      "27":
+        material: STAINED_GLASS_PANE
+        ID: 15
+        name: "&f"
+      "35":
+        material: STAINED_GLASS_PANE
+        ID: 15
+        name: "&f"
+      "36":
+        material: STAINED_GLASS_PANE
+        ID: 15
+        name: "&f"
+      "44":
+        material: STAINED_GLASS_PANE
+        ID: 15
+        name: "&f"
+      "45":
+        material: STAINED_GLASS_PANE
+        ID: 15
+        name: "&f"
+      "46":
+        material: STAINED_GLASS_PANE
+        ID: 15
+        name: "&f"
+      "47":
+        material: STAINED_GLASS_PANE
+        ID: 15
+        name: "&f"
+      "48":
+        material: STAINED_GLASS_PANE
+        ID: 15
+        name: "&f"
+      "49":
+        material: STAINED_GLASS_PANE
+        ID: 15
+        name: "&f"
+      "50":
+        material: STAINED_GLASS_PANE
+        ID: 15
+        name: "&f"
+      "51":
+        material: STAINED_GLASS_PANE
+        ID: 15
+        name: "&f"
+      "52":
+        material: STAINED_GLASS_PANE
+        ID: 15
+        name: "&f"
+      "53":
+        material: STAINED_GLASS_PANE
+        ID: 15
+        name: "&f"

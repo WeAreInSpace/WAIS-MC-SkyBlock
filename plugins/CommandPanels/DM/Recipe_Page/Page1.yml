@@ -1,0 +1,102 @@
+menu_title: "Server recipe book"
+size: 54
+items:
+  "1x Compressed Cobblestone":
+    slot: 10
+    material: COBBLESTONE
+    display_name: "1x Compressed Cobblestone"
+
+  "2x Compressed Cobblestone":
+    slot: 11
+    material: COBBLESTONE
+    display_name: "2x Compressed Cobblestone"
+
+  "3x Compressed Cobblestone":
+    slot: 12
+    material: COBBLESTONE
+    display_name: "3x Compressed Cobblestone"
+
+  "4x Compressed Cobblestone":
+    slot: 13
+    material: COBBLESTONE
+    display_name: "4x Compressed Cobblestone"
+
+  "5x Compressed Cobblestone":
+    slot: 14
+    material: COBBLESTONE
+    display_name: "5x Compressed Cobblestone"
+
+  "6x Compressed Cobblestone":
+    slot: 15
+    material: COBBLESTONE
+    display_name: "6x Compressed Cobblestone"
+
+  "Bedrock":
+    slot: 16
+    material: BEDROCK
+    display_name: "Bedrock"
+
+  "WAIS-Gem":
+    slot: 19
+    material: NETHER_STAR
+    display_name: "WAIS-Gem"
+
+  "Lava-Bucket":
+    slot: 20
+    material: LAVA_BUCKET
+    display_name: "Lava-Bucket"
+
+  "Water-Bucket":
+    slot: 21
+    material: WATER_BUCKET
+    display_name: "Water-Bucket"
+
+  "Epic-Torch":
+    slot: 22
+    material: TORCH
+    display_name: "Epic-Torch"
+  
+  "Grass Block":
+    slot: 23
+    material: GRASS
+    data: 2
+    display_name: "Grass Block"
+
+  "Obsidian":
+    slot: 24
+    material: OBSIDIAN
+    display_name: "Obsidian"
+
+
+  #navbar
+  "server-menu":
+    material: NETHER_STAR
+    slot: 45
+    left_click_commands:
+      - "[openguimenu] server-menu"
+    right_click_commands:
+      - "[openguimenu] server-menu"
+    display_name: "&fServer menu"
+  "allrecipe":
+    slot: 46
+    material: KNOWLEDGE_BOOK
+    name: "Crafting Recipe"
+    lore:
+      - "สูตรคราฟต์พิเศษ ที่มีเฉพาะเซิร์ฟเวอร์ We are in space เท่านั้น"
+
+  "back":
+    material: BARRIER
+    slot: 7
+    display_name: "&7Back <<"
+    left_click_commands:
+      - "[openguimenu] server-menu"
+    right_click_commands:
+      - "[openguimenu] server-menu"
+  "close":
+    material: STRUCTURE_VOID
+    slot: 8
+    display_name: "&cClose &7X"
+    left_click_commands:
+      - "[close]"
+    right_click_commands:
+      - "[close]"

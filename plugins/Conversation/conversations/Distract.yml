@@ -1,0 +1,209 @@
+Distract:
+  options:
+    - hideChat
+    - moveawaytoend{r=4}
+    - shifttoend
+    - endstep{s=end}
+    - noDamage
+    - positionLock
+  patterns:
+    player_name: "&f[&a%player_name%&f]"
+    narrator: "&f[&c&kNarrator of life&f]"
+    gornny: "&f[&dGornny&f]"
+    distract: "&f[&a&lNPC&f] &eDistract:"
+  steps:
+    Main1:
+      type: delayed-text
+      delay: 60
+      text:
+        - "{player_name} สวัสดี"
+      next: Main2
+    Main2:
+      type: delayed-text
+      delay: 60
+      text:
+        - "{player_name} คุณชื่ออะไรอ่ะ"
+      next: Main3
+    Main3:
+      type: delayed-text
+      delay: 60
+      text:
+        - "{distract} เราชื่อ Distract..."
+      next: Main4
+    Main4:
+      type: delayed-text
+      delay: 60
+      text:
+        - "{player_name} เราเห็นเธออยู่แถวนี้หน่ะ เลยถาม"
+      next: Main5
+    Main5:
+      type: delayed-text
+      delay: 60
+      text:
+        - "{distract} จ่ะ..."
+      next: Main6
+    Main6:
+      type: delayed-text
+      delay: 60
+      text:
+        - "{player_name} แล้วคุณทำอะไรอยู่หรอ"
+      next: Main7
+    Main7:
+      type: delayed-text
+      delay: 60
+      text:
+        - "{distract} ก็ยืนเล่นนิดหน่อยหน่ะ..."
+      next: Main8
+    Main8:
+      type: delayed-text
+      delay: 60
+      text:
+        - "{player_name} แล้ว คุณ..."
+      next: Main9
+    Main9:
+      type: delayed-text
+      delay: 60
+      text:
+        - "{player_name} ไม่มีอะไรหรอก"
+      next: Main10
+    Main10:
+      type: delayed-text
+      delay: 60
+      text:
+        - "{player_name} รู้จัก Taylor Swift ใหม"
+      next: Main11
+    Main11:
+      type: delayed-text
+      delay: 60
+      text:
+        - "{distract} เห้อ..."
+      next: Main12
+    Main12:
+      type: delayed-text
+      delay: 60
+      text:
+        - "{distract} เอ้อ ๆ รู้จัก"
+      next: Main13
+    Main13:
+      type: delayed-text
+      delay: 60
+      text:
+        - "{player_name} รู้ใหม Gornny ชอบ Taylor Swift มากเลยนะ"
+      next: Main14
+    Main14:
+      type: delayed-text
+      delay: 60
+      text:
+        - "{distract} จ่ะ"
+      next: Main15
+    Main15:
+      type: delayed-text
+      delay: 60
+      text:
+        - "{narrator} นี่ %player_name% Distract น่าจะไม่อยากคุยกับคุณ"
+      next: Main16
+    Main16:
+      type: delayed-text
+      delay: 60
+      text:
+        - "{player_name} เค้าอาจจะเหนื่อย"
+      next: Main17
+    Main17:
+      type: delayed-text
+      delay: 60
+      text:
+        - ""
+      next: Main18
+    Main18:
+      type: delayed-text
+      delay: 60
+      text:
+        - "{gornny} เฮ้ %player_name% รู้ใหม Distract มาบอกว่า ไม่อยากคุยกับคุณหน่ะ"
+      next: Main19
+    Main19:
+      type: delayed-text
+      delay: 60
+      text:
+        - "{gornny} Distract เค้าบอกว่า..."
+      next: Main20
+    Main20:
+      type: delayed-text
+      delay: 60
+      text:
+        - "{gornny} คุณคุยเรื่อง Minecraft กับ Taylor Swift กับเค้าหน่ะ"
+      next: Main21
+    Main21:
+      type: delayed-text
+      delay: 60
+      text:
+        - "{gornny} เค้าไม่เข้าใจหน่ะ"
+      next: Main22
+    Main22:
+      type: delayed-text
+      delay: 60
+      text:
+        - "{player_name} โห..."
+      next: Main23
+    Main23:
+      type: delayed-text
+      delay: 60
+      text:
+        - "{player_name} ถ้าไม่เข้าใจทำไมไม่บอกกันว่าไม่เข้าใจ"
+      next: Main24
+    Main24:
+      type: delayed-text
+      delay: 60
+      text:
+        - "{player_name} จะได้เปลี่ยนเรื่องคุย"
+      next: Main100
+    Main100:
+      type: delayed-text
+      delay: 60
+      text:
+        - "{player_name} ไปบอกคนอื่นอย่างนี้แย่มาก"
+      next: Main26
+    Main26:
+      type: delayed-text
+      delay: 60
+      text:
+        - "{player_name} Gornny ถ้า Distract เค้ามาบอกเราตั้งแต่แรก"
+      next: Main27
+    Main27:
+      type: delayed-text
+      delay: 60
+      text:
+        - "{player_name} ก็คงรู้สึกดีกว่าการที่ต้องไปรู้ว่าเค้าไม่อยากคุยกับเรา จากคนอื่น"
+      next: Main28
+    Main28:
+      type: delayed-text
+      delay: 60
+      text:
+        - "{gornny} ก็จริง"
+      next: Main29
+    Main29:
+      type: delayed-text
+      delay: 60
+      text:
+        - "{gornny} คน มีชอบ ก็ต้อง มีเกลียด"
+      next: Main30
+    Main30:
+      type: delayed-text
+      delay: 60
+      text:
+        - "{gornny} งั้นก็ไม่ต้องไปคุยกับ Distract แล้วหล่ะ"
+      next: Main31
+    Main31:
+      type: delayed-text
+      delay: 60
+      text:
+        - "{gornny} ปล่อยเค้าไปเถอะ"
+      next: Main32
+    Main32:
+      type: delayed-text
+      delay: 60
+      text:
+        - "{player_name} OK"
+    end:
+      type: delayed-text
+      text:
+        - ""

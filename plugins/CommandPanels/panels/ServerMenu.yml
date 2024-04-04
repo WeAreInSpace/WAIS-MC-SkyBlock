@@ -1,0 +1,320 @@
+panels:
+  ServerMenu:
+    rows: "6"
+    title: "Server menu"
+    empty: AIR
+    perm: default
+    commands:
+      - sm
+      - servermenu
+    item:
+      "1":
+        material: stained_glass_pane
+        ID: 15
+        name: "&f"
+      "2":
+        material: stained_glass_pane
+        ID: 15
+        name: "&f"
+      "3":
+        material: stained_glass_pane
+        ID: 15
+        name: "&f"
+      "4":
+        material: stained_glass_pane
+        ID: 15
+        name: "&f"
+      "5":
+        material: stained_glass_pane
+        ID: 15
+        name: "&f"
+      "6":
+        material: stained_glass_pane
+        ID: 15
+        name: "&f"
+      "7":
+        material: stained_glass_pane
+        ID: 15
+        name: "&f"
+      "9":
+        material: stained_glass_pane
+        ID: 15
+        name: "&f"
+      "17":
+        material: stained_glass_pane
+        ID: 15
+        name: "&f"
+      "18":
+        material: stained_glass_pane
+        ID: 15
+        name: "&f"
+      "26":
+        material: stained_glass_pane
+        ID: 15
+        name: "&f"
+      "27":
+        material: stained_glass_pane
+        ID: 15
+        name: "&f"
+      "35":
+        material: stained_glass_pane
+        ID: 15
+        name: "&f"
+      "36":
+        material: stained_glass_pane
+        ID: 15
+        name: "&f"
+      "37":
+        material: stained_glass_pane
+        ID: 15
+        name: "&f"
+      "38":
+        material: stained_glass_pane
+        ID: 15
+        name: "&f"
+      "39":
+        material: stained_glass_pane
+        ID: 15
+        name: "&f"
+      "40":
+        material: stained_glass_pane
+        ID: 15
+        name: "&f"
+      "41":
+        material: stained_glass_pane
+        ID: 15
+        name: "&f"
+      "42":
+        material: stained_glass_pane
+        ID: 15
+        name: "&f"
+      "43":
+        material: stained_glass_pane
+        ID: 15
+        name: "&f"
+      "44":
+        material: stained_glass_pane
+        ID: 15
+        name: "&f"
+      #-------------------------------------------------------------
+      "13":
+        material: compass
+        name: "&fServer teleport"
+        commands:
+          - open= ServerTeleport(ServerMenu)
+      "21":
+        material: command
+        name: "&6Command palette"
+        commands:
+          - open= CommandPalette(1)
+      "22":
+        material: GRASS
+        name: "&aSky block teleport"
+      "23":
+        material: knowledge_book
+        name: "&bCrafting Recipe"
+        lore:
+          - "สูตรคราฟต์พิเศษ ที่มีเฉพาะเซิร์ฟเวอร์ We are in space เท่านั้น"
+      #-------------------------------------------------------------
+      "0":
+        material: cps= self
+        ID: 15
+        name: "&fServer profile"
+        lore:
+          - "&d&l+----------------------------------+"
+          - "&fYour server profile"
+          - "&f   name: %player_name%"
+          - "&f   money: %vault_eco_balance% &6&lWAIS Coin"
+          - "&f   rank: %luckperms_prefix%"
+          - "&d&l+----------------------------------+"
+      "8":
+        material: barrier
+        name: "&cClose"
+        commands:
+          - cpc
+      #-------------------------------------------------------------
+      "45":
+        material: nether_star
+        name: "&dServer Menu"
+
+  #************************************************************************************************************************
+  #************************************************************************************************************************
+  #************************************************************************************************************************
+
+  ServerTeleport(ServerMenu):
+    perm: default
+    rows: "6"
+    title: "Server teleport"
+    empty: AIR
+    item:
+      "0":
+        material: stained_glass_pane
+        ID: 15
+        name: "&f"
+      "1":
+        material: stained_glass_pane
+        ID: 15
+        name: "&f"
+      "2":
+        material: stained_glass_pane
+        ID: 15
+        name: "&f"
+      "3":
+        material: stained_glass_pane
+        ID: 15
+        name: "&f"
+      "4":
+        material: stained_glass_pane
+        ID: 15
+        name: "&f"
+      "5":
+        material: stained_glass_pane
+        ID: 15
+        name: "&f"
+      "6":
+        material: stained_glass_pane
+        ID: 15
+        name: "&f"
+      "9":
+        material: stained_glass_pane
+        ID: 15
+        name: "&f"
+      "17":
+        material: stained_glass_pane
+        ID: 15
+        name: "&f"
+      "18":
+        material: stained_glass_pane
+        ID: 15
+        name: "&f"
+      "26":
+        material: stained_glass_pane
+        ID: 15
+        name: "&f"
+      "27":
+        material: stained_glass_pane
+        ID: 15
+        name: "&f"
+      "35":
+        material: stained_glass_pane
+        ID: 15
+        name: "&f"
+      "36":
+        material: stained_glass_pane
+        ID: 15
+        name: "&f"
+      "37":
+        material: stained_glass_pane
+        ID: 15
+        name: "&f"
+      "38":
+        material: stained_glass_pane
+        ID: 15
+        name: "&f"
+      "39":
+        material: stained_glass_pane
+        ID: 15
+        name: "&f"
+      "40":
+        material: stained_glass_pane
+        ID: 15
+        name: "&f"
+      "41":
+        material: stained_glass_pane
+        ID: 15
+        name: "&f"
+      "42":
+        material: stained_glass_pane
+        ID: 15
+        name: "&f"
+      "43":
+        material: stained_glass_pane
+        ID: 15
+        name: "&f"
+      "44":
+        material: stained_glass_pane
+        ID: 15
+        name: "&f"
+      #-------------------------------------------------------------
+      "13":
+        material: NETHER_STAR
+        name: "&e&lMAIN LOBBY &b1.12.2 + (>1.12.2 Support)"
+        lore:
+          - "&aClick to connect"
+          - "&f"
+          - "&aOnline Player %bungee_spawn%"
+        commands:
+          - force-server= spawn
+      "21":
+        material: DIAMOND_PICKAXE
+        name: "&c&lSURVIVAL &b1.12.2 +"
+        lore:
+          - "&aClick to connect"
+          - "&f"
+          - "&e&lNo Update"
+          - "&aOnline Player %bungee_survival%"
+        commands:
+          - force-server= survival
+      "31":
+        material: HOPPER
+        name: "&7&lDROPPER &b1.12.2 + (>1.12.2 Support)"
+        lore:
+          - "&aClick to connect"
+          - "&f"
+          - "&e&lNo Update"
+          - "&aOnline Player %bungee_dropper%"
+        commands:
+          - force-server= dropper
+      "23":
+        material: GRASS
+        name: "&a&lSKY BLOCK &b1.12.2 +"
+        lore:
+          - "&cYou are already connected to Sky Block"
+          - "&f"
+          - "&e&lNo Update"
+          - "&aOnline Player %bungee_skyblock%"
+      "29":
+        material: FEATHER
+        name: "&b&lPARKOUR &b1.12.2 + (>1.12.2 Support)"
+        lore:
+          - "&aClick to connect"
+          - "&f"
+          - "&e&lNo Update"
+          - "&aOnline Player %bungee_parkour%"
+        commands:
+          - force-server= parkour
+      "33":
+        material: ENDER_PEARL
+        name: "&d&lEVENT &b1.12.2 + (>1.12.2 Support)"
+        lore:
+          - "&aClick to connect"
+          - "&f"
+          - "&e&lNo Update"
+          - "&aOnline Player %bungee_event%"
+        commands:
+          - force-server= event
+      #-------------------------------------------------------------
+      "7":
+        material: redstone_block
+        name: "&7Back"
+        commands:
+          - open= ServerMenu
+      "8":
+        material: barrier
+        name: "&cClose"
+        commands:
+          - "cpc"
+        enchanted:
+          - true
+      #-------------------------------------------------------------
+      "45":
+        material: nether_star
+        name: "&fServer Menu"
+        commands:
+          - open= ServerMenu
+      "46":
+        material: COMPASS
+        name: "&dServer Teleport"
+        enchanted:
+          - true
+#************************************************************

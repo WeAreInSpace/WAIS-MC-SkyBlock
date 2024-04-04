@@ -1,0 +1,5 @@
+name: Gornny
+notifications:
+  on join: true
+  on receive: true
+last used: 2567-03-16T07:56:55.057Z

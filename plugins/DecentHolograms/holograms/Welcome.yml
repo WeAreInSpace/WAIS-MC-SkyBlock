@@ -1,0 +1,16 @@
+location: world:3.549:115.000:-14.422
+enabled: true
+display-range: 48
+update-range: 48
+update-interval: 20
+facing: 0.0
+down-origin: false
+pages:
+- lines:
+  - content: ยินดีต้อนรับสู่ Sky Block
+    height: 0.3
+  - content: เวลา %localtime_time_hh:mm a%
+    height: 0.3
+  - content: ยอดเงิน %vault_eco_balance% &6&lWAIS Coin
+    height: 0.3
+  actions: {}

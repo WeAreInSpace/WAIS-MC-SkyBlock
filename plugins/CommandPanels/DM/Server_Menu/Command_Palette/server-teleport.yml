@@ -1,0 +1,65 @@
+menu_title: "Server teleport"
+size: 54
+items:
+  "spawn":
+    material: BED
+    data: 14
+    display_name: "&fSpawn"
+    update: true
+    lore:
+      - "&fOnline player %bungee_spawn%"
+      - "&fคลิกเพื่อเทเลพอร์ตไปยัง Spawn"
+    slot: 22
+    left_click_commands:
+      - "[connect] spawn"
+    right_click_commands:
+      - "[connect] spawn"
+  "Survival-lobby":
+    material: BEACON
+    display_name: "&fSurvival Lobby"
+    update: true
+    lore:
+      - "&fOnline player %bungee_skyblock%"
+      - "&fตอนนี้คุณอยู่ใน Survival Lobby"
+    slot: 31
+    hide_enchantments: true
+    enchantments:
+      - MENDING;1
+#navbar
+  "server-menu":
+    material: NETHER_STAR
+    slot: 45
+    left_click_commands:
+      - "[openguimenu] server-menu"
+    right_click_commands:
+      - "[openguimenu] server-menu"
+    display_name: "&fServer menu"
+  "command_palette":
+    slot: 46
+    material: COMMAND
+    display_name: "&6Command palete"
+    left_click_commands:
+      - "[openguimenu]command-palette(server-menu)"
+    right_click_commands:
+      - "[openguimenu]command-palette(server-menu)"
+  "server-teleport":
+    slot: 47
+    display_name: "&fServer teleport"
+    material: COMPASS
+
+  "back":
+    material: BARRIER
+    slot: 7
+    display_name: "&7Back <<"
+    left_click_commands:
+      - "[openguimenu] command-palette(server-menu)"
+    right_click_commands:
+      - "[openguimenu] command-palette(server-menu)"
+  "close":
+    material: STRUCTURE_VOID
+    slot: 8
+    display_name: "&cClose &7X"
+    left_click_commands:
+      - "[close]"
+    right_click_commands:
+      - "[close]"

@@ -1,0 +1,24 @@
+display:
+  name: "&fถ้าตัดไม้ด้วยมือเปล่าจะเจ็บมือไหม?"
+  lore-normal:
+    - ""
+    - "  &dตัดไม้ 4 ท่อน  "
+  lore-started:
+    - ""
+    - "  ความคืบหน้า &f{log:progress}&7/4  "
+  type: "LOG"
+tasks:
+  log:
+    type: "blockbreak"
+    item: "LOG"
+    amount: 4
+    data: 0
+placeholders:
+  quest: "&6ถ้าตัดไม้ด้วยมือเปล่าจะเจ็บมือไหม?"
+  description: "&aตัดไม้ 4 ท่อน"
+  progress: " &7 - &f{log:progress}&7/4"
+options:
+  category: "gettingstarted"
+  sort-order: 1
+rewardstring:
+  - "โอ๊ยเจ็บ!"
